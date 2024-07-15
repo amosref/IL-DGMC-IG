@@ -20,7 +20,7 @@ publisher:
 dependencies:
   il.core.fhir.r4: 
     uri: http://fhir.health.gov.il/ImplementationGuide/il.core.fhir.r4
-    version: latest
+    version: 0.15.1
 
 # ╭──────────────────────────────────────────SUSHI flags───────────────────────────────────────────╮
 # │  The flags below configure aspects of how SUSHI processes FSH.                                 │
