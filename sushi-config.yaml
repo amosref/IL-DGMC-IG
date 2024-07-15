@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: il.fhir.r4.dgmc
-canonical: http://fhir.dgmc.health.gov.il/ImplementationGuide/il.fhir.r4.dgmc
+canonical: http://fhir.dgmc.health.gov.il
 name: IL-DGMC-IG
 title: Israel Division of Governmental Hospitals Profiles
 description: FHIR Profiles and Implementation Guide for the Israel Division of Governmental Hospitals
