@@ -1,0 +1,17 @@
+{
+  "website": {
+    "style": "fhir.layout",
+    "url": "http://ig.fhir-il-community.org",
+    "server": "apache",
+    "org": "<IGName>"
+    
+    
+  },
+  "layout-rules": [
+    {
+      "npm": "ig.fhir-il-community.org.<IGName>",
+      "canonical": "http://ig.fhir-il-community.org/<IGName>",
+      "destination": "/<IGName>"
+    }
+  ]
+}
