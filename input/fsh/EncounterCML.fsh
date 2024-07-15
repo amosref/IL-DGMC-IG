@@ -3,6 +3,7 @@ Parent: ILCoreEncounter
 Id: dgmc-encounter-cml
 Title: "DGMC Encounter Chameleon"
 Description: "DGMC Encounter Chameleon"
+* insert ConformanceMetadata
 * ^url = $EncounterCML
 * id 1..1
 * identifier ^slicing.discriminator.type = #value

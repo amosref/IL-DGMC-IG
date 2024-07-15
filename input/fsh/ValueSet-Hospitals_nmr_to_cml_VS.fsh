@@ -2,6 +2,7 @@ ValueSet: HospitalsUrisNmrToCmlIdent
 Id: hospitals-uris-Nmr-To-Cml-Ident
 Title: "Hospitals Uris Maner to Chameleon Identifier"
 Description: "ValueSet of all DGMC Hospitals Uris for Namer to Chameleon Identifier"
+* insert ConformanceMetadata
 * ^url = $HospitalsUrisNmrToCmlIdentVS
 
 * $HospitalsUrisCS#http://fhir.bmc.health.gov.il/identifier/nmr2cml-identifier "ברזילי -קשר בין תנועת נמר לקמיליון"

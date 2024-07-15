@@ -2,6 +2,7 @@ ValueSet: HospitalsUrisCmlMedicalRecord
 Id: hospitals-uris-cml-medical-record
 Title: "Hospitals Uris Chameleon Medical Record"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Medical Record Num"
+* insert ConformanceMetadata
 * ^url = $HospitalsUrisCmlMedRecVS
 
 * $HospitalsUrisCS#http://fhir.bmc.health.gov.il/identifier/cml-medical-record "ברזילי - רשומה רפואית-קמיליון"

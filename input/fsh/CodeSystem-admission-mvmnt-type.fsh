@@ -2,6 +2,7 @@ CodeSystem: AdmissionMvmntType
 Id: admission-mvmnt-type
 Title: "Admission Movement Type"
 Description: "Movement Addmision Type"
+* insert ConformanceMetadata
 * ^url = $admission-mvmnt-type
 * #10 "מעבר חדר"
 * #20 "מעבר מיטה"

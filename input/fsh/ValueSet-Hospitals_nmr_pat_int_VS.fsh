@@ -2,6 +2,7 @@ ValueSet: HospitalsUrisNmrPatInt
 Id: hospitals-uris-nmr-pat-int
 Title: "Hospitals Uris Namer Patient Internal"
 Description: "ValueSet of all DGMC Hospitals Uris for Namer Patient Internal Num"
+* insert ConformanceMetadata
 * ^url = $HospitalsUrisNmrPatIntVS
 
 * $HospitalsUrisCS#http://fhir.bmc.health.gov.il/identifier/nmr-pat-int-num "ברזילי - מספר מטופל פנימי-נמר"

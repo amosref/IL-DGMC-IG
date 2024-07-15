@@ -2,6 +2,7 @@ ValueSet: HospitalsUrisCmlAnswer
 Id: hospitals-uris-cml-answer
 Title: "Hospitals Uris Chameleon Answer"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Anwers"
+* insert ConformanceMetadata
 * ^url = $HospitalsUris-cml-counseling-answer
 
 * $HospitalsUrisCS#http://fhir.bmc.health.gov.il/identifier/cml-counseling-answer "ברזילי - מספר תשובה-קמיליון"
