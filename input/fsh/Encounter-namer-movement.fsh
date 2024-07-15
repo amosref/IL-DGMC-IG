@@ -3,6 +3,7 @@ Parent: ILCoreEncounter
 Id: dgmc-encounter-movement
 Title: "DGMC Encounter Namer Movement"
 Description: "DGMC Encounter Namer Movement"
+* insert ConformanceMetadata
 * ^url = $EncounterNamerMovement
 * id 1..1
 * extension[paying-entity].url 1..1
@@ -13,7 +14,7 @@ Description: "DGMC Encounter Namer Movement"
 * extension[movement-number].url 1..1
 * extension[movement-number].url = $ext-movement-number (exactly)
 * extension[movement-number].valueString 1..1
-* identifier 1..1
+* identifier 2..2
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
@@ -28,7 +29,7 @@ Description: "DGMC Encounter Namer Movement"
 * type 1..*
 * type.coding 1..1
 * type contains mvmnt-type 1..1
-* type[mvmnt-type] from $vs-mvmnt-type (required)
+* type[mvmnt-type] from $vs-admission-type (required)
 // * type[mvmnt-type].coding.system 1..1
 // * type[mvmnt-type].coding.code 1..1
 // * type[mvmnt-type].coding.display 1..1

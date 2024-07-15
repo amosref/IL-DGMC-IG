@@ -2,6 +2,7 @@ CodeSystem: AdmissionImpType
 Id: admission-imp-type
 Title: "Admission Inpatient Type"
 Description: "Inpatient Addmision Type"
+* insert ConformanceMetadata
 * ^url = $admission-imp-type
 * #1 "קבלה רגילה"
 * #2 "לידה"

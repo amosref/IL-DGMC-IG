@@ -1,8 +1,9 @@
-Profile: DgmcCmlConsultationAnswer
+Profile: DGMCConsultationAnswer
 Parent: ILCoreProcedure
 Id: dgmc-cml-consultation-answer
-Title: "DGMC Chameleon consultation answer"
-Description: "DGMC Chameleon consultation answer"
+Title: "DGMC Consultation Answer"
+Description: "DGMC Consultation Answer"
+* insert ConformanceMetadata
 * ^url = $Consultation-answer
 * id 1..1
 * identifier.system 1..1

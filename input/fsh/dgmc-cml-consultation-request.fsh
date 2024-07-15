@@ -1,8 +1,9 @@
-Profile: DGMCConsultationsRequest
+Profile: DGMCConsultationRequest
 Parent: ILCoreServiceRequest
-Id: dgmc-service-request
-Title: "DGMC Chameleon consultation request"
-Description: "DGMC Chameleon consultation request"
+Id: dgmc-cml-consultation-request
+Title: "DGMC Consultation Request"
+Description: "DGMC Consultation Request"
+* insert ConformanceMetadata
 * ^url = $Consultation-request
 * id 1..1
 * identifier.system 1..1
