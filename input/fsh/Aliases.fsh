@@ -8,6 +8,8 @@ Alias: $Patient =                           http://fhir.dgmc.health.gov.il/Struc
 
 // Extensions
 Alias: $ext-cons-flag =                     http://fhir.dgmc.health.gov.il/StructureDefinition/consultation-question-flag
+Alias: $ext-fth-name =                      http://fhir.dgmc.health.gov.il/StructureDefinition/ext-father-name
+Alias: $ext-mth-name =                      http://fhir.dgmc.health.gov.il/StructureDefinition/ext-mother-name
 // CS
 Alias: $follow-up-flag =                    http://fhir.dgmc.health.gov.il/CodeSystem/consultation-followup-flag
 Alias: $counsel-type-code =                 http://fhir.dgmc.health.gov.il/CodeSystem/cml-counseling-type
@@ -26,6 +28,7 @@ Alias: $disability = http://hl7.org/fhir/StructureDefinition/patient-disability
 Alias: $nationality = http://hl7.org/fhir/StructureDefinition/patient-nationality
 Alias: $dataAbsent = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 Alias: $ext-hebrew-date = http://fhir.health.gov.il/StructureDefinition/ext-hebrew-date
+Alias: $ext-parent-name = http://fhir.health.gov.il/StructureDefinition/ext-administrative-parent-name
 
 
 // VS
