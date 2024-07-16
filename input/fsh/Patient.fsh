@@ -67,6 +67,8 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * extension[nationality].extension[code].valueCodeableConcept.coding.system 1..1
 * extension[nationality].extension[code].valueCodeableConcept.coding.system = "urn:iso:std:iso:3166" (exactly)
 * extension[nationality].extension[code].valueCodeableConcept.coding.code 1..1
+// father name
+
 // local slice: nmr-pat-int-num - new
 * identifier contains nmr-pat-int-num 1..1 and cml-pat-int-num 0..1 and nmr-pat-tmp-num 0..1
 * identifier[nmr-pat-int-num].system 1..1
