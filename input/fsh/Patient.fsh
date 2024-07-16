@@ -18,15 +18,15 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * extension[hmo].valueCodeableConcept.coding ^slicing.discriminator.path = "system"
 * extension[hmo].valueCodeableConcept.coding ^slicing.rules = #open
 * extension[hmo].valueCodeableConcept.coding ^slicing.ordered = false
-* extension[hmo].valueCodeableConcept.coding contains hmo 1..1 and nmr-hmo 0..1
+* extension[hmo].valueCodeableConcept.coding contains nmr 0..1
 * extension[hmo] 1..1
-* extension[hmo].valueCodeableConcept.coding[hmo].system 1..1
-* extension[hmo].valueCodeableConcept.coding[hmo].system = "http://fhir.health.gov.il/cs/paying-entity-moh" (exactly)
-* extension[hmo].valueCodeableConcept.coding[hmo].code 1..1
+// * extension[hmo].valueCodeableConcept.coding[hmo].system 1..1
+// * extension[hmo].valueCodeableConcept.coding[hmo].system = "http://fhir.health.gov.il/cs/paying-entity-moh" (exactly)
+// * extension[hmo].valueCodeableConcept.coding[hmo].code 1..1
 // local slice: nmr-hmo - new
-* extension[hmo].valueCodeableConcept.coding[nmr-hmo].system 1..1
-* extension[hmo].valueCodeableConcept.coding[nmr-hmo].system = "http://fhir.dgmc.health.gov.il/cs/nmr-hmo" (exactly)
-* extension[hmo].valueCodeableConcept.coding[nmr-hmo].code 1..1
+* extension[hmo].valueCodeableConcept.coding[nmr].system 1..1
+* extension[hmo].valueCodeableConcept.coding[nmr].system = "http://fhir.dgmc.health.gov.il/cs/nmr-hmo" (exactly)
+* extension[hmo].valueCodeableConcept.coding[nmr].code 1..1
 // HL7 extension: patient-birthPlace
 * extension[birthPlace].valueAddress.country 1..1
 // Adding HL7 extensions to the profile that aren't inherited from ILCore Patient
