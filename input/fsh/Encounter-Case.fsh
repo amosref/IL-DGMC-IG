@@ -22,16 +22,17 @@ Description: "DGMC Encounter Namer Case"
 * identifier[nmr-case].system from $HospitalsUrisNmrCaseNumVS
 * identifier[nmr-case].value 1..1
 * type contains admission-type 0..1 and home-check-in 0..1
-* type[admission-type].coding from $vs-admission-type (required)
-* type[admission-type].coding.system 1..1	
+* type[admission-type] from $vs-admission-type (required)
+* type[admission-type].coding.system 1..1
 * type[admission-type].coding.code 1..1
 * type[admission-type].coding.display 1..1
-* type[home-check-in]	
-* type[home-check-in].coding.system	1..1
-* type[home-check-in].coding.system	= $home-check-in (exactly)
-* type[home-check-in].coding.code 1..1	
-* type[home-check-in].coding.code = #9 (exactly)
-* type[home-check-in].coding.display = "צ'ק-אין מהבית"
+* type[home-check-in] ^patternCodeableConcept.coding.system = $home-check-in
+* type[home-check-in] ^patternCodeableConcept.coding.code = #9
+* type[home-check-in] ^patternCodeableConcept.coding.display = "צ'ק-אין מהבית"
+* type[home-check-in].coding
+  * system 1..1
+  * code 1..1
+  * display 1..1
 * period.start 1..1
 * hospitalization.admitSource 1..1
 * hospitalization.admitSource.coding 1..*
