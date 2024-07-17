@@ -1,9 +1,9 @@
 // profiles
 Alias: $Consultation-answer =               http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-consultation-answer
 Alias: $Consultation-request =              http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-consultation-request
-Alias: $EncounterCML =                      http://fhir.health.gov.il/StructureDefinition/dgmc-encounter-cml
-Alias: $EncounterNamerMovement =            http://fhir.health.gov.il/StructureDefinition/dgmc-encounter-movement
-Alias: $EncounterCase =                     http://fhir.health.gov.il/StructureDefinition/dgmc-encounter-case
+Alias: $EncounterCML =                      http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-cml
+Alias: $EncounterNamerMovement =            http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-movement
+Alias: $EncounterCase =                     http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-case
 Alias: $Patient =                           http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-patient
 
 // Extensions
@@ -49,12 +49,12 @@ Alias: $HospitalsUris-cml-counseling-request =  http://fhir.dgmc.health.gov.il/V
 Alias: $HospitalsUrisNmrCaseNumVS =             http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/nmr-case-number
 Alias: $HospitalsUrisEncDietPrefVS =            http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/encounter-diet-pref
 Alias: $HospitalsUrisCmlMedRecVS =              http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/cml-medical-record
-Alias: $HospitalsUrisNmrOrgIdVS = http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/nmr-org-id
-Alias: $HospitalsUrisNmrOrgIdentVS = http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/nmr-org-identifier
-Alias: $HospitalsUrisCmlUnitIdentVS = http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/cml-unit-identifier
-Alias: $HospitalsUrisCmlHospIdentVS = http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/cml-hosp-identifier
-Alias: $HospitalsUrisCmlBedIdentVS = http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/cml-bed-identfier
-Alias: $HospitalsUrisCmlRoomIdentVS = http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/cml-room-identifier
+Alias: $HospitalsUrisNmrOrgIdVS =               http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/nmr-org-id
+Alias: $HospitalsUrisNmrOrgIdentVS =            http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/nmr-org-identifier
+Alias: $HospitalsUrisCmlUnitIdentVS =           http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/cml-unit-identifier
+Alias: $HospitalsUrisCmlHospIdentVS =           http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/cml-hosp-identifier
+Alias: $HospitalsUrisCmlBedIdentVS =            http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/cml-bed-identfier
+Alias: $HospitalsUrisCmlRoomIdentVS =           http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/cml-room-identifier
 
 // external
 Alias: $sct =                               http://snomed.info/sct
