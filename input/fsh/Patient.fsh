@@ -33,7 +33,7 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * extension contains 
             $genderIdentity named genderIdentity 0..1 and
             $cadavericDonor named cadavericDonor 0..1 and
-            $disability named disability 0..1 and
+            $disability named hearing 0..1 and
             $nationality named nationality 0..1
 // HL7 extension: gender-identity
 * extension[genderIdentity].url = $genderIdentity (exactly)
@@ -48,17 +48,17 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * extension[cadavericDonor].valueBoolean 1..1
 * extension[cadavericDonor].valueBoolean = true
 // HL7 extension: disability
-* extension[disability].url = $disability (exactly)
-* extension[disability].valueCodeableConcept 1..1
-* extension[disability].valueCodeableConcept.coding 1..1
-* extension[disability].valueCodeableConcept.coding.system 1..1
-* extension[disability].valueCodeableConcept.coding.system = "http://snomed.info/sct" (exactly)
-* extension[disability].valueCodeableConcept.coding.code 1..1
-* extension[disability].valueCodeableConcept.coding.code = #15188001 (exactly)
-* extension[disability].valueCodeableConcept.coding.display 1..1
-* extension[disability].valueCodeableConcept.coding.display = "Hearing impaired" (exactly)
-* extension[disability].valueCodeableConcept.text 1..1
-* extension[disability].valueCodeableConcept.text = "כבד שמיעה" (exactly)
+* extension[hearing].url = $disability (exactly)
+* extension[hearing].valueCodeableConcept 1..1
+* extension[hearing].valueCodeableConcept.coding 1..1
+* extension[hearing].valueCodeableConcept.coding.system 1..1
+* extension[hearing].valueCodeableConcept.coding.system = "http://snomed.info/sct" (exactly)
+* extension[hearing].valueCodeableConcept.coding.code 1..1
+* extension[hearing].valueCodeableConcept.coding.code = #15188001 (exactly)
+* extension[hearing].valueCodeableConcept.coding.display 1..1
+* extension[hearing].valueCodeableConcept.coding.display = "Hearing impaired" (exactly)
+* extension[hearing].valueCodeableConcept.text 1..1
+* extension[hearing].valueCodeableConcept.text = "כבד שמיעה" (exactly)
 // HL7 extension: nationality
 * extension[nationality].url = $nationality (exactly)
 * extension[nationality].extension[code] 1..1
@@ -102,4 +102,24 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * birthDate.extension[data-absent-reason].url = $dataAbsent (exactly)
 * birthDate.extension[data-absent-reason].valueCode 1..1
 * birthDate.extension[data-absent-reason].valueCode = #unknown (exactly)
-
+* address.city.extension[cityCode].valueCodeableConcept.coding 
+  * ^slicing.discriminator.type = #value
+  * ^slicing.discriminator.path = "system"
+  * ^slicing.rules = #open
+  * ^slicing.ordered = false
+* address.city.extension[cityCode].valueCodeableConcept.coding contains symbol 1..1
+* address.city.extension[cityCode].valueCodeableConcept.coding[symbol]
+  * system 1..1
+  * system = $CitySymbolCS (exactly)
+* telecom
+  * ^slicing.discriminator.type = #value
+  * ^slicing.discriminator.path = "system"
+  * ^slicing.rules = #open
+  * ^slicing.ordered = false
+* telecom contains phone 0..* and email 0..*
+* telecom[phone].system 1..1
+* telecom[phone].system = #phone (exactly)
+* telecom[phone].value 1..1
+* telecom[email].system 1..1
+* telecom[email].system = #email (exactly)
+* telecom[email].value 1..1
