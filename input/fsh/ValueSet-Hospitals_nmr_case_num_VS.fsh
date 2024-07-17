@@ -3,7 +3,7 @@ Id: hospitals-uris-Nmr-Case-Num
 Title: "Hospitals Uris Namer Case Number"
 Description: "ValueSet of all DGMC Hospitals Uris for Namer Case Num"
 * insert ConformanceMetadata
-* ^url = $HospitalsUrisNmrCaseNumVS
+* ^url = $vsNmrCaseIdUri
 
 * $csHospUri#http://fhir.bmc.health.gov.il/identifier/nmr-case-number "ברזילי - מספר מקרה-נמר"
 * $csHospUri#http://fhir.gmc.health.gov.il/identifier/nmr-case-number "נהריה - מספר מקרה-נמר"

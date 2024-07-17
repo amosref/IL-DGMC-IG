@@ -19,7 +19,7 @@ Description: "DGMC Encounter Namer Case"
 * identifier ^slicing.ordered = false
 * identifier contains nmr-case 1..1
 * identifier[nmr-case].system 1..1
-* identifier[nmr-case].system from $HospitalsUrisNmrCaseNumVS
+* identifier[nmr-case].system from $vsNmrCaseIdUri
 * identifier[nmr-case].value 1..1
 * type contains admission-type 0..1 and home-check-in 0..1
 * type[admission-type] from $vsAdmType (required)
@@ -37,5 +37,5 @@ Description: "DGMC Encounter Namer Case"
 * hospitalization.admitSource.coding.system	1..1
 * hospitalization.admitSource.coding.code 1..1
 * hospitalization.admitSource.coding.display 1..1
-* hospitalization.dietPreference from $HospitalsUrisEncDietPrefVS 
+* hospitalization.dietPreference from $vsDietPrefUri 
 * serviceProvider.reference	1..1

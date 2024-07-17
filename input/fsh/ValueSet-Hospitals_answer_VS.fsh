@@ -3,7 +3,7 @@ Id: hospitals-uris-cml-answer
 Title: "Hospitals Uris Chameleon Answer"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Anwers"
 * insert ConformanceMetadata
-* ^url = $HospitalsUris-cml-counseling-answer
+* ^url = $vsConsultAnsUri
 
 * $csHospUri#http://fhir.bmc.health.gov.il/identifier/cml-counseling-answer "ברזילי - מספר תשובה-קמיליון"
 * $csHospUri#http://fhir.gmc.health.gov.il/identifier/cml-counseling-answer "נהריה - מספר תשובה-קמיליון"

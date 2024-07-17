@@ -8,7 +8,7 @@ Description: "DGMC Consultation Request"
 * id 1..1
 * identifier.system 1..1
 * identifier.value 1..1
-* identifier.system from $HospitalsUris-cml-counseling-request (required)
+* identifier.system from $vsConsultReqUri (required)
 * category 1..1
 * category[il-core] ..0
 * category contains consult 1..1

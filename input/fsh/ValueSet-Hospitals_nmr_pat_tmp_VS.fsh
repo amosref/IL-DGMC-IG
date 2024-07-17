@@ -3,7 +3,7 @@ Id: hospitals-uris-nmr-pat-tmp
 Title: "Hospitals Uris Namer Patient Temp"
 Description: "ValueSet of all DGMC Hospitals Uris for Namer Patient Temp Num"
 * insert ConformanceMetadata
-* ^url = $HospitalsUrisNmrPatTmpVS
+* ^url = $vsNmrPatTmpUri
 
 * $csHospUri#http://fhir.bmc.health.gov.il/identifier/nmr-pat-tmp-num "ברזילי - מספר מטופל זמני-נמר"
 * $csHospUri#http://fhir.gmc.health.gov.il/identifier/nmr-pat-tmp-num "נהריה - מספר מטופל זמני-נמר"

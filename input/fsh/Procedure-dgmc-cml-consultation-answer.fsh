@@ -8,7 +8,7 @@ Description: "DGMC Consultation Answer"
 * id 1..1
 * identifier.system 1..1
 * identifier.value 1..1
-* identifier.system from $HospitalsUris-cml-counseling-answer (required)
+* identifier.system from $vsConsultAnsUri (required)
 * basedOn.reference 1..1
 * status 1..1
 * code.coding 1..*

@@ -3,7 +3,7 @@ Id: hospitals-uris-cml-pat-int
 Title: "Hospitals Uris Chameleon Patient Internal"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Patient Internal Num"
 * insert ConformanceMetadata
-* ^url = $HospitalsUrisCmlPatIntVS
+* ^url = $vsCmlPatIntUri
 
 
 

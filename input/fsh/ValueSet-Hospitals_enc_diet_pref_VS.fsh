@@ -3,7 +3,7 @@ Id: hospitals-uris-Enc-Diet-Pref
 Title: "Hospitals Uris Encounter Diet Preference"
 Description: "ValueSet of all DGMC Hospitals Uris for Encounter Diet Preference"
 * insert ConformanceMetadata
-* ^url = $HospitalsUrisEncDietPrefVS
+* ^url = $vsDietPrefUri
 
 * $csHospUri#http://fhir.bmc.health.gov.il/identifier/encounter-diet-pref "ברזילי - סוג מזון"
 * $csHospUri#http://fhir.gmc.health.gov.il/identifier/encounter-diet-pref "נהריה - סוג מזון"

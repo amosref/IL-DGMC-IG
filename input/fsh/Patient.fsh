@@ -72,15 +72,15 @@ Description: "Profile on IL-Core-Patient by DGMC"
 // local slice: nmr-pat-int-num - new
 * identifier contains nmr-pat-int-num 1..1 and cml-pat-int-num 0..1 and nmr-pat-tmp-num 0..1
 * identifier[nmr-pat-int-num].system 1..1
-* identifier[nmr-pat-int-num].system from $HospitalsUrisNmrPatIntVS (required)
+* identifier[nmr-pat-int-num].system from $vsNmrPatIntUri (required)
 * identifier[nmr-pat-int-num].value 1..1 
 // local slice: cml-pat-int-num - new
 * identifier[cml-pat-int-num].system 1..1
-* identifier[cml-pat-int-num].system from $HospitalsUrisCmlPatIntVS (required)
+* identifier[cml-pat-int-num].system from $vsCmlPatIntUri (required)
 * identifier[cml-pat-int-num].value 1..1 
 // local slice: tmp - new
 * identifier[nmr-pat-tmp-num].system 1..1
-* identifier[nmr-pat-tmp-num].system from $HospitalsUrisNmrPatTmpVS (required)
+* identifier[nmr-pat-tmp-num].system from $vsNmrPatTmpUri (required)
 * identifier[nmr-pat-tmp-num].value 1..1 
 // gov.il slice: idf
 * identifier contains idf 0..1

@@ -12,7 +12,7 @@ Description: "DGMC Encounter Chameleon"
 * identifier ^slicing.ordered = false
 * identifier contains cml-medical-record 1..1
 * identifier[cml-medical-record].system 1..1
-* identifier[cml-medical-record].system from $HospitalsUrisCmlMedRecVS (required)
+* identifier[cml-medical-record].system from $vsCmlMedRecUri (required)
 * identifier[cml-medical-record].value 1..1
 * identifier[cml-medical-record].type.coding.system = $csCmlMedRecType (exactly)
 * type 1..*
