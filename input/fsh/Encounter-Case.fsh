@@ -26,13 +26,10 @@ Description: "DGMC Encounter Namer Case"
 * type[admission-type].coding.system 1..1
 * type[admission-type].coding.code 1..1
 * type[admission-type].coding.display 1..1
-* type[home-check-in] ^patternCodeableConcept.coding.system = $home-check-in
-* type[home-check-in] ^patternCodeableConcept.coding.code = #9
-* type[home-check-in] ^patternCodeableConcept.coding.display = "צ'ק-אין מהבית"
+* type[home-check-in] = $home-check-in#9
 * type[home-check-in].coding
-  * system 1..1
-  * code 1..1
   * display 1..1
+  * display = "צ'ק-אין מהבית" (exactly)
 * period.start 1..1
 * hospitalization.admitSource 1..1
 * hospitalization.admitSource.coding 1..*
