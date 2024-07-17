@@ -4,7 +4,7 @@ Id: dgmc-encounter-case
 Title: "DGMC Encounter Namer Case"
 Description: "DGMC Encounter Namer Case"
 * insert ConformanceMetadata
-* ^url = $EncounterCase
+* ^url = $encNmrCase
 * meta.security.system	1..1
 * meta.security.system	= "http://terminology.hl7.org/CodeSystem/v3-Confidentiality" (exactly)
 * meta.security.code 1..1
@@ -22,11 +22,11 @@ Description: "DGMC Encounter Namer Case"
 * identifier[nmr-case].system from $HospitalsUrisNmrCaseNumVS
 * identifier[nmr-case].value 1..1
 * type contains admission-type 0..1 and home-check-in 0..1
-* type[admission-type] from $vs-admission-type (required)
+* type[admission-type] from $vsAdmType (required)
 * type[admission-type].coding.system 1..1
 * type[admission-type].coding.code 1..1
 * type[admission-type].coding.display 1..1
-* type[home-check-in] = $home-check-in#9
+* type[home-check-in] = $csHomeCheckIn#9
 * type[home-check-in].coding
   * display 1..1
   * display = "צ'ק-אין מהבית" (exactly)

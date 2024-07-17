@@ -4,7 +4,7 @@ Id: dgmc-cml-consultation-answer
 Title: "DGMC Consultation Answer"
 Description: "DGMC Consultation Answer"
 * insert ConformanceMetadata
-* ^url = $Consultation-answer
+* ^url = $consultAnswer
 * id 1..1
 * identifier.system 1..1
 * identifier.value 1..1
@@ -30,9 +30,9 @@ Description: "DGMC Consultation Answer"
 * followUp ^slicing.rules = #open
 * followUp ^slicing.ordered = false
 * followUp contains cml-follow-up 0..1 and cml-final-answer 0..1
-* followUp[cml-follow-up] = $follow-up-flag#follow-up-needed
+* followUp[cml-follow-up] = $csFollowUp#follow-up-needed
 * followUp[cml-follow-up].coding.display 1..1
 * followUp[cml-follow-up].coding.display = "נדרש המשך מעקב"
-* followUp[cml-final-answer] = $follow-up-flag#final-answer-needed
+* followUp[cml-final-answer] = $csFollowUp#final-answer-needed
 * followUp[cml-final-answer].coding.display 1..1
 * followUp[cml-final-answer].coding.display = "ממתין לתשובה סופית (תשובה זמנית)"

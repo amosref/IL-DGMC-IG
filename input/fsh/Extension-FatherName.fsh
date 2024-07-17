@@ -1,10 +1,10 @@
 Profile: ExtensionFatherName
-Parent: $ext-parent-name
+Parent: $extParentName
 Id: ext-father-name
 Title: "Extension - Father Name"
 Description: "Extension - Administrative Parent Name with fixed FTH role"
 * insert ConformanceMetadata
-* ^url = $ext-fth-name
+* ^url = $extFthName
 * extension[role] 1..1
 * extension[role].url 1..1
 * extension[role].url = "role" (exactly)

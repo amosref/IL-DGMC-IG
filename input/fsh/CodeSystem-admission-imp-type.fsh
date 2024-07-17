@@ -3,7 +3,7 @@ Id: admission-imp-type
 Title: "Admission Inpatient Type"
 Description: "Inpatient Addmision Type"
 * insert ConformanceMetadata
-* ^url = $admission-imp-type
+* ^url = $csAdmImpType
 * #1 "קבלה רגילה"
 * #2 "לידה"
 * #3 "ילוד"

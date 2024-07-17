@@ -4,7 +4,7 @@ Id: dgmc-encounter-cml
 Title: "DGMC Encounter Chameleon"
 Description: "DGMC Encounter Chameleon"
 * insert ConformanceMetadata
-* ^url = $EncounterCML
+* ^url = $encCml
 * id 1..1
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
@@ -14,11 +14,11 @@ Description: "DGMC Encounter Chameleon"
 * identifier[cml-medical-record].system 1..1
 * identifier[cml-medical-record].system from $HospitalsUrisCmlMedRecVS (required)
 * identifier[cml-medical-record].value 1..1
-* identifier[cml-medical-record].type.coding.system = $cml-medical-record-type (exactly)
+* identifier[cml-medical-record].type.coding.system = $csCmlMedRecType (exactly)
 * type 1..*
 * type.coding 1..1
 * type contains cml-medical-record-type 1..1
-* type[cml-medical-record-type] from $vs-cml-medical-record-type (required)
+* type[cml-medical-record-type] from $vsCmlMedRecType (required)
 * type[cml-medical-record-type].coding.system 1..1
 * type[cml-medical-record-type].coding.code 1..1
 * type[cml-medical-record-type].coding.display 1..1

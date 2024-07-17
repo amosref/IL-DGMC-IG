@@ -1,43 +1,45 @@
-// profiles
-Alias: $Consultation-answer =               http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-consultation-answer
-Alias: $Consultation-request =              http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-consultation-request
-Alias: $EncounterCML =                      http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-cml
-Alias: $EncounterNamerMovement =            http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-movement
-Alias: $EncounterCase =                     http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-case
-Alias: $Patient =                           http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-patient
+// Profiles
+Alias: $consultAnswer =  http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-consultation-answer
+Alias: $consultRequest = http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-consultation-request
+Alias: $encCml =         http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-cml
+Alias: $encNmrMove =     http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-movement
+Alias: $encNmrCase =     http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-case
+Alias: $dgmcPatient =    http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-patient
+
+// Extension profiles
+Alias: $extFthName = http://fhir.dgmc.health.gov.il/StructureDefinition/ext-father-name
+Alias: $extMthName = http://fhir.dgmc.health.gov.il/StructureDefinition/ext-mother-name
 
 // Extensions
-Alias: $ext-cons-flag =                     http://fhir.dgmc.health.gov.il/StructureDefinition/consultation-question-flag
-Alias: $ext-fth-name =                      http://fhir.dgmc.health.gov.il/StructureDefinition/ext-father-name
-Alias: $ext-mth-name =                      http://fhir.dgmc.health.gov.il/StructureDefinition/ext-mother-name
-// CS
-Alias: $follow-up-flag =                    http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag
-Alias: $counsel-type-code =                 http://fhir.dgmc.health.gov.il/cs/cml-counseling-type
-Alias: $counsel-pat-state =                 http://fhir.dgmc.health.gov.il/cs/cml-counseling-patient-state
-Alias: $admission-amb-type =                http://fhir.dgmc.health.gov.il/cs/admission-amb-type
-Alias: $admission-imp-type =                http://fhir.dgmc.health.gov.il/cs/admission-imp-type
-Alias: $admission-mvmnt-type =              http://fhir.dgmc.health.gov.il/cs/admission-mvmnt-type
-Alias: $home-check-in =                     http://fhir.dgmc.health.gov.il/cs/home-check-in
-Alias: $cml-medical-record-type =           http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type 		
-Alias: $HospitalsUrisCS =                   http://fhir.dgmc.health.gov.il/cs/hospitals-uri
+Alias: $extConsultFlag = http://fhir.dgmc.health.gov.il/StructureDefinition/consultation-question-flag
 
-// Additional extensions
-Alias: $genderIdentity =    http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
-Alias: $cadavericDonor =    http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor
-Alias: $disability =        http://hl7.org/fhir/StructureDefinition/patient-disability
-Alias: $nationality =       http://hl7.org/fhir/StructureDefinition/patient-nationality
-Alias: $dataAbsent =        http://hl7.org/fhir/StructureDefinition/data-absent-reason
-Alias: $ext-hebrew-date =   http://fhir.health.gov.il/StructureDefinition/ext-hebrew-date
-Alias: $ext-parent-name =   http://fhir.health.gov.il/StructureDefinition/ext-administrative-parent-name
-Alias: $ext-city-code =     http://fhir.health.gov.il/StructureDefinition/ext-city-code
+// External extensions
+Alias: $extGenderIdentity = http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
+Alias: $extDonor =          http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor
+Alias: $extDisability =     http://hl7.org/fhir/StructureDefinition/patient-disability
+Alias: $extNationality =    http://hl7.org/fhir/StructureDefinition/patient-nationality
+Alias: $extDAR =            http://hl7.org/fhir/StructureDefinition/data-absent-reason
+Alias: $extHebDate =        http://fhir.health.gov.il/StructureDefinition/ext-hebrew-date
+Alias: $extParentName =     http://fhir.health.gov.il/StructureDefinition/ext-administrative-parent-name
+Alias: $extCityCode =       http://fhir.health.gov.il/StructureDefinition/ext-city-code
 
+// CodeSystems
+Alias: $csFollowUp =        http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag
+Alias: $csConsultType =     http://fhir.dgmc.health.gov.il/cs/cml-counseling-type
+Alias: $csConsultPatState = http://fhir.dgmc.health.gov.il/cs/cml-counseling-patient-state
+Alias: $csAdmAmbType =      http://fhir.dgmc.health.gov.il/cs/admission-amb-type
+Alias: $csAdmImpType =      http://fhir.dgmc.health.gov.il/cs/admission-imp-type
+Alias: $csAdmMoveType =     http://fhir.dgmc.health.gov.il/cs/admission-mvmnt-type
+Alias: $csHomeCheckIn =     http://fhir.dgmc.health.gov.il/cs/home-check-in
+Alias: $csCmlMedRecType =   http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type 		
+Alias: $csHospUri =         http://fhir.dgmc.health.gov.il/cs/hospitals-uri
 
 // VS
-Alias: $vs-cml-counseling-type =            http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-type
-Alias: $vs-counsel-pat-state =              http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-patient-state
-Alias: $vs-counsel-type-code =              http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-type-code
-Alias: $vs-admission-type =                 http://fhir.dgmc.health.gov.il/ValueSet/admission-type
-Alias: $vs-cml-medical-record-type =        http://fhir.dgmc.health.gov.il/ValueSet/cml-medical-record-type 		
+Alias: $vsCmlConsultType =           http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-type
+Alias: $vsConsultPatState =          http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-patient-state
+Alias: $vsConsultType =              http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-type-code
+Alias: $vsAdmType =                  http://fhir.dgmc.health.gov.il/ValueSet/admission-type
+Alias: $vsCmlMedRecType =            http://fhir.dgmc.health.gov.il/ValueSet/cml-medical-record-type 		
 
 Alias: $HospitalsUrisNmrPatIntVS =              http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/nmr-pat-internal
 Alias: $HospitalsUrisCmlPatIntVS =              http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/cml-pat-internal

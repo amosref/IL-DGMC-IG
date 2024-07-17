@@ -4,7 +4,7 @@ Id: dgmc-encounter-movement
 Title: "DGMC Encounter Namer Movement"
 Description: "DGMC Encounter Namer Movement"
 * insert ConformanceMetadata
-* ^url = $EncounterNamerMovement
+* ^url = $encNmrMove
 * id 1..1
 * extension[paying-entity].url 1..1
 * extension[paying-entity].url = $ext-encounter-paying-entity (exactly)
@@ -29,7 +29,7 @@ Description: "DGMC Encounter Namer Movement"
 * type 1..*
 * type.coding 1..1
 * type contains mvmnt-type 1..1
-* type[mvmnt-type] from $vs-admission-type (required)
+* type[mvmnt-type] from $vsAdmType (required)
 // * type[mvmnt-type].coding.system 1..1
 // * type[mvmnt-type].coding.code 1..1
 // * type[mvmnt-type].coding.display 1..1
