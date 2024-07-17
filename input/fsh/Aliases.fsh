@@ -11,15 +11,15 @@ Alias: $ext-cons-flag =                     http://fhir.dgmc.health.gov.il/Struc
 Alias: $ext-fth-name =                      http://fhir.dgmc.health.gov.il/StructureDefinition/ext-father-name
 Alias: $ext-mth-name =                      http://fhir.dgmc.health.gov.il/StructureDefinition/ext-mother-name
 // CS
-Alias: $follow-up-flag =                    http://fhir.dgmc.health.gov.il/CodeSystem/consultation-followup-flag
-Alias: $counsel-type-code =                 http://fhir.dgmc.health.gov.il/CodeSystem/cml-counseling-type
-Alias: $counsel-pat-state =                 http://fhir.dgmc.health.gov.il/CodeSystem/cml-counseling-patient-state
-Alias: $admission-amb-type =                http://fhir.dgmc.health.gov.il/CodeSystem/admission-amb-type
-Alias: $admission-imp-type =                http://fhir.dgmc.health.gov.il/CodeSystem/admission-imp-type
-Alias: $admission-mvmnt-type =              http://fhir.dgmc.health.gov.il/CodeSystem/admission-mvmnt-type
-Alias: $home-check-in =                     http://fhir.dgmc.health.gov.il/CodeSystem/home-check-in
-Alias: $cml-medical-record-type =           http://fhir.dgmc.health.gov.il/CodeSystem/cml-medical-record-type 		
-Alias: $HospitalsUrisCS =                   http://fhir.dgmc.health.gov.il/CodeSystem/hospitals-uri
+Alias: $follow-up-flag =                    http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag
+Alias: $counsel-type-code =                 http://fhir.dgmc.health.gov.il/cs/cml-counseling-type
+Alias: $counsel-pat-state =                 http://fhir.dgmc.health.gov.il/cs/cml-counseling-patient-state
+Alias: $admission-amb-type =                http://fhir.dgmc.health.gov.il/cs/admission-amb-type
+Alias: $admission-imp-type =                http://fhir.dgmc.health.gov.il/cs/admission-imp-type
+Alias: $admission-mvmnt-type =              http://fhir.dgmc.health.gov.il/cs/admission-mvmnt-type
+Alias: $home-check-in =                     http://fhir.dgmc.health.gov.il/cs/home-check-in
+Alias: $cml-medical-record-type =           http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type 		
+Alias: $HospitalsUrisCS =                   http://fhir.dgmc.health.gov.il/cs/hospitals-uri
 
 // Additional extensions
 Alias: $genderIdentity =    http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
