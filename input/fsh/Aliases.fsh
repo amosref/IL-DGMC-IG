@@ -22,14 +22,14 @@ Alias: $cml-medical-record-type =           http://fhir.dgmc.health.gov.il/CodeS
 Alias: $HospitalsUrisCS =                   http://fhir.dgmc.health.gov.il/CodeSystem/hospitals-uri
 
 // Additional extensions
-Alias: $genderIdentity = http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
-Alias: $cadavericDonor = http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor
-Alias: $disability = http://hl7.org/fhir/StructureDefinition/patient-disability
-Alias: $nationality = http://hl7.org/fhir/StructureDefinition/patient-nationality
-Alias: $dataAbsent = http://hl7.org/fhir/StructureDefinition/data-absent-reason
-Alias: $ext-hebrew-date = http://fhir.health.gov.il/StructureDefinition/ext-hebrew-date
-Alias: $ext-parent-name = http://fhir.health.gov.il/StructureDefinition/ext-administrative-parent-name
-Alias: $ext-city-code = http://fhir.health.gov.il/StructureDefinition/ext-city-code
+Alias: $genderIdentity =    http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
+Alias: $cadavericDonor =    http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor
+Alias: $disability =        http://hl7.org/fhir/StructureDefinition/patient-disability
+Alias: $nationality =       http://hl7.org/fhir/StructureDefinition/patient-nationality
+Alias: $dataAbsent =        http://hl7.org/fhir/StructureDefinition/data-absent-reason
+Alias: $ext-hebrew-date =   http://fhir.health.gov.il/StructureDefinition/ext-hebrew-date
+Alias: $ext-parent-name =   http://fhir.health.gov.il/StructureDefinition/ext-administrative-parent-name
+Alias: $ext-city-code =     http://fhir.health.gov.il/StructureDefinition/ext-city-code
 
 
 // VS
@@ -82,25 +82,25 @@ Alias: $vs-patient-visit-reason-moh =       http://fhir.health.gov.il/ValueSet/p
 Alias: $vs-patient-visitor-type-moh =       http://fhir.health.gov.il/ValueSet/patient-visitor-type-moh
 Alias: $ext-encounter-paying-entity =       http://fhir.health.gov.il/StructureDefinition/ext-encounter-paying-entity
 Alias: $ext-movement-number =               http://fhir.health.gov.il/StructureDefinition/ext-movement-number
-Alias: $vs-patient-admit-source-moh =   http://fhir.health.gov.il/ValueSet/patient-admit-source-moh
+Alias: $vs-patient-admit-source-moh =       http://fhir.health.gov.il/ValueSet/patient-admit-source-moh
 
 
 // for the examples:
-Alias: $medical-service-moh = http://fhir.health.gov.il/cs/medical-service-moh
-Alias: $v2-0276 = http://terminology.hl7.org/CodeSystem/v2-0276
-Alias: $v3-ParticipationType = http://terminology.hl7.org/CodeSystem/v3-ParticipationType
-Alias: $department-type-moh = http://fhir.health.gov.il/cs/department-type-moh
-Alias: $loinc = http://loinc.org
-Alias: $coverage-type = http://fhir.health.gov.il/cs/coverage-type
-Alias: $coverage-class = http://fhir.health.gov.il/cs/coverage-class
-Alias: $coverage-copay-type = http://terminology.hl7.org/CodeSystem/coverage-copay-type
+Alias: $medical-service-moh =   http://fhir.health.gov.il/cs/medical-service-moh
+Alias: $v2-0276 =               http://terminology.hl7.org/CodeSystem/v2-0276
+Alias: $v3-ParticipationType =  http://terminology.hl7.org/CodeSystem/v3-ParticipationType
+Alias: $department-type-moh =   http://fhir.health.gov.il/cs/department-type-moh
+Alias: $loinc =                 http://loinc.org
+Alias: $coverage-type =         http://fhir.health.gov.il/cs/coverage-type
+Alias: $coverage-class =        http://fhir.health.gov.il/cs/coverage-class
+Alias: $coverage-copay-type =   http://terminology.hl7.org/CodeSystem/coverage-copay-type
 Alias: $moh-form17-issue-code = http://fhir.health.gov.il/cs/moh-form17-issue-code
-Alias: $il-core-error-code = http://fhir.health.gov.il/cs/il-core-error-code
+Alias: $il-core-error-code =    http://fhir.health.gov.il/cs/il-core-error-code
 
 // GENERIC
-Alias: $org_sys = http://institutions.health.gov.il/Institutions
-Alias: $il-id = http://fhir.health.gov.il/identifier/il-national-id
-Alias: $HMOcodesCS = http://fhir.health.gov.il/cs/paying-entity-moh
-Alias: $MaritalStatusCS = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
-Alias: $CitySymbolCS = http://fhir.health.gov.il/cs/city-symbol
+Alias: $org_sys =           http://institutions.health.gov.il/Institutions
+Alias: $il-id =             http://fhir.health.gov.il/identifier/il-national-id
+Alias: $HMOcodesCS =        http://fhir.health.gov.il/cs/paying-entity-moh
+Alias: $MaritalStatusCS =   http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
+Alias: $CitySymbolCS =      http://fhir.health.gov.il/cs/city-symbol
 
