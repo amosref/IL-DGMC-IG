@@ -29,6 +29,7 @@ Alias: $nationality = http://hl7.org/fhir/StructureDefinition/patient-nationalit
 Alias: $dataAbsent = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 Alias: $ext-hebrew-date = http://fhir.health.gov.il/StructureDefinition/ext-hebrew-date
 Alias: $ext-parent-name = http://fhir.health.gov.il/StructureDefinition/ext-administrative-parent-name
+Alias: $ext-city-code = http://fhir.health.gov.il/StructureDefinition/ext-city-code
 
 
 // VS
