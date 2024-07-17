@@ -1,0 +1,19 @@
+{
+  "name": "il-dgmc-ig",
+  "version": "0.1.4",
+  "description": "Israel Division of Governmental Hospitals Profiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Outburn-IL/IL-DGMC-IG.git"
+  },
+  "author": "Division of Governmental Hospitals Israel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Outburn-IL/IL-DGMC-IG/issues"
+  },
+  "homepage": "https://github.com/Outburn-IL/IL-DGMC-IG#readme"
+}
