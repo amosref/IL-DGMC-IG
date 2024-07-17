@@ -10,10 +10,12 @@ Description: "DGMC Consultation Request"
 * identifier.value 1..1
 * identifier.system from $HospitalsUris-cml-counseling-request (required)
 * category 1..1
-* category.coding 1..*
-* category.coding.system 1..1
-* category.coding.code 1..1
-* category.coding.display 1..1
+* category[il-core] ..0
+* category contains consult 1..1
+* category[consult] = $sct#409063005
+* category[consult].coding 1..1
+* category[consult].coding.display 1..1
+* category[consult].coding.display = "Counseling (procedure)" (exactly)
 
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
