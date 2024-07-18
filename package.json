@@ -4,7 +4,8 @@
   "description": "Israel Division of Governmental Hospitals Profiles",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sushi build -s"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Outburn-IL/IL-DGMC-IG/issues"
   },
-  "homepage": "https://github.com/Outburn-IL/IL-DGMC-IG#readme"
+  "homepage": "https://github.com/Outburn-IL/IL-DGMC-IG#readme",
+  "dependencies": {
+    "sushi": "^3.0.0"
+  }
 }
