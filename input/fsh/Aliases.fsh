@@ -29,6 +29,7 @@ Alias: $csAdmMoveType =     http://fhir.dgmc.health.gov.il/cs/admission-mvmnt-ty
 Alias: $csHomeCheckIn =     http://fhir.dgmc.health.gov.il/cs/home-check-in
 Alias: $csCmlMedRecType =   http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type 		
 Alias: $csHospUri =         http://fhir.dgmc.health.gov.il/cs/hospitals-uri
+Alias: $csPatVisitorTy =    http://fhir.dgmc.health.gov.il/cs/patient-visitor-type
 
 // VS
 Alias: $vsCmlConsultType =  http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-type
@@ -52,6 +53,7 @@ Alias: $vsCmlUnitIdUri =    http://fhir.dgmc.health.gov.il/ValueSet/hospitals-ur
 Alias: $vsCmlHospIdUri =    http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/cml-hosp-identifier
 Alias: $vsCmlBedIdUri =     http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/cml-bed-identfier
 Alias: $vsCmlRoomIdUri =    http://fhir.dgmc.health.gov.il/ValueSet/hospitals-uri/cml-room-identifier
+Alias: $vsPatVisitorTy =    http://fhir.dgmc.health.gov.il/ValueSet/patient-visitor-type
 
 // external
 Alias: $sct =                               http://snomed.info/sct

@@ -39,3 +39,6 @@ Description: "DGMC Encounter Namer Case"
 * hospitalization.admitSource.coding.display 1..1
 * hospitalization.dietPreference from $vsDietPrefUri 
 * serviceProvider.reference	1..1
+
+// https://github.com/Outburn-IL/IL-DGMC-IG/issues/9
+* subject.extension[visitor-type].valueCodeableConcept from $vsPatVisitorTy (extensible)
