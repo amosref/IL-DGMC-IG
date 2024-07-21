@@ -1,0 +1,95 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "CONSREQ.588103",
+  "meta": {
+    "profile": [
+      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-consultation-request",
+      "http://fhir.health.gov.il/StructureDefinition/il-core-service-request"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://fhir.shamir.health.gov.il/identifier/cml-counseling-request",
+      "value": "588103"
+    }
+  ],
+  "status": "completed",
+  "intent": "order",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "409063005",
+          "display": "Counseling (procedure)"
+        }
+      ]
+    }
+  ],
+  "priority": "routine",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11429006",
+        "display": "Consultation"
+      },
+      {
+        "system": "http://fhir.dgmc.health.gov.il/cs/cml-counseling-type",
+        "code": "1",
+        "display": "הזמנת יעוץ מתוך ביה\"ח"
+      }
+    ]
+  },
+  "orderDetail": [
+    {
+      "extension": [
+        {
+          "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/consultation-question-flag",
+          "valueBoolean": true
+        }
+      ],
+      "text": "שאלה ליועץ"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://fhir.dgmc.health.gov.il/cs/cml-counseling-patient-state",
+          "code": "1",
+          "display": "עצמאי/מתהלך"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/PAT.1948628"
+  },
+  "encounter": {
+    "reference": "Encounter/CML.124"
+  },
+  "occurrenceDateTime": "2024-05-21T00:00:00.000Z",
+  "authoredOn": "2024-06-11T18:13:53.550Z",
+  "requester": {
+    "reference": "Practitioner/CML.74822"
+  },
+  "performer": [
+        {
+      "reference": "Practitioner/CML.1252",
+      "type": "Practitioner"
+    },
+        {
+      "reference": "Organization/ORG.CML.2",
+      "type": "Organization"
+    }
+  ],
+  "reasonCode": [
+    {
+      "text": "בת 49, פנתה למיון עקב כאב ראש חדשה מזה 3 ימים, מלווה בטשטוש ריאה. ללא בחילות או הקאות, שוללת נפילות עם חבלת ראש. ללא עליית חום ססטמי."
+    }
+  ],
+  "note": [
+    {
+      "text": "פרטים נוספים"
+    }
+  ]
+}

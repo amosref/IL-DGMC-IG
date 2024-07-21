@@ -1,0 +1,117 @@
+{
+  "resourceType": "Encounter",
+  "id": "NMR.ADM1",
+        "meta": {
+    "profile": [
+      "http://fhir.health.gov.il/StructureDefinition/il-core-encounter",
+      "http://fhir.health.gov.il/StructureDefinition/dgmc-encounter-case"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/encounter-modeOfArrival",
+      "valueCoding": {
+        "system": "http://fhir.health.gov.il/cs/patient-mode-of-arrival-moh",
+        "code": "10",
+        "display": "אמבולנס רגיל"
+      }
+    },
+    {
+      "url": "http://fhir.health.gov.il/StructureDefinition/ext-encounter-paying-entity",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/paying-entity",
+            "code": "100",
+            "display": "שירותי בריאות כללית"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "in-progress",
+  "identifier": [
+    {
+      "system": "http://fhir.shamir.health.gov.il/identifier/nmr-case-number",
+      "value": "ADM1"
+    }
+  ],
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "IMP",
+    "display": "inpatient encounter"
+  },
+  "subject": {
+    "reference": "Patient/PAT.1948628",
+    "extension": [
+      {
+        "url": "http://fhir.health.gov.il/StructureDefinition/ext-encounter-visitor-type",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://fhir.health.gov.il/cs/patient-visitor-type-moh",
+              "code": "1",
+              "display": "אזרח ישראלי"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "period": {
+    "start": "2022-05-11T11:45:25Z"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://fhir.dgmc.health.gov.il/cs/admission-imp-type",
+          "code": "1",
+          "display": "קבלה רגילה"
+        }
+      ]
+    }
+  ],
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://fhir.health.gov.il/cs/patient-visit-reason-moh",
+          "code": "4",
+          "display": "פינוי מד\"א"
+        }
+      ]
+    }
+  ],
+  "hospitalization": {
+    "origin": {
+      "identifier": {
+        "system": "http://institutions.health.gov.il/Institutions",
+        "value": "01103"
+      }
+    },
+    "admitSource": {
+      "coding": [
+        {
+          "system": "http://fhir.health.gov.il/cs/patient-admit-source-moh",
+          "code": "30",
+          "display": "מד\"א"
+        }
+      ]
+    },
+    "specialCourtesy": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
+            "code": "EXT",
+            "display": "extended courtesy"
+          }
+        ]
+      }
+    ]
+  },
+  "serviceProvider": {
+    "reference": "Organization/ORG.H.01103"
+  }
+}
