@@ -55,16 +55,15 @@ Description: "DGMC Consultation Request"
 * encounter.reference 1..1
 * requester.reference 1..1
 * performer 1..*
-* performer ^slicing.discriminator.type = #type
+* performer.type 1..1
+* performer ^slicing.discriminator.type = #value
 * performer ^slicing.discriminator.path = "type"
-* performer ^slicing.rules = #open
+* performer ^slicing.rules = #closed
 * performer ^slicing.description = "Type of performer - organization or practitioner"
 * performer ^slicing.ordered = false
 * performer contains practitioner 0..* and organization 0..*
-* performer[practitioner].type 1..1
 * performer[practitioner].type = "Practitioner" (exactly)
 * performer[practitioner] only Reference(ILCorePractitioner)
-* performer[organization].type 1..1
 * performer[organization].type = "Organization" (exactly)
 * performer[organization] only Reference(ILCoreOrganization)
 
