@@ -4,7 +4,7 @@ Id: dgmc-patient
 Title: "DGMC Patient"
 Description: "Profile on IL-Core-Patient by DGMC"
 * insert ConformanceMetadata
-* ^url = $Patient
+* ^url = $dgmcPatient
 // חיסיון
 * meta.security.system 1..1
 * meta.security.system = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
@@ -31,12 +31,12 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * extension[birthPlace].valueAddress.country 1..1
 // Adding HL7 extensions to the profile that aren't inherited from ILCore Patient
 * extension contains 
-            $genderIdentity named genderIdentity 0..1 and
-            $cadavericDonor named cadavericDonor 0..1 and
-            $disability named hearing 0..1 and
-            $nationality named nationality 0..1
+            $extGenderIdentity named genderIdentity 0..1 and
+            $extDonor named cadavericDonor 0..1 and
+            $extDisability named hearing 0..1 and
+            $extNationality named nationality 0..1
 // HL7 extension: gender-identity
-* extension[genderIdentity].url = $genderIdentity (exactly)
+* extension[genderIdentity].url = $extGenderIdentity (exactly)
 * extension[genderIdentity].valueCodeableConcept.coding.system 1..1
 * extension[genderIdentity].valueCodeableConcept.coding.system = "http://hl7.org/fhir/gender-identity" (exactly)
 * extension[genderIdentity].valueCodeableConcept.coding.code 1..1
@@ -44,11 +44,11 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * extension[genderIdentity].valueCodeableConcept.coding.display 1..1
 * extension[genderIdentity].valueCodeableConcept.coding.display = "other" (exactly)
 // HL7 extension: cadavericDonor
-* extension[cadavericDonor].url = $cadavericDonor (exactly)
+* extension[cadavericDonor].url = $extDonor (exactly)
 * extension[cadavericDonor].valueBoolean 1..1
 * extension[cadavericDonor].valueBoolean = true
 // HL7 extension: disability
-* extension[hearing].url = $disability (exactly)
+* extension[hearing].url = $extDisability (exactly)
 * extension[hearing].valueCodeableConcept 1..1
 * extension[hearing].valueCodeableConcept.coding 1..1
 * extension[hearing].valueCodeableConcept.coding.system 1..1
@@ -56,11 +56,11 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * extension[hearing].valueCodeableConcept.coding.code 1..1
 * extension[hearing].valueCodeableConcept.coding.code = #15188001 (exactly)
 * extension[hearing].valueCodeableConcept.coding.display 1..1
-* extension[hearing].valueCodeableConcept.coding.display = "Hearing impaired" (exactly)
+* extension[hearing].valueCodeableConcept.coding.display = "Hearing loss" (exactly) // https://github.com/Outburn-IL/IL-DGMC-IG/issues/11
 * extension[hearing].valueCodeableConcept.text 1..1
 * extension[hearing].valueCodeableConcept.text = "כבד שמיעה" (exactly)
 // HL7 extension: nationality
-* extension[nationality].url = $nationality (exactly)
+* extension[nationality].url = $extNationality (exactly)
 * extension[nationality].extension[code] 1..1
 * extension[nationality].extension[code].url = "code" (exactly)
 * extension[nationality].extension[code].valueCodeableConcept.coding 1..*
@@ -72,15 +72,15 @@ Description: "Profile on IL-Core-Patient by DGMC"
 // local slice: nmr-pat-int-num - new
 * identifier contains nmr-pat-int-num 1..1 and cml-pat-int-num 0..1 and nmr-pat-tmp-num 0..1
 * identifier[nmr-pat-int-num].system 1..1
-* identifier[nmr-pat-int-num].system from $HospitalsUrisNmrPatIntVS (required)
+* identifier[nmr-pat-int-num].system from $vsNmrPatIntUri (required)
 * identifier[nmr-pat-int-num].value 1..1 
 // local slice: cml-pat-int-num - new
 * identifier[cml-pat-int-num].system 1..1
-* identifier[cml-pat-int-num].system from $HospitalsUrisCmlPatIntVS (required)
+* identifier[cml-pat-int-num].system from $vsCmlPatIntUri (required)
 * identifier[cml-pat-int-num].value 1..1 
 // local slice: tmp - new
 * identifier[nmr-pat-tmp-num].system 1..1
-* identifier[nmr-pat-tmp-num].system from $HospitalsUrisNmrPatTmpVS (required)
+* identifier[nmr-pat-tmp-num].system from $vsNmrPatTmpUri (required)
 * identifier[nmr-pat-tmp-num].value 1..1 
 // gov.il slice: idf
 * identifier contains idf 0..1
@@ -92,14 +92,14 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * identifier[ppn].type.coding.code 1..1
 // * identifier[ppn].type.coding.code = "PPN" (exactly)
 // HL7 extension: data-absent-reason
-* identifier[ppn].system.extension contains $dataAbsent named data-absent-reason 1..1
-* identifier[ppn].system.extension[data-absent-reason].url = $dataAbsent (exactly)
+* identifier[ppn].system.extension contains $extDAR named data-absent-reason 1..1
+* identifier[ppn].system.extension[data-absent-reason].url = $extDAR (exactly)
 * identifier[ppn].system.extension[data-absent-reason].valueCode 1..1
 * identifier[ppn].system.extension[data-absent-reason].valueCode = #unknown (exactly)
 * identifier[ppn].value 1..1
 // HL7 extension: data-absent-reason
-* birthDate.extension contains $dataAbsent named data-absent-reason 0..1 and $ext-hebrew-date named hebrew-date 0..1
-* birthDate.extension[data-absent-reason].url = $dataAbsent (exactly)
+* birthDate.extension contains $extDAR named data-absent-reason 0..1 and $extHebDate named hebrew-date 0..1
+* birthDate.extension[data-absent-reason].url = $extDAR (exactly)
 * birthDate.extension[data-absent-reason].valueCode 1..1
 * birthDate.extension[data-absent-reason].valueCode = #unknown (exactly)
 * address.city.extension[cityCode].valueCodeableConcept.coding 

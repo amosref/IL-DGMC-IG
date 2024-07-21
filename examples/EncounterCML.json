@@ -1,0 +1,82 @@
+{
+  "resourceType": "Encounter",
+  "id": "CML.123",
+  "meta": {
+    "profile": [
+      "http://fhir.health.gov.il/StructureDefinition/il-core-encounter",
+      "http://fhir.health.gov.il/StructureDefinition/dgmc-encounter-cml"
+    ]
+  },
+  "status": "in-progress",
+  "identifier": [
+    {
+      "system": "http://fhir.shamir.health.gov.il/identifier/cml-medical-record",
+      "value": "123",
+      "type": {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type",
+            "code": "3",
+            "display": "אשפוז"
+          }
+        ]
+      }
+    },
+    {
+      "system": "http://fhir.shamir.health.gov.il/identifier/cml-medical-record",
+      "value": "124",
+      "type": {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type",
+            "code": "2",
+            "display": "קבלה"
+          }
+        ]
+      }
+    }
+  ],
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "IMP",
+    "display": "inpatient encounter"
+  },
+  "subject": {
+    "reference": "Patient/PAT.1948628"
+  },
+  "period": {
+    "start": "2022-05-11T13:50:25Z"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type",
+          "code": "2",
+          "display": "קבלה"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "location": {
+        "reference": "Location/BED.060",
+        "identifier": {
+          "system": "http://fhir.shamir.health.gov.il/identifier/cml-unit-identfier",
+          "value": "060"
+        }
+      },
+      "status": "active",
+      "period": {
+        "start": "2022-05-11T13:45:25Z"
+      }
+    }
+  ],
+  "partOf": {
+    "reference": "Encounter/NMR.ADM1-1"
+  },
+  "serviceProvider": {
+    "reference": "Organization/ORG.CML.3"
+  }
+}

@@ -4,7 +4,7 @@ Id: dgmc-encounter-case
 Title: "DGMC Encounter Namer Case"
 Description: "DGMC Encounter Namer Case"
 * insert ConformanceMetadata
-* ^url = $EncounterCase
+* ^url = $encNmrCase
 * meta.security.system	1..1
 * meta.security.system	= "http://terminology.hl7.org/CodeSystem/v3-Confidentiality" (exactly)
 * meta.security.code 1..1
@@ -19,19 +19,17 @@ Description: "DGMC Encounter Namer Case"
 * identifier ^slicing.ordered = false
 * identifier contains nmr-case 1..1
 * identifier[nmr-case].system 1..1
-* identifier[nmr-case].system from $HospitalsUrisNmrCaseNumVS
+* identifier[nmr-case].system from $vsNmrCaseIdUri
 * identifier[nmr-case].value 1..1
 * type contains admission-type 0..1 and home-check-in 0..1
-* type[admission-type].coding from $vs-admission-type (required)
-* type[admission-type].coding.system 1..1	
+* type[admission-type] from $vsAdmType (required)
+* type[admission-type].coding.system 1..1
 * type[admission-type].coding.code 1..1
 * type[admission-type].coding.display 1..1
-* type[home-check-in]	
-* type[home-check-in].coding.system	1..1
-* type[home-check-in].coding.system	= $home-check-in (exactly)
-* type[home-check-in].coding.code 1..1	
-* type[home-check-in].coding.code = #9 (exactly)
-* type[home-check-in].coding.display = "צ'ק-אין מהבית"
+* type[home-check-in] = $csHomeCheckIn#9
+* type[home-check-in].coding
+  * display 1..1
+  * display = "צ'ק-אין מהבית" (exactly)
 * period.start 1..1
 * hospitalization.admitSource 1..1
 * hospitalization.admitSource.coding 1..*
@@ -39,5 +37,8 @@ Description: "DGMC Encounter Namer Case"
 * hospitalization.admitSource.coding.system	1..1
 * hospitalization.admitSource.coding.code 1..1
 * hospitalization.admitSource.coding.display 1..1
-* hospitalization.dietPreference from $HospitalsUrisEncDietPrefVS 
+* hospitalization.dietPreference from $vsDietPrefUri 
 * serviceProvider.reference	1..1
+
+// https://github.com/Outburn-IL/IL-DGMC-IG/issues/9
+* subject.extension[visitor-type].valueCodeableConcept from $vsPatVisitorTy (extensible)

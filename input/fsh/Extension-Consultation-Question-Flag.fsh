@@ -4,5 +4,5 @@ Title: "Extension - Consultation Question Flag"
 Description: "Extension - Consultation Question Flag"
 Context: ServiceRequest.orderDetail
 * insert ConformanceMetadata
-* ^url = $ext-cons-flag
+* ^url = $extConsultFlag
 * value[x] only boolean

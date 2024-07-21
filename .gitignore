@@ -1,14 +1,4 @@
-.vscode
-.DS_Store
-Thumbs.db
+/node_modules
 /fsh-generated
-/input-cache
-/output
-/temp
-/template
-T17/fsh-generated
-T17/input-cache
-T17/output
-T17/temp
-T17/template
-Files to decide on
+/jre
+/validator_cli*

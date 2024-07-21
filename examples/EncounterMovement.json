@@ -1,0 +1,82 @@
+{
+  "resourceType": "Encounter",
+  "id": "NMR.ADM1-1",
+  "meta": {
+    "profile": [
+      "http://fhir.health.gov.il/StructureDefinition/il-core-encounter",
+      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-movement"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://fhir.health.gov.il/StructureDefinition/ext-encounter-paying-entity",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/paying-entity",
+            "code": "100",
+            "display": "שירותי בריאות כללית"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://fhir.health.gov.il/StructureDefinition/ext-movement-number",
+      "valueString": "2"
+    }
+  ],
+  "status": "in-progress",
+  "identifier": [
+    {
+      "system": "http://fhir.shamir.health.gov.il/identifier/nmr-movement-number",
+      "value": "ADM1-1"
+    },
+    {
+      "system": "http://fhir.shamir.health.gov.il/identifier/nmr2cml-identifier",
+      "value": "NMR.ADM1_20220511134525_רפנ-ג"
+    }
+  ],
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "IMP",
+    "display": "inpatient encounter"
+  },
+  "subject": {
+    "reference": "Patient/PAT.1948628"
+  },
+  "period": {
+    "start": "2022-05-11T13:45:25Z"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://fhir.dgmc.health.gov.il/cs/admission-imp-type",
+          "code": "1",
+          "display": "קבלה רגילה"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "location": {
+        "reference": "Location/LOC.10013",
+        "identifier": {
+          "system": "http://fhir.shamir.health.gov.il/identifier/nmr-org-id",
+          "value": "פנ-ג"
+        }
+      }
+    }
+  ],
+  "serviceProvider": {
+    "reference": "Organization/ORG.10013",
+    "identifier": {
+      "system": "http://fhir.shamir.health.gov.il/identifier/nmr-org-identfier",
+      "value": "רפנ-ג"
+    }
+  },
+  "partOf": {
+    "reference": "Encounter/NMR.ADM1"
+  }
+}
