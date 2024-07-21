@@ -56,7 +56,7 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * extension[hearing].valueCodeableConcept.coding.code 1..1
 * extension[hearing].valueCodeableConcept.coding.code = #15188001 (exactly)
 * extension[hearing].valueCodeableConcept.coding.display 1..1
-* extension[hearing].valueCodeableConcept.coding.display = "Hearing impaired" (exactly)
+* extension[hearing].valueCodeableConcept.coding.display = "Hearing loss" (exactly) // https://github.com/Outburn-IL/IL-DGMC-IG/issues/11
 * extension[hearing].valueCodeableConcept.text 1..1
 * extension[hearing].valueCodeableConcept.text = "כבד שמיעה" (exactly)
 // HL7 extension: nationality
