@@ -6,10 +6,6 @@ Alias: $encNmrMove =     http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc
 Alias: $encNmrCase =     http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-case
 Alias: $dgmcPatient =    http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-patient
 
-// Extension profiles
-Alias: $extFthName = http://fhir.dgmc.health.gov.il/StructureDefinition/ext-father-name
-Alias: $extMthName = http://fhir.dgmc.health.gov.il/StructureDefinition/ext-mother-name
-
 // Extensions
 Alias: $extConsultFlag = http://fhir.dgmc.health.gov.il/StructureDefinition/consultation-question-flag
 
