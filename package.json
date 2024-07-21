@@ -9,7 +9,7 @@
     "check:validator": "node downloadValidator.js",
     "validate:ig": "node validateIg.js",
     "validate:ex": "node validateExamples.js",
-    "prepare": "npm run check:java && npm run check:validator"
+    "prepare": "npm run sushi && npm run check:java && npm run check:validator && npm run validate:ex"
   },
   "repository": {
     "type": "git",
