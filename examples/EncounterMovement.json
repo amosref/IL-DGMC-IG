@@ -4,7 +4,7 @@
   "meta": {
     "profile": [
       "http://fhir.health.gov.il/StructureDefinition/il-core-encounter",
-      "http://fhir.health.gov.il/StructureDefinition/dgmc-encounter-movement"
+      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-movement"
     ]
   },
   "extension": [
