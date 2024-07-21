@@ -1,8 +1,7 @@
 {
   "resourceType": "Encounter",
   "id": "CML.123",
-
-        "meta": {
+  "meta": {
     "profile": [
       "http://fhir.health.gov.il/StructureDefinition/il-core-encounter",
       "http://fhir.health.gov.il/StructureDefinition/dgmc-encounter-cml"

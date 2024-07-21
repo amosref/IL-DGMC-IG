@@ -1,65 +1,64 @@
 {
-        "resourceType": "Procedure",
-        "id": "CONSANS.297498.1",
-
-    "meta": {
+  "resourceType": "Procedure",
+  "id": "CONSANS.297498.1",
+  "meta": {
     "profile": [
       "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-consultation-answer",
       "http://fhir.health.gov.il/StructureDefinition/il-core-procedure"
     ]
   },
-        "identifier": [
-          {
-            "system": "http://fhir.shamir.health.gov.il/identifier/cml-counseling-answer",
-            "value": "297498.1"
-          }
-        ],
-        "basedOn": [
-          {
-            "reference": "ServiceRequest/CONSREQ.588103"
-          }
-        ],
-        "status": "completed",
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "11429006",
-              "display": "Consultation"
-            }
-          ]
-        },
-        "subject": {
-          "reference": "Patient/PAT.1948628"
-        },
-        "performedDateTime": "2024-06-11T19:26:13.100Z",
-        "recorder": {
-          "reference": "Practitioner/CML.74823"
-        },
-        "asserter": {
-          "reference": "Practitioner/CML.74823"
-        },
-        "outcome": {
-          "text": "בת 49 . נ+5 .  ברקע : סכרת , השמנת יתר , יתר שומנים בדם , השתמשה באוזימפיק לצורך .  לפי ביקורים אצל נוירולוג בשל תלונות על סחרחורות , כובד באוזניים ונימול ולפעמים כבידות בפלג גוף שמאל – בבדיקה ללא ממצא חריג , עברה EMG שהיה תקין אז , הומלץ על CT מח שלא בוצע .  פנתה למיון עקב כאב ראש מזה כ-3 ימים. הכאב דיפוזי , בעל אופי לחוץ, מלווה בטשטוש ריאה ותחושה של רדימות הראש. לדבריה קיבלה דקסמול (אתמול פעמיים, היום פעם אחד) ללא הטבה. ללא בחילות או הקאות .  בבדיקה : הכרה מלאה , דיבור והבנה תקינים , עצבים קרניאליים תקינים , ללא קשיון עורף , בנסיון המצב ללא צניחות בידיים ורגליים , ללא הבדלי תחושה , מבחני מוחון תקינים , בביסנקי שלילי , טונוס והחזרים תקינים , רומברג שלילי , הליכה תקינה ויציבה .  עברה CT"
-        },
-        "followUp": [
-          {
-            "coding": [
-              {
-                "system": "http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag",
-                "code": "follow-up-needed",
-                "display": "נדרש המשך מעקב"
-              }
-            ]
-          },
-          {
-            "coding": [
-              {
-                "system": "http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag",
-                "code": "final-answer-needed",
-                "display": "ממתין לתשובה סופית (תשובה זמנית)"
-              }
-            ]
-          }
-        ]
+  "identifier": [
+    {
+      "system": "http://fhir.shamir.health.gov.il/identifier/cml-counseling-answer",
+      "value": "297498.1"
+    }
+  ],
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/CONSREQ.588103"
+    }
+  ],
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11429006",
+        "display": "Consultation"
       }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/PAT.1948628"
+  },
+  "performedDateTime": "2024-06-11T19:26:13.100Z",
+  "recorder": {
+    "reference": "Practitioner/CML.74823"
+  },
+  "asserter": {
+    "reference": "Practitioner/CML.74823"
+  },
+  "outcome": {
+    "text": "בת 49 . נ+5 .  ברקע : סכרת , השמנת יתר , יתר שומנים בדם , השתמשה באוזימפיק לצורך .  לפי ביקורים אצל נוירולוג בשל תלונות על סחרחורות , כובד באוזניים ונימול ולפעמים כבידות בפלג גוף שמאל – בבדיקה ללא ממצא חריג , עברה EMG שהיה תקין אז , הומלץ על CT מח שלא בוצע .  פנתה למיון עקב כאב ראש מזה כ-3 ימים. הכאב דיפוזי , בעל אופי לחוץ, מלווה בטשטוש ריאה ותחושה של רדימות הראש. לדבריה קיבלה דקסמול (אתמול פעמיים, היום פעם אחד) ללא הטבה. ללא בחילות או הקאות .  בבדיקה : הכרה מלאה , דיבור והבנה תקינים , עצבים קרניאליים תקינים , ללא קשיון עורף , בנסיון המצב ללא צניחות בידיים ורגליים , ללא הבדלי תחושה , מבחני מוחון תקינים , בביסנקי שלילי , טונוס והחזרים תקינים , רומברג שלילי , הליכה תקינה ויציבה .  עברה CT"
+  },
+  "followUp": [
+    {
+      "coding": [
+        {
+          "system": "http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag",
+          "code": "follow-up-needed",
+          "display": "נדרש המשך מעקב"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag",
+          "code": "final-answer-needed",
+          "display": "ממתין לתשובה סופית (תשובה זמנית)"
+        }
+      ]
+    }
+  ]
+}
