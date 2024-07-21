@@ -106,3 +106,29 @@ export const extractErrorSummary = async (resource) => {
 )`)
    return await expr.evaluate(resource)
 }
+
+export const generatePackageManifest = async () => {
+    const igFilePath = path.join(getFshOutputFolder(), `ImplementationGuide-${readSushiConfig().id}.json`);
+    const igResource = JSON.parse(fs.readFileSync(igFilePath, 'utf8'));
+    const expr = jsonata(`{
+  'name' : ImplementationGuide.packageId,
+  'version' : ImplementationGuide.version,
+  'canonical' : ImplementationGuide.url,
+  'url' : ImplementationGuide.manifest.rendering,
+  'title' : ImplementationGuide.title,
+  'description' : ImplementationGuide.description,
+  'fhirVersions': ImplementationGuide.fhirVersion[],
+  'dependencies' : ImplementationGuide.dependsOn ? ImplementationGuide.dependsOn{packageId: version},
+  'author' : ImplementationGuide.publisher,
+  'maintainers' : ImplementationGuide.contact.{
+    'name': name,
+    'email': telecom[system='email'].value,
+    'url': telecom[system='url'].value
+  }[],
+  'license' : ImplementationGuide.license,
+  'jurisdiction' : ImplementationGuide.jurisdiction.coding[system="urn:iso:std:iso:3166"][0].(system & '#' & code)
+}`);
+    const packageManifest = await expr.evaluate({ ImplementationGuide: igResource });
+    fs.writeFileSync(path.join(getFshOutputFolder(), 'package.json'), JSON.stringify(packageManifest, null, 2));
+    return true;
+}

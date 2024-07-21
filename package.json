@@ -4,7 +4,8 @@
   "description": "Israel Division of Governmental Hospitals Profiles",
   "type": "module",
   "scripts": {
-    "sushi": "sushi build -s",
+    "manifest": "node createManifest.js",
+    "sushi": "sushi build -s && npm run manifest",
     "check:java": "node installJava.js",
     "check:validator": "node downloadValidator.js",
     "validate:ig": "node validateIg.js",
