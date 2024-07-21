@@ -21,7 +21,7 @@ Description: "DGMC Encounter Namer Movement"
 * identifier ^slicing.ordered = false
 * identifier contains nmr-movement 1..1 and nmr2cml-identifier 1..1
 * identifier[nmr-movement].system 1..1
-* identifier[nmr-movement].system from $vsNmrMoveIdUri (required)
+* identifier[nmr-movement].system from $vsNmrMoveNumUri (required)
 * identifier[nmr-movement].value 1..1
 * identifier[nmr2cml-identifier].system 1..1
 * identifier[nmr2cml-identifier].system from $vsNmrToCmlUri (required)
