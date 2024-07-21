@@ -19,6 +19,7 @@ Description: "DGMC Consultation Answer"
 * code.coding.display 1..1
 * code.coding.display = "Consultation"
 * subject.reference 1..1
+* performed[x] only dateTime
 * performedDateTime 1..1
 * recorder.reference 1..1
 * asserter.reference 1..1
