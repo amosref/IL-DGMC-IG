@@ -29,6 +29,8 @@ Description: "DGMC Consultation Request"
 * code.coding[cons] = $sct#11429006
 * code.coding[cons].display = "Consultation" (exactly)
 * code.coding[cons-type] from $vsCmlConsultType
+// TODO: The VS $vsCmlConsultType is missing, so slicing cannot be based on the binding.
+//       Once the VS is added, should remove the ^patternCoding and try to validate
 * code.coding[cons-type] ^patternCoding.system = $csConsultType
 
 
