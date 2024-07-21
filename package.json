@@ -2,22 +2,32 @@
   "name": "il-dgmc-ig",
   "version": "0.1.4",
   "description": "Israel Division of Governmental Hospitals Profiles",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sushi build -s"
+    "sushi": "sushi build -s",
+    "check:java": "node installJava.js",
+    "check:validator": "node downloadValidator.js",
+    "validate:ig": "node validateIg.js",
+    "validate:ex": "node validateExamples.js",
+    "prepare": "npm run check:java && npm run check:validator"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Outburn-IL/IL-DGMC-IG.git"
   },
   "author": "Division of Governmental Hospitals Israel",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Outburn-IL/IL-DGMC-IG/issues"
   },
   "homepage": "https://github.com/Outburn-IL/IL-DGMC-IG#readme",
   "dependencies": {
-    "sushi": "^3.0.0"
+    "adm-zip": "^0.5.14",
+    "axios": "^1.7.2",
+    "execa": "^9.3.0",
+    "fs-extra": "^11.2.0",
+    "js-yaml": "^4.1.0",
+    "path": "^0.12.7",
+    "sushi": "^3.0.0",
+    "tar": "^7.4.0"
   }
 }
