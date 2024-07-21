@@ -19,17 +19,18 @@ Description: "DGMC Consultation Request"
 
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
-* code.coding ^slicing.rules = #open
+* code.coding ^slicing.rules = #closed
 * code.coding ^slicing.ordered = false
 * code.coding 2..2
+* code.coding.system 1..1
+* code.coding.code 1..1
+* code.coding.display 1..1
 * code.coding contains cons 1..1 and cons-type 1..1
 * code.coding[cons] = $sct#11429006
-* code.coding[cons].display 1..1
 * code.coding[cons].display = "Consultation" (exactly)
 * code.coding[cons-type] from $vsCmlConsultType
-* code.coding[cons-type].system 1..1
-* code.coding[cons-type].code 1..1
-* code.coding[cons-type].display 1..1
+* code.coding[cons-type] ^patternCoding.system = $csConsultType
+
 
 * orderDetail ^slicing.discriminator.type = #exists
 * orderDetail ^slicing.discriminator.path = "$this.coding"
