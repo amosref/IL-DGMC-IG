@@ -2,6 +2,7 @@ import path from 'path';
 import fs from 'fs-extra';
 import axios from 'axios';
 import yaml from 'js-yaml';
+import jsonata from 'jsonata';
 
 const server = axios.create({ timeout: 15000 });
 
@@ -73,6 +74,15 @@ export const readSushiConfig = () => {
     }
 };
 
+export const readValidationResults = (filePath) => {
+    try {
+        const doc = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        return doc;
+    } catch (e) {
+        console.log(e);
+    }
+};
+
 export const getDependencies = (sushiConfig) => {
     if (sushiConfig?.dependencies) {
         const igs = Object.entries(sushiConfig.dependencies);
@@ -81,4 +91,18 @@ export const getDependencies = (sushiConfig) => {
     } else {
         return ''
     }
+};
+
+export const extractErrorSummary = async (resource) => {
+    const expr = jsonata(`(
+  resourceType='Bundle' ?
+  entry.resource.issue[severity in ['fatal','error','warning']]{
+    severity: $count($)
+  }
+  :
+  issue[severity in ['fatal','error','warning']]{
+    severity: $count($)
+  }
+)`)
+   return await expr.evaluate(resource)
 }
