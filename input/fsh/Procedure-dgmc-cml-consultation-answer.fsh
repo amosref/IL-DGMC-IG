@@ -30,10 +30,10 @@ Description: "DGMC Consultation Answer"
 * followUp ^slicing.discriminator.path = "$this"
 * followUp ^slicing.rules = #open
 * followUp ^slicing.ordered = false
-* followUp contains cml-follow-up 0..1 and cml-final-answer 0..1
+* followUp contains cml-follow-up 0..1 and cml-final-answer-needed 0..1
 * followUp[cml-follow-up] = $csFollowUp#follow-up-needed
 * followUp[cml-follow-up].coding.display 1..1
 * followUp[cml-follow-up].coding.display = "נדרש המשך מעקב"
-* followUp[cml-final-answer] = $csFollowUp#final-answer-needed
-* followUp[cml-final-answer].coding.display 1..1
-* followUp[cml-final-answer].coding.display = "ממתין לתשובה סופית (תשובה זמנית)"
+* followUp[cml-final-answer-needed] = $csFollowUp#final-answer-needed
+* followUp[cml-final-answer-needed].coding.display 1..1
+* followUp[cml-final-answer-needed].coding.display = "תשובה זמנית (ממתין לתשובה סופית)"
