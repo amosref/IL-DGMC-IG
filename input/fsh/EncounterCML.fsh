@@ -10,7 +10,7 @@ Description: "DGMC Encounter Chameleon"
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier ^slicing.ordered = false
-* identifier contains cml-medical-record 1..1
+* identifier contains cml-medical-record 1..2
 * identifier[cml-medical-record].system 1..1
 * identifier[cml-medical-record].system from $vsCmlMedRecUri (required)
 * identifier[cml-medical-record].value 1..1
