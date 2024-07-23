@@ -5,4 +5,4 @@ Description: "consultation Follow Up Flag"
 * insert ConformanceMetadata
 * ^url = $csFollowUp
 * #follow-up-needed "נדרש המשך מעקב"
-* #final-answer-needed "ממתין לתשובה סופית (תשובה זמנית)"
+* #final-answer-needed "תשובה זמנית (ממתין לתשובה סופית)"
