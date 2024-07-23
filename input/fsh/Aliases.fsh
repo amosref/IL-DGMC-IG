@@ -30,6 +30,7 @@ Alias: $csHomeCheckIn =     http://fhir.dgmc.health.gov.il/cs/home-check-in
 Alias: $csCmlMedRecType =   http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type 		
 Alias: $csHospUri =         http://fhir.dgmc.health.gov.il/cs/hospitals-uri
 Alias: $csPatVisitorTy =    http://fhir.dgmc.health.gov.il/cs/patient-visitor-type
+Alias: $csCmlConsultType =  http://fhir.dgmc.health.gov.il/cs/cml-counseling-type
 
 // VS
 Alias: $vsCmlConsultType =  http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-type
