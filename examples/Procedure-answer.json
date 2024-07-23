@@ -56,7 +56,7 @@
         {
           "system": "http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag",
           "code": "final-answer-needed",
-          "display": "ממתין לתשובה סופית (תשובה זמנית)"
+          "display": "תשובה זמנית (ממתין לתשובה סופית)"
         }
       ]
     }
