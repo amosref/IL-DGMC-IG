@@ -65,6 +65,15 @@ export const getExamplesFolder = () => {
     return path.join(workingDir, 'examples');
 };
 
+export const getDiffFolder = () => {
+    return path.join(workingDir, 'differentials', 'fsh-generated', 'resources');
+};
+
+export const deleteIgResource = () => {
+    const igFilePath = path.join(getDiffFolder(), `ImplementationGuide-${readSushiConfig().id}.json`);
+    return fs.unlinkSync(igFilePath);
+};
+
 export const readSushiConfig = () => {
     try {
         const doc = yaml.load(fs.readFileSync(sushiConfigPath, 'utf8'));

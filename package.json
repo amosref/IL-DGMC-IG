@@ -6,11 +6,13 @@
   "scripts": {
     "manifest": "node createManifest.js",
     "sushi": "sushi build -s && npm run manifest",
+    "sushi:diff": "sushi build --out differentials",
     "check:java": "node installJava.js",
     "check:validator": "node downloadValidator.js",
-    "validate:ig": "node validateIg.js",
+    "prepare": "npm run check:java && npm run check:validator",
+    "validate:ig": "npm run sushi:diff && node validateIg.js",
     "validate:ex": "node validateExamples.js",
-    "prepare": "npm run sushi && npm run check:java && npm run check:validator && npm run validate:ex"
+    "test": "npm run sushi && npm run prepare && npm run validate:ig && npm run validate:ex"
   },
   "repository": {
     "type": "git",
