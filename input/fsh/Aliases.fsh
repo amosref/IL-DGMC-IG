@@ -68,8 +68,6 @@ Alias: $ext-issue-regards =                 http://fhir.outburn.co.il/StructureD
 Alias: $vs-discharge-disposition =          http://fhir.health.gov.il/ValueSet/patient-release-type-moh
 Alias: $vs-patient-visit-reason-moh =       http://fhir.health.gov.il/ValueSet/patient-visit-reason-moh
 Alias: $vs-patient-visitor-type-moh =       http://fhir.health.gov.il/ValueSet/patient-visitor-type-moh
-Alias: $ext-encounter-paying-entity =       http://fhir.health.gov.il/StructureDefinition/ext-encounter-paying-entity
-Alias: $ext-movement-number =               http://fhir.health.gov.il/StructureDefinition/ext-movement-number
 Alias: $vs-patient-admit-source-moh =       http://fhir.health.gov.il/ValueSet/patient-admit-source-moh
 
 
