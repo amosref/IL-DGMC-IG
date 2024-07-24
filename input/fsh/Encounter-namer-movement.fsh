@@ -4,7 +4,7 @@ Id: dgmc-encounter-movement
 Title: "DGMC Encounter Namer Movement"
 Description: "DGMC Encounter Namer Movement"
 * insert ConformanceMetadata
-* ^url = $encNmrMove
+
 * id 1..1
 * extension[paying-entity].url 1..1
 * extension[paying-entity].url = $ext-encounter-paying-entity (exactly)

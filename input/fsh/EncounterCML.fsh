@@ -4,7 +4,7 @@ Id: dgmc-encounter-cml
 Title: "DGMC Encounter Chameleon"
 Description: "DGMC Encounter Chameleon"
 * insert ConformanceMetadata
-* ^url = $encCml
+
 * id 1..1
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"

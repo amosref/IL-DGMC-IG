@@ -4,7 +4,7 @@ Id: dgmc-patient
 Title: "DGMC Patient"
 Description: "Profile on IL-Core-Patient by DGMC"
 * insert ConformanceMetadata
-* ^url = $dgmcPatient
+
 // חיסיון
 * meta.security.system 1..1
 * meta.security.system = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
@@ -36,7 +36,6 @@ Description: "Profile on IL-Core-Patient by DGMC"
             $extDisability named hearing 0..1 and
             $extNationality named nationality 0..1
 // HL7 extension: gender-identity
-* extension[genderIdentity].url = $extGenderIdentity (exactly)
 * extension[genderIdentity].valueCodeableConcept.coding.system 1..1
 * extension[genderIdentity].valueCodeableConcept.coding.system = "http://hl7.org/fhir/gender-identity" (exactly)
 * extension[genderIdentity].valueCodeableConcept.coding.code 1..1
@@ -44,11 +43,9 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * extension[genderIdentity].valueCodeableConcept.coding.display 1..1
 * extension[genderIdentity].valueCodeableConcept.coding.display = "other" (exactly)
 // HL7 extension: cadavericDonor
-* extension[cadavericDonor].url = $extDonor (exactly)
 * extension[cadavericDonor].valueBoolean 1..1
 * extension[cadavericDonor].valueBoolean = true
 // HL7 extension: disability
-* extension[hearing].url = $extDisability (exactly)
 * extension[hearing].valueCodeableConcept 1..1
 * extension[hearing].valueCodeableConcept.coding 1..1
 * extension[hearing].valueCodeableConcept.coding.system 1..1
@@ -60,7 +57,6 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * extension[hearing].valueCodeableConcept.text 1..1
 * extension[hearing].valueCodeableConcept.text = "כבד שמיעה" (exactly)
 // HL7 extension: nationality
-* extension[nationality].url = $extNationality (exactly)
 * extension[nationality].extension[code] 1..1
 * extension[nationality].extension[code].url = "code" (exactly)
 * extension[nationality].extension[code].valueCodeableConcept.coding 1..*
