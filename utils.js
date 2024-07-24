@@ -61,6 +61,15 @@ export const getFshOutputFolder = () => {
     return path.join(workingDir, 'fsh-generated', 'resources');
 };
 
+export const getFshInputFolder = () => {
+    return path.join(workingDir, 'input', 'fsh');
+};
+
+export const overwriteRuleSet = (fsh) => {
+    const fshFile = path.join(getFshInputFolder(), 'RuleSet-metadata.fsh');
+    return fs.writeFileSync(fshFile, fsh);
+}
+
 export const getExamplesFolder = () => {
     return path.join(workingDir, 'examples');
 };

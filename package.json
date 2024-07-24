@@ -4,15 +4,16 @@
   "description": "Israel Division of Governmental Hospitals Profiles",
   "type": "module",
   "scripts": {
+    "ruleset": "node updateRuleSet.js",
     "manifest": "node createManifest.js",
-    "sushi": "sushi build -s && npm run manifest",
+    "sushi": "npm run ruleset && sushi build -s && npm run manifest",
     "sushi:diff": "sushi build --out differentials",
     "check:java": "node installJava.js",
     "check:validator": "node downloadValidator.js",
-    "prepare": "npm run check:java && npm run check:validator",
+    "prepare:validation": "npm run check:java && npm run check:validator",
     "validate:ig": "npm run sushi:diff && node validateIg.js",
     "validate:ex": "node validateExamples.js",
-    "test": "npm run sushi && npm run prepare && npm run validate:ig && npm run validate:ex"
+    "test": "npm run sushi && npm run prepare:validation && npm run validate:ig && npm run validate:ex"
   },
   "repository": {
     "type": "git",
