@@ -9,9 +9,10 @@ Description: "DGMC Consultation Request"
 * identifier.system 1..1
 * identifier.value 1..1
 * identifier.system from $vsConsultReqUri (required)
-* category 1..1
-* category[il-core] ..0
+
 * category contains consult 1..1
+* category[il-core] 0..0
+* category 1..1
 * category[consult] = $sct#409063005
 * category[consult].coding 1..1
 * category[consult].coding.display 1..1
