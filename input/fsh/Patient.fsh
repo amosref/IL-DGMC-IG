@@ -60,7 +60,6 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * extension[hearing].valueCodeableConcept.text = "כבד שמיעה" (exactly)
 // HL7 extension: nationality
 * extension[nationality].extension[code] 1..1
-* extension[nationality].extension[code].url = "code" (exactly)
 
 // QUESTION: Why conding max is * if the system is fixed?
 //          Adding another coding will be impossible since the system cannot be anythong else
@@ -94,13 +93,11 @@ Description: "Profile on IL-Core-Patient by DGMC"
 // * identifier[ppn].type.coding.code = "PPN" (exactly)
 // HL7 extension: data-absent-reason
 * identifier[ppn].system.extension contains $extDAR named data-absent-reason 1..1
-* identifier[ppn].system.extension[data-absent-reason].url = $extDAR (exactly)
 * identifier[ppn].system.extension[data-absent-reason].valueCode 1..1
 * identifier[ppn].system.extension[data-absent-reason].valueCode = #unknown (exactly)
 * identifier[ppn].value 1..1
 // HL7 extension: data-absent-reason
 * birthDate.extension contains $extDAR named data-absent-reason 0..1 and $extHebDate named hebrew-date 0..1
-* birthDate.extension[data-absent-reason].url = $extDAR (exactly)
 * birthDate.extension[data-absent-reason].valueCode 1..1
 * birthDate.extension[data-absent-reason].valueCode = #unknown (exactly)
 * address.city.extension[cityCode].valueCodeableConcept.coding 
