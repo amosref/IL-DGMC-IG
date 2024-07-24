@@ -36,6 +36,8 @@ Description: "Profile on IL-Core-Patient by DGMC"
             $extDisability named hearing 0..1 and
             $extNationality named nationality 0..1
 // HL7 extension: gender-identity
+// QUESTION: If the values are fixed to "other" then why slice name is "genderIdentity"?
+//           Seems it should have been something like "otherGender" since it can't be anythong but "other"
 * extension[genderIdentity].valueCodeableConcept.coding.system 1..1
 * extension[genderIdentity].valueCodeableConcept.coding.system = "http://hl7.org/fhir/gender-identity" (exactly)
 * extension[genderIdentity].valueCodeableConcept.coding.code 1..1
