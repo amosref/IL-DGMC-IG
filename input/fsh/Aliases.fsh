@@ -1,13 +1,3 @@
-// Profiles
-Alias: $consultAnswer =  http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-consultation-answer
-Alias: $consultRequest = http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-consultation-request
-Alias: $encCml =         http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-cml
-Alias: $encNmrMove =     http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-movement
-Alias: $encNmrCase =     http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-case
-Alias: $dgmcPatient =    http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-patient
-
-// Extensions
-Alias: $extConsultFlag = http://fhir.dgmc.health.gov.il/StructureDefinition/consultation-question-flag
 
 // External extensions
 Alias: $extGenderIdentity = http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
@@ -16,8 +6,6 @@ Alias: $extDisability =     http://hl7.org/fhir/StructureDefinition/patient-disa
 Alias: $extNationality =    http://hl7.org/fhir/StructureDefinition/patient-nationality
 Alias: $extDAR =            http://hl7.org/fhir/StructureDefinition/data-absent-reason
 Alias: $extHebDate =        http://fhir.health.gov.il/StructureDefinition/ext-hebrew-date
-Alias: $extParentName =     http://fhir.health.gov.il/StructureDefinition/ext-administrative-parent-name
-Alias: $extCityCode =       http://fhir.health.gov.il/StructureDefinition/ext-city-code
 
 // CodeSystems
 Alias: $csFollowUp =        http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag
