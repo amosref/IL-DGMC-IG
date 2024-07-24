@@ -61,8 +61,26 @@ export const getFshOutputFolder = () => {
     return path.join(workingDir, 'fsh-generated', 'resources');
 };
 
+export const getFshInputFolder = () => {
+    return path.join(workingDir, 'input', 'fsh');
+};
+
+export const overwriteRuleSet = (fsh) => {
+    const fshFile = path.join(getFshInputFolder(), 'RuleSet-metadata.fsh');
+    return fs.writeFileSync(fshFile, fsh);
+}
+
 export const getExamplesFolder = () => {
     return path.join(workingDir, 'examples');
+};
+
+export const getDiffFolder = () => {
+    return path.join(workingDir, 'differentials', 'fsh-generated', 'resources');
+};
+
+export const deleteIgResource = () => {
+    const igFilePath = path.join(getDiffFolder(), `ImplementationGuide-${readSushiConfig().id}.json`);
+    return fs.unlinkSync(igFilePath);
 };
 
 export const readSushiConfig = () => {

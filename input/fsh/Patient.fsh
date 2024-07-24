@@ -4,7 +4,7 @@ Id: dgmc-patient
 Title: "DGMC Patient"
 Description: "Profile on IL-Core-Patient by DGMC"
 * insert ConformanceMetadata
-* ^url = $dgmcPatient
+
 // חיסיון
 * meta.security.system 1..1
 * meta.security.system = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
@@ -36,7 +36,8 @@ Description: "Profile on IL-Core-Patient by DGMC"
             $extDisability named hearing 0..1 and
             $extNationality named nationality 0..1
 // HL7 extension: gender-identity
-* extension[genderIdentity].url = $extGenderIdentity (exactly)
+// QUESTION: If the values are fixed to "other" then why slice name is "genderIdentity"?
+//           Seems it should have been something like "otherGender" since it can't be anythong but "other"
 * extension[genderIdentity].valueCodeableConcept.coding.system 1..1
 * extension[genderIdentity].valueCodeableConcept.coding.system = "http://hl7.org/fhir/gender-identity" (exactly)
 * extension[genderIdentity].valueCodeableConcept.coding.code 1..1
@@ -44,11 +45,9 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * extension[genderIdentity].valueCodeableConcept.coding.display 1..1
 * extension[genderIdentity].valueCodeableConcept.coding.display = "other" (exactly)
 // HL7 extension: cadavericDonor
-* extension[cadavericDonor].url = $extDonor (exactly)
 * extension[cadavericDonor].valueBoolean 1..1
 * extension[cadavericDonor].valueBoolean = true
 // HL7 extension: disability
-* extension[hearing].url = $extDisability (exactly)
 * extension[hearing].valueCodeableConcept 1..1
 * extension[hearing].valueCodeableConcept.coding 1..1
 * extension[hearing].valueCodeableConcept.coding.system 1..1
@@ -60,9 +59,10 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * extension[hearing].valueCodeableConcept.text 1..1
 * extension[hearing].valueCodeableConcept.text = "כבד שמיעה" (exactly)
 // HL7 extension: nationality
-* extension[nationality].url = $extNationality (exactly)
 * extension[nationality].extension[code] 1..1
-* extension[nationality].extension[code].url = "code" (exactly)
+
+// QUESTION: Why conding max is * if the system is fixed?
+//          Adding another coding will be impossible since the system cannot be anythong else
 * extension[nationality].extension[code].valueCodeableConcept.coding 1..*
 * extension[nationality].extension[code].valueCodeableConcept.coding.system 1..1
 * extension[nationality].extension[code].valueCodeableConcept.coding.system = "urn:iso:std:iso:3166" (exactly)
@@ -88,18 +88,19 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * identifier[idf].system = "http://fhir.health.gov.il/identifier/idf-service-number" (exactly)
 * identifier[idf].value 1..1 
 // gov.il slice: ppn (passport number)
+
+// QUESTION: Is this legal? The ppn slice is *defined* by the binding on system. Doing this makes it "outside" of the slice...
+//          AFAIK this cannot be in the original ppn slice but needs its own slice, e.g. "ppn-no-country"
 * identifier[ppn].type.coding.system 1..1
 * identifier[ppn].type.coding.code 1..1
 // * identifier[ppn].type.coding.code = "PPN" (exactly)
 // HL7 extension: data-absent-reason
 * identifier[ppn].system.extension contains $extDAR named data-absent-reason 1..1
-* identifier[ppn].system.extension[data-absent-reason].url = $extDAR (exactly)
 * identifier[ppn].system.extension[data-absent-reason].valueCode 1..1
 * identifier[ppn].system.extension[data-absent-reason].valueCode = #unknown (exactly)
 * identifier[ppn].value 1..1
 // HL7 extension: data-absent-reason
 * birthDate.extension contains $extDAR named data-absent-reason 0..1 and $extHebDate named hebrew-date 0..1
-* birthDate.extension[data-absent-reason].url = $extDAR (exactly)
 * birthDate.extension[data-absent-reason].valueCode 1..1
 * birthDate.extension[data-absent-reason].valueCode = #unknown (exactly)
 * address.city.extension[cityCode].valueCodeableConcept.coding 

@@ -4,7 +4,7 @@ Id: dgmc-cml-consultation-answer
 Title: "DGMC Consultation Answer"
 Description: "DGMC Consultation Answer"
 * insert ConformanceMetadata
-* ^url = $consultAnswer
+
 * id 1..1
 * identifier.system 1..1
 * identifier.value 1..1

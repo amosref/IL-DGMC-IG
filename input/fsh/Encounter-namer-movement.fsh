@@ -4,15 +4,11 @@ Id: dgmc-encounter-movement
 Title: "DGMC Encounter Namer Movement"
 Description: "DGMC Encounter Namer Movement"
 * insert ConformanceMetadata
-* ^url = $encNmrMove
+
 * id 1..1
-* extension[paying-entity].url 1..1
-* extension[paying-entity].url = $ext-encounter-paying-entity (exactly)
 * extension[paying-entity].valueCodeableConcept.coding.system 1..1
 * extension[paying-entity].valueCodeableConcept.coding.code 1..1
 * extension[paying-entity].valueCodeableConcept.coding.display 1..1
-* extension[movement-number].url 1..1
-* extension[movement-number].url = $ext-movement-number (exactly)
 * extension[movement-number].valueString 1..1
 * identifier 2..2
 * identifier ^slicing.discriminator.type = #value

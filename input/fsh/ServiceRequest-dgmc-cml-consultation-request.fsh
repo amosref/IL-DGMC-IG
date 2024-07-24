@@ -4,14 +4,15 @@ Id: dgmc-cml-consultation-request
 Title: "DGMC Consultation Request"
 Description: "DGMC Consultation Request"
 * insert ConformanceMetadata
-* ^url = $consultRequest
+
 * id 1..1
 * identifier.system 1..1
 * identifier.value 1..1
 * identifier.system from $vsConsultReqUri (required)
-* category 1..1
-* category[il-core] ..0
+
 * category contains consult 1..1
+* category[il-core] 0..0
+* category 1..1
 * category[consult] = $sct#409063005
 * category[consult].coding 1..1
 * category[consult].coding.display 1..1
@@ -39,8 +40,7 @@ Description: "DGMC Consultation Request"
     question 0..* and
     state 0..*
 * orderDetail[question].coding 0..0
-* orderDetail[question].extension contains $extConsultFlag named flag 1..1
-* orderDetail[question].extension[flag].url = $extConsultFlag (exactly)
+* orderDetail[question].extension contains ConsultationQuestionFlag named flag 1..1
 * orderDetail[question].extension[flag].valueBoolean = true (exactly)
 * orderDetail[question].text 1..1
 * orderDetail[question].text ^comment = "השאלה לייעוץ"
