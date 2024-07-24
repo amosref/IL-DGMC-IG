@@ -88,6 +88,9 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * identifier[idf].system = "http://fhir.health.gov.il/identifier/idf-service-number" (exactly)
 * identifier[idf].value 1..1 
 // gov.il slice: ppn (passport number)
+
+// QUESTION: Is this legal? The ppn slice is *defined* by the binding on system. Doing this makes it "outside" of the slice...
+//          AFAIK this cannot be in the original ppn slice but needs its own slice, e.g. "ppn-no-country"
 * identifier[ppn].type.coding.system 1..1
 * identifier[ppn].type.coding.code 1..1
 // * identifier[ppn].type.coding.code = "PPN" (exactly)
