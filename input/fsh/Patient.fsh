@@ -61,6 +61,9 @@ Description: "Profile on IL-Core-Patient by DGMC"
 // HL7 extension: nationality
 * extension[nationality].extension[code] 1..1
 * extension[nationality].extension[code].url = "code" (exactly)
+
+// QUESTION: Why conding max is * if the system is fixed?
+//          Adding another coding will be impossible since the system cannot be anythong else
 * extension[nationality].extension[code].valueCodeableConcept.coding 1..*
 * extension[nationality].extension[code].valueCodeableConcept.coding.system 1..1
 * extension[nationality].extension[code].valueCodeableConcept.coding.system = "urn:iso:std:iso:3166" (exactly)
