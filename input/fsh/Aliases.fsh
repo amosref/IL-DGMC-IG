@@ -1,5 +1,6 @@
 
 // External extensions
+// Comment for test
 Alias: $extGenderIdentity = http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
 Alias: $extDonor =          http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor
 Alias: $extDisability =     http://hl7.org/fhir/StructureDefinition/patient-disability
