@@ -1,5 +1,5 @@
-ValueSet: HospitalsUrisCmlRequest
-Id: hospitals-uris-cml-request
+ValueSet: CmlRequestUri
+Id: cml-request-uri
 Title: "Hospitals Uris Chameleon Request"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Anwers"
 * insert ConformanceMetadata

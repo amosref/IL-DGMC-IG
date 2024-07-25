@@ -1,5 +1,5 @@
-ValueSet: HospitalsUrisCmlMedicalRecord
-Id: hospitals-uris-cml-medical-record
+ValueSet: CmlMedicalRecordUri
+Id: cml-medical-record-uri
 Title: "Hospitals Uris Chameleon Medical Record"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Medical Record Num"
 * insert ConformanceMetadata

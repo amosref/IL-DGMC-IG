@@ -1,5 +1,5 @@
-ValueSet: HospitalsUrisEncDietPref
-Id: hospitals-uris-Enc-Diet-Pref
+ValueSet: EncDietPrefUri
+Id: enc-diet-pref-uri
 Title: "Hospitals Uris Encounter Diet Preference"
 Description: "ValueSet of all DGMC Hospitals Uris for Encounter Diet Preference"
 * insert ConformanceMetadata
