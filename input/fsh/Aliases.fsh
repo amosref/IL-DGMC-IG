@@ -91,3 +91,5 @@ Alias: $HMOcodesCS =        http://fhir.health.gov.il/cs/paying-entity-moh
 Alias: $MaritalStatusCS =   http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
 Alias: $CitySymbolCS =      http://fhir.health.gov.il/cs/city-symbol
 
+/// this is fake
+Alias: $fake = http://fake.com
