@@ -89,8 +89,6 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * identifier[idf].value 1..1 
 // gov.il slice: ppn (passport number)
 
-// QUESTION: Is this legal? The ppn slice is *defined* by the binding on system. Doing this makes it "outside" of the slice...
-//          AFAIK this cannot be in the original ppn slice but needs its own slice, e.g. "ppn-no-country"
 * identifier[ppn-unknown].type 1..1
 * identifier[ppn-unknown].type.coding 1..1
 * identifier[ppn-unknown].type.coding.system 1..1
