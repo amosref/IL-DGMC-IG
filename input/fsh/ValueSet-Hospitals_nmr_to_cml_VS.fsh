@@ -1,5 +1,5 @@
-ValueSet: HospitalsUrisNmrToCmlIdent
-Id: hospitals-uris-Nmr-To-Cml-Ident
+ValueSet: NmrToCmlIdentUri
+Id: nmr-to-cml-ident-uri
 Title: "Hospitals Uris Maner to Chameleon Identifier"
 Description: "ValueSet of all DGMC Hospitals Uris for Namer to Chameleon Identifier"
 * insert ConformanceMetadata

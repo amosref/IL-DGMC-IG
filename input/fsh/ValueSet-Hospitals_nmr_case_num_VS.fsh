@@ -1,5 +1,5 @@
-ValueSet: HospitalsUrisNmrCaseNum
-Id: hospitals-uris-Nmr-Case-Num
+ValueSet: NmrCaseNumUri
+Id: nmr-case-num-uri
 Title: "Hospitals Uris Namer Case Number"
 Description: "ValueSet of all DGMC Hospitals Uris for Namer Case Num"
 * insert ConformanceMetadata

@@ -70,7 +70,7 @@ Description: "Profile on IL-Core-Patient by DGMC"
 // father name
 
 // local slice: nmr-pat-int-num - new
-* identifier contains nmr-pat-int-num 1..1 and cml-pat-int-num 0..1 and nmr-pat-tmp-num 0..1
+* identifier contains nmr-pat-int-num 1..1 and cml-pat-int-num 0..1 and nmr-pat-tmp-num 0..1 and ppn-unknown 0..*
 * identifier[nmr-pat-int-num].system 1..1
 * identifier[nmr-pat-int-num].system from $vsNmrPatIntUri (required)
 * identifier[nmr-pat-int-num].value 1..1 
@@ -89,16 +89,16 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * identifier[idf].value 1..1 
 // gov.il slice: ppn (passport number)
 
-// QUESTION: Is this legal? The ppn slice is *defined* by the binding on system. Doing this makes it "outside" of the slice...
-//          AFAIK this cannot be in the original ppn slice but needs its own slice, e.g. "ppn-no-country"
-* identifier[ppn].type.coding.system 1..1
-* identifier[ppn].type.coding.code 1..1
-// * identifier[ppn].type.coding.code = "PPN" (exactly)
+* identifier[ppn-unknown].type 1..1
+* identifier[ppn-unknown].type.coding 1..1
+* identifier[ppn-unknown].type.coding.system 1..1
+* identifier[ppn-unknown].type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203" (exactly)
+* identifier[ppn-unknown].type.coding.code 1..1
+* identifier[ppn-unknown].type.coding.code = #PPN (exactly)
 // HL7 extension: data-absent-reason
-* identifier[ppn].system.extension contains $extDAR named data-absent-reason 1..1
-* identifier[ppn].system.extension[data-absent-reason].valueCode 1..1
-* identifier[ppn].system.extension[data-absent-reason].valueCode = #unknown (exactly)
-* identifier[ppn].value 1..1
+* identifier[ppn-unknown].system ^fixedUri.extension.url = $extDAR
+* identifier[ppn-unknown].system ^fixedUri.extension.valueCode = #unknown
+* identifier[ppn-unknown].value 1..1
 // HL7 extension: data-absent-reason
 * birthDate.extension contains $extDAR named data-absent-reason 0..1 and $extHebDate named hebrew-date 0..1
 * birthDate.extension[data-absent-reason].valueCode 1..1

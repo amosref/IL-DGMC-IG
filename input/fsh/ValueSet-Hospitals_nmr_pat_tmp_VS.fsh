@@ -1,5 +1,5 @@
-ValueSet: HospitalsUrisNmrPatTmp
-Id: hospitals-uris-nmr-pat-tmp
+ValueSet: NmrPatTmpUri
+Id: nmr-pat-tmp-uri
 Title: "Hospitals Uris Namer Patient Temp"
 Description: "ValueSet of all DGMC Hospitals Uris for Namer Patient Temp Num"
 * insert ConformanceMetadata

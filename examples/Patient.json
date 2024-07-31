@@ -1,0 +1,349 @@
+{
+    "resourceType": "Patient",
+    "id": "1948628",
+    "meta": {
+      "profile": [
+        "http://fhir.health.gov.il/StructureDefinition/il-core-patient",
+        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-patient"
+      ],
+      "security": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+          "code": "R",
+          "display": "restricted"
+        }
+      ]
+    },
+    "extension": [
+      {
+        "url": "http://fhir.health.gov.il/StructureDefinition/ext-il-hmo",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://fhir.health.gov.il/cs/paying-entity-moh",
+              "code": "101",
+              "display": "קופת חולים כללית"
+            },
+            {
+              "system": "http://fhir.dgmc.health.gov.il/cs/nmr-hmo",
+              "code": "10",
+              "display": "כללית"
+            }
+          ]
+        }
+      },
+      {
+        "url": "http://fhir.health.gov.il/StructureDefinition/ext-patient-immigration",
+        "extension": [
+          {
+            "url": "date",
+            "valueDate": "2012-05-15"
+          }
+        ]
+      },
+      {
+        "url": "http://fhir.health.gov.il/StructureDefinition/ext-administrative-parent-name",
+        "extension": [
+          {
+            "url": "role",
+            "valueCode": "FTH"
+          },
+          {
+            "url": "given",
+            "valueString": "דוד"
+          }
+        ]
+      },
+      {
+        "url": "http://fhir.health.gov.il/StructureDefinition/ext-administrative-parent-name",
+        "extension": [
+          {
+            "url": "role",
+            "valueCode": "MTH"
+          },
+          {
+            "url": "given",
+            "valueString": "רחל"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+        "valueAddress": {
+          "country": "AUS"
+        }
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/gender-identity",
+              "code": "other",
+  
+              "display": "other"
+            }
+          ]
+        }
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor",
+        "valueBoolean": true
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-disability",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "15188001",
+              "display": "Hearing loss"
+            }
+          ],
+          "text": "כבד שמיעה"
+        }
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+        "extension": [
+          {
+            "url": "code",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:iso:std:iso:3166",
+                  "code": "FR"
+                }
+              ],
+              "text": "צרפת"
+            }
+          }
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://fhir.health.gov.il/identifier/il-national-id",
+        "value": "032021107"
+      },
+      {
+        "system": "http://fhir.shamir.health.gov.il/identifier/nmr-pat-int-num",
+        "value": "1948628"
+      },
+      {
+        "system": "http://fhir.shamir.health.gov.il/identifier/cml-pat-int-num",
+        "value": "22222"
+      },
+      {
+        "system": "http://fhir.health.gov.il/identifier/idf-service-number",
+        "value": "5019735"
+      },
+      {
+        "type": {
+          "coding": [
+            {
+              "code": "PPN",
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+            }
+          ]
+        },
+        "_system": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "value": "123456789"
+      },
+      {
+        "type": {
+          "coding": [
+            {
+              "code": "EI",
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+            }
+          ]
+        },
+        "_system": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "value": "52"
+      },
+      {
+        "type": {
+          "coding": [
+            {
+              "code": "MB",
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+            }
+          ]
+        },
+        "_system": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "value": "421063"
+      },
+      {
+        "type": {
+          "coding": [
+            {
+              "code": "oth",
+              "system": "http://fhir.dgmc.health.gov.il/cs/dgmc-identifier-type"
+            }
+          ]
+        },
+        "_system": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "value": "98"
+      },
+      {
+        "system": "http://fhir.health.gov.il/identifier/il-prisoner-number",
+        "value": "5019"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/language",
+            "valueCode": "He"
+          }
+        ],
+        "family": "ישראלי",
+        "given": [
+          "אלי"
+        ],
+        "prefix": [
+          "פרופ'"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/language",
+            "valueCode": "En"
+          }
+        ],
+        "family": "Israli",
+        "given": [
+          "Eli"
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "0503256232",
+        "rank": 1
+      },
+      {
+        "system": "phone",
+        "value": "035656789",
+        "rank": 2
+      },
+      {
+        "system": "email",
+        "value": "eli@gmail.com"
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1982-05-24",
+    "_birthDate": {
+      "extension": [
+        {
+          "url": "http://fhir.health.gov.il/StructureDefinition/ext-hebrew-date",
+          "extension": [
+            {
+              "url": "display",
+              "valueString": "ו בתשרי תשנ\"ה"
+            }
+          ]
+        }
+      ]
+    },
+    "deceasedBoolean": false,
+    "address": [
+      {
+        "country": "IL",
+        "line": [
+          null
+        ],
+        "_line": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                "valueString": "הירקון"
+              },
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                "valueString": "2"
+              },
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-buildingNumberSuffix",
+                "valueString": "6"
+              },
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-unitID",
+                "valueString": "32"
+              }
+            ]
+          }
+        ],
+        "_city": {
+          "extension": [
+            {
+              "url": "http://fhir.health.gov.il/StructureDefinition/ext-city-code",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system":"http://fhir.health.gov.il/cs/city-symbol",
+                    "code": "2610",
+                    "display": "בית שמש"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "postalCode": "25415"
+      }
+    ],
+    "maritalStatus": {
+      "coding": [
+        {
+          "code": "D"
+        }
+      ]
+    },
+    "communication": [
+      {
+        "language": {
+          "coding": [
+            {
+              "code": "He"
+            }
+          ]
+        }
+      }
+    ]
+  }
