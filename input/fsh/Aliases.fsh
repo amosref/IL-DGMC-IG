@@ -46,10 +46,7 @@ Alias: $vsNmrOrgidCodeUri =     http://fhir.dgmc.health.gov.il/ValueSet/nmr-orgi
 Alias: $vsNmrUnitTypeUri =      http://fhir.dgmc.health.gov.il/ValueSet/nmr-unit-type-uri
 Alias: $vsCmlHospCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-hosp-code-uri
 Alias: $vsCmlBedIdUri =         http://fhir.dgmc.health.gov.il/ValueSet/cml-bed-id-uri
-
-//עדיין לא בשימוש
-Alias: $vsCmlBedIdUri =     http://fhir.dgmc.health.gov.il/ValueSet/cml-bed-identfier-uri
-Alias: $vsCmlRoomIdUri =    http://fhir.dgmc.health.gov.il/ValueSet/cml-room-identifier-uri
+Alias: $vsCmlRoomIdUri =        http://fhir.dgmc.health.gov.il/ValueSet/cml-room-id-uri
 
 // external
 Alias: $sct =                               http://snomed.info/sct
