@@ -1,4 +1,8 @@
 
+// NOT SURE IF WE NEED THIS - Kippi
+Alias: $extPrincipalUnit =   http://fhir.dgmc.health.gov.il/StructureDefinition/primary-practitionerrole
+
+
 // External extensions
 // Comment for test
 Alias: $extGenderIdentity = http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
@@ -26,6 +30,9 @@ Alias: $vsCmlConsultType =  http://fhir.dgmc.health.gov.il/ValueSet/cml-counseli
 Alias: $vsConsultPatState = http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-patient-state
 Alias: $vsConsultType =     http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-type-code
 Alias: $vsAdmType =         http://fhir.dgmc.health.gov.il/ValueSet/admission-type
+Alias: $vsAdUser =          http://fhir.dgmc.health.gov.il/ValueSet/ad-username
+Alias: $vsSapUserVma =      http://fhir.dgmc.health.gov.il/ValueSet/sap-user-vma
+Alias: $vsCmlUserCode =     http://fhir.dgmc.health.gov.il/ValueSet/cml-user-code
 Alias: $vsCmlMedRecType =   http://fhir.dgmc.health.gov.il/ValueSet/cml-medical-record-type 		
 Alias: $vsNmrPatIntUri =    http://fhir.dgmc.health.gov.il/ValueSet/nmr-pat-internal-uri
 Alias: $vsCmlPatIntUri =    http://fhir.dgmc.health.gov.il/ValueSet/cml-pat-internal-uri
