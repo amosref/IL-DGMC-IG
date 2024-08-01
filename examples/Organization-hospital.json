@@ -1,0 +1,59 @@
+{
+  "resourceType": "Organization",
+  "id": "4715",
+  "meta": {
+    "profile": [
+      "http://fhir.health.gov.il/StructureDefinition/il-core-organization",
+      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-hospital-organization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://institutions.health.gov.il/Institutions",
+      "value": "01103"
+    },
+    {
+      "system": "http://fhir.shamir.health.gov.il/identifier/cml-hosp-code",
+      "value": "96"
+    }
+  ],
+  "active": true,
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://fhir.dgmc.health.gov.il/cs/unit-type-nmr",
+          "code": "HO",
+          "display": "בית חולים"
+        }
+      ]
+    }
+  ],
+  "name": "שמיר",
+  "alias": [
+    "שמיר"
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "0543212243"
+    },
+    {
+      "system": "fax",
+      "value": "025612389"
+    },
+    {
+      "system": "email",
+      "value": "shamir@gmail.com"
+    },
+    {
+      "system": "url",
+      "value": "https://www.shamir.co.il/"
+    }
+  ],
+  "address": 
+    {
+      "text": "צריפין, באר יעקב"
+    }
+  
+}
