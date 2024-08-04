@@ -14,6 +14,7 @@ Description: "Profile of DGMC Chameleon Organization"
 * type contains flags 0..* 
 * type[flags] from $vsUnitClassFlag (extensible)
 * type[flags].coding.system 1..1
+* type[flags].coding.system = "http://fhir.dgmc.health.gov.il/cs/unit-classification-flag"
 * type[flags].coding.code 1..1
 * type[flags].coding.display 1..1
 * partOf.reference 1..1

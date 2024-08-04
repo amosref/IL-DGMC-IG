@@ -6,7 +6,6 @@ Description: "Profile of DGMC Hospital Organization"
 * insert ConformanceMetadata
 
 * id 1..1
-//דניאל, הגדרתי קארדינליות לסלייס קיים. האם נכון כך?
 // * identifier contains moh-inst-symbol 1..1
 * identifier[moh-inst-symbol] 1..1
 * identifier[moh-inst-symbol].system 1..1

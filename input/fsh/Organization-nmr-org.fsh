@@ -21,13 +21,11 @@ Description: "Profile of DGMC Namer Organization Unit"
 * identifier[nmr-orgid-code].value 1..1 
 * active 1..1
 
-//דניאל - האם ההגדרה של הרשימה נמצאת במקום הנכון? האם חסר משהו? האם באפיון נכון?
-//לבחון בהשוואה להגדרת הדגלים ביחידות קמיליון
-* type contains unit-type-nmr 1..*
-* type[unit-type-nmr] from $vsNmrUnitTypeUri (required)
-* type[unit-type-nmr].coding.system 1..1
-* type[unit-type-nmr].coding.code 1..1
-* type[unit-type-nmr].coding.display 1..1
+* type contains nmr-unit-type 1..*
+* type[nmr-unit-type] from $vsNmrUnitType (required)
+* type[nmr-unit-type].coding.system 1..1
+* type[nmr-unit-type].coding.code 1..1
+* type[nmr-unit-type].coding.display 1..1
 
 * telecom
   * ^slicing.discriminator.type = #value
