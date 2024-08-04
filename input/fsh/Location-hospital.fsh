@@ -15,10 +15,10 @@ Description: "Profile of DGMC Hospital Location from Chameleon"
   * ^slicing.ordered = false
 
 * identifier contains moh-inst-symbol 0..1 and cml-hosp-code 1..1 
-//דניאל, הגדרתי קארדינליות לסלייס קיים. האם נכון כך?
 // * identifier contains moh-inst-symbol 1..1
 * identifier[moh-inst-symbol] 1..1
 * identifier[moh-inst-symbol].system 1..1
+* identifier[moh-inst-symbol].system = "http://institutions.health.gov.il/Institutions" (exactly)
 * identifier[moh-inst-symbol].value 1..1 
 // local slice: cml-hosp-code - new
 * identifier[cml-hosp-code].system 1..1
@@ -27,28 +27,20 @@ Description: "Profile of DGMC Hospital Location from Chameleon"
 
 * alias 1..1
 * mode 1..1 
-//דניאל - ההגדרה הזו נופלת בולידציה בהאפי ואני לא מבינה למה
 * mode = #instance
 
 * type 1..*
   * ^slicing.discriminator.type = #value
-  * ^slicing.discriminator.path = "system"
-  * ^slicing.rules = #open
+  * ^slicing.discriminator.path = "$this"
+  * ^slicing.rules = #closed
   * ^slicing.ordered = false
-* type contains hosp 1..* and hosp-loc 1..*
+* type contains hosp 1..1 and hosp-loc 1..1
 
-* type[hosp].coding 1..*
-* type[hosp].coding.system 1..1
-* type[hosp].coding.system = "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
-* type[hosp].coding.code 1..1
-* type[hosp].coding.code = #HOSP
+* type[hosp] = http://terminology.hl7.org/CodeSystem/v3-RoleCode#HOSP
 * type[hosp].coding.display 1..1
-* type[hosp].coding.display = "Hospital"
+* type[hosp].coding.display = "Hospital" (exactly)
 
-* type[hosp-loc].coding.system 1..1
-* type[hosp-loc].coding.system = "http://fhir.dgmc.health.gov.il/cs/nmr-unit-type" (exactly)
-* type[hosp-loc].coding.code 1..1
-* type[hosp-loc].coding.code = #HO (exactly)
+* type[hosp-loc] = http://fhir.dgmc.health.gov.il/cs/nmr-unit-type#HO
 * type[hosp-loc].coding.display 1..1
 * type[hosp-loc].coding.display = "בית חולים" (exactly)
 

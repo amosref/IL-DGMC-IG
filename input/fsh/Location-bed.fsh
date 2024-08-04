@@ -28,5 +28,9 @@ Description: "Profile of DGMC Bed Location from Chameleon"
 * physicalType.coding.display 1..1
 * physicalType.coding.display = "Bed"
 
-//דניאל - אני צריכה לקשר לפרופיל של חדר-חטיבה
+* address 1..1
+* address.extension contains $extDAR named dar 1..1
+* address.extension[dar].valueCode = #unknown
+
 * partOf.reference 1..1
+* partOf only Reference(DgmcRoomLocation)

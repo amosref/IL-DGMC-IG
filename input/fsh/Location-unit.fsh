@@ -35,23 +35,18 @@ Description: "Profile of DGMC Unit Location from Chameleon"
 // * mode 1..1 
 // * mode = #instance
 
-
-* type
+* type 1..*
   * ^slicing.discriminator.type = #value
-  * ^slicing.discriminator.path = "system"
-  * ^slicing.rules = #open
+  * ^slicing.discriminator.path = "$this"
+  * ^slicing.rules = #closed
   * ^slicing.ordered = false
-  
-* type 1..1
-* type.coding.system 1..1
-* type.coding.system = "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
-* type.coding.code 1..1
-* type.coding.code = #HU
-* type.coding.display 1..1
-* type.coding.display = "Hospital unit"
+* type contains unit 1..1 and nmr-unit-type 1..1
 
-* type contains nmr-unit-type 1..1
-* type[nmr-unit-type] from $vsNmrUnitTypeUri (required)
+* type[unit] = http://terminology.hl7.org/CodeSystem/v3-RoleCode#HU
+* type[unit].coding.display 1..1
+* type[unit].coding.display = "Hospital unit"
+
+* type[nmr-unit-type] from $vsNmrUnitType (required)
 * type[nmr-unit-type].coding.system 1..1
 * type[nmr-unit-type].coding.code 1..1
 * type[nmr-unit-type].coding.display 1..1
@@ -81,11 +76,12 @@ Description: "Profile of DGMC Unit Location from Chameleon"
 * telecom[email].system = #email (exactly)
 * telecom[email].value 1..1
 
-//דניאל - אין לי כתובת למיקום !!!!! 
-* address.text = "IL"
+* address 1..1
+* address.extension contains $extDAR named dar 1..1
+* address.extension[dar].valueCode = #unknown
 
 * managingOrganization.reference 1..1
 
-//דניאל - אני צריכה לקשר לפרופיל של מיקום ביח-חטיבה
 * partOf.reference 1..1
+* partOf only Reference(DgmcHospitalLocation)
 

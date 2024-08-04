@@ -19,13 +19,9 @@ Description: "Profile of DGMC Hospital Organization"
 
 * active 1..1
 
-* type contains hosp 1..*
-* type[hosp].coding.system 1..1
-* type[hosp].coding.system = "http://fhir.dgmc.health.gov.il/cs/nmr-unit-type" (exactly)
-* type[hosp].coding.code 1..1
-* type[hosp].coding.code = #HO (exactly)
-* type[hosp].coding.display 1..1
-* type[hosp].coding.display = "בית חולים" (exactly)
+* type[moh-institute-type] 0..0
+* type[moh-department-type] 0..0
+* type = http://fhir.dgmc.health.gov.il/cs/nmr-unit-type#HO "בית חולים"
 
 * alias 1..1
 

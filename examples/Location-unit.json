@@ -54,7 +54,7 @@
           {
             "system": "http://fhir.dgmc.health.gov.il/cs/nmr-unit-type",
             "code": "WI",
-            "display": "מיקום פיזי-אשפוז"
+            "display": "מיקום פיזי - אשפוז"
           }
         ]
       }
@@ -82,11 +82,12 @@
         "value": "email@shamir.pnimitA.org.il"
       }
     ],
-    "address": 
-      {
-        "text": "IL"
-      }
-    ,
+    "address":{
+      "extension":[{
+        "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+        "valueCode": "unknown"
+      }]
+    },
     "managingOrganization": {
       "reference": "Organization/4716"
     },

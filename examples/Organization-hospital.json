@@ -22,7 +22,7 @@
     {
       "coding": [
         {
-          "system": "http://fhir.dgmc.health.gov.il/cs/unit-type-nmr",
+          "system": "http://fhir.dgmc.health.gov.il/cs/nmr-unit-type",
           "code": "HO",
           "display": "בית חולים"
         }
@@ -52,8 +52,8 @@
     }
   ],
   "address": 
-    {
+    [{
       "text": "צריפין, באר יעקב"
-    }
+    }]
   
 }
