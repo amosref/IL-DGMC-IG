@@ -1,7 +1,7 @@
 Profile: DgmcNmrOu
 Parent: il-core-organization
 Id: dgmc-nmr-ou
-Title: "DGMC Namer Organizational Unit"
+Title: "DGMC Namer OU"
 Description: "Profile of DGMC Namer Organizational Unit"
 * insert ConformanceMetadata
 
@@ -21,11 +21,11 @@ Description: "Profile of DGMC Namer Organizational Unit"
 * identifier[nmr-ou-code].value 1..1 
 * active 1..1
 
-* type contains nmr-unit-type 1..*
-* type[nmr-unit-type] from $vsNmrUnitType (required)
-* type[nmr-unit-type].coding.system 1..1
-* type[nmr-unit-type].coding.code 1..1
-* type[nmr-unit-type].coding.display 1..1
+* type contains nmr-ou-type 1..*
+* type[nmr-ou-type] from $vsNmrUnitType (required)
+* type[nmr-ou-type].coding.system 1..1
+* type[nmr-ou-type].coding.code 1..1
+* type[nmr-ou-type].coding.display 1..1
 
 * telecom
   * ^slicing.discriminator.type = #value

@@ -41,7 +41,7 @@
       {
         "coding": [
           {
-            "system": "http://fhir.dgmc.health.gov.il/cs/nmr-unit-type",
+            "system": "http://fhir.dgmc.health.gov.il/cs/nmr-ou-type",
             "code": "SI",
             "display": "יח. רפואית - אשפוז"
           }

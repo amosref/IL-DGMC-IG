@@ -40,7 +40,7 @@ Description: "Profile of DGMC Hospital Location"
 * type[hosp].coding.display 1..1
 * type[hosp].coding.display = "Hospital" (exactly)
 
-* type[hosp-loc] = http://fhir.dgmc.health.gov.il/cs/nmr-unit-type#HO
+* type[hosp-loc] = http://fhir.dgmc.health.gov.il/cs/nmr-ou-type#HO
 * type[hosp-loc].coding.display 1..1
 * type[hosp-loc].coding.display = "בית חולים" (exactly)
 

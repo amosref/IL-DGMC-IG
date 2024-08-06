@@ -1,10 +1,8 @@
-Profile: DgmcCmlOrganization
-//dgmc-cml-ou - GILI
+Profile: DgmcCmlOu
 Parent: il-core-organization
-Id: dgmc-cml-organization
-//
-Title: "DGMC Chameleon Organization"
-Description: "Profile of DGMC Chameleon Organization"
+Id: dgmc-cml-ou
+Title: "DGMC Chameleon OU"
+Description: "Profile of DGMC Chameleon Organizational Unit"
 * insert ConformanceMetadata
 
 * id 1..1
@@ -17,7 +15,7 @@ Description: "Profile of DGMC Chameleon Organization"
 * type[flags] from $vsUnitClassFlag (required)
 * type[flags].coding 1..1
 * type[flags].coding.system 1..1
-* type[flags].coding.system = "http://fhir.dgmc.health.gov.il/cs/unit-classification-flag"
+* type[flags].coding.system = "http://fhir.dgmc.health.gov.il/cs/ou-classification-flag"
 * type[flags].coding.code 1..1
 * type[flags].coding.display 1..1
 * partOf.reference 1..1
