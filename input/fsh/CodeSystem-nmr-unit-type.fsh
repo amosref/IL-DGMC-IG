@@ -1,10 +1,9 @@
-CodeSystem: NmrUnitType
-Id: nmr-unit-type
-//nmr-ou-type
-Title: "Nmr Unit Type"
-Description: "Namer Unit Type"
+CodeSystem: NmrOuType
+Id: nmr-ou-type
+Title: "Nmr OU Type"
+Description: "Namer Organizational Unit Type"
 * insert ConformanceMetadata
-* ^url = $csNmrUnitType
+* ^url = $csNmrOuType
 
 * #AC "מוקדי זימונים"
 * #AD "יח. רפ. אדמיניסטרציה"

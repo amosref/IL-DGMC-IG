@@ -15,17 +15,17 @@ Description: "Profile of DGMC Organizational Unit Location"
 
 * identifier contains nmr-ou-text 1..1 
 * identifier[nmr-ou-text].system 1..1
-* identifier[nmr-ou-text].system from $vsNmrOrgidTextUri (required)
+* identifier[nmr-ou-text].system from $vsNmrOuTextUri (required)
 * identifier[nmr-ou-text].value 1..1 
 
 * identifier contains nmr-ou-code 1..1 
 * identifier[nmr-ou-code].system 1..1
-* identifier[nmr-ou-code].system from $vsNmrOrgidCodeUri (required)
+* identifier[nmr-ou-code].system from $vsNmrOuCodeUri (required)
 * identifier[nmr-ou-code].value 1..1 
 
 * identifier contains cml-ou-code 1..1 
 * identifier[cml-ou-code].system 1..1
-* identifier[cml-ou-code].system from $vsCmlUnitCodeUri (required)
+* identifier[cml-ou-code].system from $vsCmlOuCodeUri (required)
 * identifier[cml-ou-code].value 1..1 
 
 * status 1..1
@@ -46,7 +46,7 @@ Description: "Profile of DGMC Organizational Unit Location"
 * type[unit].coding.display 1..1
 * type[unit].coding.display = "Hospital unit"
 
-* type[nmr-ou-type] from $vsNmrUnitType (required)
+* type[nmr-ou-type] from $vsNmrOuType (required)
 * type[nmr-ou-type].coding.system 1..1
 * type[nmr-ou-type].coding.code 1..1
 * type[nmr-ou-type].coding.display 1..1

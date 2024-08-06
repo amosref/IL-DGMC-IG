@@ -8,11 +8,11 @@ Description: "Profile of DGMC Chameleon Organizational Unit"
 * id 1..1
 * identifier contains cml-ou-code 1..1 
 * identifier[cml-ou-code].system 1..1
-* identifier[cml-ou-code].system from $vsCmlUnitCodeUri (required)
+* identifier[cml-ou-code].system from $vsCmlOuCodeUri (required)
 * identifier[cml-ou-code].value 1..1 
 * active 1..1
 * type contains flags 0..* 
-* type[flags] from $vsUnitClassFlag (required)
+* type[flags] from $vsOuClassFlag (required)
 * type[flags].coding 1..1
 * type[flags].coding.system 1..1
 * type[flags].coding.system = "http://fhir.dgmc.health.gov.il/cs/ou-classification-flag"

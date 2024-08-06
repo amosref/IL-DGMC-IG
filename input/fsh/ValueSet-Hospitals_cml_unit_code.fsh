@@ -1,9 +1,9 @@
-ValueSet: CmlUnitCodeUri
+ValueSet: CmlOuCodeUri
 Id: cml-ou-code-uri
-Title: "Hospitals Uris Chameleon Unit Code"
-Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Unit Codes"
+Title: "Hospitals Uris Chameleon OU Code"
+Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Organizational Unit Codes"
 * insert ConformanceMetadata
-* ^url = $vsCmlUnitCodeUri
+* ^url = $vsCmlOuCodeUri
 
 
 

@@ -33,4 +33,4 @@ Description: "Profile of DGMC Room Location"
 * address.extension[dar].valueCode = #unknown
 
 * partOf.reference 1..1
-* partOf only Reference(DgmcUnitLocation)
+* partOf only Reference(DgmcOuLocation)

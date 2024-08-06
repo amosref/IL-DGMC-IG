@@ -12,17 +12,17 @@ Description: "Profile of DGMC Namer Organizational Unit"
 // local slice: nmr-ou-text - new
 * identifier contains nmr-ou-text 1..1 
 * identifier[nmr-ou-text].system 1..1
-* identifier[nmr-ou-text].system from $vsNmrOrgidTextUri (required)
+* identifier[nmr-ou-text].system from $vsNmrOuTextUri (required)
 * identifier[nmr-ou-text].value 1..1 
 // local slice: nmr-ou-code - new
 * identifier contains nmr-ou-code 1..1 
 * identifier[nmr-ou-code].system 1..1
-* identifier[nmr-ou-code].system from $vsNmrOrgidCodeUri (required)
+* identifier[nmr-ou-code].system from $vsNmrOuCodeUri (required)
 * identifier[nmr-ou-code].value 1..1 
 * active 1..1
 
 * type contains nmr-ou-type 1..*
-* type[nmr-ou-type] from $vsNmrUnitType (required)
+* type[nmr-ou-type] from $vsNmrOuType (required)
 * type[nmr-ou-type].coding.system 1..1
 * type[nmr-ou-type].coding.code 1..1
 * type[nmr-ou-type].coding.display 1..1
