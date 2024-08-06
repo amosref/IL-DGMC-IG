@@ -1,26 +1,24 @@
-Profile: DgmcNmrOrganization
-//dgmc-nmr-ou - GILI
+Profile: DgmcNmrOu
 Parent: il-core-organization
-Id: dgmc-nmr-organization
-// 
-Title: "DGMC Namer Organization"
-Description: "Profile of DGMC Namer Organization Unit"
+Id: dgmc-nmr-ou
+Title: "DGMC Namer Organizational Unit"
+Description: "Profile of DGMC Namer Organizational Unit"
 * insert ConformanceMetadata
 
 * meta.security.system 1..1
 * meta.security.code 1..1
 * meta.security.display 1..1
 * id 1..1
-// local slice: nmr-orgid-text - new
-* identifier contains nmr-orgid-text 1..1 
-* identifier[nmr-orgid-text].system 1..1
-* identifier[nmr-orgid-text].system from $vsNmrOrgidTextUri (required)
-* identifier[nmr-orgid-text].value 1..1 
-// local slice: nmr-orgid-code - new
-* identifier contains nmr-orgid-code 1..1 
-* identifier[nmr-orgid-code].system 1..1
-* identifier[nmr-orgid-code].system from $vsNmrOrgidCodeUri (required)
-* identifier[nmr-orgid-code].value 1..1 
+// local slice: nmr-ou-text - new
+* identifier contains nmr-ou-text 1..1 
+* identifier[nmr-ou-text].system 1..1
+* identifier[nmr-ou-text].system from $vsNmrOrgidTextUri (required)
+* identifier[nmr-ou-text].value 1..1 
+// local slice: nmr-ou-code - new
+* identifier contains nmr-ou-code 1..1 
+* identifier[nmr-ou-code].system 1..1
+* identifier[nmr-ou-code].system from $vsNmrOrgidCodeUri (required)
+* identifier[nmr-ou-code].value 1..1 
 * active 1..1
 
 * type contains nmr-unit-type 1..*

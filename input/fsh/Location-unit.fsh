@@ -17,15 +17,15 @@ Description: "Profile of DGMC Unit Location"
   * ^slicing.rules = #open
   * ^slicing.ordered = false
 
-* identifier contains nmr-orgid-text 1..1 
-* identifier[nmr-orgid-text].system 1..1
-* identifier[nmr-orgid-text].system from $vsNmrOrgidTextUri (required)
-* identifier[nmr-orgid-text].value 1..1 
+* identifier contains nmr-ou-text 1..1 
+* identifier[nmr-ou-text].system 1..1
+* identifier[nmr-ou-text].system from $vsNmrOrgidTextUri (required)
+* identifier[nmr-ou-text].value 1..1 
 
-* identifier contains nmr-orgid-code 1..1 
-* identifier[nmr-orgid-code].system 1..1
-* identifier[nmr-orgid-code].system from $vsNmrOrgidCodeUri (required)
-* identifier[nmr-orgid-code].value 1..1 
+* identifier contains nmr-ou-code 1..1 
+* identifier[nmr-ou-code].system 1..1
+* identifier[nmr-ou-code].system from $vsNmrOrgidCodeUri (required)
+* identifier[nmr-ou-code].value 1..1 
 
 * identifier contains cml-ou-code 1..1 
 * identifier[cml-ou-code].system 1..1

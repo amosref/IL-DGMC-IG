@@ -34,9 +34,9 @@ Alias: $vsNmrCaseIdUri =        http://fhir.dgmc.health.gov.il/ValueSet/nmr-case
 Alias: $vsDietPrefUri =         http://fhir.dgmc.health.gov.il/ValueSet/encounter-diet-pref-uri
 Alias: $vsCmlMedRecUri =        http://fhir.dgmc.health.gov.il/ValueSet/cml-medical-record-uri
 Alias: $vsCmlHospCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-hosp-code-uri
-Alias: $vsCmlOuCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-ou-code-uri
-Alias: $vsNmrOrgidTextUri =     http://fhir.dgmc.health.gov.il/ValueSet/nmr-orgid-text-uri
-Alias: $vsNmrOrgidCodeUri =     http://fhir.dgmc.health.gov.il/ValueSet/nmr-orgid-code-uri
+Alias: $vsCmlOuCodeUri =        http://fhir.dgmc.health.gov.il/ValueSet/cml-ou-code-uri
+Alias: $vsNmrOuTextUri =        http://fhir.dgmc.health.gov.il/ValueSet/nmr-ou-text-uri
+Alias: $vsNmrOuCodeUri =        http://fhir.dgmc.health.gov.il/ValueSet/nmr-ou-code-uri
 Alias: $vsCmlBedIdUri =         http://fhir.dgmc.health.gov.il/ValueSet/cml-bed-id-uri
 Alias: $vsCmlRoomIdUri =        http://fhir.dgmc.health.gov.il/ValueSet/cml-room-id-uri
 

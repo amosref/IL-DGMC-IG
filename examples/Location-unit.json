@@ -21,15 +21,15 @@
     },
     "identifier": [
       {
-        "system": "http://fhir.shamir.health.gov.il/identifier/nmr-orgid-text",
+        "system": "http://fhir.shamir.health.gov.il/identifier/nmr-ou-text",
         "value": "פנ-ג"
       },
       {
-        "system": "http://fhir.shamir.health.gov.il/identifier/nmr-orgid-code",
+        "system": "http://fhir.shamir.health.gov.il/identifier/nmr-ou-code",
         "value": "10013"
       },
       {
-        "system": "http://fhir.shamir.health.gov.il/identifier/cml-unit-code",
+        "system": "http://fhir.shamir.health.gov.il/identifier/cml-ou-code",
         "value": "2"
       }
     ],
