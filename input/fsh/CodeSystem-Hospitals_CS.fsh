@@ -43,7 +43,6 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.tzafon.health.gov.il/identifier/cml-pat-int-num "פוריה - מספר מטופל פנימי-קמיליון"
 
 
-
 // ServiceRequest
 * #http://fhir.bmc.health.gov.il/identifier/cml-counseling-request "ברזילי - בקשת ייעוץ-קמיליון"
 * #http://fhir.gmc.health.gov.il/identifier/cml-counseling-request "נהריה - בקשת ייעוץ-קמיליון"
@@ -56,6 +55,7 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.Wolfson.health.gov.il/identifier/cml-counseling-request "וולפסון - בקשת ייעוץ-קמיליון"
 * #http://fhir.Tasmc.health.gov.il/identifier/cml-counseling-request "איכילוב - בקשת ייעוץ-קמיליון"
 * #http://fhir.tzafon.health.gov.il/identifier/cml-counseling-request "פוריה - בקשת ייעוץ-קמיליון"
+
 
 // Procedure
 * #http://fhir.bmc.health.gov.il/identifier/cml-counseling-answer "ברזילי - תשובת ייעוץ-קמיליון"
@@ -70,7 +70,6 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.Tasmc.health.gov.il/identifier/cml-counseling-answer "איכילוב - תשובת ייעוץ-קמיליון"
 * #http://fhir.tzafon.health.gov.il/identifier/cml-counseling-answer "פוריה - תשובת ייעוץ-קמיליון"
 
-
 * #http://fhir.bmc.health.gov.il/identifier/ad-username "ברזילי - שם משתמש של המטפל"
 * #http://fhir.gmc.health.gov.il/identifier/ad-username "נהריה - שם משתמש של המטפל"
 * #http://fhir.hymc.health.gov.il/identifier/ad-username "הלל יפה - שם משתמש של המטפל"
@@ -82,7 +81,6 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.Wolfson.health.gov.il/identifier/ad-username "וולפסון - שם משתמש של המטפל"
 * #http://fhir.Tasmc.health.gov.il/identifier/ad-username "איכילוב - שם משתמש של המטפל"
 * #http://fhir.tzafon.health.gov.il/identifier/ad-username "פוריה - שם משתמש של המטפל"
-
 
 * #http://fhir.bmc.health.gov.il/identifier/cml-medical-record "ברזילי - medical record-קמיליון"
 * #http://fhir.gmc.health.gov.il/identifier/cml-medical-record "נהריה - medical record-קמיליון"
@@ -96,7 +94,6 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.Tasmc.health.gov.il/identifier/cml-medical-record "איכילוב - medical record-קמיליון"
 * #http://fhir.tzafon.health.gov.il/identifier/cml-medical-record "פוריה - medical record-קמיליון"
 
-
 * #http://fhir.bmc.health.gov.il/identifier/cml-user-code "ברזילי - קוד משתמש-קמיליון"
 * #http://fhir.gmc.health.gov.il/identifier/cml-user-code "נהריה - קוד משתמש-קמיליון"
 * #http://fhir.hymc.health.gov.il/identifier/cml-user-code "הלל יפה - קוד משתמש-קמיליון"
@@ -108,7 +105,6 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.Wolfson.health.gov.il/identifier/cml-user-code "וולפסון - קוד משתמש-קמיליון"
 * #http://fhir.Tasmc.health.gov.il/identifier/cml-user-code "איכילוב - קוד משתמש-קמיליון"
 * #http://fhir.tzafon.health.gov.il/identifier/cml-user-code "פוריה - קוד משתמש-קמיליון"
-
 
 * #http://fhir.bmc.health.gov.il/identifier/encounter-diet-pref "ברזילי - סוג מזון"
 * #http://fhir.gmc.health.gov.il/identifier/encounter-diet-pref "נהריה - סוג מזון"
@@ -122,7 +118,6 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.Tasmc.health.gov.il/identifier/encounter-diet-pref "איכילוב - סוג מזון"
 * #http://fhir.tzafon.health.gov.il/identifier/encounter-diet-pref "פוריה - סוג מזון"
 
-
 * #http://fhir.bmc.health.gov.il/identifier/nmr-case-number "ברזילי - מספר מקרה-נמר"
 * #http://fhir.gmc.health.gov.il/identifier/nmr-case-number "נהריה - מספר מקרה-נמר"
 * #http://fhir.hymc.health.gov.il/identifier/nmr-case-number "הלל יפה - מספר מקרה-נמר"
@@ -135,7 +130,6 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.Tasmc.health.gov.il/identifier/nmr-case-number "איכילוב - מספר מקרה-נמר"
 * #http://fhir.tzafon.health.gov.il/identifier/nmr-case-number "פוריה - מספר מקרה-נמר"
 
-
 * #http://fhir.bmc.health.gov.il/identifier/nmr-movement-number "ברזילי - מספר העברה-נמר"
 * #http://fhir.gmc.health.gov.il/identifier/nmr-movement-number "נהריה - מספר העברה-נמר"
 * #http://fhir.hymc.health.gov.il/identifier/nmr-movement-number "הלל יפה - מספר העברה-נמר"
@@ -147,8 +141,6 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.Wolfson.health.gov.il/identifier/nmr-movement-number "וולפסון - מספר העברה-נמר"
 * #http://fhir.Tasmc.health.gov.il/identifier/nmr-movement-number "איכילוב - מספר העברה-נמר"
 * #http://fhir.tzafon.health.gov.il/identifier/nmr-movement-number "פוריה - מספר העברה-נמר"
-
-
 
 * #http://fhir.bmc.health.gov.il/identifier/nmr2cml-identifier "ברזילי - קשר בין תנועת נמר לקמיליון"
 * #http://fhir.gmc.health.gov.il/identifier/nmr2cml-identifier "נהריה - קשר בין תנועת נמר לקמיליון"
@@ -174,4 +166,82 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.Wolfson.health.gov.il/identifier/sap-user-vma "וולפסון - משתמש סאפ"
 * #http://fhir.Tasmc.health.gov.il/identifier/sap-user-vma "איכילוב - משתמש סאפ"
 * #http://fhir.tzafon.health.gov.il/identifier/sap-user-vma "פוריה - משתמש סאפ"
+
+
+// Organization
+* #http://fhir.bmc.health.gov.il/identifier/cml-unit-code "ברזילי - קוד יחידה-קמיליון"
+* #http://fhir.gmc.health.gov.il/identifier/cml-unit-code "נהריה - קוד יחידה-קמיליון"
+* #http://fhir.hymc.health.gov.il/identifier/cml-unit-code "הלל יפה - קוד יחידה-קמיליון"
+* #http://fhir.sheba.health.gov.il/identifier/cml-unit-code "שיבא - קוד יחידה-קמיליון"
+* #http://fhir.b-zion.health.gov.il/identifier/cml-unit-code "בני ציון - קוד יחידה-קמיליון"
+* #http://fhir.rambam.health.gov.il/identifier/cml-unit-code "רמבם - קוד יחידה-קמיליון"
+* #http://fhir.shamir.health.gov.il/identifier/cml-unit-code "שמיר - קוד יחידה-קמיליון"
+* #http://fhir.ziv.health.gov.il/identifier/cml-unit-code "זיו - קוד יחידה-קמיליון"
+* #http://fhir.Wolfson.health.gov.il/identifier/cml-unit-code "וולפסון - קוד יחידה-קמיליון"
+* #http://fhir.Tasmc.health.gov.il/identifier/cml-unit-code "איכילוב - קוד יחידה-קמיליון"
+* #http://fhir.tzafon.health.gov.il/identifier/cml-unit-code "פוריה - קוד יחידה-קמיליון"
+
+* #http://fhir.bmc.health.gov.il/identifier/nmr-orgid-text "ברזילי - מזהה יחידה טקסט-נמר"
+* #http://fhir.gmc.health.gov.il/identifier/nmr-orgid-text "נהריה - מזהה יחידה טקסט-נמר"
+* #http://fhir.hymc.health.gov.il/identifier/nmr-orgid-text "הלל יפה - מזהה יחידה טקסט-נמר"
+* #http://fhir.sheba.health.gov.il/identifier/nmr-orgid-text "שיבא - מזהה יחידה טקסט-נמר"
+* #http://fhir.b-zion.health.gov.il/identifier/nmr-orgid-text "בני ציון - מזהה יחידה טקסט-נמר"
+* #http://fhir.rambam.health.gov.il/identifier/nmr-orgid-text "רמבם - מזהה יחידה טקסט-נמר"
+* #http://fhir.shamir.health.gov.il/identifier/nmr-orgid-text "שמיר - מזהה יחידה טקסט-נמר"
+* #http://fhir.ziv.health.gov.il/identifier/nmr-orgid-text "זיו - מזהה יחידה טקסט-נמר"
+* #http://fhir.Wolfson.health.gov.il/identifier/nmr-orgid-text "וולפסון - מזהה יחידה טקסט-נמר"
+* #http://fhir.Tasmc.health.gov.il/identifier/nmr-orgid-text "איכילוב -מזהה יחידה טקסט-נמר"
+* #http://fhir.tzafon.health.gov.il/identifier/nmr-orgid-text "פוריה - מזהה יחידה טקסט-נמר"
+
+* #http://fhir.bmc.health.gov.il/identifier/nmr-orgid-code "ברזילי - מזהה יחידה קוד-נמר"
+* #http://fhir.gmc.health.gov.il/identifier/nmr-orgid-code "נהריה - מזהה יחידה קוד-נמר"
+* #http://fhir.hymc.health.gov.il/identifier/nmr-orgid-code "הלל יפה - מזהה יחידה קוד-נמר"
+* #http://fhir.sheba.health.gov.il/identifier/nmr-orgid-code "שיבא - מזהה יחידה קוד-נמר"
+* #http://fhir.b-zion.health.gov.il/identifier/nmr-orgid-code "בני ציון - מזהה יחידה קוד-נמר"
+* #http://fhir.rambam.health.gov.il/identifier/nmr-orgid-code "רמבם - מזהה יחידה קוד-נמר"
+* #http://fhir.shamir.health.gov.il/identifier/nmr-orgid-code "שמיר - מזהה יחידה קוד-נמר"
+* #http://fhir.ziv.health.gov.il/identifier/nmr-orgid-code "זיו - מזהה יחידה קוד-נמר"
+* #http://fhir.Wolfson.health.gov.il/identifier/nmr-orgid-code "וולפסון - מזהה יחידה קוד-נמר"
+* #http://fhir.Tasmc.health.gov.il/identifier/nmr-orgid-code "איכילוב -מזהה יחידה קוד-נמר"
+* #http://fhir.tzafon.health.gov.il/identifier/nmr-orgid-code "פוריה - מזהה יחידה קוד-נמר"
+
+* #http://fhir.bmc.health.gov.il/identifier/cml-hosp-code "ברזילי - קוד ביח-קמיליון"
+* #http://fhir.gmc.health.gov.il/identifier/cml-hosp-code "נהריה - קוד ביח-קמיליון"
+* #http://fhir.hymc.health.gov.il/identifier/cml-hosp-code "הלל יפה - קוד ביח-קמיליון"
+* #http://fhir.sheba.health.gov.il/identifier/cml-hosp-code "שיבא - קוד ביח-קמיליון"
+* #http://fhir.b-zion.health.gov.il/identifier/cml-hosp-code "בני ציון - קוד ביח-קמיליון"
+* #http://fhir.rambam.health.gov.il/identifier/cml-hosp-code "רמבם - קוד ביח-קמיליון"
+* #http://fhir.shamir.health.gov.il/identifier/cml-hosp-code "שמיר - קוד ביח-קמיליון"
+* #http://fhir.ziv.health.gov.il/identifier/cml-hosp-code "זיו - קוד ביח-קמיליון"
+* #http://fhir.Wolfson.health.gov.il/identifier/cml-hosp-code "וולפסון - קוד ביח-קמיליון"
+* #http://fhir.Tasmc.health.gov.il/identifier/cml-hosp-code "איכילוב - קוד ביח-קמיליון"
+* #http://fhir.tzafon.health.gov.il/identifier/cml-hosp-code "פוריה - קוד ביח-קמיליון"
+
+
+// Location
+* #http://fhir.bmc.health.gov.il/identifier/cml-bed-id "ברזילי - מזהה מיטה-קמיליון"
+* #http://fhir.gmc.health.gov.il/identifier/cml-bed-id "נהריה - מזהה מיטה-קמיליון"
+* #http://fhir.hymc.health.gov.il/identifier/cml-bed-id "הלל יפה - מזהה מיטה-קמיליון"
+* #http://fhir.sheba.health.gov.il/identifier/cml-bed-id "שיבא - מזהה מיטה-קמיליון"
+* #http://fhir.b-zion.health.gov.il/identifier/cml-bed-id "בני ציון - מזהה מיטה-קמיליון"
+* #http://fhir.rambam.health.gov.il/identifier/cml-bed-id "רמבם - מזהה מיטה-קמיליון"
+* #http://fhir.shamir.health.gov.il/identifier/cml-bed-id "שמיר - מזהה מיטה-קמיליון"
+* #http://fhir.ziv.health.gov.il/identifier/cml-bed-id "זיו - מזהה מיטה-קמיליון"
+* #http://fhir.Wolfson.health.gov.il/identifier/cml-bed-id "וולפסון - מזהה מיטה-קמיליון"
+* #http://fhir.Tasmc.health.gov.il/identifier/cml-bed-id "איכילוב - מזהה מיטה-קמיליון"
+* #http://fhir.tzafon.health.gov.il/identifier/cml-bed-id "פוריה - מזהה מיטה-קמיליון"
+
+* #http://fhir.bmc.health.gov.il/identifier/cml-room-id "ברזילי - מזהה חדר-קמיליון"
+* #http://fhir.gmc.health.gov.il/identifier/cml-room-id "נהריה - מזהה חדר-קמיליון"
+* #http://fhir.hymc.health.gov.il/identifier/cml-room-id "הלל יפה - מזהה חדר-קמיליון"
+* #http://fhir.sheba.health.gov.il/identifier/cml-room-id "שיבא - מזהה חדר-קמיליון"
+* #http://fhir.b-zion.health.gov.il/identifier/cml-room-id "בני ציון - מזהה חדר-קמיליון"
+* #http://fhir.rambam.health.gov.il/identifier/cml-room-id "רמבם - מזהה חדר-קמיליון"
+* #http://fhir.shamir.health.gov.il/identifier/cml-room-id "שמיר - מזהה חדר-קמיליון"
+* #http://fhir.ziv.health.gov.il/identifier/cml-room-id "זיו - מזהה חדר-קמיליון"
+* #http://fhir.Wolfson.health.gov.il/identifier/cml-room-id "וולפסון - מזהה חדר-קמיליון"
+* #http://fhir.Tasmc.health.gov.il/identifier/cml-room-id "איכילוב - מזהה חדר-קמיליון"
+* #http://fhir.tzafon.health.gov.il/identifier/cml-room-id "פוריה - מזהה חדר-קמיליון"
+
+
 

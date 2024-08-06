@@ -14,7 +14,6 @@ Alias: $extHebDate =        http://fhir.health.gov.il/StructureDefinition/ext-he
 
 // CodeSystems
 Alias: $csFollowUp =        http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag
-Alias: $csConsultType =     http://fhir.dgmc.health.gov.il/cs/cml-counseling-type
 Alias: $csConsultPatState = http://fhir.dgmc.health.gov.il/cs/cml-counseling-patient-state
 Alias: $csAdmAmbType =      http://fhir.dgmc.health.gov.il/cs/admission-amb-type
 Alias: $csAdmImpType =      http://fhir.dgmc.health.gov.il/cs/admission-imp-type
@@ -24,33 +23,34 @@ Alias: $csCmlMedRecType =   http://fhir.dgmc.health.gov.il/cs/cml-medical-record
 Alias: $csHospUri =         http://fhir.dgmc.health.gov.il/cs/hospitals-uri
 Alias: $csPatVisitorTy =    http://fhir.dgmc.health.gov.il/cs/patient-visitor-type
 Alias: $csCmlConsultType =  http://fhir.dgmc.health.gov.il/cs/cml-counseling-type
+Alias: $csUnitClassFlag =   http://fhir.dgmc.health.gov.il/cs/unit-classification-flag
+Alias: $csNmrUnitType =     http://fhir.dgmc.health.gov.il/cs/nmr-unit-type
 
 // VS
-Alias: $vsCmlConsultType =  http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-type
-Alias: $vsConsultPatState = http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-patient-state
-Alias: $vsConsultType =     http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-type-code
-Alias: $vsAdmType =         http://fhir.dgmc.health.gov.il/ValueSet/admission-type
-Alias: $vsAdUser =          http://fhir.dgmc.health.gov.il/ValueSet/ad-username
-Alias: $vsSapUserVma =      http://fhir.dgmc.health.gov.il/ValueSet/sap-user-vma
-Alias: $vsCmlUserCode =     http://fhir.dgmc.health.gov.il/ValueSet/cml-user-code
-Alias: $vsCmlMedRecType =   http://fhir.dgmc.health.gov.il/ValueSet/cml-medical-record-type 		
-Alias: $vsNmrPatIntUri =    http://fhir.dgmc.health.gov.il/ValueSet/nmr-pat-internal-uri
-Alias: $vsCmlPatIntUri =    http://fhir.dgmc.health.gov.il/ValueSet/cml-pat-internal-uri
-Alias: $vsNmrPatTmpUri =    http://fhir.dgmc.health.gov.il/ValueSet/nmr-pat-temp-uri
-Alias: $vsNmrMoveNumUri =   http://fhir.dgmc.health.gov.il/ValueSet/nmr-move-num-uri
-Alias: $vsNmrToCmlUri =     http://fhir.dgmc.health.gov.il/ValueSet/nmr2cml-identifier-uri
-Alias: $vsConsultAnsUri =   http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-answer-uri
-Alias: $vsConsultReqUri =   http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-request-uri
-Alias: $vsNmrCaseIdUri =    http://fhir.dgmc.health.gov.il/ValueSet/nmr-case-number-uri
-Alias: $vsDietPrefUri =     http://fhir.dgmc.health.gov.il/ValueSet/encounter-diet-pref-uri
-Alias: $vsCmlMedRecUri =    http://fhir.dgmc.health.gov.il/ValueSet/cml-medical-record-uri
-Alias: $vsNmrOrgIdUri =     http://fhir.dgmc.health.gov.il/ValueSet/nmr-org-id-uri
-Alias: $vsNmrOrgIdentUri =  http://fhir.dgmc.health.gov.il/ValueSet/nmr-org-identifier-uri
-Alias: $vsCmlUnitIdUri =    http://fhir.dgmc.health.gov.il/ValueSet/cml-unit-identifier-uri
-Alias: $vsCmlHospIdUri =    http://fhir.dgmc.health.gov.il/ValueSet/cml-hosp-identifier-uri
-Alias: $vsCmlBedIdUri =     http://fhir.dgmc.health.gov.il/ValueSet/cml-bed-identfier-uri
-Alias: $vsCmlRoomIdUri =    http://fhir.dgmc.health.gov.il/ValueSet/cml-room-identifier-uri
-Alias: $vsPatVisitorTy =    http://fhir.dgmc.health.gov.il/ValueSet/patient-visitor-type
+Alias: $vsNmrPatIntUri =        http://fhir.dgmc.health.gov.il/ValueSet/nmr-pat-internal-uri
+Alias: $vsCmlPatIntUri =        http://fhir.dgmc.health.gov.il/ValueSet/cml-pat-internal-uri
+Alias: $vsNmrPatTmpUri =        http://fhir.dgmc.health.gov.il/ValueSet/nmr-pat-temp-uri
+Alias: $vsNmrMoveNumUri =       http://fhir.dgmc.health.gov.il/ValueSet/nmr-move-num-uri
+Alias: $vsNmrToCmlUri =         http://fhir.dgmc.health.gov.il/ValueSet/nmr2cml-identifier-uri
+Alias: $vsConsultAnsUri =       http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-answer-uri
+Alias: $vsConsultReqUri =       http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-request-uri
+Alias: $vsNmrCaseIdUri =        http://fhir.dgmc.health.gov.il/ValueSet/nmr-case-number-uri
+Alias: $vsDietPrefUri =         http://fhir.dgmc.health.gov.il/ValueSet/encounter-diet-pref-uri
+Alias: $vsCmlMedRecUri =        http://fhir.dgmc.health.gov.il/ValueSet/cml-medical-record-uri
+Alias: $vsCmlHospCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-hosp-code-uri
+Alias: $vsCmlUnitCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-unit-code-uri
+Alias: $vsNmrOrgidTextUri =     http://fhir.dgmc.health.gov.il/ValueSet/nmr-orgid-text-uri
+Alias: $vsNmrOrgidCodeUri =     http://fhir.dgmc.health.gov.il/ValueSet/nmr-orgid-code-uri
+Alias: $vsCmlBedIdUri =         http://fhir.dgmc.health.gov.il/ValueSet/cml-bed-id-uri
+Alias: $vsCmlRoomIdUri =        http://fhir.dgmc.health.gov.il/ValueSet/cml-room-id-uri
+
+Alias: $vsAdmType =             http://fhir.dgmc.health.gov.il/ValueSet/admission-type
+Alias: $vsCmlConsultType =      http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-type
+Alias: $vsCmlMedRecType =       http://fhir.dgmc.health.gov.il/ValueSet/cml-medical-record-type 		
+Alias: $vsConsultPatState =     http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-patient-state
+Alias: $vsPatVisitorTy =        http://fhir.dgmc.health.gov.il/ValueSet/patient-visitor-type
+Alias: $vsUnitClassFlag =       http://fhir.dgmc.health.gov.il/ValueSet/unit-classification-flag
+Alias: $vsNmrUnitType =         http://fhir.dgmc.health.gov.il/ValueSet/nmr-unit-type
 
 // external
 Alias: $sct =                               http://snomed.info/sct

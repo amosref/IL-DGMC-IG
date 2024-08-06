@@ -1,0 +1,50 @@
+{
+    "resourceType": "Organization",
+    "id": "5090",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-organization",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-organization"
+        ]
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.shamir.health.gov.il/identifier/cml-unit-code",
+            "value": "2"
+        }
+    ],
+    "active": true,
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.dgmc.health.gov.il/cs/unit-classification-flag",
+                    "code": "consult",
+                    "display": "יחידה מייעצת"
+                }
+            ]
+        }
+    ],
+    "name": "פנימית ג",
+    "partOf": {
+        "reference": "Organization/4714"
+    },
+    "contact": [
+        {
+            "name": {
+                "family": "לו",
+                "given": [
+                    "מרי"
+                ],
+                "prefix": [
+                    "ד\"ר"
+                ]
+            }
+        },
+        {
+            "name": {
+                "text": "אחות ראשית מאירה לשם"
+            }
+        }
+    ]
+}
