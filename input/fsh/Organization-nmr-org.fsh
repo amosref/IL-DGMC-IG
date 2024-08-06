@@ -1,6 +1,8 @@
 Profile: DgmcNmrOrganization
+//dgmc-nmr-ou - GILI
 Parent: il-core-organization
 Id: dgmc-nmr-organization
+// 
 Title: "DGMC Namer Organization"
 Description: "Profile of DGMC Namer Organization Unit"
 * insert ConformanceMetadata

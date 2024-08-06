@@ -1,15 +1,17 @@
 Profile: DgmcCmlOrganization
+//dgmc-cml-ou - GILI
 Parent: il-core-organization
 Id: dgmc-cml-organization
+//
 Title: "DGMC Chameleon Organization"
 Description: "Profile of DGMC Chameleon Organization"
 * insert ConformanceMetadata
 
 * id 1..1
-* identifier contains cml-unit-code 1..1 
-* identifier[cml-unit-code].system 1..1
-* identifier[cml-unit-code].system from $vsCmlUnitCodeUri (required)
-* identifier[cml-unit-code].value 1..1 
+* identifier contains cml-ou-code 1..1 
+* identifier[cml-ou-code].system 1..1
+* identifier[cml-ou-code].system from $vsCmlUnitCodeUri (required)
+* identifier[cml-ou-code].value 1..1 
 * active 1..1
 * type contains flags 0..* 
 * type[flags] from $vsUnitClassFlag (required)

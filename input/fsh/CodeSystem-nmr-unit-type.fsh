@@ -1,5 +1,6 @@
 CodeSystem: NmrUnitType
 Id: nmr-unit-type
+//nmr-ou-type
 Title: "Nmr Unit Type"
 Description: "Namer Unit Type"
 * insert ConformanceMetadata
@@ -13,8 +14,7 @@ Description: "Namer Unit Type"
 * #HO "בית חולים"
 * #L  "Departmental LAB"
 * #LB "LAB"
-* #OC "OC-חדר ניתוח"
-* #OO "OO-חדר ניתוח"
+* #OC "חדר ניתוח"
 * #OP "חדר ניתוח - מחלקתי"
 * #RD "אגף בארכיון"
 * #SE "יח. רפואית - מלר\"ד"

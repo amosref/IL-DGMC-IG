@@ -2,7 +2,7 @@ Profile: DgmcHospitalLocation
 Parent: il-core-location
 Id: dgmc-hospital-location
 Title: "DGMC Hospital Location"
-Description: "Profile of DGMC Hospital Location from Chameleon"
+Description: "Profile of DGMC Hospital Location"
 * insert ConformanceMetadata
 
 

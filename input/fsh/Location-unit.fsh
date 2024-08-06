@@ -1,8 +1,12 @@
 Profile: DgmcUnitLocation
+//DgmcOuLocation - GILI
 Parent: il-core-location
 Id: dgmc-unit-location
+//dgmc-ou-location - GILI
 Title: "DGMC Unit Location"
-Description: "Profile of DGMC Unit Location from Chameleon"
+// "DGMC OU Location" - GILI
+Description: "Profile of DGMC Unit Location"
+// "DGMC Organizational Unit Location" - GILI
 * insert ConformanceMetadata
 
 * id 1..1
@@ -23,10 +27,10 @@ Description: "Profile of DGMC Unit Location from Chameleon"
 * identifier[nmr-orgid-code].system from $vsNmrOrgidCodeUri (required)
 * identifier[nmr-orgid-code].value 1..1 
 
-* identifier contains cml-unit-code 1..1 
-* identifier[cml-unit-code].system 1..1
-* identifier[cml-unit-code].system from $vsCmlUnitCodeUri (required)
-* identifier[cml-unit-code].value 1..1 
+* identifier contains cml-ou-code 1..1 
+* identifier[cml-ou-code].system 1..1
+* identifier[cml-ou-code].system from $vsCmlUnitCodeUri (required)
+* identifier[cml-ou-code].value 1..1 
 
 * status 1..1
 * alias 1..1
