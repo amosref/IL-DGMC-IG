@@ -3,6 +3,7 @@ Id: hospitals-uris
 Title: "Hospitals uris"
 Description: "CodeSystem of all DGMC Hospitals Uris"
 * ^url = $csHospUri
+* ^caseSensitive = true
 * insert ConformanceMetadata
 
 * #http://fhir.bmc.health.gov.il/identifier/nmr-pat-int-num "ברזילי - מספר מטופל פנימי-נמר"

@@ -3,6 +3,7 @@ Id: admission-mvmnt-type
 Title: "Admission Movement Type"
 Description: "Movement Addmision Type"
 * insert ConformanceMetadata
+* ^caseSensitive = true
 * ^url = $csAdmMoveType
 * #10 "מעבר חדר"
 * #20 "מעבר מיטה"
