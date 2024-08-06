@@ -14,8 +14,8 @@
         },
         {
           "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
-          "code": "PSY",
-          "display": "psychiatry "
+          "code": "R",
+          "display": "restricted"
         }
       ]
     },
