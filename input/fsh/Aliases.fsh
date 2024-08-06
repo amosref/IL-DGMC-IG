@@ -1,4 +1,8 @@
 
+// NOT SURE IF WE NEED THIS - Kippi
+Alias: $extPrincipalUnit =   http://fhir.dgmc.health.gov.il/StructureDefinition/primary-practitionerrole
+
+
 // External extensions
 // Comment for test
 Alias: $extGenderIdentity = http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
