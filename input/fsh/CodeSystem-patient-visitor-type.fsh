@@ -3,6 +3,7 @@ Id: patient-visitor-type
 Title: "Patient Visitor Type"
 Description: "Patient Visitor Type"
 * insert ConformanceMetadata
+* ^caseSensitive = true
 * ^url = $csPatVisitorTy
 
 * #1 "אזרח ישראלי"

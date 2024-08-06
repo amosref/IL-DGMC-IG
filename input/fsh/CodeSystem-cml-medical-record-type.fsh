@@ -3,6 +3,7 @@ Id: cml-medical-record-type
 Title: "Chamileon Record Type"
 Description: "Chamileon Record Type"
 * insert ConformanceMetadata
+* ^caseSensitive = true
 * ^url = $csCmlMedRecType
 * #10 "מיון"
 * #2 "קבלה"
