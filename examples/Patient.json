@@ -331,6 +331,7 @@
     "maritalStatus": {
       "coding": [
         {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
           "code": "D"
         }
       ]
@@ -340,7 +341,8 @@
         "language": {
           "coding": [
             {
-              "code": "He"
+              "system": "urn:ietf:bcp:47",
+              "code": "he"
             }
           ]
         }
