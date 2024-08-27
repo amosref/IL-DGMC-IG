@@ -1,0 +1,57 @@
+{
+    "resourceType": "Practitioner",
+    "id": "CML.10068",
+    "meta": {
+      "profile": [
+        "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner",
+        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner"
+      ]
+    },
+    "extension": [
+      {
+        "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/primary-practitionerrole",
+        "valueReference": {
+          "reference": "PractitionerRole/CML.10068.400"
+        }
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://fhir.b-zion.health.gov.il/identifier/ad-username",
+        "value": "OMER.NAHUM"
+      },
+      {
+        "system": "http://fhir.health.gov.il/identifier/il-national-id",
+        "value": "204737068"
+      },
+      {
+        "system": "http://fhir.b-zion.health.gov.il/identifier/sap-user-vma",
+        "value": "עומר.נחום"
+      },
+      {
+        "system": "http://fhir.b-zion.health.gov.il/identifier/cml-user-code",
+        "value": "10068"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "family": "נחום",
+        "given": [
+          "עומר"
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "050-9202216"
+      },
+      {
+        "system": "email",
+        "value": "omer.nahum@b-zion.org.il",
+        "use": "work"
+      }
+    ],
+    "gender": "male"
+  }

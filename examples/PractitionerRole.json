@@ -1,0 +1,37 @@
+{
+    "resourceType": "PractitionerRole",
+    "id": "CML.7350.150685840",
+    "meta": {
+      "profile": [
+        "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+      ]
+    },
+    "active": true,
+    "practitioner": {
+      "reference": "Practitioner/CML.7350"
+    },
+    "code": [
+      {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+            "code": "1",
+            "display": "רופא"
+          }
+        ]
+      },
+      {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+            "code": "19",
+            "display": "סטאז'ר"
+          }
+        ]
+      }
+    ],
+    "organization": {
+      "reference": "Organization/ORG.CML.150685840"
+    }
+  }
