@@ -6,12 +6,28 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * insert ConformanceMetadata
 
 // חיסיון
-* meta.security.system 1..1
-* meta.security.system = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
-* meta.security.code 1..1
-* meta.security.code = #R
-* meta.security.display 1..1
-* meta.security.display = "restricted"
+* meta.security
+  * ^slicing.discriminator.type = #value
+  * ^slicing.discriminator.path = "system"
+  * ^slicing.rules = #open
+  * ^slicing.ordered = false
+* meta.security contains restict 0..* and fict 0..*
+
+* meta.security[restict].system 1..1
+* meta.security[restict].system = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+* meta.security[restict].code 1..1
+* meta.security[restict].code = #R
+* meta.security[restict].display 1..1
+* meta.security[restict].display = "restricted"
+
+* meta.security[fict].system 1..1
+* meta.security[fict].system = "http://terminology.hl7.org/CodeSystem/v3-ActReason"
+* meta.security[fict].code 1..1
+* meta.security[fict].code = #HTEST
+* meta.security[fict].display 1..1
+* meta.security[fict].display = "test health data"
+
+
 * id 1..1
 // gov.il extension: hmo
 * extension[hmo].valueCodeableConcept.coding ^slicing.discriminator.type = #value
