@@ -4,7 +4,7 @@
     "meta": {
         "profile": [
             "http://fhir.health.gov.il/StructureDefinition/il-core-organization",
-            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-organization"
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-ou"
         ]
     },
     "identifier": [
