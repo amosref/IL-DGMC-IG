@@ -18,6 +18,8 @@ Description: "Profile on IL-Core-PractitionerRole by DGMC"
   * code = #19 (exactly)
   * display = "סטאז'ר" (exactly)
 
+* location 0..*
+
 // * code contains cml-sector 1..2
 // * code[cml-sector].coding
 //   * system 1..1
