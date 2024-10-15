@@ -18,7 +18,7 @@ Description: "DGMC Encounter Chameleon"
 * type 1..*
 * type.coding 1..1
 * type contains cml-medical-record-type 1..1
-* type[cml-medical-record-type] from $vsCmlMedRecType (required)
+* type[cml-medical-record-type].coding from $vsCmlMedRecType (required)
 * type[cml-medical-record-type].coding.system 1..1
 * type[cml-medical-record-type].coding.code 1..1
 * type[cml-medical-record-type].coding.display 1..1
