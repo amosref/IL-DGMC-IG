@@ -11,7 +11,7 @@ Description: "Profile on IL-Core-Patient by DGMC"
   * ^slicing.discriminator.path = "system"
   * ^slicing.rules = #open
   * ^slicing.ordered = false
-* meta.security contains restict 0..* and fict 0..*
+* meta.security contains restict 0..* and fictive 0..*
 
 * meta.security[restict].system 1..1
 * meta.security[restict].system = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
@@ -20,12 +20,12 @@ Description: "Profile on IL-Core-Patient by DGMC"
 * meta.security[restict].display 1..1
 * meta.security[restict].display = "restricted"
 
-* meta.security[fict].system 1..1
-* meta.security[fict].system = "http://terminology.hl7.org/CodeSystem/v3-ActReason"
-* meta.security[fict].code 1..1
-* meta.security[fict].code = #HTEST
-* meta.security[fict].display 1..1
-* meta.security[fict].display = "test health data"
+* meta.security[fictive].system 1..1
+* meta.security[fictive].system = "http://terminology.hl7.org/CodeSystem/v3-ActReason"
+* meta.security[fictive].code 1..1
+* meta.security[fictive].code = #HTEST
+* meta.security[fictive].display 1..1
+* meta.security[fictive].display = "test health data"
 
 
 * id 1..1
