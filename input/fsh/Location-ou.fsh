@@ -23,13 +23,13 @@ Description: "Profile of DGMC Organizational Unit Location"
 * identifier[nmr-ou-code].system from $vsNmrOuCodeUri (required)
 * identifier[nmr-ou-code].value 1..1 
 
-* identifier contains cml-ou-code 1..1 
+* identifier contains cml-ou-code 0..1 
 * identifier[cml-ou-code].system 1..1
 * identifier[cml-ou-code].system from $vsCmlOuCodeUri (required)
 * identifier[cml-ou-code].value 1..1 
 
 * status 1..1
-* alias 1..1
+// * alias 1..1
 
 
 // * mode 1..1 
