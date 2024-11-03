@@ -1,4 +1,4 @@
 RuleSet: ConformanceMetadata
-* ^version = "0.1.11"
+* ^version = "0.1.13"
 * ^publisher = "Division of Governmental Hospitals Israel"
-* ^date = "2024-10-15"
+* ^date = "2024-11-03"

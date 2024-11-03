@@ -1,0 +1,70 @@
+{
+    "resourceType": "ServiceRequest",
+    "id": "CONSREQ.626016",
+    "meta": {
+      "profile": [
+        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-consultation-request",
+        "http://fhir.health.gov.il/StructureDefinition/il-core-service-request"
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://fhir.b-zion.health.gov.il/identifier/cml-counseling-request",
+        "value": "626016"
+      }
+    ],
+    "status": "completed",
+    "intent": "order",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "409063005",
+            "display": "Counseling (procedure)"
+          }
+        ]
+      }
+    ],
+    "priority": "routine",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "11429006",
+          "display": "Consultation"
+        },
+        {
+          "system": "http://fhir.dgmc.health.gov.il/cs/cml-counseling-type",
+          "code": "3",
+          "display": "יעוץ ללא הזמנה"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/PAT.1137945"
+    },
+    "encounter": {
+      "reference": "Encounter/CML.1809860"
+    },
+    "occurrenceDateTime": "2024-09-04T00:00:00Z",
+    "authoredOn": "2024-09-02T14:09:41.53+03:00",
+    "requester": {
+      "reference": "Practitioner/CML.6987"
+    },
+    "performer": [
+      {
+        "reference": "Organization/ORG.CML150685851",
+        "type": "Organization"
+      },
+      {
+        "reference": "Practitioner/CML.6987",
+        "type": "Practitioner"
+      }
+    ],
+    "reasonCode": [
+      {
+        "text": "מעקב PO ומעקב אינטייק תזונתי"
+      }
+    ]
+  }

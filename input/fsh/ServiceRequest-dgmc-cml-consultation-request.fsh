@@ -13,10 +13,12 @@ Description: "DGMC Consultation Request"
 * category contains consult 1..1
 * category[il-core] 0..0
 * category 1..1
-* category[consult] = $sct#409063005
-* category[consult].coding 1..1
-* category[consult].coding.display 1..1
-* category[consult].coding.display = "Counseling (procedure)" (exactly)
+///TEST//
+* category[consult] = $sct#409063005 "Counseling (procedure)"
+
+// * category[consult].coding = $sct#409063005 "Counseling (procedure)" (exactly)
+// * category[consult].coding 1..1
+// * category[consult].coding.display 1..1
 
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
