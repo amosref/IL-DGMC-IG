@@ -14,8 +14,8 @@
                 "coding": [
                     {
                         "system": "http://fhir.health.gov.il/cs/paying-entity-moh",
-                        "code": "103",
-                        "display": "קופת חולים מכבי"
+                        "code": "101",
+                        "display": "קופת חולים כללית"
                     },
                     {
                         "system": "http://fhir.dgmc.health.gov.il/cs/nmr-hmo",
