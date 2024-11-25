@@ -29,7 +29,7 @@
     "code": {
       "coding": [
         {
-          "system": "http://fhir.b-zion.health.gov.il/cs/drug-code",
+          "system": "http://fhir.b-zion.health.gov.il/cs/medication-allergyInt-code",
           "code": "114",
           "display": "OPTALGIN"
         }
