@@ -19,8 +19,8 @@
                     },
                     {
                         "system": "http://fhir.dgmc.health.gov.il/cs/nmr-hmo",
-                        "code": "10",
-                        "display": "כללית"
+                        "code": "11",
+                        "display": "מכבי"
                     }
                 ]
             }

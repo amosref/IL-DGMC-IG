@@ -4,7 +4,7 @@
     "meta": {
       "profile": [
         "http://fhir.health.gov.il/StructureDefinition/il-core-patient",
-        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-patient2"
+        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-patient"
       ],
       "security": [
         {
@@ -21,13 +21,13 @@
           "coding": [
             {
               "system": "http://fhir.health.gov.il/cs/paying-entity-moh",
-              "code": "103",
-              "display": "קופת חולים מכבי"
+              "code": "102",
+              "display": "קופת חולים לאומית"
           },
           {
               "system": "http://fhir.dgmc.health.gov.il/cs/nmr-hmo",
-              "code": "11",
-              "display": "מכבי"
+              "code": "12",
+              "display": "לאומית"
           }
           ]
         }

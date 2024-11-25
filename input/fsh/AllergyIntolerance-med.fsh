@@ -1,8 +1,8 @@
-Profile: DGMCAllergyIntoleranceOther
+Profile: DGMCAllergyIntoleranceOtherMed
 Parent: ILCoreAllergyIntolerance
-Id: dgmc-allergy-intolerance-other
-Title: "DGMC Allergy Intolerance Other"
-Description: "DGMC Allergy Intolerance Other: food/environment/biologic."
+Id: dgmc-allergy-intolerance-med
+Title: "DGMC Allergy Intolerance Medication"
+Description: "DGMC Allergy Intolerance Medication"
 * insert ConformanceMetadata
 
 * id 1..1
@@ -11,10 +11,10 @@ Description: "DGMC Allergy Intolerance Other: food/environment/biologic."
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier ^slicing.ordered = false
-* identifier contains other 1..1
-* identifier[other].system 1..1
-* identifier[other].system from $vsAllergyIntIdentOtherUri (required)
-* identifier[other].value 1..1
+* identifier contains medication 1..1
+* identifier[medication].system 1..1
+* identifier[medication].system from $vsAllergyIntIdentMedUri (required)
+* identifier[medication].value 1..1
 
 * clinicalStatus 1..1
 * clinicalStatus.coding 1..1
@@ -27,14 +27,10 @@ Description: "DGMC Allergy Intolerance Other: food/environment/biologic."
 * code.coding ^slicing.discriminator.path = "system"
 * code.coding ^slicing.rules = #open
 * code.coding ^slicing.ordered = false
-* code.coding contains other 1..1 and external 0..1
-* code.coding[other].system 1..1
-* code.coding[other].system from $vsAllergyIntCodeOtherUri (required)
-* code.coding[other].code 1..1
-* code.coding[other].display 1..1
-* code.coding[external].system 1..1
-* code.coding[external].system from $vsAllergyIntExtCodeOtherUri (required)
-* code.coding[external].code 1..1
+* code.coding contains med 1..1
+* code.coding[med].system from $vsAllergyIntCodeMedUri (required)
+* code.coding[med].code 1..1
+* code.coding[med].display 1..1
 
 * patient.reference 1..1
 * encounter 1..1
