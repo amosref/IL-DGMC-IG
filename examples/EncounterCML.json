@@ -17,7 +17,7 @@
           {
             "system": "http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type",
             "code": "3",
-            "display": "אשפוז"
+            "display": "מהלך אשפוז"
           }
         ]
       }
@@ -30,7 +30,7 @@
           {
             "system": "http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type",
             "code": "2",
-            "display": "קבלה"
+            "display": "קבלה לאשפוז"
           }
         ]
       }
@@ -53,7 +53,7 @@
         {
           "system": "http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type",
           "code": "2",
-          "display": "קבלה"
+          "display": "קבלה לאשפוז"
         }
       ]
     }
