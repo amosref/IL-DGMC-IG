@@ -5,9 +5,9 @@ Description: "Chamileon Record Type"
 * insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csCmlMedRecType
-* #10 "מיון"
-* #2 "קבלה"
-* #3 "אשפוז"
-* #4 "שחרור"
-* #6 "מרפאה"
-* #65 "דיאליזה"
+* #10 "ביקור במיון"
+* #2 "קבלה לאשפוז"
+* #3 "מהלך אשפוז"
+* #4 "שחרור מאשפוז"
+* #6 "ביקור במרפאה"
+* #65 "טיפול דיאליזה"
