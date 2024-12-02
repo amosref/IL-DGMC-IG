@@ -25,7 +25,7 @@
               "display": "קופת חולים כללית"
             },
             {
-              "system": "http://fhir.dgmc.health.gov.il/cs/nmr-hmo",
+              "system": "http://fhir.dgmc.health.gov.il/cs/nmr-hmo-code",
               "code": "10",
               "display": "כללית"
             }

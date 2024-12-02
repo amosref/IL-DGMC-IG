@@ -25,6 +25,7 @@ Alias: $csPatVisitorTy =    http://fhir.dgmc.health.gov.il/cs/patient-visitor-ty
 Alias: $csCmlConsultType =  http://fhir.dgmc.health.gov.il/cs/cml-counseling-type
 Alias: $csOuClassFlag =     http://fhir.dgmc.health.gov.il/cs/ou-classification-flag
 Alias: $csNmrOuType =       http://fhir.dgmc.health.gov.il/cs/nmr-ou-type
+Alias: $csNmrHmoCode =      http://fhir.dgmc.health.gov.il/cs/nmr-hmo-code
 
 // VS
 Alias: $vsNmrPatIntUri =                http://fhir.dgmc.health.gov.il/ValueSet/nmr-pat-internal-uri
@@ -60,6 +61,7 @@ Alias: $vsConsultPatState =     http://fhir.dgmc.health.gov.il/ValueSet/cml-coun
 Alias: $vsPatVisitorTy =        http://fhir.dgmc.health.gov.il/ValueSet/patient-visitor-type
 Alias: $vsOuClassFlag =         http://fhir.dgmc.health.gov.il/ValueSet/ou-classification-flag
 Alias: $vsNmrOuType =           http://fhir.dgmc.health.gov.il/ValueSet/nmr-ou-type
+Alias: $vsNmrHmoCode =          http://fhir.dgmc.health.gov.il/ValueSet/nmr-hmo-code
 
 
 // external
