@@ -50,6 +50,7 @@ Description: "Profile on IL-Core-Patient by DGMC"
             $extDisability named hearing 0..1 and
             $extNationality named nationality 0..1
 // HL7 extension: gender-identity
+* extension[genderIdentity].valueCodeableConcept.coding 1..1
 * extension[genderIdentity].valueCodeableConcept.coding.system 1..1
 * extension[genderIdentity].valueCodeableConcept.coding.system = "http://hl7.org/fhir/gender-identity" (exactly)
 * extension[genderIdentity].valueCodeableConcept.coding.code 1..1
