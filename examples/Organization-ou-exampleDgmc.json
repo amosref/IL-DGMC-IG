@@ -1,0 +1,51 @@
+ {
+        "resourceType": "Organization",
+        "id": "ORG.60060",
+        "meta": {
+            "profile": [
+                "http://fhir.health.gov.il/StructureDefinition/il-core-organization",
+                "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-nmr-ou"
+            ]
+        },
+        "identifier": [
+            {
+                "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-text",
+                "value": "מע-אנדו"
+            },
+            {
+                "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-code",
+                "value": "60060"
+            },
+            {
+                "system": "http://fhir.health.gov.il/identifier/moh-hospital-department",
+                "value": "01204-60060"
+            }
+        ],
+        "active": true,
+        "type": [
+            {
+                "coding": [
+                    {
+                        "system": "http://fhir.health.gov.il/cs/department-type-moh",
+                        "code": "60060"
+                    }
+                ]
+            },
+            {
+                "coding": [
+                    {
+                        "system": "http://fhir.dgmc.health.gov.il/cs/nmr-ou-type",
+                        "code": "LB",
+                        "display": "מעבדה"
+                    }
+                ]
+            }
+        ],
+        "name": "מעבדת אנדוקרינולוגיה",
+        "partOf": {
+            "reference": "Organization/ORG.L0001",
+            "display": "מעבדות"
+        }
+    
+    }
+

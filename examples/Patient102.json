@@ -18,8 +18,8 @@
                         "display": "קופת חולים לאומית"
                     },
                     {
-                        "system": "http://fhir.dgmc.health.gov.il/cs/nmr-hmo",
-                        "code": "12",
+                        "system": "http://fhir.dgmc.health.gov.il/cs/nmr-hmo-code",
+                        "code": "13",
                         "display": "לאומית"
                     }
                 ]

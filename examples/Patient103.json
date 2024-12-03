@@ -18,7 +18,7 @@
                         "display": "קופת חולים מכבי"
                     },
                     {
-                        "system": "http://fhir.dgmc.health.gov.il/cs/nmr-hmo",
+                        "system": "http://fhir.dgmc.health.gov.il/cs/nmr-hmo-code",
                         "code": "11",
                         "display": "מכבי"
                     }
