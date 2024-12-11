@@ -13,12 +13,12 @@ Description: "Profile on IL-Core-Patient by DGMC"
   * ^slicing.ordered = false
 * meta.security contains restict 0..* and fictive 0..*
 
-* meta.security[restrict].system 1..1
-* meta.security[restrict].system = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
-* meta.security[restrict].code 1..1
-* meta.security[restrict].code = #R
-* meta.security[restrict].display 1..1
-* meta.security[restrict].display = "restricted"
+* meta.security[restict].system 1..1
+* meta.security[restict].system = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+* meta.security[restict].code 1..1
+* meta.security[restict].code = #R
+* meta.security[restict].display 1..1
+* meta.security[restict].display = "restricted"
 
 * meta.security[fictive].system 1..1
 * meta.security[fictive].system = "http://terminology.hl7.org/CodeSystem/v3-ActReason"
