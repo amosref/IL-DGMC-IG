@@ -6,11 +6,11 @@
         "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance"
       ]
     },
-    "id": "OTHER.123123",
+    "id": "OTHER.123128",
     "identifier": [
       {
-        "system": "http://fhir.b-zion.health.gov.il/identifier/other-allergyInt",
-        "value": "123124"
+        "system": "http://fhir.b-zion.health.gov.il/identifier/allergyInt-other",
+        "value": "123128"
       }
     ],
     "clinicalStatus": {
@@ -26,7 +26,7 @@
     "code": {
       "coding": [
         {
-          "system": "http://fhir.b-zion.health.gov.il/cs/other-allergyInt-code",
+          "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-code-other",
           "code": "1233",
           "display": "בוטנים"
         }

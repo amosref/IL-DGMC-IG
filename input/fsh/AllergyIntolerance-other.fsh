@@ -13,7 +13,7 @@ Description: "DGMC Allergy Intolerance Other: food/environment/biologic."
 * identifier ^slicing.ordered = false
 * identifier contains other 1..1
 * identifier[other].system 1..1
-* identifier[other].system from $vsAllergyIntIdentOtherUri (required)
+* identifier[other].system from $vsAllergyIntIdentifierOtherUri (required)
 * identifier[other].value 1..1
 
 * clinicalStatus 1..1
@@ -33,7 +33,7 @@ Description: "DGMC Allergy Intolerance Other: food/environment/biologic."
 * code.coding[other].code 1..1
 * code.coding[other].display 1..1
 * code.coding[external].system 1..1
-* code.coding[external].system from $vsAllergyIntExtCodeOtherUri (required)
+* code.coding[external].system from $vsAllergyIntCodeExtUri (required)
 * code.coding[external].code 1..1
 
 * patient.reference 1..1

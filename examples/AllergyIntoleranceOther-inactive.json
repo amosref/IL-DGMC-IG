@@ -2,15 +2,15 @@
   "resourceType": "AllergyIntolerance",
   "meta": {
     "profile": [
-      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-other",
-      "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance"
+      "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance",
+      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-other"
     ]
   },
-  "id": "OTHER.123125",
+  "id": "OTHER.123129",
   "identifier": [
     {
-      "system": "http://fhir.b-zion.health.gov.il/identifier/other-allergyInt",
-      "value": "123126"
+      "system": "http://fhir.b-zion.health.gov.il/identifier/allergyInt-other",
+      "value": "123129"
     }
   ],
   "clinicalStatus": {
@@ -26,7 +26,7 @@
   "code": {
     "coding": [
       {
-        "system": "http://fhir.b-zion.health.gov.il/cs/other-allergyInt-code",
+        "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-code-other",
         "code": "13255",
         "display": "אגוזים"
       }

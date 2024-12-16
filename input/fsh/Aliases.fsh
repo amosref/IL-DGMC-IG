@@ -13,18 +13,19 @@ Alias: $extDAR =            http://hl7.org/fhir/StructureDefinition/data-absent-
 Alias: $extHebDate =        http://fhir.health.gov.il/StructureDefinition/ext-hebrew-date
 
 // CodeSystems
-Alias: $csFollowUp =        http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag
-Alias: $csConsultPatState = http://fhir.dgmc.health.gov.il/cs/cml-counseling-patient-state
-Alias: $csAdmAmbType =      http://fhir.dgmc.health.gov.il/cs/admission-amb-type
-Alias: $csAdmImpType =      http://fhir.dgmc.health.gov.il/cs/admission-imp-type
-Alias: $csAdmMoveType =     http://fhir.dgmc.health.gov.il/cs/admission-mvmnt-type
-Alias: $csHomeCheckIn =     http://fhir.dgmc.health.gov.il/cs/home-check-in
-Alias: $csCmlMedRecType =   http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type 		
-Alias: $csHospUri =         http://fhir.dgmc.health.gov.il/cs/hospitals-uri
-Alias: $csPatVisitorTy =    http://fhir.dgmc.health.gov.il/cs/patient-visitor-type
-Alias: $csCmlConsultType =  http://fhir.dgmc.health.gov.il/cs/cml-counseling-type
-Alias: $csOuClassFlag =     http://fhir.dgmc.health.gov.il/cs/ou-classification-flag
-Alias: $csNmrOuType =       http://fhir.dgmc.health.gov.il/cs/nmr-ou-type
+Alias: $csFollowUp =         http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag
+Alias: $csConsultPatState =  http://fhir.dgmc.health.gov.il/cs/cml-counseling-patient-state
+Alias: $csAdmAmbType =       http://fhir.dgmc.health.gov.il/cs/admission-amb-type
+Alias: $csAdmImpType =       http://fhir.dgmc.health.gov.il/cs/admission-imp-type
+Alias: $csAdmMoveType =      http://fhir.dgmc.health.gov.il/cs/admission-mvmnt-type
+Alias: $csHomeCheckIn =      http://fhir.dgmc.health.gov.il/cs/home-check-in
+Alias: $csCmlMedRecType =    http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type 		
+Alias: $csHospUri =          http://fhir.dgmc.health.gov.il/cs/hospitals-uri
+Alias: $csPatVisitorTy =     http://fhir.dgmc.health.gov.il/cs/patient-visitor-type
+Alias: $csCmlConsultType =   http://fhir.dgmc.health.gov.il/cs/cml-counseling-type
+Alias: $csOuClassFlag =      http://fhir.dgmc.health.gov.il/cs/ou-classification-flag
+Alias: $csNmrOuType =        http://fhir.dgmc.health.gov.il/cs/nmr-ou-type
+Alias: $csAllrgyIntComment = http://fhir.dgmc.health.gov.il/cs/allergyInt-code-comment
 
 // VS
 Alias: $vsNmrPatIntUri =                http://fhir.dgmc.health.gov.il/ValueSet/nmr-pat-internal-uri
@@ -46,20 +47,22 @@ Alias: $vsNmrOuTextUri =                http://fhir.dgmc.health.gov.il/ValueSet/
 Alias: $vsNmrOuCodeUri =                http://fhir.dgmc.health.gov.il/ValueSet/nmr-ou-code-uri
 Alias: $vsCmlBedIdUri =                 http://fhir.dgmc.health.gov.il/ValueSet/cml-bed-id-uri
 Alias: $vsCmlRoomIdUri =                http://fhir.dgmc.health.gov.il/ValueSet/cml-room-id-uri
-Alias: $vsAllergyIntIdentOtherUri =     http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-ident-other-uri
-Alias: $vsAllergyIntIdentMedUri =       http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-ident-med-uri
+Alias: $vsAllergyIntIdentifierOtherUri =     http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-identifier-other-uri
+Alias: $vsAllergyIntIdentifierCommentUri =   http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-identifier-comment-uri
+Alias: $vsAllergyIntIdentifierMedUri =       http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-identifier-med-uri
 Alias: $vsAllergyIntCodeOtherUri =      http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-code-other-uri
-Alias: $vsAllergyIntExtCodeOtherUri =   http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-ext-code-other-uri
-Alias: $vsAllergyIntReactionCodeUri =   http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-reaction-code-uri
 Alias: $vsAllergyIntCodeMedUri =        http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-code-med-uri
+Alias: $vsAllergyIntCodeExtUri =        http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-ext-code-other-uri
+Alias: $vsAllergyIntReactionCodeUri =   http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-reaction-code-uri
 
-Alias: $vsAdmType =             http://fhir.dgmc.health.gov.il/ValueSet/admission-type
-Alias: $vsCmlConsultType =      http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-type
-Alias: $vsCmlMedRecType =       http://fhir.dgmc.health.gov.il/ValueSet/cml-medical-record-type 		
-Alias: $vsConsultPatState =     http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-patient-state
-Alias: $vsPatVisitorTy =        http://fhir.dgmc.health.gov.il/ValueSet/patient-visitor-type
-Alias: $vsOuClassFlag =         http://fhir.dgmc.health.gov.il/ValueSet/ou-classification-flag
-Alias: $vsNmrOuType =           http://fhir.dgmc.health.gov.il/ValueSet/nmr-ou-type
+Alias: $vsAdmType =               http://fhir.dgmc.health.gov.il/ValueSet/admission-type
+Alias: $vsCmlConsultType =        http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-type
+Alias: $vsCmlMedRecType =         http://fhir.dgmc.health.gov.il/ValueSet/cml-medical-record-type 		
+Alias: $vsConsultPatState =       http://fhir.dgmc.health.gov.il/ValueSet/cml-counseling-patient-state
+Alias: $vsPatVisitorTy =          http://fhir.dgmc.health.gov.il/ValueSet/patient-visitor-type
+Alias: $vsOuClassFlag =           http://fhir.dgmc.health.gov.il/ValueSet/ou-classification-flag
+Alias: $vsNmrOuType =             http://fhir.dgmc.health.gov.il/ValueSet/nmr-ou-type
+Alias: $vsAllergyIntCodeComment = http://fhir.dgmc.health.gov.il/identifier/allergyInt-code-comment
 
 
 // external

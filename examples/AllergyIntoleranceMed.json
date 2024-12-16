@@ -2,14 +2,14 @@
     "resourceType": "AllergyIntolerance",
     "meta": {
       "profile": [
-        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-med",
-        "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance"
+        "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance",
+        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-med"
       ]
     },
     "id": "MED.123123",
     "identifier": [
       {
-        "system": "http://fhir.b-zion.health.gov.il/identifier/medication-allergyInt",
+        "system": "http://fhir.b-zion.health.gov.il/identifier/allergyInt-medication",
         "value": "123123"
       }
     ],
@@ -29,7 +29,7 @@
     "code": {
       "coding": [
         {
-          "system": "http://fhir.b-zion.health.gov.il/cs/medication-allergyInt-code",
+          "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-code-medication",
           "code": "114",
           "display": "OPTALGIN"
         }

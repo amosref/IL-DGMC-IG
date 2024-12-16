@@ -1,8 +1,8 @@
-Profile: DGMCAllergyIntoleranceMed
+Profile: DGMCAllergyIntoleranceComment
 Parent: ILCoreAllergyIntolerance
-Id: dgmc-allergy-intolerance-med
-Title: "DGMC Allergy Intolerance Medication"
-Description: "DGMC Allergy Intolerance Medication"
+Id: dgmc-allergy-intolerance-comment
+Title: "DGMC Allergy Intolerance Comment"
+Description: "DGMC Allergy Intolerance Comment"
 * insert ConformanceMetadata
 
 * id 1..1
@@ -11,10 +11,10 @@ Description: "DGMC Allergy Intolerance Medication"
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier ^slicing.ordered = false
-* identifier contains medication 1..1
-* identifier[medication].system 1..1
-* identifier[medication].system from $vsAllergyIntIdentifierMedUri (required)
-* identifier[medication].value 1..1
+* identifier contains comment 1..1
+* identifier[comment].system 1..1
+* identifier[comment].system from $vsAllergyIntIdentifierCommentUri (required)
+* identifier[comment].value 1..1
 
 * clinicalStatus 1..1
 * clinicalStatus.coding 1..1
@@ -28,10 +28,13 @@ Description: "DGMC Allergy Intolerance Medication"
 * code.coding ^slicing.discriminator.path = "system"
 * code.coding ^slicing.rules = #open
 * code.coding ^slicing.ordered = false
-* code.coding contains med 1..1
-* code.coding[med].system from $vsAllergyIntCodeMedUri (required)
-* code.coding[med].code 1..1
-* code.coding[med].display 1..1
+* code.coding contains comment 1..1
+* code.coding[comment].system 1..1
+* code.coding[comment].system = $vsAllergyIntCodeComment
+* code.coding[comment].code 1..1
+* code.coding[comment].code = #main-comment (exactly)
+* code.coding[comment].display 1..1
+* code.coding[comment].display = "Main comment" (exactly)
 
 * patient.reference 1..1
 * encounter 1..1
@@ -39,9 +42,6 @@ Description: "DGMC Allergy Intolerance Medication"
 * recordedDate 1..1
 * recorder 1..1
 * recorder.reference 1..1
+* note 1..1
+* note.text 1..1
 
-* reaction.manifestation.coding 1..*
-* reaction.manifestation.coding.system 1..1
-* reaction.manifestation.coding.system from $vsAllergyIntReactionCodeUri (required)
-* reaction.manifestation.coding.code 1..1
-* reaction.manifestation.coding.display 1..1
