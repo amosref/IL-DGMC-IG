@@ -1,0 +1,111 @@
+{
+    "resourceType": "Encounter",
+    "id": "NMR.10863041",
+    "meta": {
+      "profile": [
+        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-case",
+        "http://fhir.health.gov.il/StructureDefinition/il-core-encounter"
+      ],
+      "lastUpdated": "2024-11-19T13:22:50Z",
+      "versionId": "1"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/encounter-modeOfArrival",
+        "valueCoding": {
+          "system": "http://fhir.health.gov.il/cs/patient-mode-of-arrival-moh",
+          "code": "40",
+          "display": "הגעה עצמית"
+        }
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-case-number",
+        "value": "10863041"
+      }
+    ],
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "IMP",
+      "display": "inpatient encounter"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/admission-imp-type",
+            "code": "1",
+            "display": "קבלה רגילה"
+          }
+        ]
+      }
+    ],
+    "subject": {
+      "extension": [
+        {
+          "url": "http://fhir.health.gov.il/StructureDefinition/ext-encounter-visitor-type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://fhir.health.gov.il/cs/patient-visitor-type-moh",
+                "code": "0002",
+                "display": "צה\"ל - חילים"
+              }
+            ]
+          }
+        }
+      ],
+      "reference": "Patient/PAT.2151103"
+    },
+    "period": {
+      "start": "2024-11-19T09:24:24Z",
+      "end": "2024-11-19T09:45:52Z"
+    },
+    "reasonCode": [
+      {
+        "coding": [
+          {
+            "system": "http://fhir.health.gov.il/cs/patient-visit-reason-moh",
+            "code": "16",
+            "display": "חשד לקורונה"
+          }
+        ]
+      }
+    ],
+    "hospitalization": {
+      "admitSource": {
+        "coding": [
+          {
+            "system": "http://fhir.health.gov.il/cs/patient-admit-source-moh",
+            "code": "16",
+            "display": "ביטוח לאומי"
+          }
+        ]
+      },
+      "specialCourtesy": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
+              "code": "NRM",
+              "display": "normal courtesy"
+            }
+          ]
+        }
+      ],
+      "dischargeDisposition": {
+        "coding": [
+          {
+            "system": "http://fhir.health.gov.il/cs/patient-release-type-moh",
+            "code": "02",
+            "display": "הביתה"
+          }
+        ]
+      }
+    },
+    "serviceProvider": {
+      "reference": "Organization/ORG.H.01204"
+    }
+  }

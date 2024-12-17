@@ -1,0 +1,911 @@
+{
+    "resourceType": "Bundle",
+    "id": "a377e30a-9f62-11ef-b9ed-0a7a4fd1d0c7",
+    "type": "searchset",
+    "timestamp": "2024-11-10T12:52:26Z",
+    "total": 1,
+    "link": [
+      {
+        "relation": "self",
+        "url": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/Practitioner?_id=CML.7711&_revinclude=PractitionerRole%3Apractitioner"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/Practitioner/CML.7711",
+        "resource": {
+          "resourceType": "Practitioner",
+          "id": "CML.7711",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner"
+            ],
+            "lastUpdated": "2024-11-10T11:44:25Z",
+            "versionId": "50"
+          },
+          "extension": [
+            {
+              "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/primary-practitionerrole",
+              "valueReference": {
+                "reference": "PractitionerRole/CML.7711.300"
+              }
+            }
+          ],
+          "identifier": [
+            {
+              "system": "http://fhir.health.gov.il/identifier/il-national-id",
+              "value": "013228838"
+            },
+            {
+              "system": "http://fhir.b-zion.health.gov.il/identifier/ad-username",
+              "value": "Paz.Agmon"
+            },
+            {
+              "system": "http://fhir.b-zion.health.gov.il/identifier/sap-user-vma",
+              "value": "פז.אגמון"
+            },
+            {
+              "system": "http://fhir.b-zion.health.gov.il/identifier/cml-user-code",
+              "value": "7711"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "אגמון",
+              "given": [
+                "פז"
+              ],
+              "prefix": [
+                "דר'"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "0502061483"
+            },
+            {
+              "system": "email",
+              "value": "Paz.Agmon@b-zion.org.il",
+              "use": "work"
+            }
+          ],
+          "gender": "female"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.1",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.1",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:25Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.1"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.2",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.2",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:25Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.2"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.3",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.3",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:25Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.3"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.20",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.20",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:26Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.20"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.30",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.30",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:26Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.30"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.105",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.105",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:26Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.105"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.150",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.150",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:26Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.150"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.300",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.300",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:26Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.300"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.400",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.400",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:27Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.400"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.615",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.615",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:27Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.615"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.11133",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.11133",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:27Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.11133"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.111132",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.111132",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:28Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.111132"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.15068419",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.15068419",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:28Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.15068419"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.15068420",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.15068420",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:28Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.15068420"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.150685832",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.150685832",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:29Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.150685832"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.150685835",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.150685835",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:29Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.150685835"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.150685836",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.150685836",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:29Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.150685836"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.150685837",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.150685837",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:30Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.150685837"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.150685839",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.150685839",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:30Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.150685839"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.150685840",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.150685840",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:30Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.150685840"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.150685847",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.150685847",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:30Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.150685847"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.150685850",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.150685850",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:30Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.150685850"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      },
+      {
+        "fullUrl": "http://iris-test.fhir.dev.idgmc.org:443/csp/healthshare/hospital/fhir/r4/PractitionerRole/CML.7711.150685858",
+        "resource": {
+          "resourceType": "PractitionerRole",
+          "id": "CML.7711.150685858",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+            ],
+            "lastUpdated": "2024-11-10T11:44:31Z",
+            "versionId": "50"
+          },
+          "active": true,
+          "practitioner": {
+            "reference": "Practitioner/CML.7711"
+          },
+          "organization": {
+            "reference": "Organization/ORG.CML.150685858"
+          },
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-sector",
+                  "code": "1",
+                  "display": "רופא"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "include"
+        }
+      }
+    ]
+  }
