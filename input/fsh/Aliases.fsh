@@ -25,6 +25,7 @@ Alias: $csPatVisitorTy =     http://fhir.dgmc.health.gov.il/cs/patient-visitor-t
 Alias: $csCmlConsultType =   http://fhir.dgmc.health.gov.il/cs/cml-consultation-type
 Alias: $csOuClassFlag =      http://fhir.dgmc.health.gov.il/cs/ou-classification-flag
 Alias: $csNmrOuType =        http://fhir.dgmc.health.gov.il/cs/nmr-ou-type
+Alias: $csNmrHmoCode =       http://fhir.dgmc.health.gov.il/cs/nmr-hmo-code
 Alias: $csAllrgyIntComment = http://fhir.dgmc.health.gov.il/cs/allergyInt-code-comment
 
 // VS
@@ -63,6 +64,7 @@ Alias: $vsPatVisitorTy =          http://fhir.dgmc.health.gov.il/ValueSet/patien
 Alias: $vsOuClassFlag =           http://fhir.dgmc.health.gov.il/ValueSet/ou-classification-flag
 Alias: $vsNmrOuType =             http://fhir.dgmc.health.gov.il/ValueSet/nmr-ou-type
 Alias: $vsNmrHmoCode =            http://fhir.dgmc.health.gov.il/ValueSet/nmr-hmo-code
+
 Alias: $vsAllergyIntCodeComment = http://fhir.dgmc.health.gov.il/identifier/allergyInt-code-comment
 
 // external
