@@ -1,0 +1,62 @@
+{
+    "resourceType": "Practitioner",
+    "id": "CML.1037",
+    "meta": {
+      "profile": [
+        "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner",
+        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner"
+      ],
+      "lastUpdated": "2024-11-06T12:23:41Z",
+      "versionId": "44"
+    },
+    "extension": [
+      {
+        "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/primary-practitionerrole",
+        "valueReference": {
+          "reference": "PractitionerRole/CML.1037.150685847"
+        }
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://fhir.health.gov.il/identifier/il-national-id",
+        "value": "316351493"
+      },
+      {
+        "system": "http://fhir.b-zion.health.gov.il/identifier/ad-username",
+        "value": "Yael.Chernyaev"
+      },
+      {
+        "system": "http://fhir.b-zion.health.gov.il/identifier/sap-user-vma",
+        "value": "יע.צרנייב"
+      },
+      {
+        "system": "http://fhir.b-zion.health.gov.il/identifier/cml-user-code",
+        "value": "1037"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "family": "צרנייב",
+        "given": [
+          "יעל"
+        ],
+        "prefix": [
+          "דר'"
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "0523060461"
+      },
+      {
+        "system": "email",
+        "value": "Yael.Chernyaev@b-zion.org.il",
+        "use": "work"
+      }
+    ],
+    "gender": "female"
+  }
