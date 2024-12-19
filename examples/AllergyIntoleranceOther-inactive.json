@@ -1,0 +1,65 @@
+{
+  "resourceType": "AllergyIntolerance",
+  "meta": {
+    "profile": [
+      "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance",
+      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-other"
+    ]
+  },
+  "id": "OTHER.123129",
+  "identifier": [
+    {
+      "system": "http://fhir.b-zion.health.gov.il/identifier/allergyInt-other",
+      "value": "123129"
+    }
+  ],
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+        "code": "inactive",
+        "display": "Inactive"
+      }
+    ]
+  },
+  "criticality": "low",
+  "code": {
+    "coding": [
+      {
+        "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-code-other",
+        "code": "13255",
+        "display": "אגוזים"
+      }
+    ]
+  },
+  "patient": {
+    "reference": "Patient/PAT.10128"
+  },
+  "encounter": {
+    "reference": "Encounter/CML.246"
+  },
+  "recordedDate": "2014-10-09T14:58:00+11:00",
+  "recorder": {
+    "reference": "Practitioner/CML.1016"
+  },
+  "note": [
+    {
+      "text": "דוגמא לרגישות אחרת לא פעילה"
+    }
+  ],
+  "reaction": [
+    {
+      "manifestation": [
+        {
+          "coding": [
+            {
+              "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-reaction",
+              "code": "3",
+              "display": "תפרחת"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
