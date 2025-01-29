@@ -24,6 +24,7 @@ Description: "Profile of DGMC Namer Organizational Unit"
 * type contains nmr-ou-type 1..*
 * type[nmr-ou-type] from $vsNmrOuType (required)
 * type[nmr-ou-type].coding.system 1..1
+* type[nmr-ou-type].coding.system = "http://fhir.dgmc.health.gov.il/cs/nmr-ou-type" (exactly)
 * type[nmr-ou-type].coding.code 1..1
 * type[nmr-ou-type].coding.display 1..1
 
