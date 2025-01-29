@@ -1,0 +1,166 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+      {
+        "fullUrl": "urn:uuid:8156235d-7bd6-45c9-b675-8bcc8ebb58e7",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "OTHER.567451",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-other"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "http://fhir.b-zion.health.gov.il/identifier/allergyInt-other",
+              "value": "567451"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "criticality": "low",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-code-other",
+                "code": "48",
+                "display": "קרדית אבק הבית"
+              },
+              {
+                "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-code-external",
+                "code": "232350006"
+              }
+            ]
+          },
+          "patient": {
+            "reference": "Patient/PAT.1164232"
+          },
+          "encounter": {
+            "reference": "Encounter?identifier=http://fhir.b-zion.health.gov.il/identifier/cml-medical-record|1874580"
+          },
+          "recordedDate": "2024-10-27T13:51:52.013+02:00",
+          "recorder": {
+            "reference": "Practitioner/CML.7746"
+          },
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-reaction",
+                      "code": "2",
+                      "display": "גירוד"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-reaction",
+                      "code": "102",
+                      "display": "תפרחת"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "AllergyIntolerance/OTHER.567451"
+        }
+      },
+      {
+        "fullUrl": "urn:uuid:bb6f2c2e-a240-49d3-b652-50272823b3ef",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "OTHER.567451",
+          "meta": {
+            "profile": [
+              "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance",
+              "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-other"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "http://fhir.b-zion.health.gov.il/identifier/allergyInt-other",
+              "value": "567451"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "criticality": "low",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-code-other",
+                "code": "48",
+                "display": "קרדית אבק הבית"
+              },
+              {
+                "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-code-external",
+                "code": "232350006"
+              }
+            ]
+          },
+          "patient": {
+            "reference": "Patient/PAT.1164232"
+          },
+          "encounter": {
+            "reference": "Encounter?identifier=http://fhir.b-zion.health.gov.il/identifier/cml-medical-record|1874580"
+          },
+          "recordedDate": "2024-10-27T13:51:52.013+02:00",
+          "recorder": {
+            "reference": "Practitioner/CML.7746"
+          },
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-reaction",
+                      "code": "2",
+                      "display": "גירוד"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-reaction",
+                      "code": "102",
+                      "display": "תפרחת"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "AllergyIntolerance/OTHER.567451"
+        }
+      }
+    ]
+  }

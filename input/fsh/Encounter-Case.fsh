@@ -21,6 +21,7 @@ Description: "DGMC Encounter Namer Case"
 * identifier[nmr-case].system 1..1
 * identifier[nmr-case].system from $vsNmrCaseIdUri
 * identifier[nmr-case].value 1..1
+* class.system = "http://terminology.hl7.org/CodeSystem/v3-ActCode" (exactly)
 * type contains admission-type 0..1 and home-check-in 0..1
 * type[admission-type].coding from $vsAdmType (required)
 * type[admission-type].coding.system 1..1
@@ -38,7 +39,11 @@ Description: "DGMC Encounter Namer Case"
 * hospitalization.admitSource.coding.code 1..1
 * hospitalization.admitSource.coding.display 1..1
 * hospitalization.dietPreference from $vsDietPrefUri 
+* hospitalization.origin.identifier.system = "http://institutions.health.gov.il/Institutions" (exactly)
 * serviceProvider.reference	1..1
 
 // https://github.com/Outburn-IL/IL-DGMC-IG/issues/9
 * subject.extension[visitor-type].valueCodeableConcept from $vsPatVisitorTy (extensible)
+* subject.extension[visitor-type].valueCodeableConcept.coding.system = "http://fhir.dgmc.health.gov.il/cs/patient-visitor-type" (exactly)
+
+* reasonCode.coding.system = "http://fhir.health.gov.il/cs/patient-visit-reason-moh" (exactly)
