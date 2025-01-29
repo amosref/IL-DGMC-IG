@@ -38,7 +38,8 @@ Description: "DGMC Encounter Namer Case"
 * hospitalization.admitSource.coding.system	1..1
 * hospitalization.admitSource.coding.code 1..1
 * hospitalization.admitSource.coding.display 1..1
-* hospitalization.dietPreference from $vsDietPrefUri 
+* hospitalization.dietPreference from $vsDietPrefUri
+* hospitalization.origin only Reference(ILCoreOrganization)
 * hospitalization.origin.identifier.system = "http://institutions.health.gov.il/Institutions" (exactly)
 * serviceProvider.reference	1..1
 
