@@ -328,3 +328,18 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.Wolfson.health.gov.il/cs/allergyInt-code-medication "וולפסון - קודי רגישות - תרופות"
 * #http://fhir.Tasmc.health.gov.il/cs/allergyInt-code-medication "איכילוב - קודי רגישות - תרופות"
 * #http://fhir.tzafon.health.gov.il/cs/allergyInt-code-medication "פוריה - קודי רגישות - תרופות"
+
+
+// Condition
+* #http://fhir.bmc.health.gov.il/identifier/cml-diagnosis-rowid "ברזילי - מזהה אבחנה בטבלת אבחנות"
+* #http://fhir.gmc.health.gov.il/identifier/cml-diagnosis-rowid "נהריה - מזהה אבחנה בטבלת אבחנות"
+* #http://fhir.hymc.health.gov.il/identifier/cml-diagnosis-rowid "הלל יפה - מזהה אבחנה בטבלת אבחנות"
+* #http://fhir.sheba.health.gov.il/identifier/cml-diagnosis-rowid "שיבא - מזהה אבחנה בטבלת אבחנות"
+* #http://fhir.b-zion.health.gov.il/identifier/cml-diagnosis-rowid "בני ציון - מזהה אבחנה בטבלת אבחנות"
+* #http://fhir.rambam.health.gov.il/identifier/cml-diagnosis-rowid "רמבם - מזהה אבחנה בטבלת אבחנות"
+* #http://fhir.shamir.health.gov.il/identifier/cml-diagnosis-rowid "שמיר - מזהה אבחנה בטבלת אבחנות"
+* #http://fhir.ziv.health.gov.il/identifier/cml-diagnosis-rowid "זיו - מזהה אבחנה בטבלת אבחנות"
+* #http://fhir.Wolfson.health.gov.il/identifier/cml-diagnosis-rowid "וולפסון - מזהה אבחנה בטבלת אבחנות"
+* #http://fhir.Tasmc.health.gov.il/identifier/cml-diagnosis-rowid "איכילוב - מזהה אבחנה בטבלת אבחנות"
+* #http://fhir.tzafon.health.gov.il/identifier/cml-diagnosis-rowid "פוריה - מזהה אבחנה בטבלת אבחנות"
+
