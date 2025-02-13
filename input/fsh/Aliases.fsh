@@ -27,7 +27,7 @@ Alias: $csOuClassFlag =        http://fhir.dgmc.health.gov.il/cs/ou-classificati
 Alias: $csNmrOuType =          http://fhir.dgmc.health.gov.il/cs/nmr-ou-type
 Alias: $csNmrHmoCode =         http://fhir.dgmc.health.gov.il/cs/nmr-hmo-code
 Alias: $csAllrgyIntComment =   http://fhir.dgmc.health.gov.il/cs/allergyInt-code-comment
-Alias: $csDiagnosisComponent = http://fhir.dgmc.health.gov.il/cs/diagnosis-componment
+Alias: $csDiagnosisComponent = http://fhir.dgmc.health.gov.il/cs/diagnosis-component
 Alias: $csBodySiteLaterality = http://fhir.dgmc.health.gov.il/cs/body-site-laterlity
 
 

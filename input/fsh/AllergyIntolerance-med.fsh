@@ -28,10 +28,13 @@ Description: "DGMC Allergy Intolerance Medication"
 * code.coding ^slicing.discriminator.path = "system"
 * code.coding ^slicing.rules = #open
 * code.coding ^slicing.ordered = false
-* code.coding contains med 1..1
+* code.coding contains med 0..1 unknown 0..1
 * code.coding[med].system from $vsAllergyIntCodeMedUri (required)
 * code.coding[med].code 1..1
 * code.coding[med].display 1..1
+* code.coding[unknown].system = "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical" (exactly)
+* code.coding[unknown].code = "71618600" (exactly)
+* code.coding[unknown].display = "No known allergy" (exactly)
 
 * patient.reference 1..1
 * encounter 1..1

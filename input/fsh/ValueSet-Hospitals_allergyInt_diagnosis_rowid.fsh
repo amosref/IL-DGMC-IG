@@ -1,7 +1,7 @@
-ValueSet: DiagnosisRawidUri
-Id: diagnosis-rawid-uri
-Title: "Diagnosis Rawid Uri"
-Description: "Diagnosis Rawid Uri"
+ValueSet: CmlDiagnosisRawidUri
+Id: cml-diagnosis-rawid-uri
+Title: "Chameleon Diagnosis Table ID"
+Description: "ValueSet of all DGMC Hospitals Uris for Diagnosis Table ID"
 * insert ConformanceMetadata
 * ^url = $vsCmlDiagnosisRowidUri
 
