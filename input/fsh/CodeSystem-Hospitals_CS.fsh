@@ -329,6 +329,18 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.Tasmc.health.gov.il/cs/allergyInt-code-medication "איכילוב - קודי רגישות - תרופות"
 * #http://fhir.tzafon.health.gov.il/cs/allergyInt-code-medication "פוריה - קודי רגישות - תרופות"
 
+* #http://fhir.bmc.health.gov.il/cs/allergyInt-reaction "ברזילי - קודי תגובה לרגישות"
+* #http://fhir.gmc.health.gov.il/cs/allergyInt-reaction "נהריה - קודי תגובה לרגישות"
+* #http://fhir.hymc.health.gov.il/cs/allergyInt-reaction "הלל יפה - קודי תגובה לרגישות"
+* #http://fhir.sheba.health.gov.il/cs/allergyInt-reaction "שיבא - קודי תגובה לרגישות"
+* #http://fhir.b-zion.health.gov.il/cs/allergyInt-reaction "בני ציון - קודי תגובה לרגישות"
+* #http://fhir.rambam.health.gov.il/cs/allergyInt-reaction "רמבם - קודי תגובה לרגישות"
+* #http://fhir.shamir.health.gov.il/cs/allergyInt-reaction "שמיר - קודי תגובה לרגישות"
+* #http://fhir.ziv.health.gov.il/cs/allergyInt-reaction "זיו - קודי תגובה לרגישות"
+* #http://fhir.Wolfson.health.gov.il/cs/allergyInt-reaction "וולפסון - קודי תגובה לרגישות"
+* #http://fhir.Tasmc.health.gov.il/cs/allergyInt-reaction "איכילוב - קודי תגובה לרגישות"
+* #http://fhir.tzafon.health.gov.il/cs/allergyInt-reaction "פוריה - קודי תגובה לרגישות"
+
 
 // Condition
 * #http://fhir.bmc.health.gov.il/identifier/cml-diagnosis-rowid "ברזילי - מזהה אבחנה בטבלת אבחנות"
