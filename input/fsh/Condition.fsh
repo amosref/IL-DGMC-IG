@@ -4,6 +4,7 @@ Id: dgmc-condition
 Title: "DGMC Condition"
 Description: "DGMC Condition"
 * insert ConformanceMetadata
+//Condition
 
 * id 1..1
 

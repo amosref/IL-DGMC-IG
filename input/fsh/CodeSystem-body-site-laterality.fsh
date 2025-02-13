@@ -7,7 +7,7 @@ Description: "Laterality of body sides diagnosis"
 * ^url = $csBodySiteLaterality
 * #24028007 "Right"
 * #7771000 "Left"
-* #51440002 "Both Sides"
+* #51440001 "Both Sides"
 
 
 
