@@ -16,19 +16,6 @@ Description: "DGMC Condition"
 * identifier[Rowid].system from $vsCmlDiagnosisRowidUri
 * identifier[Rowid].value 1..1
 
-* code obeys generally-healthy
-* code.coding ^slicing.discriminator.type = #value
-* code.coding ^slicing.discriminator.path = "system"
-* code.coding ^slicing.rules = #open
-* code.coding ^slicing.ordered = false
-* code.coding contains normalPatientCondition 0..1
-* code.coding[normalPatientCondition].system 1..1
-* code.coding[normalPatientCondition].system = "http://snomed.info/sct" (exactly)
-* code.coding[normalPatientCondition].code 1..1
-* code.coding[normalPatientCondition].code = "81323004"
-* code.coding[normalPatientCondition].display 1..1
-* code.coding[normalPatientCondition].display = "Normal patient condition"
-
 * clinicalStatus 1..1
 * clinicalStatus.coding 1..1
 * clinicalStatus.coding.system 1..1
@@ -59,7 +46,7 @@ Description: "DGMC Condition"
 * category ^slicing.rules = #open
 * category ^slicing.ordered = false
 * category contains dgmc-component 1..1 and ilcore 1..1
-78* category[dgmc-component].coding.system 1..1
+* category[dgmc-component].coding.system 1..1
 * category[dgmc-component].coding.system = "http://fhir.dgmc.health.gov.il/cs/diagnosis-componment" (exactly)
 * category[dgmc-component].coding.code 1..1
 * category[dgmc-component].coding.display 1..1
@@ -67,9 +54,4 @@ Description: "DGMC Condition"
 * category[ilcore].coding.system 1..1
 * category[ilcore].coding.code 1..1
 * category[ilcore].coding.display 1..1
-
-Invariant: generally-healthy
-Description: "if code.coding.code = 81323004 then there SHALL be a code.text and it will contain 'בריא בדרך כלל'"
-Expression: "coding.code=81323004 implies ((text.exists()) and (text='בריא בדרך כלל'))"
-Severity: #warning
 
