@@ -22,6 +22,8 @@ Description: "DGMC Encounter Namer Movement"
 * identifier[nmr2cml-identifier].system 1..1
 * identifier[nmr2cml-identifier].system from $vsNmrToCmlUri (required)
 * identifier[nmr2cml-identifier].value 1..1
+
+* class.system = "http://terminology.hl7.org/CodeSystem/v3-ActCode"
 * type 1..*
 * type.coding 1..1
 
