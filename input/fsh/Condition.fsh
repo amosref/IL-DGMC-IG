@@ -5,6 +5,7 @@ Title: "DGMC Condition"
 Description: "DGMC Condition"
 * insert ConformanceMetadata
 //Condition
+//Condition
 
 * id 1..1
 
@@ -55,4 +56,9 @@ Description: "DGMC Condition"
 * category[ilcore].coding.system 1..1
 * category[ilcore].coding.code 1..1
 * category[ilcore].coding.display 1..1
+
+Invariant: generally-healthy
+Description: "if code.coding.code = 81323004 then there SHALL be a code.text and it will contain 'בריא בדרך כלל'"
+Expression: "coding.code=81323004 implies ((text.exists()) and (text='בריא בדרך כלל'))"
+Severity: #warning
 
