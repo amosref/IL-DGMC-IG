@@ -43,6 +43,7 @@ Description: "DGMC Condition"
 * bodySite[dgmc-side].coding.code from $vsBodySiteLaterality (required)
 * bodySite[dgmc-side].coding.display 1..1
 
+* category obeys problem-list-item
 * category 2..*
 * category ^slicing.discriminator.type = #value
 * category ^slicing.discriminator.path = "system"
@@ -58,8 +59,8 @@ Description: "DGMC Condition"
 * category[ilcore].coding.code 1..1
 * category[ilcore].coding.display 1..1
 
-Invariant: generally-healthy
-Description: "if code.coding.code = 81323004 then there SHALL be a code.text and it will contain 'בריא בדרך כלל'"
-Expression: "coding.code=81323004 implies ((text.exists()) and (text='בריא בדרך כלל'))"
-Severity: #warning
+Invariant: problem-list-item
+Description: "If category.coding.code = one of ['1','9','21','22'], there SHALL be another category.coding with the code 'problem-list-item' from 'http://terminology.hl7.org/CodeSystem/condition-category'"
+Expression: "(not coding.where(code in {'1','9','21','22'}).exists()) or coding.where(code = 'problem-list-item' and system = 'http://terminology.hl7.org/CodeSystem/condition-category').exists()"
+Severity: #error
 
