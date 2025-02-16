@@ -27,7 +27,7 @@ Description: "DGMC Allergy Intolerance Other: food/environment/biologic."
 * code.coding ^slicing.discriminator.path = "system"
 * code.coding ^slicing.rules = #open
 * code.coding ^slicing.ordered = false
-* code.coding contains other 0..1 and external 0..1 unknown 0..1
+* code.coding contains other 0..1 and external 0..1 and unknown 0..1
 * code.coding[other].system 1..1
 * code.coding[other].system from $vsAllergyIntCodeOtherUri (required)
 * code.coding[other].code 1..1
@@ -36,7 +36,7 @@ Description: "DGMC Allergy Intolerance Other: food/environment/biologic."
 * code.coding[external].system from $vsAllergyIntCodeExtUri (required)
 * code.coding[external].code 1..1
 * code.coding[unknown].system = "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical" (exactly)
-* code.coding[unknown].code = "71618600" (exactly)
+* code.coding[unknown].code = #71618600 (exactly)
 * code.coding[unknown].display = "No known allergy" (exactly)
 
 * patient.reference 1..1

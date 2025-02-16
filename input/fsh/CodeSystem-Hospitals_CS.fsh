@@ -305,18 +305,6 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.Tasmc.health.gov.il/cs/allergyInt-code-external "איכילוב - קודי רגישות - קוד חיצוני"
 * #http://fhir.tzafon.health.gov.il/cs/allergyInt-code-external "פוריה - קודי רגישות - קוד חיצוני"
 
-* #http://fhir.bmc.health.gov.il/cs/allergyInt-reaction "ברזילי - קודי התבטאות הרגישות"
-* #http://fhir.gmc.health.gov.il/cs/allergyInt-reaction "נהריה - קודי התבטאות הרגישות"
-* #http://fhir.hymc.health.gov.il/cs/allergyInt-reaction "הלל יפה - קודי התבטאות הרגישות"
-* #http://fhir.sheba.health.gov.il/cs/allergyInt-reaction "שיבא - קודי התבטאות הרגישות"
-* #http://fhir.b-zion.health.gov.il/cs/allergyInt-reaction "בני ציון - קודי התבטאות הרגישות"
-* #http://fhir.rambam.health.gov.il/cs/allergyInt-reaction "רמבם - קודי התבטאות הרגישות"
-* #http://fhir.shamir.health.gov.il/cs/allergyInt-reaction "שמיר - קודי התבטאות הרגישות"
-* #http://fhir.ziv.health.gov.il/cs/allergyInt-reaction "זיו - קודי התבטאות הרגישות"
-* #http://fhir.Wolfson.health.gov.il/cs/allergyInt-reaction "וולפסון - קודי התבטאות הרגישות"
-* #http://fhir.Tasmc.health.gov.il/cs/allergyInt-reaction "איכילוב - קודי התבטאות הרגישות"
-* #http://fhir.tzafon.health.gov.il/cs/allergyInt-reaction "פוריה - קודי התבטאות הרגישות"
-
 * #http://fhir.bmc.health.gov.il/cs/allergyInt-code-medication "ברזילי - קודי רגישות - תרופות"
 * #http://fhir.gmc.health.gov.il/cs/allergyInt-code-medication "נהריה - קודי רגישות - תרופות"
 * #http://fhir.hymc.health.gov.il/cs/allergyInt-code-medication "הלל יפה - קודי רגישות - תרופות"
@@ -340,6 +328,19 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.Wolfson.health.gov.il/cs/allergyInt-reaction "וולפסון - קודי תגובה לרגישות"
 * #http://fhir.Tasmc.health.gov.il/cs/allergyInt-reaction "איכילוב - קודי תגובה לרגישות"
 * #http://fhir.tzafon.health.gov.il/cs/allergyInt-reaction "פוריה - קודי תגובה לרגישות"
+
+
+* #http://fhir.bmc.health.gov.il/cs/allergyInt-manifestation "ברזילי - קודי תגובה לרגישות"
+* #http://fhir.gmc.health.gov.il/cs/allergyInt-manifestation "נהריה - קודי תגובה לרגישות"
+* #http://fhir.hymc.health.gov.il/cs/allergyInt-manifestation "הלל יפה - קודי תגובה לרגישות"
+* #http://fhir.sheba.health.gov.il/cs/allergyInt-manifestation "שיבא - קודי תגובה לרגישות"
+* #http://fhir.b-zion.health.gov.il/cs/allergyInt-manifestation "בני ציון - קודי תגובה לרגישות"
+* #http://fhir.rambam.health.gov.il/cs/allergyInt-manifestation "רמבם - קודי תגובה לרגישות"
+* #http://fhir.shamir.health.gov.il/cs/allergyInt-manifestation "שמיר - קודי תגובה לרגישות"
+* #http://fhir.ziv.health.gov.il/cs/allergyInt-manifestation "זיו - קודי תגובה לרגישות"
+* #http://fhir.Wolfson.health.gov.il/cs/allergyInt-manifestation "וולפסון - קודי תגובה לרגישות"
+* #http://fhir.Tasmc.health.gov.il/cs/allergyInt-manifestation "איכילוב - קודי תגובה לרגישות"
+* #http://fhir.tzafon.health.gov.il/cs/allergyInt-manifestation "פוריה - קודי תגובה לרגישות"
 
 
 // Condition
