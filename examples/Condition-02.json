@@ -1,0 +1,246 @@
+[
+    {
+      "resourceType": "Condition",
+      "id": "CMLDiag.123",
+      "meta": {
+        "profile": [
+          "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-condition",
+          "http://fhir.health.gov.il/StructureDefinition/il-core-condition",
+          "http://hdp.fhir.health.gov.il/StructureDefinition/il-hdp-condition"
+        ],
+        "security": [
+          {
+            "code": "Diagnoses",
+            "display": "אבחנות"
+          }
+        ]
+      },
+      "identifier": [
+        {
+          "system": "http://fhir.b-zion.health.gov.il/identifier/cml-diagnosis-rowid",
+          "value": "123"
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/sid/icd-10",
+            "code": "F00",
+            "display": "Dementia in Alzheimer's disease"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/PAT.0123456789"
+      },
+      "encounter": {
+        "reference": "Encounter/CML.123456"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+            "code": "active",
+            "display": "Active"
+          }
+        ]
+      },
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+              "code": "encounter-diagnosis",
+              "display": "Encounter Diagnosis"
+            }
+          ]
+        },
+        {
+          "coding": [
+            {
+              "system": "http://fhir.dgmc.health.gov.il/cs/diagnosis-componment",
+              "code": "3",
+              "display": "אבחנות באשפוז"
+            }
+          ]
+        }
+      ],
+      "onsetDateTime": "1984-01-01",
+      "recordedDate": "2025-01-08",
+      "recorder": {
+        "reference": "Practitioner/CML.7364"
+      },
+      "note": [
+        {
+          "text": "בדיקה"
+        }
+      ]
+    },
+    {
+      "resourceType": "Condition",
+      "id": "CMLDiag.456",
+      "meta": {
+        "profile": [
+          "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-condition",
+          "http://fhir.health.gov.il/StructureDefinition/il-core-condition",
+          "http://hdp.fhir.health.gov.il/StructureDefinition/il-hdp-condition"
+        ],
+        "security": [
+          {
+            "code": "Diagnoses",
+            "display": "אבחנות"
+          }
+        ]
+      },
+      "identifier": [
+        {
+          "system": "http://fhir.b-zion.health.gov.il/identifier/cml-diagnosis-rowid",
+          "value": "456"
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/sid/icd-9-cm",
+            "code": "005.0",
+            "display": "Staphylococcal food poisoning"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/PAT.0123456789"
+      },
+      "encounter": {
+        "reference": "Encounter/CML.123456"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+            "code": "recurrence",
+            "display": "Recurrence"
+          }
+        ]
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+            "code": "provisional",
+            "display": "Provisional"
+          }
+        ]
+      },
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+              "code": "encounter-diagnosis",
+              "display": "Encounter Diagnosis"
+            }
+          ]
+        },
+        {
+          "coding": [
+            {
+              "system": "http://fhir.dgmc.health.gov.il/cs/diagnosis-componment",
+              "code": "2",
+              "display": "אבחנות בקבלה"
+            }
+          ]
+        }
+      ],
+      "recordedDate": "2025-01-07",
+      "recorder": {
+        "reference": "Practitioner/CML.7364"
+      },
+      "note": [
+        {
+          "text": "בדיקה 2"
+        }
+      ]
+    },
+    {
+      "resourceType": "Condition",
+      "id": "CMLDiag.789",
+      "meta": {
+        "profile": [
+          "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-condition",
+          "http://fhir.health.gov.il/StructureDefinition/il-core-condition",
+          "http://hdp.fhir.health.gov.il/StructureDefinition/il-hdp-condition"
+        ],
+        "security": [
+          {
+            "code": "Diagnoses",
+            "display": "אבחנות"
+          }
+        ]
+      },
+      "identifier": [
+        {
+          "system": "http://fhir.b-zion.health.gov.il/identifier/cml-diagnosis-rowid",
+          "value": "789"
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/diagnosis-local-code",
+            "code": "-1",
+            "display": "לא ידוע"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "81323004",
+            "display": "Normal patient condition"
+          }
+        ],
+        "text": "בריא בדרך כלל"
+      },
+      "subject": {
+        "reference": "Patient/PAT.0123456789"
+      },
+      "encounter": {
+        "reference": "Encounter/CML.123456"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+            "code": "active",
+            "display": "Active"
+          }
+        ]
+      },
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+              "code": "problem-list-item",
+              "display": "Problem List Item"
+            }
+          ]
+        },
+        {
+          "coding": [
+            {
+              "system": "http://fhir.dgmc.health.gov.il/cs/diagnosis-componment",
+              "code": "1",
+              "display": "אבחנות רקע"
+            }
+          ]
+        }
+      ],
+      "recordedDate": "2025-01-07",
+      "recorder": {
+        "reference": "Practitioner/CML.7364"
+      },
+      "note": [
+        {
+          "text": "בריא בדרך כלל"
+        }
+      ]
+    }
+  ]

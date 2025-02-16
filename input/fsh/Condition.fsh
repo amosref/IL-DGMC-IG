@@ -13,6 +13,7 @@ Description: "DGMC Condition"
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier ^slicing.ordered = false
+* identifier 1..*
 * identifier contains Rowid 1..1
 * identifier[Rowid].system 1..1
 * identifier[Rowid].system from $vsCmlDiagnosisRowidUri
@@ -22,7 +23,7 @@ Description: "DGMC Condition"
 * clinicalStatus.coding 1..1
 * clinicalStatus.coding.system 1..1
 * clinicalStatus.coding.system = "http://terminology.hl7.org/CodeSystem/condition-clinical" (exactly)
-* clinicalStatus.coding.value 1..1
+* clinicalStatus.coding.code 1..1
 * clinicalStatus.coding.display 1..1
 
 * subject.reference 1..1
@@ -52,7 +53,7 @@ Description: "DGMC Condition"
 * category[dgmc-component].coding.system = "http://fhir.dgmc.health.gov.il/cs/diagnosis-componment" (exactly)
 * category[dgmc-component].coding.code 1..1
 * category[dgmc-component].coding.display 1..1
-* category[ilcore].coding from $vsIlcoreCategory (exactly)
+* category[ilcore].coding from $vsIlcoreCategory (required)
 * category[ilcore].coding.system 1..1
 * category[ilcore].coding.code 1..1
 * category[ilcore].coding.display 1..1

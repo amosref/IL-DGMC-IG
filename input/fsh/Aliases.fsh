@@ -29,6 +29,7 @@ Alias: $csNmrHmoCode =         http://fhir.dgmc.health.gov.il/cs/nmr-hmo-code
 Alias: $csAllrgyIntComment =   http://fhir.dgmc.health.gov.il/cs/allergyInt-code-comment
 Alias: $csDiagnosisComponent = http://fhir.dgmc.health.gov.il/cs/diagnosis-component
 Alias: $csBodySiteLaterality = http://fhir.dgmc.health.gov.il/cs/body-site-laterlity
+Alias: $csDiagnosisLocalCode = http://fhir.dgmc.health.gov.il/cs/diagnosis-local-code
 
 
 // VS
@@ -58,6 +59,7 @@ Alias: $vsAllergyIntCodeOtherUri =      http://fhir.dgmc.health.gov.il/ValueSet/
 Alias: $vsAllergyIntCodeMedUri =        http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-code-med-uri
 Alias: $vsAllergyIntCodeExtUri =        http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-ext-code-other-uri
 Alias: $vsAllergyIntReactionCodeUri =   http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-reaction-code-uri
+Alias: $vsAllergyIntManifestationUri =  http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-manifestation-uri
 Alias: $vsCmlDiagnosisRowidUri =        http://fhir.dgmc.health.gov.il/ValueSet/cml-diagnosis-rowid-uri
 Alias: $vsBodySiteLaterality =          http://fhir.dgmc.health.gov.il/ValueSet/body-site-laterlity
 Alias: $vsDiagnosisComponent =          http://fhir.dgmc.health.gov.il/ValueSet/diagnosis-componment

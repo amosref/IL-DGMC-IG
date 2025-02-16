@@ -36,6 +36,7 @@ Description: "DGMC Encounter Namer Case"
 * hospitalization.admitSource.coding 1..*
 * hospitalization.admitSource.coding from $vs-patient-admit-source-moh (extensible)
 * hospitalization.admitSource.coding.system	1..1
+* hospitalization.admitSource.coding.system	= "http://fhir.health.gov.il/cs/patient-admit-source-moh"
 * hospitalization.admitSource.coding.code 1..1
 * hospitalization.admitSource.coding.display 1..1
 * hospitalization.dietPreference from $vsDietPrefUri
