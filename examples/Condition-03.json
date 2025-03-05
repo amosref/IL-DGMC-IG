@@ -1,7 +1,6 @@
-
 {
   "resourceType": "Condition",
-  "id": "CMLDiag.789",
+  "id": "CMLDiag.456",
   "meta": {
     "profile": [
       "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-condition",
@@ -18,23 +17,17 @@
   "identifier": [
     {
       "system": "http://fhir.b-zion.health.gov.il/identifier/cml-diagnosis-rowid",
-      "value": "789"
+      "value": "456"
     }
   ],
   "code": {
     "coding": [
       {
-        "system": "http://fhir.dgmc.health.gov.il/cs/diagnosis-local-code",
-        "code": "-1",
-        "display": "לא ידוע"
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "code": "81323004",
-        "display": "Normal patient condition"
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "code": "005.0",
+        "display": "Staphylococcal food poisoning"
       }
-    ],
-    "text": "בריא בדרך כלל"
+    ]
   },
   "subject": {
     "reference": "Patient/PAT.0123456789"
@@ -46,8 +39,17 @@
     "coding": [
       {
         "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-        "code": "active",
-        "display": "Active"
+        "code": "recurrence",
+        "display": "Recurrence"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "provisional",
+        "display": "Provisional"
       }
     ]
   },
@@ -56,8 +58,8 @@
       "coding": [
         {
           "system": "http://terminology.hl7.org/CodeSystem/condition-category",
-          "code": "problem-list-item",
-          "display": "Problem List Item"
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
         }
       ]
     },
@@ -65,8 +67,8 @@
       "coding": [
         {
           "system": "http://fhir.dgmc.health.gov.il/cs/diagnosis-component",
-          "code": "1",
-          "display": "אבחנות רקע"
+          "code": "2",
+          "display": "אבחנות בקבלה"
         }
       ]
     }
@@ -77,7 +79,7 @@
   },
   "note": [
     {
-      "text": "בריא בדרך כלל"
+      "text": "בדיקה 2"
     }
   ]
 }

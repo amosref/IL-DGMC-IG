@@ -32,8 +32,8 @@ Description: "DGMC Allergy Intolerance Medication"
 * code.coding[med].system from $vsAllergyIntCodeMedUri (required)
 * code.coding[med].code 1..1
 * code.coding[med].display 1..1
-* code.coding[unknown].system = "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical" (exactly)
-* code.coding[unknown].code = #71618600 (exactly)
+* code.coding[unknown].system = $sct (exactly)
+* code.coding[unknown].code = #716186003 (exactly)
 * code.coding[unknown].display = "No known allergy" (exactly)
 
 * patient.reference 1..1

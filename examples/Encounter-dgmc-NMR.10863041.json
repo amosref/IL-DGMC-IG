@@ -49,8 +49,8 @@
           "valueCodeableConcept": {
             "coding": [
               {
-                "system": "http://fhir.health.gov.il/cs/patient-visitor-type-moh",
-                "code": "0002",
+                "system": "http://fhir.dgmc.health.gov.il/cs/patient-visitor-type",
+                "code": "2",
                 "display": "צה\"ל - חילים"
               }
             ]

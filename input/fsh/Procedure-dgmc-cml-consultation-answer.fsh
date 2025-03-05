@@ -21,6 +21,7 @@ Description: "DGMC Consultation Answer"
 * subject.reference 1..1
 * performed[x] only dateTime
 * performedDateTime 1..1
+* recorder 1..1
 * recorder.reference 1..1
 * asserter.reference 1..1
 * outcome 1..1
