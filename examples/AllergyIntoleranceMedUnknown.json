@@ -9,7 +9,7 @@
     "id": "MED.123231",
     "identifier": [
       {
-        "system": "http://fhir.b-zion.health.gov.il/identifier/medication-sensitivity",
+        "system": "http://fhir.b-zion.health.gov.il/identifier/allergyInt-medication",
         "value": "123231"
       }
     ],
@@ -28,8 +28,8 @@
     "code": {
       "coding": [
         {
-          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
-          "code": "71618600",
+          "system": "http://snomed.info/sct",
+          "code": "716186003",
           "display": "No known allergy"
         }
       ]
@@ -40,5 +40,8 @@
     "recordedDate": "2014-10-09T14:58:00+11:00",
     "recorder": {
       "reference": "Practitioner/CML.1016"
+    },
+    "encounter": {
+      "reference": "Encounter/ENC.1016"
     }
   }

@@ -35,7 +35,7 @@ Description: "DGMC Allergy Intolerance Other: food/environment/biologic."
 * code.coding[external].system 1..1
 * code.coding[external].system from $vsAllergyIntCodeExtUri (required)
 * code.coding[external].code 1..1
-* code.coding[unknown].system = "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical" (exactly)
+* code.coding[unknown].system = $sct (exactly)
 * code.coding[unknown].code = #71618600 (exactly)
 * code.coding[unknown].display = "No known allergy" (exactly)
 
