@@ -104,10 +104,14 @@ export const readValidationResults = (filePath) => {
 export const getDependencies = (sushiConfig) => {
     if (sushiConfig?.dependencies) {
         const igs = Object.entries(sushiConfig.dependencies);
-        const igParamArray = igs.map((kv) => `-ig ${kv[0]}#${kv[1].version}`);
-        return igParamArray.join(' ');
+        let igParamArray = [];
+        igs.map((kv) => {
+            igParamArray.push('-ig');
+            igParamArray.push(`${kv[0]}#${kv[1].version}`);
+        });
+        return igParamArray;
     } else {
-        return ''
+        return [];
     }
 };
 

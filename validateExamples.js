@@ -31,8 +31,10 @@ const readResults = async () => {
 
 const runValidate = async () => {
     if (java && jar) {
-        const command = `"${java}" -Dfile.encoding=UTF-8 -jar "${jar}" "${examplesFolder}" -version ${getFhirVersion()} -jurisdiction global -ig "${igFolder}" ${getDependencies(sushiConfig)} -output ${outputPathJson} -html-output ${outputPathHtml}`;
-        const subprocess = execa(command);
+        const args = ['-Dfile.encoding=UTF-8', '-jar', jar, examplesFolder, '-version', getFhirVersion(), '-jurisdiction', 'global', '-ig', igFolder]
+            .concat(getDependencies(sushiConfig))
+            .concat(['-output', outputPathJson, '-html-output', outputPathHtml]);
+        const subprocess = execa(java, args);
         subprocess.stdout.pipe(process.stdout);
         await subprocess;
         const errors = await readResults();
