@@ -63,6 +63,7 @@ Alias: $vsAllergyIntManifestationUri =  http://fhir.dgmc.health.gov.il/ValueSet/
 Alias: $vsCmlDiagnosisRowidUri =        http://fhir.dgmc.health.gov.il/ValueSet/cml-diagnosis-rowid-uri
 Alias: $vsBodySiteLaterality =          http://fhir.dgmc.health.gov.il/ValueSet/body-site-laterlity
 Alias: $vsDiagnosisComponent =          http://fhir.dgmc.health.gov.il/ValueSet/diagnosis-componment
+Alias: $vsCmlDiagnosisCodeUri =         http://fhir.dgmc.health.gov.il/ValueSet/diagnosis-code-uri
 Alias: $vsIlcoreCategory =              http://fhir.health.gov.il/ValueSet/il-core-condition-category
 
 Alias: $vsAdmType =               http://fhir.dgmc.health.gov.il/ValueSet/admission-type

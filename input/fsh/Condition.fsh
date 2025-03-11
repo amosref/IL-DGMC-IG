@@ -26,10 +26,26 @@ Description: "DGMC Condition"
 * clinicalStatus.coding.code 1..1
 * clinicalStatus.coding.display 1..1
 
+* verificationStatus.coding.system = "http://terminology.hl7.org/CodeSystem/condition-ver-status" (exactly)
+
 * subject.reference 1..1
 * encounter.reference 1..1
 * recordedDate 1..1
 * recorder.reference 1..1
+
+* code.coding ^slicing.discriminator.type = #value
+* code.coding ^slicing.discriminator.path = "system"
+* code.coding ^slicing.rules = #open
+* code.coding ^slicing.ordered = false
+* code.coding contains cml 1..1 and snomed 0..1
+* code.coding[cml].system 1..1
+* code.coding[cml].system from $vsCmlDiagnosisCodeUri (required)
+* code.coding[cml].code 1..1
+* code.coding[cml].display 1..1
+* code.coding[snomed].system 1..1
+* code.coding[snomed].system = "http://snomed.info/sct" (exactly)
+* code.coding[snomed].code 1..1
+* code.coding[snomed].display 1..1
 
 * bodySite ^slicing.discriminator.type = #value
 * bodySite ^slicing.discriminator.path = "coding.system"
