@@ -34,7 +34,6 @@ Description: "Profile on IL-Core-BP by DGMC"
 * encounter.reference 1..1
 * effective[x] only dateTime
 * effectiveDateTime 1..1
-// * performer 1..1
 * performer.reference 1..1
 * dataAbsentReason.coding.system 1..1
 * dataAbsentReason.coding.code 1..1
