@@ -48,8 +48,8 @@ Description: "DGMC Consultation Request"
 * orderDetail[question].extension[flag].valueBoolean = true (exactly)
 * orderDetail[question].text 1..1
 * orderDetail[question].text ^comment = "השאלה לייעוץ"
+* orderDetail[state] from $vsConsultPatState
 * orderDetail[state].coding 1..1
-* orderDetail[state].coding from $vsConsultPatState
 * orderDetail[state].coding.system 1..1
 * orderDetail[state].coding.code 1..1
 * orderDetail[state].coding.display 1..1

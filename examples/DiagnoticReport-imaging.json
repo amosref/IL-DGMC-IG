@@ -1,0 +1,97 @@
+{
+    "resourceType": "DiagnosticReport",
+    "id": "IMGFIND.10042038595.01",
+    "meta": {
+      "profile": [
+        "http://fhir.health.gov.il/StructureDefinition/il-core-diagnostic-report",
+        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-imaging-interpretation"
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-img-doc-ver",
+        "value": "10042038595.01"
+      },
+      {
+        "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-img-doc",
+        "value": "10042038595"
+      }
+    ],
+    "basedOn": [
+      {
+        "reference": "ServiceRequest/IMG.03937342.0241"
+      }
+    ],
+    "status": "final",
+    "_status": {
+      "extension": [
+        {
+          "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-doc-status-code",
+          "valueCode": "FR"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "363679005",
+            "display": "Imaging (procedure)"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "4201000179104",
+          "display": "Imaging report (record artifact)"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/PAT.1950797"
+    },
+    "encounter": {
+      "reference": "Encounter/NMR.11150744.2"
+    },
+    "issued": "2025-01-08T14:15:08Z",
+    "performer": [
+      {
+        "reference": "Organization/ORG.46350",
+        "identifier": {
+          "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-text",
+          "value": "מח-סיטי"
+        }
+      }
+    ],
+    "resultsInterpreter": [
+      {
+        "reference": "Practitioner?identifier=http://fhir.health.gov.il/identifier/il-national-id|000023325",
+        "identifier": {
+          "system": "http://fhir.dgmc.health.gov.il/ValueSet/sap-user-vma-uri",
+          "value": "AVI.ZAMIR1"
+        }
+      }
+    ],
+    "conclusion": "ממצעים הילה אליק נסיון",
+    "conclusionCode": [
+      {
+        "coding": [
+          {
+            "system": "http://fhir.b-zion.health.gov.il/cs/img-doc-abnormal-flag",
+            "code": "RADR",
+            "display": "הדמיה חריג- נשלח למטופל ולרופא"
+          }
+        ]
+      }
+    ],
+    "presentedForm": [
+      {
+        "contentType": "application/pdf",
+        "data": "JVBERi0xLjQKMSAwIG9iago8PC9UeXBlIC9DYXRhbG9nCi9QYWdlcyAyIDAgUgo+PgplbmRvYmoK MiAwIG9iago8PC9UeXBlIC9QYWdlcwovS2lkcyBbMyAwIFJdCi9Db3VudCAxCj4+CmVuZG9iagoz IDAgb2JqCjw8L1R5cGUgL1BhZ2UKL1BhcmVudCAyIDAgUgovTWVkaWFCb3ggWzAgMCA1OTUgODQy XQovQ29udGVudHMgNSAwIFIKL1Jlc291cmNlcyA8PC9Qcm9jU2V0IFsvUERGIC9UZXh0XQovRm9u dCA8PC9GMSA0IDAgUj4+Cj4+Cj4+CmVuZG9iago0IDAgb2JqCjw8L1R5cGUgL0ZvbnQKL1N1YnR5 cGUgL1R5cGUxCi9OYW1lIC9GMQovQmFzZUZvbnQgL0hlbHZldGljYQovRW5jb2RpbmcgL01hY1Jv bWFuRW5jb2RpbmcKPj4KZW5kb2JqCjUgMCBvYmoKPDwvTGVuZ3RoIDUzCj4+CnN0cmVhbQpCVAov RjEgMjAgVGYKMjIwIDQwMCBUZAooRHVtbXkgUERGKSBUagpFVAplbmRzdHJlYW0KZW5kb2JqCnhy ZWYKMCA2CjAwMDAwMDAwMDAgNjU1MzUgZgowMDAwMDAwMDA5IDAwMDAwIG4KMDAwMDAwMDA2MyAw MDAwMCBuCjAwMDAwMDAxMjQgMDAwMDAgbgowMDAwMDAwMjc3IDAwMDAwIG4KMDAwMDAwMDM5MiAw MDAwMCBuCnRyYWlsZXIKPDwvU2l6ZSA2Ci9Sb290IDEgMCBSCj4+CnN0YXJ0eHJlZgo0OTUKJSVF T0YK"
+      }
+    ]
+  }

@@ -9,6 +9,7 @@ Description: "DGMC Consultation Answer"
 * identifier.system 1..1
 * identifier.value 1..1
 * identifier.system from $vsConsultAnsUri (required)
+* basedOn 1..1
 * basedOn.reference 1..1
 * status 1..1
 * code.coding 1..*

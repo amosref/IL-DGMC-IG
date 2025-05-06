@@ -4,13 +4,17 @@ Alias: $extPrincipalUnit =   http://fhir.dgmc.health.gov.il/StructureDefinition/
 
 
 // External extensions
-// Comment for test
 Alias: $extGenderIdentity = http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
 Alias: $extDonor =          http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor
 Alias: $extDisability =     http://hl7.org/fhir/StructureDefinition/patient-disability
 Alias: $extNationality =    http://hl7.org/fhir/StructureDefinition/patient-nationality
 Alias: $extDAR =            http://hl7.org/fhir/StructureDefinition/data-absent-reason
 Alias: $extHebDate =        http://fhir.health.gov.il/StructureDefinition/ext-hebrew-date
+
+// Extensions
+
+Alias: $ext-nmr-service-status-code = http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-service-status-code
+Alias: $ext-nmr-doc-status-code = http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-doc-status-code
 
 // CodeSystems
 Alias: $csFollowUp =           http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag
@@ -52,9 +56,16 @@ Alias: $vsNmrOuTextUri =                http://fhir.dgmc.health.gov.il/ValueSet/
 Alias: $vsNmrOuCodeUri =                http://fhir.dgmc.health.gov.il/ValueSet/nmr-ou-code-uri
 Alias: $vsCmlBedIdUri =                 http://fhir.dgmc.health.gov.il/ValueSet/cml-bed-id-uri
 Alias: $vsCmlRoomIdUri =                http://fhir.dgmc.health.gov.il/ValueSet/cml-room-id-uri
-Alias: $vsAllergyIntIdentifierOtherUri =     http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-identifier-other-uri
-Alias: $vsAllergyIntIdentifierCommentUri =   http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-identifier-comment-uri
-Alias: $vsAllergyIntIdentifierMedUri =       http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-identifier-med-uri
+Alias: $vsNmrImgOrderService =             http://fhir.dgmc.health.gov.il/ValueSet/nmr-img-order-service-uri
+Alias: $vsNmrImgOrderNumber =              http://fhir.dgmc.health.gov.il/ValueSet/nmr-img-order-number-uri
+Alias: $vsNmrImgServiceGroupUri =         http://fhir.dgmc.health.gov.il/ValueSet/nmr-img-service-group-uri
+Alias: $vsNmrImgDocVerIdentifierUri =      http://fhir.dgmc.health.gov.il/ValueSet/nmr-img-doc-ver-identifier-uri
+Alias: $vsNmrImgDocIdentifierUri =         http://fhir.dgmc.health.gov.il/ValueSet/nmr-img-doc-identifier-uri
+Alias: $vsImgDocAbnormalFlagUri =          http://fhir.dgmc.health.gov.il/ValueSet/img-doc-abnormal-flag-uri
+Alias: $vsCoviewImagingUnit =              http://fhir.dgmc.health.gov.il/ValueSet/coview-imaging-unit-category-uri
+Alias: $vsAllergyIntIdentifierOtherUri =   http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-identifier-other-uri
+Alias: $vsAllergyIntIdentifierCommentUri = http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-identifier-comment-uri
+Alias: $vsAllergyIntIdentifierMedUri =     http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-identifier-med-uri
 Alias: $vsAllergyIntCodeOtherUri =      http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-code-other-uri
 Alias: $vsAllergyIntCodeMedUri =        http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-code-med-uri
 Alias: $vsAllergyIntCodeExtUri =        http://fhir.dgmc.health.gov.il/ValueSet/allergy-int-ext-code-other-uri

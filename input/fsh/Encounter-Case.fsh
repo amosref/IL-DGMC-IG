@@ -22,19 +22,33 @@ Description: "DGMC Encounter Namer Case"
 * identifier[nmr-case].system from $vsNmrCaseIdUri
 * identifier[nmr-case].value 1..1
 * class.system = "http://terminology.hl7.org/CodeSystem/v3-ActCode" (exactly)
+
+
 * type contains admission-type 0..1 and home-check-in 0..1
-* type[admission-type].coding from $vsAdmType (required)
+* type[admission-type] from $vsAdmType (required)
 * type[admission-type].coding.system 1..1
 * type[admission-type].coding.code 1..1
 * type[admission-type].coding.display 1..1
-* type[home-check-in].coding = $csHomeCheckIn#9
-* type[home-check-in].coding
-  * display 1..1
-  * display = "צ'ק-אין מהבית" (exactly)
+
+* type[home-check-in] = $csHomeCheckIn#9 
+//"צק-אין מהבית"
+* type[home-check-in].coding.system 1..1
+* type[home-check-in].coding.code 1..1
+* type[home-check-in].coding.display 1..1
+* type[home-check-in].coding ^slicing.discriminator.type = #pattern
+* type[home-check-in].coding ^slicing.discriminator.path = "$this"
+* type[home-check-in].coding ^slicing.rules = #open
+* type[home-check-in].coding contains dgmc 1..1
+* type[home-check-in].coding[dgmc] = $csHomeCheckIn#9 
+* type[home-check-in].coding[dgmc].display = "צ'ק-אין מהבית" (exactly)
+
+
+
+
 * period.start 1..1
 * hospitalization.admitSource 1..1
+* hospitalization.admitSource from $vs-patient-admit-source-moh (extensible)
 * hospitalization.admitSource.coding 1..*
-* hospitalization.admitSource.coding from $vs-patient-admit-source-moh (extensible)
 * hospitalization.admitSource.coding.system	1..1
 * hospitalization.admitSource.coding.system	= "http://fhir.health.gov.il/cs/patient-admit-source-moh"
 * hospitalization.admitSource.coding.code 1..1
