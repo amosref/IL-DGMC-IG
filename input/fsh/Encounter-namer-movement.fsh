@@ -24,11 +24,10 @@ Description: "DGMC Encounter Namer Movement"
 * identifier[nmr2cml-identifier].value 1..1
 
 * class.system = "http://terminology.hl7.org/CodeSystem/v3-ActCode"
-* type 1..*
 * type.coding 1..1
 
-* type contains mvmnt-type 1..1
-* type[mvmnt-type].coding from $vsAdmType (required)
+* type contains mvmnt-type 0..1
+* type[mvmnt-type] from $vsAdmType (required)
 
 // * type[mvmnt-type].coding.system 1..1
 // * type[mvmnt-type].coding.code 1..1

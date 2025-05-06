@@ -70,6 +70,15 @@
           "display": "קבלה רגילה"
         }
       ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://fhir.dgmc.health.gov.il/cs/home-check-in",
+          "code": "9",
+          "display": "צ'ק-אין מהבית"
+        }
+      ]
     }
   ],
   "reasonCode": [

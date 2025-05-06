@@ -1,0 +1,110 @@
+{
+    "resourceType": "ServiceRequest",
+    "id": "IMG.03937342.0241",
+    "meta": {
+      "profile": [
+        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-imaging-service-request",
+        "http://fhir.health.gov.il/StructureDefinition/il-core-service-request"
+      ]
+    },
+    "requisition": {
+      "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-img-order-number",
+      "value": "03937342"
+    },
+    "identifier": [
+      {
+        "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-img-order-service",
+        "value": "03937342.0241",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "PGN",
+              "display": "Placer Group Number"
+            }
+          ]
+        }
+      },
+      {
+        "system": "http://fhir.dgmc.health.gov.il/identifier/img-accession-number",
+        "value": "3600039373420241",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "ACSN",
+              "display": "Accession ID"
+            }
+          ]
+        }
+      }
+    ],
+    "status": "active",
+    "_status": {
+      "extension": [
+        {
+          "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-service-status-code",
+          "valueCode": "CNF"
+        }
+      ]
+    },
+    "intent": "filler-order",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "363679005",
+            "display": "Imaging (procedure)"
+          }
+        ]
+      },
+      {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/nmr-imaging-unit-category",
+            "code": "סיטי7",
+            "display": "הזמנה לטמוגראפיה מומחשבת"
+          },
+          {
+            "system": "http://fhir.b-zion.health.gov.il/cs/coview-imaging-unit-category",
+            "code": "סיטי",
+            "display": "סיטי"
+          }
+        ]
+      }
+    ],
+    "priority": "urgent",
+    "code": {
+      "coding": [
+        {
+          "system": "http://fhir.b-zion.health.gov.il/cs/nmr-img-service-group-code",
+          "code": "NA408",
+          "display": "CT עמוד שדרה, ראש קבוצה"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/PAT.1950797"
+    },
+    "encounter": {
+      "reference": "Encounter/NMR.11150744.1"
+    },
+    "authoredOn": "2025-01-08T11:33:49Z",
+    "requester": {
+      "reference": "Organization/ORG.10012",
+      "identifier": {
+        "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-text",
+        "value": "פנב"
+      }
+    },
+    "performer": [
+      {
+        "reference": "Organization/ORG.46350",
+        "identifier": {
+          "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-text",
+          "value": "מח-סיטי"
+        }
+      }
+    ]
+  }
