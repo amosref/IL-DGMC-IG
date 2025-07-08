@@ -3,7 +3,7 @@ Parent: ILCoreServiceRequest
 Id: dgmc-cml-consultation-request
 Title: "DGMC Consultation Request"
 Description: "DGMC Consultation Request"
-* insert ConformanceMetadata
+// * insert ConformanceMetadata
 
 * id 1..1
 * identifier.system 1..1

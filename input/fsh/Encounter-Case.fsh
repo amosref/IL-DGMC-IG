@@ -3,7 +3,7 @@ Parent: ILCoreEncounter
 Id: dgmc-encounter-case
 Title: "DGMC Encounter Namer Case"
 Description: "DGMC Encounter Namer Case"
-* insert ConformanceMetadata
+// * insert ConformanceMetadata
 
 * meta.security.system	1..1
 * meta.security.system	= "http://terminology.hl7.org/CodeSystem/v3-Confidentiality" (exactly)

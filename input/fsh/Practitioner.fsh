@@ -3,7 +3,7 @@ Parent: ILCorePractitioner
 Id: dgmc-practitioner
 Title: "DGMC Practitioner"
 Description: "Profile on IL-Core-Practitioner by DGMC"
-* insert ConformanceMetadata
+// * insert ConformanceMetadata
 
 * id 1..1
 * extension contains $extPrincipalUnit named principal-unit 0..1

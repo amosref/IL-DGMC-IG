@@ -3,7 +3,7 @@ Parent: ILCoreCondition
 Id: dgmc-condition
 Title: "DGMC Condition"
 Description: "DGMC Condition"
-* insert ConformanceMetadata
+// * insert ConformanceMetadata
 //Condition
 //Condition
 
@@ -19,10 +19,8 @@ Description: "DGMC Condition"
 * identifier[Rowid].system from $vsCmlDiagnosisRowidUri
 * identifier[Rowid].value 1..1
 
-* clinicalStatus 1..1
-* clinicalStatus.coding 1..1
+* clinicalStatus.coding 1..*
 * clinicalStatus.coding.system 1..1
-* clinicalStatus.coding.system = "http://terminology.hl7.org/CodeSystem/condition-clinical" (exactly)
 * clinicalStatus.coding.code 1..1
 * clinicalStatus.coding.display 1..1
 

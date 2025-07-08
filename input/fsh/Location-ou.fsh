@@ -3,7 +3,7 @@ Parent: il-core-location
 Id: dgmc-ou-location
 Title: "DGMC OU Location"
 Description: "Profile of DGMC Organizational Unit Location"
-* insert ConformanceMetadata
+// * insert ConformanceMetadata
 
 * id 1..1
 
