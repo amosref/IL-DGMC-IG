@@ -3,7 +3,7 @@ Parent: il-core-service-request
 Id: dgmc-imaging-service-request
 Title: "DGMC Imaging Service Request"
 Description: "Profile on IL-Core-Service-Request by DGMC for Imaging"
-* insert ConformanceMetadata
+// * insert ConformanceMetadata
 * id 1..1
 * identifier 1..*
 * identifier ^slicing.discriminator.type = #value

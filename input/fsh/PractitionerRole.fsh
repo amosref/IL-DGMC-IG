@@ -3,7 +3,7 @@ Parent: ILCorePractitionerRole
 Id: dgmc-practitioner-role
 Title: "DGMC Practitioner Role"
 Description: "Profile on IL-Core-PractitionerRole by DGMC"
-* insert ConformanceMetadata
+// * insert ConformanceMetadata
 * code 1..2
 * code.coding
   * system 1..1

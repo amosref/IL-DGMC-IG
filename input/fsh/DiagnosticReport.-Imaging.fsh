@@ -3,7 +3,7 @@ Parent: ILCoreDiagnosticReport
 Id: dgmc-imaging-interpretation
 Title: "DGMC Diagnostic Report - Imaging Interpretation"
 Description: "Profile on IL-Core-Diagnostic-Report by DGMC - Imaging Interpretation"
-* insert ConformanceMetadata
+// * insert ConformanceMetadata
 * id 1..1
 * identifier 1..*
 * identifier ^slicing.discriminator.type = #value

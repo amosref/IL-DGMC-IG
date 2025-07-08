@@ -3,7 +3,7 @@ Parent: il-core-organization
 Id: dgmc-cml-ou
 Title: "DGMC Chameleon OU"
 Description: "Profile of DGMC Chameleon Organizational Unit"
-* insert ConformanceMetadata
+// * insert ConformanceMetadata
 
 * id 1..1
 * identifier contains cml-ou-code 1..1 

@@ -3,7 +3,7 @@ Parent: il-core-organization
 Id: dgmc-hospital-organization
 Title: "DGMC Hospital Organization"
 Description: "Profile of DGMC Hospital Organization"
-* insert ConformanceMetadata
+// * insert ConformanceMetadata
 
 * id 1..1
 // * identifier contains moh-inst-symbol 1..1

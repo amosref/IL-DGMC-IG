@@ -3,7 +3,7 @@ Parent: ILCoreAllergyIntolerance
 Id: dgmc-allergy-intolerance-comment
 Title: "DGMC Allergy Intolerance Comment"
 Description: "DGMC Allergy Intolerance Comment"
-* insert ConformanceMetadata
+// * insert ConformanceMetadata
 
 * id 1..1
 * identifier 1..*

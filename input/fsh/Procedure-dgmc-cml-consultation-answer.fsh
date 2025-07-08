@@ -3,7 +3,7 @@ Parent: ILCoreProcedure
 Id: dgmc-cml-consultation-answer
 Title: "DGMC Consultation Answer"
 Description: "DGMC Consultation Answer"
-* insert ConformanceMetadata
+// * insert ConformanceMetadata
 
 * id 1..1
 * identifier.system 1..1

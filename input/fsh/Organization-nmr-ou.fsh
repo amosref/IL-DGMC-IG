@@ -3,7 +3,7 @@ Parent: il-core-organization
 Id: dgmc-nmr-ou
 Title: "DGMC Namer OU"
 Description: "Profile of DGMC Namer Organizational Unit"
-* insert ConformanceMetadata
+// * insert ConformanceMetadata
 
 * meta.security.system 1..1
 * meta.security.code 1..1
