@@ -81,7 +81,7 @@ Alias: $vsCmlBedIdUri =                 http://fhir.dgmc.health.gov.il/ValueSet/
 Alias: $vsCmlRoomIdUri =                http://fhir.dgmc.health.gov.il/ValueSet/cml-room-id-uri
 Alias: $vsNmrImgOrderService =             http://fhir.dgmc.health.gov.il/ValueSet/nmr-img-order-service-uri
 Alias: $vsNmrImgOrderNumber =              http://fhir.dgmc.health.gov.il/ValueSet/nmr-img-order-number-uri
-Alias: $vsNmrImgServiceGroupUri =         http://fhir.dgmc.health.gov.il/ValueSet/nmr-img-service-group-uri
+Alias: $vsNmrImgServiceGroupUri =          http://fhir.dgmc.health.gov.il/ValueSet/nmr-img-service-group-uri
 Alias: $vsNmrImgDocVerIdentifierUri =      http://fhir.dgmc.health.gov.il/ValueSet/nmr-img-doc-ver-identifier-uri
 Alias: $vsNmrImgDocIdentifierUri =         http://fhir.dgmc.health.gov.il/ValueSet/nmr-img-doc-identifier-uri
 Alias: $vsImgDocAbnormalFlagUri =          http://fhir.dgmc.health.gov.il/ValueSet/img-doc-abnormal-flag-uri
@@ -109,6 +109,10 @@ Alias: $vsOuClassFlag =                 http://fhir.dgmc.health.gov.il/ValueSet/
 Alias: $vsNmrOuType =                   http://fhir.dgmc.health.gov.il/ValueSet/nmr-ou-type
 Alias: $vsNmrHmoCode =                  http://fhir.dgmc.health.gov.il/ValueSet/nmr-hmo-code
 Alias: $all-snomed-codes =              http://fhir.dgmc.health.gov.il/ValueSet/all-snomed-codes
+Alias: $vsCmlInternalDrugCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-internal-drug-code-uri
+Alias: $vsCmlExternalDrugCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-external-drug-code-uri
+Alias: $vsCmlMedRouteCodeUri =          http://fhir.dgmc.health.gov.il/ValueSet/cml-med-route-code-uri
+Alias: $vsStandardQuantUnits =          http://fhir.dgmc.health.gov.il/ValueSet/standard-quant-units
 
 Alias: $vsAllergyIntCodeComment =       http://fhir.dgmc.health.gov.il/identifier/allergy-int-code-comment
 
