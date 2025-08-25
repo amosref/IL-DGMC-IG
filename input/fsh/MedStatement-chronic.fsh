@@ -7,9 +7,9 @@ Description: "DGMC Medication Statement for Chronic Medications"
 
 * id 1..1
 
-* extension[courseOfTherapyType].valueCodeableConcept.system = "http://fhir.health.gov.il/cs/il-core-medication-course-of-therapy-type"
-* extension[courseOfTherapyType].valueCodeableConcept.code = #chronic
-* extension[courseOfTherapyType].valueCodeableConcept.display = "Chronic therapy"
+* extension[courseOfTherapyType].valueCodeableConcept.coding.system = "http://fhir.health.gov.il/cs/il-core-medication-course-of-therapy-type"
+* extension[courseOfTherapyType].valueCodeableConcept.coding.code = #chronic
+* extension[courseOfTherapyType].valueCodeableConcept.coding.display = "Chronic therapy"
 
 * identifier 1..1
 * identifier.system 1..1
