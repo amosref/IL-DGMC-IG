@@ -8,7 +8,7 @@ Description: "פרופיל חטיבה למדדי מערכת (סוכר בדם)"
 * identifier.system from $vsManualMonitorIdentifiers (required)
 * identifier.value 1..1
 * category ^slicing.discriminator.type = #value
-* category ^slicing.discriminator.path = "system"
+* category ^slicing.discriminator.path = "coding.system"
 * category ^slicing.rules = #open
 * category contains CMLmonitor 0..1
 * category[CMLmonitor].coding.system 1..1

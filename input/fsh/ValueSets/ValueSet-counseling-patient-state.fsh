@@ -1,4 +1,4 @@
-ValueSet: CMLCounselingPatientState
+ValueSet: VsCMLCounselingPatientState
 Id: cml-counseling-patient-state
 Title: "CML Counseling Patient State"
 Description: "CML Counseling Patient State"

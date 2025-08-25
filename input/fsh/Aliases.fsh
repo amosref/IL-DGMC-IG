@@ -16,7 +16,7 @@ Alias: $extHebDate =        http://fhir.health.gov.il/StructureDefinition/ext-he
 
 Alias: $ext-combo-per-param =     http://fhir.dgmc.health.gov.il/StructureDefinition/ext-combo-per-param
 Alias: $ext-delete-time-stamp =     http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-time-stamp
-Alias: $ext-delete-user =     http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-time-stamp
+Alias: $ext-delete-user =     http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-user
 Alias: $ext-nmr-service-status-code = http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-service-status-code
 Alias: $ext-nmr-doc-status-code = http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-doc-status-code
 
@@ -108,6 +108,7 @@ Alias: $vsPatVisitorTy =                http://fhir.dgmc.health.gov.il/ValueSet/
 Alias: $vsOuClassFlag =                 http://fhir.dgmc.health.gov.il/ValueSet/ou-classification-flag
 Alias: $vsNmrOuType =                   http://fhir.dgmc.health.gov.il/ValueSet/nmr-ou-type
 Alias: $vsNmrHmoCode =                  http://fhir.dgmc.health.gov.il/ValueSet/nmr-hmo-code
+Alias: $all-snomed-codes =              http://fhir.dgmc.health.gov.il/ValueSet/all-snomed-codes
 
 Alias: $vsAllergyIntCodeComment =       http://fhir.dgmc.health.gov.il/identifier/allergy-int-code-comment
 
@@ -137,7 +138,6 @@ Alias: $vs-patient-visit-reason-moh =       http://fhir.health.gov.il/ValueSet/p
 Alias: $vs-patient-visitor-type-moh =       http://fhir.health.gov.il/ValueSet/patient-visitor-type-moh
 Alias: $vs-patient-admit-source-moh =       http://fhir.health.gov.il/ValueSet/patient-admit-source-moh
 
-
 // for the examples:
 Alias: $medical-service-moh =   http://fhir.health.gov.il/cs/medical-service-moh
 Alias: $v2-0276 =               http://terminology.hl7.org/CodeSystem/v2-0276
@@ -159,3 +159,4 @@ Alias: $CitySymbolCS =      http://fhir.health.gov.il/cs/city-symbol
 
 /// this is fake
 Alias: $fake = http://fake.com
+

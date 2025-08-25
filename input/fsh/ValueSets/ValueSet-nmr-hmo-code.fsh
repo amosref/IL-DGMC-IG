@@ -1,4 +1,4 @@
-ValueSet: NmrHmoCode
+ValueSet: VsNmrHmoCode
 Id: nmr-hmo-code
 Title: "Namer Hmo Code"
 Description: "Namer Hmo Local Code"

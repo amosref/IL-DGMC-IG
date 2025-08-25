@@ -1,4 +1,4 @@
-ValueSet: NmrOuType
+ValueSet: VsNmrOuType
 Id: nmr-ou-type
 Title: "Nmr OU Type"
 Description: "Namer Organizational Unit Type"

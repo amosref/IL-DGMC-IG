@@ -10,7 +10,7 @@ title: Israel Division of Governmental Hospitals Profiles
 description: FHIR Profiles and Implementation Guide for the Israel Division of 
   Governmental Hospitals
 status: draft # draft | active | retired | unknown
-version: 0.5.0
+version: 0.5.5
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
 releaseLabel: draft # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
@@ -18,8 +18,12 @@ jurisdiction: urn:iso:std:iso:3166#IL "Israel" # https://www.hl7.org/fhir/values
 publisher:
   name: Division of Governmental Hospitals Israel
   url: http://dgmc.health.gov.il
+
 dependencies:
-  il.core.fhir.r4: 0.17.5
+  # il.core.fhir.r4: 0.17.5
+  il.core.fhir.r4: 
+    uri: http://fhir.health.gov.il/ImplementationGuide/il.core.fhir.r4
+    version: 0.18.3
 instanceOptions:
   # When set to true, slices must be referred to by name and not only by a numeric index in order to be used
   # in an Instance's assignment rule. All slices appear in the order in which they are specified in FSH rules.

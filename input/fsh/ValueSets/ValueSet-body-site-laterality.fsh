@@ -1,4 +1,4 @@
-ValueSet: BodySiteLaterality
+ValueSet: VsBodySiteLaterality
 Id: vs-body-site-laterality
 Title: "Body Site Laterality"
 Description: "Laterality of body sides as part of diagnosis discription"

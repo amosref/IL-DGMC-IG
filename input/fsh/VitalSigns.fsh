@@ -26,6 +26,7 @@ Description: "פרופיל חטיבה לסימנים חיוניים ידני ו�
 * code.coding contains ilcoreCode 1..1 and CMLParameterCode 1..1
 * code.coding[ilcoreCode] from http://hl7.org/fhir/ValueSet/observation-vitalsignresult (required)
 * code.coding[ilcoreCode].system 1..1
+* code.coding[ilcoreCode].system = "http://loinc.org" (exactly)
 * code.coding[ilcoreCode].code 1..1
 * code.coding[ilcoreCode].display 1..1
 * code.coding[CMLParameterCode] from $vsCmlParameters (required)
@@ -46,7 +47,7 @@ Description: "פרופיל חטיבה לסימנים חיוניים ידני ו�
 * note.authorReference.reference 1..1
 * device.identifier 1..1
 * device.identifier.system 1..1
-* device.identifier.system from $vsDeviceMonitorIdentifiers (required)
+* device.identifier.system from $vsCmlDevice (required)
 * device.identifier.value 1..1
 * device.display 1..1
 * bodySite.coding 0..*
@@ -57,10 +58,11 @@ Description: "פרופיל חטיבה לסימנים חיוניים ידני ו�
 * bodySite.coding 0..*
 * bodySite.coding[ilcore] from http://hl7.org/fhir/ValueSet/body-site (required)
 * bodySite.coding[ilcore].system 1..1
+* bodySite.coding[ilcore].system = $sct (exactly)
 * bodySite.coding[ilcore].code 1..1
 * bodySite.coding[ilcore].display 1..1
-* bodySite.coding[cml-MonitorCombo] from $vsCmlMonitorCombo (required)
 * bodySite.coding[cml-MonitorCombo].system 1..1
+* bodySite.coding[cml-MonitorCombo].system from $vsCmlMonitorCombo (required)
 * bodySite.coding[cml-MonitorCombo].code 1..1
 * bodySite.coding[cml-MonitorCombo].display 1..1
 * method 0..1

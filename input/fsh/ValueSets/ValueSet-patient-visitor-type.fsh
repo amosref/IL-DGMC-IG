@@ -1,4 +1,4 @@
-ValueSet: PatientVisitorType
+ValueSet: VsPatientVisitorType
 Id: patient-visitor-type
 Title: "Patient Visitor Type"
 Description: "Patient Visitor Type"
