@@ -48,7 +48,6 @@ Description: "Profile on IL-Core-Diagnostic-Report by DGMC - Imaging Interpretat
 * resultsInterpreter.identifier.system 1..1
 * resultsInterpreter.identifier.system = $vsSapUserVmaUri (exactly)
 * resultsInterpreter.identifier.value 1..1
-* conclusion 1..1
 * conclusionCode.coding.system 1..1
 * conclusionCode.coding.system from $vsImgDocAbnormalFlagUri (required)
 * conclusionCode.coding.code 1..1

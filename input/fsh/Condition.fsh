@@ -63,7 +63,7 @@ Description: "DGMC Condition"
 * category ^slicing.discriminator.path = "$this"
 * category ^slicing.rules = #open
 * category ^slicing.ordered = false
-* category contains dgmc-component 1..1 and ilcore 1..1
+* category contains dgmc-component 1..1
 * category[dgmc-component] ^patternCodeableConcept.coding.system = $csDiagnosisComponent
 * category[dgmc-component].coding.system 1..1
 // * category[dgmc-component].coding.system = $csDiagnosisComponent (exactly)  // http://fhir.dgmc.health.gov.il/cs/diagnosis-component

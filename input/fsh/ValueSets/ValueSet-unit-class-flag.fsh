@@ -1,4 +1,4 @@
-ValueSet: OuClassFlag
+ValueSet: VsOuClassFlag
 Id: ou-class-flag
 Title: "OU Classification Flag"
 Description: "Organizational Unit Classification Flag Code"

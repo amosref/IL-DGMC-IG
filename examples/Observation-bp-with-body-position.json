@@ -1,0 +1,298 @@
+{
+
+        "resourceType": "Observation",
+
+        "id": "CML.MANUALBP.16837529",
+
+        "meta": {
+
+          "profile": [
+
+            "http://fhir.health.gov.il/StructureDefinition/il-core-bp",
+
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-bp"
+
+          ]
+
+        },
+
+        "extension": [
+
+          {
+
+            "url": "http://hl7.org/fhir/StructureDefinition/observation-bodyPosition",
+
+            "valueCodeableConcept": {
+
+              "coding": [
+
+                {
+
+                  "system": "http://fhir.b-zion.health.gov.il/CodeSystem/cml-monitor-combo",
+
+                  "code": "2",
+
+                  "display": "עמידה"
+
+                },
+
+                {
+
+                  "system": "http://snomed.info/sct",
+
+                  "code": "163034007",
+
+                  "display": "Standing blood pressure (observable entity)"
+
+                }
+
+              ]
+
+            }
+
+          }
+
+        ],
+
+        "identifier": [
+
+          {
+
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-manual-monitor",
+
+            "value": "16837529"
+
+          }
+
+        ],
+
+        "status": "final",
+
+        "category": [
+
+          {
+
+            "coding": [
+
+              {
+
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+
+                "code": "vital-signs",
+
+                "display": "Vital Signs"
+
+              }
+
+            ]
+
+          },
+
+          {
+
+            "coding": [
+
+              {
+
+                "system": "http://fhir.dgmc.health.gov.il/cs/cml-parameters-category",
+
+                "code": "clinical-monitor",
+
+                "display": "Clinical Monitor"
+
+              }
+
+            ]
+
+          }
+
+        ],
+
+        "code": {
+
+          "coding": [
+
+            {
+
+              "system": "http://loinc.org",
+
+              "code": "85354-9",
+
+              "display": "Blood pressure panel with all children optional"
+
+            },
+
+            {
+
+              "system": "http://fhir.dgmc.health.gov.il/cs/cml-parameters",
+
+              "code": "2",
+
+              "display": "לחץ דם"
+
+            }
+
+          ]
+
+        },
+
+        "subject": {
+
+          "reference": "Patient/PAT.2151504"
+
+        },
+
+        "encounter": {
+
+          "reference": "Encounter/CML.1886447"
+
+        },
+
+        "effectiveDateTime": "2025-07-06T10:46:00+03:00",
+
+        "issued": "2025-07-06T10:51:58.803+03:00",
+
+        "performer": [
+
+          {
+
+            "reference": "Practitioner/CML.1000"
+
+          }
+
+        ],
+
+        "component": [
+
+          {
+
+            "code": {
+
+              "coding": [
+
+                {
+
+                  "system": "http://loinc.org",
+
+                  "code": "8480-6",
+
+                  "display": "Systolic blood pressure"
+
+                },
+
+                {
+
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-parameters",
+
+                  "code": "23",
+
+                  "display": "לחץ סיסטולי"
+
+                }
+
+              ]
+
+            },
+
+            "valueQuantity": {
+
+              "value": 100.0,
+
+              "unit": "millimeter of mercury",
+
+              "system": "http://unitsofmeasure.org",
+
+              "code": "mm[Hg]"
+
+            },
+
+            "referenceRange": [
+
+              {
+
+                "low": {
+
+                  "value": 50.0
+
+                },
+
+                "high": {
+
+                  "value": 200.0
+
+                }
+
+              }
+
+            ]
+
+          },
+
+          {
+
+            "code": {
+
+              "coding": [
+
+                {
+
+                  "system": "http://loinc.org",
+
+                  "code": "8462-4",
+
+                  "display": "Diastolic blood pressure"
+
+                },
+
+                {
+
+                  "system": "http://fhir.dgmc.health.gov.il/cs/cml-parameters",
+
+                  "code": "24",
+
+                  "display": "לחץ דיאסטולי"
+
+                }
+
+              ]
+
+            },
+
+            "valueQuantity": {
+
+              "value": 0.0,
+
+              "unit": "millimeter of mercury",
+
+              "system": "http://unitsofmeasure.org",
+
+              "code": "mm[Hg]"
+
+            },
+
+            "referenceRange": [
+
+              {
+
+                "low": {
+
+                  "value": 40.0
+
+                },
+
+                "high": {
+
+                  "value": 120.0
+
+                }
+
+              }
+
+            ]
+
+          }
+
+        ]
+
+      }
+ 

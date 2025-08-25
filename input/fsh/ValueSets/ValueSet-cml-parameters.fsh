@@ -1,4 +1,4 @@
-ValueSet: DGMCCMLParameters
+ValueSet: VsDGMCCMLParameters
 Id: dgmc-cml-parameters
 Title: "DGMC CML Parameters"
 Description: "קודי מדדים חיוניים בקמיליון"

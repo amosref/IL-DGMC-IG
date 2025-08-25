@@ -1,6 +1,6 @@
 ValueSet: CMLMonitorCombo
 Id: cml-monitor-combo
-Title: "Chameleon Moniter Combo"
+Title: "Chameleon Monitor Combo"
 Description: "מזהי טבלות הקומבו בבתי החולים השונים בחטיבה"
 // * insert ConformanceMetadata
 * ^url = $vsCmlMonitorCombo

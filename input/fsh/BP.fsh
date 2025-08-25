@@ -17,8 +17,15 @@ Description: "Profile on IL-Core-BP by DGMC"
 * extension[body-position].url 1..1 // from il-core-bp
 * extension[body-position].url = $body-position (exactly)
 * extension[body-position].valueCodeableConcept.coding 1..2
-* extension[body-position].valueCodeableConcept.coding.system 1..1
-* extension[body-position].valueCodeableConcept.coding.code 1..1
+* extension[body-position].valueCodeableConcept.coding ^slicing.discriminator.type = #value
+* extension[body-position].valueCodeableConcept.coding ^slicing.discriminator.path = "system"
+* extension[body-position].valueCodeableConcept.coding ^slicing.rules = #open
+* extension[body-position].valueCodeableConcept.coding contains snomed 0..1 and CMLMonitorCombo 0..1
+* extension[body-position].valueCodeableConcept.coding[snomed].system = $sct (exactly)
+* extension[body-position].valueCodeableConcept.coding[snomed] from $all-snomed-codes (required)
+* extension[body-position].valueCodeableConcept.coding[CMLMonitorCombo].system 1..1
+* extension[body-position].valueCodeableConcept.coding[CMLMonitorCombo].system from $vsCmlMonitorCombo (required)
+* extension[body-position].valueCodeableConcept.coding[CMLMonitorCombo].code 1..1
 * extension[body-position].valueCodeableConcept.coding.display 1..1
 * identifier 1..1
 * identifier.system 1..1
@@ -72,18 +79,18 @@ Description: "Profile on IL-Core-BP by DGMC"
 * bodySite.coding ^slicing.discriminator.path = "system"
 * bodySite.coding ^slicing.rules = #open
 * bodySite.coding ^slicing.description = "Bodysite"
-* bodySite.coding contains snomed 1..1 and DGMC 1..1
+* bodySite.coding contains snomed 1..1 and cml-MonitorCombo 1..1
 * bodySite.coding[snomed] 1..1
 * bodySite.coding[snomed] from http://hl7.org/fhir/ValueSet/body-site (required)
 * bodySite.coding[snomed].system 1..1
 * bodySite.coding[snomed].system = $sct (exactly)
 * bodySite.coding[snomed].code 1..1
 * bodySite.coding[snomed].display 1..1
-* bodySite.coding[DGMC] 1..1
-* bodySite.coding[DGMC].system 1..1
-* bodySite.coding[DGMC].system from $vsCmlMonitorCombo (required)
-* bodySite.coding[DGMC].code 1..1
-* bodySite.coding[DGMC].display 1..1
+* bodySite.coding[cml-MonitorCombo] 1..1
+* bodySite.coding[cml-MonitorCombo].system 1..1
+* bodySite.coding[cml-MonitorCombo].system from $vsCmlMonitorCombo (required)
+* bodySite.coding[cml-MonitorCombo].code 1..1
+* bodySite.coding[cml-MonitorCombo].display 1..1
 * component[SystolicBP].code.coding 2..2
 * component[SystolicBP].code.coding contains SBPCodeCML 1..1
 * component[SystolicBP].code.coding[SBPCodeCML] 1..1
@@ -93,7 +100,7 @@ Description: "Profile on IL-Core-BP by DGMC"
 * component[SystolicBP].code.coding[SBPCodeCML].code = #23 (exactly)
 * component[SystolicBP].code.coding[SBPCodeCML].display 1..1
 * component[SystolicBP].code.coding[SBPCodeCML].display = "לחץ סיסטולי" (exactly)
-* component[SystolicBP].valueQuantity 1..1
+* component[SystolicBP].valueQuantity 0..1
 * component[SystolicBP].valueQuantity.unit 1..1
 * component[SystolicBP].valueQuantity.unit = "millimeter of mercury" (exactly)
 * component[SystolicBP].valueQuantity.system 1..1
@@ -112,7 +119,7 @@ Description: "Profile on IL-Core-BP by DGMC"
 * component[DiastolicBP].code.coding[DBPCodeCML].code = #24 (exactly)
 * component[DiastolicBP].code.coding[DBPCodeCML].display 1..1
 * component[DiastolicBP].code.coding[DBPCodeCML].display = "לחץ דיאסטולי" (exactly)
-* component[DiastolicBP].valueQuantity 1..1
+* component[DiastolicBP].valueQuantity 0..1
 * component[DiastolicBP].valueQuantity.unit 1..1
 * component[DiastolicBP].valueQuantity.unit = "millimeter of mercury" (exactly)
 * component[DiastolicBP].valueQuantity.system 1..1

@@ -1,6 +1,6 @@
 ValueSet: CMLDevice
 Id: cml-device
-Title: "Chameleon device Moniter Identifiers"
+Title: "Chameleon device Monitor Identifiers"
 Description: "מערכות זיהוי של מכשירים בכל בית חולים"
 // * insert ConformanceMetadata
 * ^url = $vsCmlDevice

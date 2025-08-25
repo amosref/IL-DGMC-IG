@@ -1,4 +1,4 @@
-ValueSet: CmlConsultationType
+ValueSet: VsCmlConsultationType
 Id: cml-consultation-type
 Title: "Chameleon Consultation Type"
 Description: "Chameleon Consultation Type Codes"

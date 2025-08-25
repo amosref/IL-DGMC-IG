@@ -1,0 +1,79 @@
+{
+    "resourceType": "Observation",
+    "id": "CML.MONITOR.7766766",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-observation",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-observation"
+        ]
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-manual-monitor",
+            "value": "7766766"
+        }
+    ],
+    "status": "final",
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.dgmc.health.gov.il/cs/cml-parameters-category",
+                    "code": "clinical-monitor",
+                    "display": "Clinical Monitor"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "2339-0",
+                "display": "Glucose [Mass/volume] in Blood"
+            },
+            {
+                "system": "http://fhir.dgmc.health.gov.il/cs/cml-parameters",
+                "code": "14",
+                "display": "סוכר בדם"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/PAT.2107601"
+    },
+    "encounter": {
+        "reference": "Encounter/CML.1886630"
+    },
+    "effectiveDateTime": "2025-07-07T13:59:00+03:00",
+    "issued": "2025-07-07T13:59:30.837+03:00",
+    "performer": [
+        {
+            "reference": "Practitioner/CML.10381"
+        }
+    ],
+    "valueQuantity": {
+        "value": 250,
+        "unit": "milligram per deciliter",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/dL"
+    },
+    "component": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org/",
+                        "code": "87422-2",
+                        "display": "Glucose [Mass/volume] in Blood --post-meal"
+                    },
+                    {
+                        "system": "http://fhir.b-zion.health.gov.il/CodeSystem/cml-monitor-combo",
+                        "code": "1",
+                        "display": "אחרי האוכל"
+                    }
+                ]
+            }
+        }
+    ]
+}

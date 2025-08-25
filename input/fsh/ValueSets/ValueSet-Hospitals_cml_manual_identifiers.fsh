@@ -1,6 +1,6 @@
 ValueSet: CMLManualMonitorIdentifiers
 Id: cml-manual-monitor-identifier
-Title: "Chameleon manual Moniter Identifiers"
+Title: "Chameleon manual Monitor Identifiers"
 Description: "מערכות זיהוי של מדידה ידנית בכל בית חולים"
 // * insert ConformanceMetadata
 * ^url = $vsManualMonitorIdentifiers
