@@ -1,0 +1,113 @@
+{
+    "category": [
+        {
+            "coding": [
+                {
+                    "code": "vital-signs",
+                    "display": "Vital Signs",
+                    "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                }
+            ]
+        },
+        {
+            "coding": [
+                {
+                    "code": "clinical-monitor",
+                    "display": "Clinical Monitor",
+                    "system": "http://fhir.dgmc.health.gov.il/cs/cml-parameters-category"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "code": "29463-7",
+                "display": "Body weight",
+                "system": "http://loinc.org"
+            },
+            {
+                "code": "4",
+                "display": "משקל",
+                "system": "http://fhir.dgmc.health.gov.il/cs/cml-parameters"
+            }
+        ]
+    },
+    "effectiveDateTime": "2025-08-14T13:48:00+03:00",
+    "encounter": {
+        "reference": "Encounter/CML.1886454"
+    },
+    "extension": [
+        {
+            "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-time-stamp",
+            "valueInstant": "2025-08-14T13:54:37.097Z"
+        },
+        {
+            "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-user",
+            "valueReference": {
+                "reference": "Practitioner/CML.10381"
+            }
+        }
+    ],
+    "id": "CML.MANUAL.7766782",
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-manual-monitor",
+            "value": "7766782"
+        }
+    ],
+    "issued": "2025-08-14T13:48:14.62+03:00",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-vital-signs",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-vital-signs"
+        ],
+        "security": [
+            {
+                "code": "measurements",
+                "display": "מדדים",
+                "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets"
+            }
+        ]
+    },
+    "method": {
+        "coding": [
+            {
+                "code": "225171007",
+                "display": "Weight and body mass assessment procedure",
+                "system": "http://snomed.info/sct"
+            },
+            {
+                "code": "1",
+                "display": "הערכת משקל",
+                "system": "http://fhir.b-zion.health.gov.il/CodeSystem/cml-monitor-combo"
+            }
+        ]
+    },
+    "performer": [
+        {
+            "reference": "Practitioner/CML.10381"
+        }
+    ],
+    "referenceRange": [
+        {
+            "high": {
+                "value": 150.0
+            },
+            "low": {
+                "value": 35.0
+            }
+        }
+    ],
+    "resourceType": "Observation",
+    "status": "entered-in-error",
+    "subject": {
+        "reference": "Patient/PAT.2151512"
+    },
+    "valueQuantity": {
+        "code": "kg",
+        "system": "http://unitsofmeasure.org",
+        "unit": "kilogram",
+        "value": 72.0
+    }
+}
