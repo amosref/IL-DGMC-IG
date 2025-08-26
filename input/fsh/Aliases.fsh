@@ -153,6 +153,7 @@ Alias: $coverage-class =        http://fhir.health.gov.il/cs/coverage-class
 Alias: $coverage-copay-type =   http://terminology.hl7.org/CodeSystem/coverage-copay-type
 Alias: $moh-form17-issue-code = http://fhir.health.gov.il/cs/moh-form17-issue-code
 Alias: $il-core-error-code =    http://fhir.health.gov.il/cs/il-core-error-code
+Alias: $info-buckets =          http://fhir.health.gov.il/cs/il-hdp-information-buckets
 
 // GENERIC
 Alias: $org_sys =           http://institutions.health.gov.il/Institutions
