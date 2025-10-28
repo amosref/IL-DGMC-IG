@@ -1,4 +1,4 @@
-Instance: DGMCMedStatementChronic
+Instance: DGMCMedStatementChronicExample
 InstanceOf: DGMCMedStatementChronic
 Title: "DGMC Medication Statement Chronic example"
 Usage: #example
