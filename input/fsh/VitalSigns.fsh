@@ -72,6 +72,7 @@ Description: "פרופיל חטיבה לסימנים חיוניים ידני ו�
 * method.coding contains ilcore 0..1 and cml-MonitorCombo 0..1
 * method.coding[ilcore] from http://hl7.org/fhir/ValueSet/observation-methods (required)
 * method.coding[ilcore].system 1..1
+* method.coding[ilcore].system = $sct (exactly)
 * method.coding[ilcore].code 1..1
 * method.coding[ilcore].display 1..1
 * method.coding[cml-MonitorCombo].system 1..1

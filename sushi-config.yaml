@@ -10,7 +10,7 @@ title: Israel Division of Governmental Hospitals Profiles
 description: FHIR Profiles and Implementation Guide for the Israel Division of 
   Governmental Hospitals
 status: draft # draft | active | retired | unknown
-version: 0.5.5
+version: 0.6.1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
 releaseLabel: draft # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
@@ -20,7 +20,6 @@ publisher:
   url: http://dgmc.health.gov.il
 
 dependencies:
-  # il.core.fhir.r4: 0.17.5
   il.core.fhir.r4: 
     uri: http://fhir.health.gov.il/ImplementationGuide/il.core.fhir.r4
     version: 0.18.4
