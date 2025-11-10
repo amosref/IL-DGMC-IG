@@ -23,7 +23,7 @@ dependencies:
   # il.core.fhir.r4: 0.17.5
   il.core.fhir.r4: 
     uri: http://fhir.health.gov.il/ImplementationGuide/il.core.fhir.r4
-    version: 0.18.3
+    version: 0.18.4
   il.hdp.fhir.r4: 
     uri: http://fhir.health.gov.il/ImplementationGuide/il.hdp.fhir.r4
     version: 0.2.3

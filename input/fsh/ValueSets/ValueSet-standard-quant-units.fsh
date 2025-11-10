@@ -1,9 +1,9 @@
-ValueSet: StandardQuantUnits
-Id: standard-quant-units
-Title: "Standard Quantity Units"
-Description: "Standard Quantity Units, Including: UCUM & Snomed"
-// * insert ConformanceMetadata
-* ^url = $vsStandardQuantUnits
+// ValueSet: StandardQuantURIs
+// Id: standard-quant-uris
+// Title: "Quantity URIs"
+// Description: "Codes for SNOMED-CT or UCUM URI"
+// // * insert ConformanceMetadata
+// * ^url = $vsStandardQuantURIs
 
-* include codes from system $ucum
-* include codes from system $sct
+// * include codes from system $csQuantityUri
+

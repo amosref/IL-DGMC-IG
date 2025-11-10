@@ -56,8 +56,4 @@ Description: "DGMC Medication Statement for Chronic Medications"
 * dosage.route.coding[snomed].code 1..1
 * dosage.route.coding[snomed].display 0..1
 
-* dosage.doseAndRate.doseQuantity.system from $vsStandardQuantUnits (required)
-
-
-
-
+// * dosage.doseAndRate.doseQuantity.system from $vsStandardQuantURIs (required)
