@@ -4,6 +4,10 @@ Id: dgmc-practitioner-role
 Title: "DGMC Practitioner Role"
 Description: "Profile on IL-Core-PractitionerRole by DGMC"
 // * insert ConformanceMetadata
+* extension contains ext-consult-per named consult-per 0..1
+* extension[consult-per].url 1..1
+* extension[consult-per].url = $ext-consult-permission (exactly)
+* extension[consult-per].valueCode 1..1
 * code 1..2
 * code.coding
   * system 1..1
