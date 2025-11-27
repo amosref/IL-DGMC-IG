@@ -41,6 +41,10 @@ Alias: $csAllrgyIntComment =   http://fhir.dgmc.health.gov.il/cs/allergyInt-code
 Alias: $csDiagnosisComponent = http://fhir.dgmc.health.gov.il/cs/diagnosis-component
 Alias: $csBodySiteLaterality = http://fhir.dgmc.health.gov.il/cs/body-site-laterlity
 Alias: $csDiagnosisLocalCode = http://fhir.dgmc.health.gov.il/cs/diagnosis-local-code
+// Alias: $csQuantityUri =        http://fhir.dgmc.health.gov.il/cs/quantity-uri
+Alias: $info-buckets =         http://fhir.health.gov.il/cs/il-hdp-information-buckets
+
+
 
 // EmptyCSs
 Alias: $csCmlMonitorComboBMC = http://fhir.bmc.health.gov.il/CodeSystem/cml-monitor-combo
@@ -113,7 +117,8 @@ Alias: $all-snomed-codes =              http://fhir.dgmc.health.gov.il/ValueSet/
 Alias: $vsCmlInternalDrugCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-internal-drug-code-uri
 Alias: $vsCmlExternalDrugCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-external-drug-code-uri
 Alias: $vsCmlMedRouteCodeUri =          http://fhir.dgmc.health.gov.il/ValueSet/cml-med-route-code-uri
-Alias: $vsStandardQuantUnits =          http://fhir.dgmc.health.gov.il/ValueSet/standard-quant-units
+// Alias: $vsStandardQuantURIs =           http://fhir.dgmc.health.gov.il/ValueSet/standard-quant-units
+
 
 Alias: $vsAllergyIntCodeComment =       http://fhir.dgmc.health.gov.il/identifier/allergy-int-code-comment
 
