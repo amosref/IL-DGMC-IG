@@ -19,7 +19,7 @@ Alias: $ext-delete-time-stamp =     http://fhir.dgmc.health.gov.il/StructureDefi
 Alias: $ext-delete-user =     http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-user
 Alias: $ext-nmr-service-status-code = http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-service-status-code
 Alias: $ext-nmr-doc-status-code = http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-doc-status-code
-Alias: $ext-consult-permission = http://fhir.dgmc.health.gov.il/StructureDefinition/ext-consult-per
+Alias: $ext-consult-permission = http://fhir.dgmc.health.gov.il/StructureDefinition/ext-permission
 
 // CodeSystems
 Alias: $csFollowUp =           http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag
