@@ -107,22 +107,6 @@
       ]
     }
   ],
-  "medicationCodeableConcept": {
-    "coding": [
-      {
-        "system": "http://fhir.b-zion.health.gov.il/cs/cml-internal-drug-code",
-        "code": "1234",
-        "display": "drug-example-int",
-        "userSelected": true
-      },
-      {
-        "system": "http://fhir.b-zion.health.gov.il/cs/cml-external-drug-code",
-        "code": "5678",
-        "display": "drug-example-ext"
-      }
-    ],
-    "text": "drug-example-int"
-  },
   "medicationReference": {
     "reference": "#Cocktail",
     "type": "Medication"

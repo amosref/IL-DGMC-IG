@@ -96,6 +96,7 @@ Description: "DGMC Medication Request for Medication Order"
 * medicationCodeableConcept.coding[external].userSelected = false
 
 * medicationReference.reference = "#Cocktail" (exactly)
+
 * subject.reference 1..1
 * encounter 1..1
 * encounter.reference 1..1
