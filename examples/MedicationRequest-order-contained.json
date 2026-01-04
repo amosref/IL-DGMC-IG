@@ -1,0 +1,267 @@
+{
+  "resourceType": "MedicationRequest",
+  "meta": {
+    "profile": [
+      "http://hdp.fhir.health.gov.il/StructureDefinition/il-hdp-medication-request",
+      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-med-request-order"
+    ],
+    "security": [
+      {
+        "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+        "code": "medications",
+        "display": "תרופות"
+      }
+    ]
+  },
+  "contained": [
+    {
+      "resourceType": "Medication",
+      "id": "Cocktail",
+      "identifier": [
+        {
+          "system": "http://fhir.b-zion.health.gov.il/identifier/cml-cocktail-drug-code",
+          "value": "Order_id_123"
+        }
+      ],
+      "code": {
+        "text": "SOL ROPIVACAINE 200MG/100ML NAROPIN 10 cc(ml)+ INJ FENTANYL 0.1MG/2ML 20 mg"
+      },
+      "ingredient": [
+        {
+          "itemCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://fhir.b-zion.health.gov.il/cs/cml-internal-drug-code",
+                "code": "cefazolin",
+                "display": "ספהזולין",
+                "userSelected": true
+              }
+            ]
+          },
+          "strength": {
+            "numerator": {
+              "value": 1,
+              "code": "g",
+              "system": "http://unitsofmeasure.org"
+            },
+            "denominator": {
+              "value": 1,
+              "code": "h",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        },
+        {
+          "itemCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://fhir.b-zion.health.gov.il/cs/cml-internal-drug-code",
+                "code": "cefazolin-11",
+                "display": "-11ספהזולין",
+                "userSelected": true
+              }
+            ]
+          },
+          "strength": {
+            "numerator": {
+              "value": 10,
+              "code": "g",
+              "system": "http://unitsofmeasure.org"
+            },
+            "denominator": {
+              "value": 1,
+              "code": "h",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "id": "CML.MED.ORDER.5479776-768130",
+  "identifier": [
+    {
+      "system": "http://fhir.b-zion.health.gov.il/identifier/cml-med-order",
+      "value": "5479776-768130"
+    }
+  ],
+  "status": "active",
+  "statusReason": {
+    "coding": [
+      {
+        "system": "http://fhir.dgmc.health.gov.il/cs/med-status-reason",
+        "code": "1",
+        "display": "NewOrder"
+      }
+    ]
+  },
+  "intent": "order",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://fhir.health.gov.il/cs/il-core-medication-request-category",
+          "code": "community-hmo",
+          "display": "Community Care/HMO"
+        }
+      ]
+    }
+  ],
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://fhir.b-zion.health.gov.il/cs/cml-internal-drug-code",
+        "code": "1234",
+        "display": "drug-example-int",
+        "userSelected": true
+      },
+      {
+        "system": "http://fhir.b-zion.health.gov.il/cs/cml-external-drug-code",
+        "code": "5678",
+        "display": "drug-example-ext"
+      }
+    ],
+    "text": "drug-example-int"
+  },
+  "medicationReference": {
+    "reference": "#Cocktail",
+    "type": "Medication"
+  },
+  "subject": {
+    "reference": "Patient/PAT.123"
+  },
+  "encounter": {
+    "reference": "Encounter/CML.321"
+  },
+  "authoredOn": "2022-12-10",
+  "requester": {
+    "reference": "Practitioner/CML.123456"
+  },
+  "recorder": {
+    "reference": "Practitioner/CML.1238889"
+  },
+  "performer": {
+    "reference": "Patient/PAT.123",
+    "type": "Patient"
+  },
+  "reasonCode": [
+    {
+      "text": "כאבים מתמשכים"
+    }
+  ],
+  "instantiatesUri": [
+    "http://fhir.b-zion.health.gov.il/identifier/cml-med-order-protocol#54"
+  ],
+  "_instantiatesUri": [
+    {
+      "extension": [
+        {
+          "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/ext-medication-order-protocol-desc",
+          "valueString": "Epidural analgesia"
+        }
+      ]
+    }
+  ],
+  "groupIdentifier": {
+    "system": "http://fhir.b-zion.health.gov.il/identifier/cml-med-group-order",
+    "value": "5479776"
+  },
+  "courseOfTherapyType": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+        "code": "acute",
+        "display": "Short course (acute) therapy"
+      }
+    ]
+  },
+  "note": [
+    {
+      "text": "טקסט חופשי"
+    }
+  ],
+  "dosageInstruction": [
+    {
+      "text": "PO GALVUS 50 mg     X2 Per Day, Every Day, 08:00 50 mg, 20:00 50 mg, Do not Give Now",
+      "timing": {
+        "repeat": {
+          "boundsDuration": {
+            "system": "http://unitsofmeasure.org",
+            "value": 14,
+            "code": "d"
+          },
+          "frequency": 2,
+          "frequencyMax": 3,
+          "period": 1,
+          "periodUnit": "d"
+        }
+      },
+      "asNeededCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/StructureDefinition/med-sos-max-interval",
+            "code": "4",
+            "display": "minimal interval hours:4"
+          }
+        ]
+      },
+      "route": {
+        "coding": [
+          {
+            "code": "26643006",
+            "system": "http://snomed.info/sct",
+            "display": "Oral route"
+          },
+          {
+            "code": "101",
+            "system": "http://fhir.<hospital-name>.health.gov.il/identifier/cml-med-route",
+            "display": "Oral"
+          }
+        ],
+        "text": "Oral"
+      },
+      "method": {
+        "coding": [
+          {
+            "code": "738995006",
+            "system": "http://snomed.info/sct",
+            "display": "Swallow (administration method)"
+          }
+        ]
+      },
+      "doseAndRate": [
+        {
+          "doseQuantity": {
+            "value": 10,
+            "unit": "Drop",
+            "system": "http://unitsofmeasure.org"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 20,
+              "unit": "CC",
+              "system": "http://unitsofmeasure.org"
+            },
+            "denominator": {
+              "value": 1,
+              "unit": "hour",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        }
+      ],
+      "maxDosePerPeriod": {
+        "numerator": {
+          "value": 450,
+          "unit": "Mg",
+          "system": "http://unitsofmeasure.org"
+        },
+        "denominator": {
+          "value": 24,
+          "unit": "hour",
+          "system": "http://unitsofmeasure.org"
+        }
+      }
+    }
+  ]
+}

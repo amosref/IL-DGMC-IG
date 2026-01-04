@@ -1,0 +1,92 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "CML.MED.CHRONIC.3053351",
+  "meta": {
+    "profile": [
+      "http://hdp.fhir.health.gov.il/StructureDefinition/il-hdp-medication-statement",
+      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-med-statement-chronic"
+    ],
+    "security": [
+      {
+        "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+        "code": "medications",
+        "display": "תרופות"
+      }
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://fhir.health.gov.il/StructureDefinition/ext-medication-course-of-therapy-type",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://fhir.health.gov.il/cs/il-core-medication-course-of-therapy-type",
+            "code": "chronic",
+            "display": "Chronic therapy"
+          }
+        ]
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://fhir.b-zion.health.gov.il/identifier/cml-med-statement",
+      "value": "3053351"
+    }
+  ],
+  "status": "active",
+  "category": {
+    "coding": [
+      {
+        "system": "http://fhir.health.gov.il/ValueSet/il-core-medication-statement-category",
+        "code": "inpatient",
+        "display": "Inpatient"
+      }
+    ]
+  },
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://fhir.b-zion.health.gov.il/cs/cml-internal-drug-code",
+        "code": "96",
+        "display": "ABBOSYNAGIS"
+      },
+      {
+        "system": "http://fhir.b-zion.health.gov.il/cs/cml-external-drug-code",
+        "code": "1014101"
+      },
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "J06BB15"
+      }
+    ],
+    "text": "ABBOSYNAGIS INJ 100MG"
+  },
+  "subject": {
+    "reference": "Patient/PAT.2152006"
+  },
+  "context": {
+    "reference": "Encounter/CML.1886987"
+  },
+  "dateAsserted": "2025-12-11T10:33:22.053+02:00",
+  "informationSource": {
+    "reference": "Practitioner/CML.1000"
+  },
+  "dosage": [
+    {
+      "route": {
+        "text": "לא ידוע על אופן מתן"
+      },
+      "doseAndRate": [
+        {
+          "doseQuantity": {
+            "extension": [{
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }]
+          }
+        }
+      ]
+    }
+  ]
+}
