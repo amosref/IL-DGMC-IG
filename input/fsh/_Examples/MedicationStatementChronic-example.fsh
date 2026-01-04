@@ -45,7 +45,7 @@ Usage: #example
 * dosage.route.coding[snomed].code = #26643006
 * dosage.route.coding[snomed].display = "Oral route"
 
-* dosage.route.coding[internal].system = "http://fhir.dgmc.health.gov.il/cs/cml-med-route"
+* dosage.route.coding[internal].system = "http://fhir.dgmc.health.gov.il/cs/cml-med-route-code"
 * dosage.route.coding[internal].code = #PO
 * dosage.route.coding[internal].display = "Oral"
 

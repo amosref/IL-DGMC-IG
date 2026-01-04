@@ -143,7 +143,7 @@
           },
           {
             "code": "101",
-            "system": "http://fhir.<hospital-name>.health.gov.il/identifier/cml-med-route",
+            "system": "http://fhir.b-zion.health.gov.il/cs/cml-med-route-code",
             "display": "Oral"
           }
         ],
