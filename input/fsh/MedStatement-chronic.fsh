@@ -24,7 +24,7 @@ Description: "DGMC Medication Statement for Chronic Medications"
 * medicationCodeableConcept.coding ^slicing.discriminator.path = "system"
 * medicationCodeableConcept.coding ^slicing.rules = #open
 * medicationCodeableConcept.coding ^slicing.ordered = false
-* medicationCodeableConcept.coding contains internal 1..1 and snomed 0..1 and external 0..1 and atc 0..1
+* medicationCodeableConcept.coding contains internal 0..1 and snomed 0..1 and external 0..1 and atc 0..1
 * medicationCodeableConcept.coding[internal].system 1..1
 * medicationCodeableConcept.coding[internal].system from $vsCmlInternalDrugCodeUri (required)
 * medicationCodeableConcept.coding[internal].code 1..1

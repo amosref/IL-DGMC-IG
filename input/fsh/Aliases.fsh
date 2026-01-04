@@ -14,12 +14,17 @@ Alias: $extHebDate =        http://fhir.health.gov.il/StructureDefinition/ext-he
 
 // Extensions
 
-Alias: $ext-combo-per-param =     http://fhir.dgmc.health.gov.il/StructureDefinition/ext-combo-per-param
-Alias: $ext-delete-time-stamp =     http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-time-stamp
-Alias: $ext-delete-user =     http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-user
+Alias: $ext-combo-per-param =         http://fhir.dgmc.health.gov.il/StructureDefinition/ext-combo-per-param
+Alias: $ext-delete-time-stamp =       http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-time-stamp
+Alias: $ext-delete-user =             http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-user
 Alias: $ext-nmr-service-status-code = http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-service-status-code
-Alias: $ext-nmr-doc-status-code = http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-doc-status-code
-Alias: $ext-consult-permission = http://fhir.dgmc.health.gov.il/StructureDefinition/ext-permission
+Alias: $ext-nmr-doc-status-code =     http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-doc-status-code
+Alias: $ext-consult-permission =      http://fhir.dgmc.health.gov.il/StructureDefinition/ext-permission
+Alias: $ext-med-confirmed-by =        http://fhir.dgmc.health.gov.il/StructureDefinition/ext-medication-confirmed-by
+Alias: $ext-med-total-daily-dose =    http://fhir.dgmc.health.gov.il/StructureDefinition/ext-medication-total-daily-dose
+Alias: $ext-med-order-type =          http://fhir.dgmc.health.gov.il/StructureDefinition/ext-medication-order-type
+Alias: $ext-med-order-protocol-desc = http://fhir.dgmc.health.gov.il/StructureDefinition/ext-medication-order-protocol-desc
+
 
 // CodeSystems
 Alias: $csFollowUp =           http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag
@@ -117,6 +122,8 @@ Alias: $all-snomed-codes =              http://fhir.dgmc.health.gov.il/ValueSet/
 Alias: $vsCmlInternalDrugCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-internal-drug-code-uri
 Alias: $vsCmlExternalDrugCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-external-drug-code-uri
 Alias: $vsCmlMedRouteCodeUri =          http://fhir.dgmc.health.gov.il/ValueSet/cml-med-route-code-uri
+Alias: $vsCmlCocktailDrugCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-cocktail-drug-code-uri
+Alias: $vsCmlMedOrderUri =              http://fhir.dgmc.health.gov.il/ValueSet/cml-med-order-uri
 // Alias: $vsStandardQuantURIs =           http://fhir.dgmc.health.gov.il/ValueSet/standard-quant-units
 
 
