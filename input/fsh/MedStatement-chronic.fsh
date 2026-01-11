@@ -3,7 +3,7 @@ Parent: il-hdp-medication-statement
 Id: dgmc-med-statement-chronic
 Title: "DGMC Medication Statement Chronic"
 Description: "DGMC Medication Statement for Chronic Medications"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 
 * id 1..1
 

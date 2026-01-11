@@ -2,7 +2,7 @@ ValueSet: CmlDiagnosisCodeUri
 Id: cml-diagnosis-code-uri
 Title: "Hospitals Uris Chameleon Diagnosis Code"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Diagnosis Internal Code"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsCmlDiagnosisCodeUri
 
 

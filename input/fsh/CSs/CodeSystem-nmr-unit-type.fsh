@@ -2,7 +2,7 @@ CodeSystem: NmrOuType
 Id: nmr-ou-type
 Title: "Nmr OU Type"
 Description: "Namer Organizational Unit Type"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $csNmrOuType
 
 * #AC "מוקדי זימונים"

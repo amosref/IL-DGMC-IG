@@ -3,7 +3,7 @@ Parent: il-core-vital-signs
 Id: dgmc-cml-vital-signs
 Title: "DGMC CML Vital Signs"
 Description: "פרופיל חטיבה לסימנים חיוניים ידני ומכשיר"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * id 1..1
 * identifier 1..1
 * identifier.system 1..1

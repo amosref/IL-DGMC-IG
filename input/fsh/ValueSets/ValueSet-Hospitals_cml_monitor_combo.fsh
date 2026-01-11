@@ -2,7 +2,7 @@ ValueSet: CMLMonitorCombo
 Id: cml-monitor-combo
 Title: "Chameleon Monitor Combo"
 Description: "מזהי טבלות הקומבו בבתי החולים השונים בחטיבה"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsCmlMonitorCombo
 
 * $csHospUri#http://fhir.tzafon.health.gov.il/CodeSystem/cml-monitor-combo "פוריה- טבלת קומבו"

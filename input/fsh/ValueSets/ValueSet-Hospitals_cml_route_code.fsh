@@ -2,7 +2,7 @@ ValueSet: CmlMedRouteCode
 Id: cml-med-route-code-uri
 Title: "Hospitals Uris Chameleon Med Route Code"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Medication Route Code"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsCmlMedRouteCodeUri
 
 

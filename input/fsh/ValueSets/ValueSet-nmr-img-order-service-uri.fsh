@@ -2,7 +2,7 @@ ValueSet: NmrImgOrderServiceUri
 Id: nmr-img-order-service-uri
 Title: "Nmr Image Order Service Uris"
 Description: "Nmr Image Order Service Uris"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsNmrImgOrderService
 * $csHospUri#http://fhir.b-zion.health.gov.il/identifier/nmr-img-order-service "בני ציון-הזמנה לשירות בדיד-נמר"
 * $csHospUri#http://fhir.ziv.health.gov.il/identifier/nmr-img-order-service "זיו-הזמנה לשירות בדיד-נמר"

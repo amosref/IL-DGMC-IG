@@ -2,7 +2,7 @@ CodeSystem: CmlMedicalRecordType
 Id: cml-medical-record-type
 Title: "Chamileon Record Type"
 Description: "Chamileon Record Type"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csCmlMedRecType
 * #10 "ביקור במיון"

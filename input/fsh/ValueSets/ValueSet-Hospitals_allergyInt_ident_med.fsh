@@ -2,7 +2,7 @@ ValueSet: AllergyIntIdentifierMedUri
 Id: allergy-int-identifier-med-uri
 Title: "Allergy Intolerance Identifier Medication"
 Description: "ValueSet of Allergy Intolerance Identifier - Medication"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsAllergyIntIdentifierMedUri
 
 * $csHospUri#http://fhir.bmc.health.gov.il/identifier/allergyInt-medication "ברזילי - מזהה רגישות - תרופות"

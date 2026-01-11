@@ -3,7 +3,7 @@ Parent: il-core-patient
 Id: dgmc-patient
 Title: "DGMC Patient"
 Description: "Profile on IL-Core-Patient by DGMC"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 
 // חיסיון
 * meta.security

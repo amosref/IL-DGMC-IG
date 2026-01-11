@@ -2,7 +2,7 @@ ValueSet: NmrOuTextUri
 Id: nmr-ou-text-uri
 Title: "Hospitals Uris Namer OU Text"
 Description: "ValueSet of all DGMC Hospitals Uris for Namer Organizational Unit Id by Text"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsNmrOuTextUri
 
 * $csHospUri#http://fhir.bmc.health.gov.il/identifier/nmr-ou-text "ברזילי - מזהה יחידה טקסט-נמר"

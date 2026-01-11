@@ -2,7 +2,7 @@ ValueSet: CmlDiagnosisRawidUri
 Id: cml-diagnosis-rawid-uri
 Title: "Chameleon Diagnosis Table ID"
 Description: "ValueSet of all DGMC Hospitals Uris for Diagnosis Table ID"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsCmlDiagnosisRowidUri
 
 

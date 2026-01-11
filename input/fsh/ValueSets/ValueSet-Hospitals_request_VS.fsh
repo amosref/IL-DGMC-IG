@@ -2,7 +2,7 @@ ValueSet: CmlRequestUri
 Id: cml-request-uri
 Title: "Hospitals Uris Chameleon Request"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Anwers"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsConsultReqUri
 
 * $csHospUri#http://fhir.bmc.health.gov.il/identifier/cml-counseling-request "ברזילי - מספר בקשה-קמיליון"

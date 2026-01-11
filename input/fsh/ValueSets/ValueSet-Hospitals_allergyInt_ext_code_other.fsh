@@ -2,7 +2,7 @@ ValueSet: AllergyIntCodeExtUri
 Id: allergy-int-code-ext-uri
 Title: "Allergy Intolerance Code External"
 Description: "ValueSet of Allergy Intolerance Code External - Other"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsAllergyIntCodeExtUri
 
 * $csHospUri#http://fhir.bmc.health.gov.il/cs/allergyInt-code-external "ברזילי - קודי רגישות - קוד חיצוני"

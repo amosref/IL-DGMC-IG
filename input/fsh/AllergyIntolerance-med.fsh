@@ -3,7 +3,7 @@ Parent: ILCoreAllergyIntolerance
 Id: dgmc-allergy-intolerance-med
 Title: "DGMC Allergy Intolerance Medication"
 Description: "DGMC Allergy Intolerance Medication"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 
 * id 1..1
 * identifier 1..*

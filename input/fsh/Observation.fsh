@@ -3,6 +3,8 @@ Parent: il-core-observation
 Id: dgmc-cml-observation
 Title: "DGMC CML Observation"
 Description: "פרופיל חטיבה למדדי מערכת (סוכר בדם)"
+* insert ConformanceMetadata
+
 * id 1..1
 * identifier.system 1..1
 * identifier.system from $vsManualMonitorIdentifiers (required)

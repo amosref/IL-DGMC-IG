@@ -10,7 +10,7 @@
       "security": [
         {
           "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
-          "code": "Diagnoses",
+          "code": "diagnoses",
           "display": "אבחנות"
         }
       ]
@@ -27,6 +27,11 @@
           "system": "http://hl7.org/fhir/sid/icd-9-cm",
           "code": "729.5",
           "display": "Pain in limb"
+        },
+        {
+          "system": "http://fhir.b-zion.health.gov.il/cs/cml-diagnosis-code",
+          "code": "7.5",
+          "display": "Pain"
         }
       ]
     },

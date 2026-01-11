@@ -2,7 +2,7 @@ ValueSet: CmlOuCodeUri
 Id: cml-ou-code-uri
 Title: "Hospitals Uris Chameleon OU Code"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Organizational Unit Codes"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsCmlOuCodeUri
 
 

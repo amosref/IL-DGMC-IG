@@ -2,7 +2,7 @@ ValueSet: CmlInternalDrugCode
 Id: cml-internal-drug-code-uri
 Title: "Hospitals Uris Chameleon Internal Drug Code"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Internal Drug Code"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsCmlInternalDrugCodeUri
 
 

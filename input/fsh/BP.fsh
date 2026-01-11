@@ -3,7 +3,7 @@ Parent: il-core-bp
 Id: dgmc-cml-bp
 Title: "DGMC CML Blood Pressure"
 Description: "Profile on IL-Core-BP by DGMC"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * id 1..1
 * modifierExtension contains $ext-combo-per-param named combo-per-param 0..*
 * modifierExtension[combo-per-param].url 1..1

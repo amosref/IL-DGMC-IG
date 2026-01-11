@@ -2,7 +2,7 @@ ValueSet: AllergyIntManifestationUri
 Id: allergy-int-manifestation-uri
 Title: "Allergy Intolerance Manifestation"
 Description: "ValueSet of Allergy Intolerance Manifestation"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsAllergyIntManifestationUri
 
 * $csHospUri#http://fhir.bmc.health.gov.il/cs/allergyInt-manifestation "ברזילי - קודי תגובה לרגישות"

@@ -2,7 +2,7 @@ ValueSet: CoviewImagingUnitCategoryUri
 Id: coview-imaging-unit-category-uri
 Title: "Coview Imaging Unit Category Uri"
 Description: "Coview Imaging Unit Category Uri"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsCoviewImagingUnit
 * $csHospUri#http://fhir.b-zion.health.gov.il/cs/coview-imaging-unit-category "בני ציון-סוג הזמנה דימות"
 * $csHospUri#http://fhir.ziv.health.gov.il/cs/coview-imaging-unit-category "זיו-סוג הזמנה דימות"

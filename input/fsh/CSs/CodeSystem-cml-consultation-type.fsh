@@ -4,7 +4,7 @@ Title: "Chameleon Consultation Type"
 Description: "Chameleon Consultation Type Codes"
 * ^url = $csCmlConsultType
 * ^caseSensitive = true
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * #1 "הזמנת יעוץ מתוך ביה\"ח"
 * #2 "יעוץ ללא הזמנה"
 * #3 "יעוץ ללא הזמנה"

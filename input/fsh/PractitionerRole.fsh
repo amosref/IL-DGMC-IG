@@ -3,7 +3,7 @@ Parent: ILCorePractitionerRole
 Id: dgmc-practitioner-role
 Title: "DGMC Practitioner Role"
 Description: "Profile on IL-Core-PractitionerRole by DGMC"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * extension contains ext-permission named ConsultPer 0..1
 * extension[ConsultPer].url 1..1
 * extension[ConsultPer].url = $ext-consult-permission (exactly)

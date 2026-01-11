@@ -2,7 +2,7 @@ ValueSet: CmlHospCodeUri
 Id: cml-hosp-code-uri
 Title: "Chameleon Hospital Codes"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Codes"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsCmlHospCodeUri
 * $csHospUri#http://fhir.bmc.health.gov.il/identifier/cml-hosp-code "ברזילי - קוד ביח-קמיליון"
 * $csHospUri#http://fhir.gmc.health.gov.il/identifier/cml-hosp-code "נהריה - קוד ביח-קמיליון"

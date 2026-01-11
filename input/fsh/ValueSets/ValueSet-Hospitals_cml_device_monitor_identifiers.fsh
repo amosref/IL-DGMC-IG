@@ -2,7 +2,7 @@ ValueSet: CMLDeviceMonitorIdentifiers
 Id: cml-device-monitor-identifier
 Title: "Chameleon device Monitor Identifiers"
 Description: "מערכות זיהוי של מדידה ממכשיר בכל בית חולים"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsDeviceMonitorIdentifiers
 * $csHospUri#http://fhir.tzafon.health.gov.il/identifier/cml-device-monitor "פוריה- מזהה מדידה ממכשיר"
 * $csHospUri#http://fhir.ziv.health.gov.il/identifier/cml-device-monitor "זיו - מזהה מדידה ממכשיר"

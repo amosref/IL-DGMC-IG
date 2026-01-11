@@ -2,7 +2,7 @@ ValueSet: AllergyIntIdentifierOtherUri
 Id: allergy-int-identifier-other-uri
 Title: "Allergy Intolerance Identifier Other"
 Description: "ValueSet of Allergy Intolerance Identifier - Other"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsAllergyIntIdentifierOtherUri
 
 * $csHospUri#http://fhir.bmc.health.gov.il/identifier/allergyInt-other "ברזילי - מזהה רגישות - אחר"

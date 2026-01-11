@@ -2,7 +2,7 @@ ValueSet: AllergyIntIdentifierCommentUri
 Id: allergy-int-identifier-comment-uri
 Title: "Allergy Intolerance Identifier Comment"
 Description: "ValueSet of Allergy Intolerance Identifier - Comment"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsAllergyIntIdentifierCommentUri
 
 * $csHospUri#http://fhir.bmc.health.gov.il/identifier/allergyInt-comment "ברזילי - מזהה רגישות - הערה"
