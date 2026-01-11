@@ -10,7 +10,7 @@
     "security": [
       {
         "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
-        "code": "Diagnoses",
+        "code": "diagnoses",
         "display": "אבחנות"
       }
     ]

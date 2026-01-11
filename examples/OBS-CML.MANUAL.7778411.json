@@ -1,0 +1,87 @@
+{
+        "identifier": [
+          {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-manual-monitor",
+            "value": "7778411"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            },
+            {
+              "system": "http://fhir.dgmc.health.gov.il/cs/cml-parameters",
+              "code": "1",
+              "display": "חום"
+            }
+          ]
+        },
+        "performer": [
+          {
+            "reference": "Practitioner/CML.6889"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/PAT.2152008"
+        },
+        "encounter": {
+          "reference": "Encounter/CML.1886991"
+        },
+        "referenceRange": [
+          {
+            "high": {
+              "value": 42
+            },
+            "low": {
+              "value": 35
+            }
+          }
+        ],
+        "effectiveDateTime": "2026-01-06T11:20:00+02:00",
+        "meta": {
+          "security": [
+            {
+              "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+              "code": "measurements",
+              "display": "מדדים"
+            }
+          ],
+          "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-vital-signs",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-vital-signs"
+          ]
+        },
+        "id": "CML.MANUAL.7778411",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://fhir.dgmc.health.gov.il/cs/cml-parameters-category",
+                "code": "clinical-monitor",
+                "display": "Clinical Monitor"
+              }
+            ]
+          }
+        ],
+        "issued": "2026-01-06T11:21:06.067+02:00",
+        "resourceType": "Observation",
+        "status": "final",
+        "valueQuantity": {
+          "unit": "degree Celsius",
+          "system": "http://unitsofmeasure.org",
+          "code": "Cel",
+          "value": 36.5
+        }
+      }

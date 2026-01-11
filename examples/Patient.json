@@ -225,7 +225,7 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/language",
-            "valueCode": "He"
+            "valueCode": "he"
           }
         ],
         "family": "ישראלי",
@@ -240,7 +240,7 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/language",
-            "valueCode": "En"
+            "valueCode": "en"
           }
         ],
         "family": "Israli",

@@ -33,7 +33,7 @@
                 "display": "Glucose [Mass/volume] in Blood"
             },
             {
-                "system": "http://fhir.dgmc.health.gov.il/cs/cml-parameters",
+                "system": "http://fhir.b-zion.health.gov.il/cs/cml-diagnosis-code",
                 "code": "14",
                 "display": "סוכר בדם"
             }

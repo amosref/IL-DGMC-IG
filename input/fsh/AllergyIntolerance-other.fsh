@@ -3,7 +3,7 @@ Parent: ILCoreAllergyIntolerance
 Id: dgmc-allergy-intolerance-other
 Title: "DGMC Allergy Intolerance Other"
 Description: "DGMC Allergy Intolerance Other: food/environment/biologic."
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 
 * id 1..1
 * identifier 1..*

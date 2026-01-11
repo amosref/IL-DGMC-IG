@@ -2,8 +2,8 @@ ValueSet: CmlMedOrderIdentifiers
 Id: cml-med-order-identifier
 Title: "Chameleon Medication Order Identifiers"
 Description: "מערכות זיהוי של הוראות לתרופות - קמיליון"
-// * insert ConformanceMetadata
-* ^url = $vsManualMonitorIdentifiers
+* insert ConformanceMetadata
+* ^url = $vsCmlMedOrderUri
 
 
 * $csHospUri#http://fhir.tzafon.health.gov.il/identifier/cml-med-order "פוריה- מזהה הוראה לתרופה - קמיליון"

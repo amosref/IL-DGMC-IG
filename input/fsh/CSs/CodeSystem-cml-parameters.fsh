@@ -4,7 +4,7 @@ Title: "Chameleon Parameters"
 Description: "קודי מדדים חיוניים בקמיליון"
 * ^url = $csCmlParameters
 * ^caseSensitive = true
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * #2 "לחץ דם"
 * #23 "לחץ סיסטולי"
 * #24 "לחץ דיאסטולי"

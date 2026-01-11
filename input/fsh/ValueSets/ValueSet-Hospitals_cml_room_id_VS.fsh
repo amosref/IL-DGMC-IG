@@ -2,7 +2,7 @@ ValueSet: CmlRoomIdUri
 Id: cml-room-id-uri
 Title: "Chameleon Room Id"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Rooms id"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsCmlRoomIdUri
 
 

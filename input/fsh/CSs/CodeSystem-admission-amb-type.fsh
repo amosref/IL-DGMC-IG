@@ -2,7 +2,7 @@ CodeSystem: AdmissionAmbType
 Id: admission-amb-type
 Title: "Admission Amb Type"
 Description: "Ambulatory Addmision Type"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csAdmAmbType
 * #1 "ביקור במרפאה"

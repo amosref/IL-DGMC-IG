@@ -2,7 +2,7 @@ ValueSet: NmrImgDocVerIdentifierUri
 Id: nmr-img-doc-ver-identifier-uri
 Title: "Nmr Img Doc Version Identifier URI"
 Description: "Nmr Img Doc Version Identifier URI"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsNmrImgDocVerIdentifierUri
 * $csHospUri#http://fhir.b-zion.health.gov.il/identifier/nmr-img-doc-ver "בני ציון-מזהה פענוח דימות עם מספר גרסה"
 * $csHospUri#http://fhir.ziv.health.gov.il/identifier/nmr-img-doc-ver "זיו-מזהה פענוח דימות עם מספר גרסה"

@@ -2,7 +2,7 @@ ValueSet: CmlCocktailDrugCode
 Id: cml-cocktail-drug-code-uri
 Title: "Hospitals Uris Chameleon Cocktail Drug Code"
 Description: "ValueSet of all DGMC Hospitals Uris for Chameleon Medication - Cocktail Drug Code"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsCmlCocktailDrugCodeUri
 
 

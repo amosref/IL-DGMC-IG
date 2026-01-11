@@ -2,7 +2,7 @@ CodeSystem: PatientVisitorType
 Id: patient-visitor-type
 Title: "Patient Visitor Type"
 Description: "Patient Visitor Type"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csPatVisitorTy
 

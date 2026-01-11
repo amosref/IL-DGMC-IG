@@ -3,7 +3,7 @@ CodeSystem: ClinicalMonitorCategory
 Id: cml-clinical-monitor
 Title: "Clinical Monitor Category"
 Description: "מערכת קידוד לקטגוריה חטיבתית המייצגת מדדי מערכת"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $csCmlClinicalMonitor
 * ^status = #active
 * ^caseSensitive = false
@@ -14,7 +14,7 @@ CodeSystem: MonitorComboBarzilai
 Id: cml-MonitorCombo-bmc
 Title: "ברזילי - טבלת קומבו"
 Description: "מערכת קידוד לייצוג ערכי קומבו בבית החולים הנ\"ל"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $csCmlMonitorComboBMC
 * ^status = #active
 * ^caseSensitive = false
@@ -25,7 +25,7 @@ CodeSystem: MonitorComboBZion
 Id: cml-MonitorCombo-b-zion
 Title: "בני ציון - טבלת קומבו"
 Description: "מערכת קידוד לייצוג ערכי קומבו בבית החולים הנ\"ל"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $csCmlMonitorComboBZion
 * ^status = #active
 * ^caseSensitive = false
@@ -36,7 +36,7 @@ CodeSystem: MonitorComboNahariya
 Id: cml-MonitorCombo-gmc
 Title: "נהריה - טבלת קומבו"
 Description: "מערכת קידוד לייצוג ערכי קומבו בבית החולים הנ\"ל"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $csCmlMonitorComboGMC
 * ^status = #active
 * ^caseSensitive = false
@@ -47,7 +47,7 @@ CodeSystem: MonitorComboHillelYaffe
 Id: cml-MonitorCombo-hymc
 Title: "הלל יפה - טבלת קומבו"
 Description: "מערכת קידוד לייצוג ערכי קומבו בבית החולים הנ\"ל"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $csCmlMonitorComboHYMC
 * ^status = #active
 * ^caseSensitive = false
@@ -58,7 +58,7 @@ CodeSystem: MonitorComboShamir
 Id: cml-MonitorCombo-shamir
 Title: "שמיר - טבלת קומבו"
 Description: "מערכת קידוד לייצוג ערכי קומבו בבית החולים הנ\"ל"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $csCmlMonitorComboShamir
 * ^status = #active
 * ^caseSensitive = false
@@ -69,7 +69,7 @@ CodeSystem: MonitorComboPoria
 Id: cml-MonitorCombo-tzafon
 Title: "פוריה - טבלת קומבו"
 Description: "מערכת קידוד לייצוג ערכי קומבו בבית החולים הנ\"ל"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $csCmlMonitorComboTzafon
 * ^status = #active
 * ^caseSensitive = false
@@ -80,7 +80,7 @@ CodeSystem: MonitorComboWolfson
 Id: cml-MonitorCombo-Wolfson
 Title: "וולפסון - טבלת קומבו"
 Description: "מערכת קידוד לייצוג ערכי קומבו בבית החולים הנ\"ל"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $csCmlMonitorComboWolfson
 * ^status = #active
 * ^caseSensitive = false
@@ -91,7 +91,7 @@ CodeSystem: MonitorComboZiv
 Id: cml-MonitorCombo-ziv
 Title: "זיו - טבלת קומבו"
 Description: "מערכת קידוד לייצוג ערכי קומבו בבית החולים הנ\"ל"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $csCmlMonitorComboZiv
 * ^status = #active
 * ^caseSensitive = false
@@ -102,7 +102,7 @@ CodeSystem: SystemMonitorParameters
 Id: cml-parameters
 Title: "קודי מדדי מערכת בקמיליון"
 Description: "מערכת קידוד לקודי מדדי מערכת בקמיליון"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $csCmlParameters
 * ^status = #active
 * ^caseSensitive = false

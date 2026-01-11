@@ -2,7 +2,7 @@ ValueSet: ImgDocAbnormalFlagUri
 Id: img-doc-abnormal-flag-uri
 Title: "Img Doc Abnormal Flag Uri"
 Description: "Img Doc Abnormal Flag Uri"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsImgDocAbnormalFlagUri
 * $csHospUri#http://fhir.b-zion.health.gov.il/cs/img-doc-abnormal-flag "בני ציון-מזהה קודי תוצאה חריגה"
 * $csHospUri#http://fhir.ziv.health.gov.il/cs/img-doc-abnormal-flag "זיו-מזהה קודי תוצאה חריגה"

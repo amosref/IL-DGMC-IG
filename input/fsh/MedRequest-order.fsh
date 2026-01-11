@@ -3,7 +3,7 @@ Parent: il-hdp-medication-request
 Id: dgmc-med-request-order
 Title: "DGMC Medication Request Order"
 Description: "DGMC Medication Request for Medication Order"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 
 
 // contained - representing cocktail's ingredients

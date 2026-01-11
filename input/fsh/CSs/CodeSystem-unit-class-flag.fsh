@@ -2,7 +2,7 @@ CodeSystem: OuClassFlag
 Id: ou-class-flag
 Title: "OU Classification Flag"
 Description: "Organizational Unit Classification Flag Codes"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $csOuClassFlag
 
 * #surg "יחידה מנתחת"

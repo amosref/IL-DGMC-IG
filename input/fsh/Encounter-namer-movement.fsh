@@ -3,7 +3,7 @@ Parent: ILCoreEncounter
 Id: dgmc-encounter-movement
 Title: "DGMC Encounter Namer Movement"
 Description: "DGMC Encounter Namer Movement"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 
 * id 1..1
 * extension[paying-entity].valueCodeableConcept.coding.system 1..1

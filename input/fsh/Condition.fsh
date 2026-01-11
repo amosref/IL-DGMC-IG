@@ -3,7 +3,7 @@ Parent: ILCoreCondition
 Id: dgmc-condition
 Title: "DGMC Condition"
 Description: "DGMC Condition"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 //Condition
 //Condition
 

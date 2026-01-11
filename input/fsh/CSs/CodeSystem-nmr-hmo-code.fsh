@@ -2,7 +2,7 @@ CodeSystem: NmrHmoCode
 Id: nmr-hmo-code
 Title: "Nmr Hmo Code"
 Description: "Namer HMO Local Code"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $csNmrHmoCode
 
 * #10 "כללית"

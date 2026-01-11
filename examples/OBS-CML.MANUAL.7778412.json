@@ -1,0 +1,87 @@
+{
+        "identifier": [
+          {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-manual-monitor",
+            "value": "7778412"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Arterial blood"
+            },
+            {
+              "system": "http://fhir.dgmc.health.gov.il/cs/cml-parameters",
+              "code": "13",
+              "display": "סטורציה"
+            }
+          ]
+        },
+        "performer": [
+          {
+            "reference": "Practitioner/CML.6889"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/PAT.2152008"
+        },
+        "encounter": {
+          "reference": "Encounter/CML.1886991"
+        },
+        "referenceRange": [
+          {
+            "high": {
+              "value": 100
+            },
+            "low": {
+              "value": 0
+            }
+          }
+        ],
+        "effectiveDateTime": "2026-01-06T11:21:00+02:00",
+        "meta": {
+          "security": [
+            {
+              "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+              "code": "measurements",
+              "display": "מדדים"
+            }
+          ],
+          "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-vital-signs",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-vital-signs"
+          ]
+        },
+        "id": "CML.MANUAL.7778412",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://fhir.dgmc.health.gov.il/cs/cml-parameters-category",
+                "code": "clinical-monitor",
+                "display": "Clinical Monitor"
+              }
+            ]
+          }
+        ],
+        "issued": "2026-01-06T11:21:15.097+02:00",
+        "resourceType": "Observation",
+        "status": "final",
+        "valueQuantity": {
+          "unit": "percent",
+          "system": "http://unitsofmeasure.org",
+          "code": "%",
+          "value": 98
+        }
+      }

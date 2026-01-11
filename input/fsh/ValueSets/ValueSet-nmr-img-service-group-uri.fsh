@@ -2,7 +2,7 @@ ValueSet: NmrImgServiceGroupUri
 Id: nmr-img-service-group-uri
 Title: "Nmr Img Service Group Uri"
 Description: "Nmr Img Service Group Uri"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsNmrImgServiceGroupUri
 * $csHospUri#http://fhir.b-zion.health.gov.il/cs/nmr-img-service-group-code "בני ציון-ייצוג קודי לשירותי אב"
 * $csHospUri#http://fhir.ziv.health.gov.il/cs/nmr-img-service-group-code "זיו-ייצוג קודי לשירותי אב"

@@ -2,7 +2,7 @@ ValueSet: CMLManualMonitorIdentifiers
 Id: cml-manual-monitor-identifier
 Title: "Chameleon manual Monitor Identifiers"
 Description: "מערכות זיהוי של מדידה ידנית בכל בית חולים"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsManualMonitorIdentifiers
 * $csHospUri#http://fhir.tzafon.health.gov.il/identifier/cml-manual-monitor "פוריה- מזהה מדידה ידנית"
 * $csHospUri#http://fhir.ziv.health.gov.il/identifier/cml-manual-monitor "זיו - מזהה מדידה ידנית"
@@ -13,3 +13,4 @@ Description: "מערכות זיהוי של מדידה ידנית בכל בית �
 * $csHospUri#http://fhir.wolfson.health.gov.il/identifier/cml-manual-monitor "וולפסון - מזהה מדידה ידנית"
 * $csHospUri#http://fhir.tasmc.health.gov.il/identifier/cml-manual-monitor "איכילוב - מזהה מדידה ידנית"
 * $csHospUri#http://fhir.shamir.health.gov.il/identifier/cml-manual-monitor "שמיר - מזהה מדידה ידנית"
+

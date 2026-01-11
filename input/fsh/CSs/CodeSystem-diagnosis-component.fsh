@@ -2,7 +2,7 @@ CodeSystem: DiagnosisComponent
 Id: diagnosis-component
 Title: "Diagnosis Component"
 Description: "Diagnosis Component"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csDiagnosisComponent
 

@@ -73,15 +73,6 @@
         "system": "http://unitsofmeasure.org",
         "code": "/min"
     },
-    "dataAbsentReason": {
-        "coding": [
-            {
-                "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-                "code": "unknown",
-                "display": "Unknown"
-            }
-        ]
-    },
     "device": {
         "identifier": {
             "system": "http://fhir.b-zion.health.gov.il/identifier/cml-devices",

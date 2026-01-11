@@ -2,7 +2,7 @@ ValueSet: NmrMoveNumUri
 Id: nmr-move-num-uri
 Title: "Hospitals Uris for Namer Movement Number"
 Description: "ValueSet of all DGMC Hospitals Uris for Namer Movement Numbers"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 * ^url = $vsNmrMoveNumUri
 
 * $csHospUri#http://fhir.bmc.health.gov.il/identifier/nmr-movement-number "ברזילי - מספר העברה-נמר"

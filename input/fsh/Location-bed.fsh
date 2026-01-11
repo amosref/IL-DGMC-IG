@@ -3,7 +3,7 @@ Parent: il-core-location
 Id: dgmc-bed-location
 Title: "DGMC Bed Location"
 Description: "Profile of DGMC Bed Location"
-// * insert ConformanceMetadata
+* insert ConformanceMetadata
 
 * id 1..1
 
