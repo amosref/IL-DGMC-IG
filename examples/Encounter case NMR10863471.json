@@ -1,0 +1,80 @@
+{
+    "resourceType": "Encounter",
+    "id": "NMR.10863471",
+    "meta": {
+        "profile": [
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-case",
+            "http://fhir.health.gov.il/StructureDefinition/il-core-encounter"
+        ],
+        "lastUpdated": "2026-01-04T13:05:00+02:00",
+        "versionId": "1"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-case-number",
+            "value": "10863471"
+        }
+    ],
+    "status": "in-progress",
+    "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "IMP",
+        "display": "inpatient encounter"
+    },
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.dgmc.health.gov.il/cs/admission-imp-type",
+                    "code": "1",
+                    "display": "קבלה רגילה"
+                }
+            ]
+        }
+    ],
+    "subject": {
+        "extension": [
+            {
+                "url": "http://fhir.health.gov.il/StructureDefinition/ext-encounter-visitor-type",
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://fhir.dgmc.health.gov.il/cs/patient-visitor-type",
+                            "code": "1",
+                            "display": "אזרח ישראלי"
+                        }
+                    ]
+                }
+            }
+        ],
+        "reference": "Patient/PAT.2152101"
+    },
+    "period": {
+        "start": "2026-01-04T13:03:22+02:00"
+    },
+    "hospitalization": {
+        "admitSource": {
+            "coding": [
+                {
+                    "system": "http://fhir.health.gov.il/cs/patient-admit-source-moh",
+                    "code": "10",
+                    "display": "כללית"
+                }
+            ]
+        },
+        "specialCourtesy": [
+            {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
+                        "code": "NRM",
+                        "display": "normal courtesy"
+                    }
+                ]
+            }
+        ]
+    },
+    "serviceProvider": {
+        "reference": "Organization/ORG.H.01204"
+    }
+}

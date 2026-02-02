@@ -1,65 +1,73 @@
 {
     "resourceType": "AllergyIntolerance",
+    "id": "OTHER.569093",
     "meta": {
-      "profile": [
-        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-other",
-        "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance"
-      ]
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-other"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/ValueSet/il-hdp-information-buckets",
+                "code": "allergiesAndIntolerances",
+                "display": "רגישויות"
+            }
+        ],
+        "lastUpdated": "2025-11-27T09:18:16+02:00",
+        "versionId": "3"
     },
-    "id": "OTHER.123128",
     "identifier": [
-      {
-        "system": "http://fhir.b-zion.health.gov.il/identifier/allergyInt-other",
-        "value": "123128"
-      }
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/allergyInt-other",
+            "value": "569093"
+        }
     ],
     "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active",
+                "display": "Active"
+            }
+        ]
     },
-    "criticality": "high",
+    "criticality": "unable-to-assess",
     "code": {
-      "coding": [
-        {
-          "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-code-other",
-          "code": "1233",
-          "display": "בוטנים"
-        }
-      ]
+        "coding": [
+            {
+                "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-code-other",
+                "code": "5",
+                "display": "ביצים"
+            },
+            {
+                "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-code-external",
+                "code": "91930004"
+            }
+        ]
     },
     "patient": {
-      "reference": "Patient/PAT.10122"
+        "reference": "Patient/PAT.2151916"
     },
     "encounter": {
-      "reference": "Encounter/CML.246"
+        "reference": "Encounter/CML.1886868"
     },
-    "recordedDate": "2014-10-09T14:58:00Z",
+    "recordedDate": "2025-11-05T10:54:06.92+02:00",
     "recorder": {
-      "reference": "Practitioner/CML.1016"
+        "reference": "Practitioner/CML.1000"
     },
-    "note": [
-      {
-        "text": "זה דוגמא לרגישות אחרת"
-      }
-    ],
     "reaction": [
-      {
-        "manifestation": [
-          {
-            "coding": [
-              {
-                "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-reaction",
-                "code": "3",
-                "display": "תפרחת"
-              }
+        {
+            "manifestation": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-reaction",
+                            "code": "8",
+                            "display": "חולשה"
+                        }
+                    ]
+                }
             ]
-          }
-        ]
-      }
+        }
     ]
-  }
+}

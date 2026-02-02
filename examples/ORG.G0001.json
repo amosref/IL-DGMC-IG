@@ -1,0 +1,51 @@
+{
+    "resourceType": "Organization",
+    "id": "ORG.G0001",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-organization",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-nmr-ou"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+                "code": "organization",
+                "display": "יחידה ארגונית"
+            }
+        ],
+        "lastUpdated": "2026-01-14T10:01:14+02:00",
+        "versionId": "1888"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-text",
+            "value": "אשפוז"
+        },
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-code",
+            "value": "G0001"
+        }
+    ],
+    "active": true,
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.dgmc.health.gov.il/cs/nmr-ou-type",
+                    "code": "G",
+                    "display": "שער קבלה לבי\"ח"
+                }
+            ]
+        }
+    ],
+    "name": "אשפוז",
+    "address": [
+        {
+            "text": "שד גולומב אליהו 47/1 כניסה א , חיפה 3339419"
+        }
+    ],
+    "partOf": {
+        "reference": "Organization/ORG.H.01204",
+        "display": "בית חולים בני ציון"
+    }
+}

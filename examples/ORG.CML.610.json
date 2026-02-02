@@ -1,0 +1,44 @@
+{
+    "resourceType": "Organization",
+    "id": "ORG.CML.610",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-organization",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-organization"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+                "code": "organization",
+                "display": "יחידה ארגונית"
+            }
+        ],
+        "lastUpdated": "2026-01-14T10:05:22+02:00",
+        "versionId": "143"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-ou-code",
+            "value": "610"
+        }
+    ],
+    "active": true,
+    "name": "חדר לידה",
+    "partOf": {
+        "reference": "Organization/ORG.5900A"
+    },
+    "contact": [
+        {
+            "name": {
+                "text": "רינת לוי",
+                "family": "שגיא",
+                "given": [
+                    "שלומי"
+                ],
+                "prefix": [
+                    "ד\"ר"
+                ]
+            }
+        }
+    ]
+}

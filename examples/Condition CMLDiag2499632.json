@@ -1,0 +1,79 @@
+{
+    "resourceType": "Condition",
+    "id": "CMLDiag.2499632",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-condition",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-condition"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/ValueSet/il-hdp-information-buckets",
+                "code": "diagnoses",
+                "display": "אבחנות"
+            }
+        ],
+        "lastUpdated": "2025-12-04T09:39:23+02:00",
+        "versionId": "4"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-diagnosis-rowid",
+            "value": "2499632"
+        }
+    ],
+    "clinicalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "inactive",
+                "display": "Inactive"
+            }
+        ]
+    },
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                    "code": "encounter-diagnosis",
+                    "display": "Encounter Diagnosis"
+                }
+            ]
+        },
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.dgmc.health.gov.il/cs/diagnosis-component",
+                    "code": "3",
+                    "display": "אבחנות באשפוז"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "301715003",
+                "display": "Left upper quadrant pain"
+            },
+            {
+                "system": "http://fhir.b-zion.health.gov.il/cs/cml-diagnosis-code",
+                "code": "789.02",
+                "display": "ABDOMINAL PAIN, LEFT UPPER QUADRANT"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/PAT.2152011"
+    },
+    "encounter": {
+        "reference": "Encounter/CML.1887010"
+    },
+    "onsetDateTime": "2025-12-04T00:00:00+02:00",
+    "recordedDate": "2025-12-04T09:15:22.763+02:00",
+    "recorder": {
+        "reference": "Practitioner/CML.10282"
+    }
+}

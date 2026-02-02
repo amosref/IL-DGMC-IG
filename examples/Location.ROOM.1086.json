@@ -1,0 +1,50 @@
+{
+    "resourceType": "Location",
+    "id": "ROOM.1086",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-location",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-room-location"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+                "code": "organization",
+                "display": "יחידה ארגונית"
+            }
+        ],
+        "lastUpdated": "2026-01-14T10:05:38+02:00",
+        "versionId": "143"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-room-id",
+            "value": "1086"
+        }
+    ],
+    "name": "1",
+    "alias": [
+        "קוד חדר: 13"
+    ],
+    "mode": "instance",
+    "address": {
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                "valueCode": "unknown"
+            }
+        ]
+    },
+    "physicalType": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                "code": "ro",
+                "display": "Room"
+            }
+        ]
+    },
+    "partOf": {
+        "reference": "Location/LOC.59000"
+    }
+}

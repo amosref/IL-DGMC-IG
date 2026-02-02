@@ -1,0 +1,73 @@
+{
+    "resourceType": "Organization",
+    "id": "ORG.I5100",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-organization",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-nmr-ou"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+                "code": "organization",
+                "display": "יחידה ארגונית"
+            }
+        ],
+        "lastUpdated": "2026-01-14T10:01:19+02:00",
+        "versionId": "1888"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-text",
+            "value": "ריולד"
+        },
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-code",
+            "value": "I5100"
+        },
+        {
+            "system": "http://fhir.health.gov.il/identifier/moh-hospital-department",
+            "value": "01204-15100"
+        }
+    ],
+    "active": true,
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.health.gov.il/cs/department-type-moh",
+                    "code": "15100"
+                }
+            ]
+        },
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.dgmc.health.gov.il/cs/nmr-ou-type",
+                    "code": "SI",
+                    "display": "יח. רפואית - אשפוז"
+                }
+            ]
+        }
+    ],
+    "name": "יולדות",
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "04-8359066"
+        },
+        {
+            "system": "fax",
+            "value": "04-8359593"
+        }
+    ],
+    "address": [
+        {
+            "text": "שד גולומב אליהו 47/1 כניסה א , חיפה 3339419"
+        }
+    ],
+    "partOf": {
+        "reference": "Organization/ORG.D0003",
+        "display": "אגף נשים ואמהות"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "resourceType": "Condition",
+    "id": "CMLDiag.2499667",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-condition",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-condition"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/ValueSet/il-hdp-information-buckets",
+                "code": "diagnoses",
+                "display": "אבחנות"
+            }
+        ],
+        "lastUpdated": "2026-01-07T15:36:11+02:00",
+        "versionId": "3"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-diagnosis-rowid",
+            "value": "2499667"
+        }
+    ],
+    "clinicalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+            }
+        ]
+    },
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                    "code": "problem-list-item",
+                    "display": "Problem List Item"
+                }
+            ]
+        },
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.dgmc.health.gov.il/cs/diagnosis-component",
+                    "code": "1",
+                    "display": "אבחנות רקע"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "313435000",
+                "display": "Type I diabetes mellitus without complication"
+            },
+            {
+                "system": "http://fhir.b-zion.health.gov.il/cs/cml-diagnosis-code",
+                "code": "250.01",
+                "display": "DIABETES MELLITUS WITHOUT MENTION OF COMPLICATION, TYPE I (JUVENILE TYPE), NOT STATED AS UNCONTROLLE"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/PAT.2152008"
+    },
+    "encounter": {
+        "reference": "Encounter/CML.1886991"
+    },
+    "recordedDate": "2026-01-07T15:29:07.243+02:00",
+    "recorder": {
+        "reference": "Practitioner/CML.6889"
+    }
+}

@@ -1,0 +1,143 @@
+{
+  "resourceType": "Observation",
+  "id": "CML.FOLLOWUP.22986",
+  "meta": {
+    "profile": [
+      "http://fhir.health.gov.il/StructureDefinition/il-core-observation",
+      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-followup-observation"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/DeleteTimeStamp",
+      "valueInstant": "2026-01-28T10:16:35.967+02:00"
+    },
+    {
+      "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/DeleteUser",
+      "valueReference": {
+        "reference": "Practitioner/CML.1000"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://fhir.b-zion.health.gov.il/identifier/cml-followup",
+      "value": "22986"
+    }
+  ],
+  "status": "entered-in-error",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://fhir.dgmc.health.gov.il/cs/cml-followup-category",
+          "code": "followup",
+          "display": "מעקבים"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://fhir.dgmc.health.gov.il/cs/cml-followup-type",
+        "code": "1",
+        "display": "מעקב רפואי"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/PAT.1234"
+  },
+  "encounter": {
+    "reference": "Encounter/CML.50276"
+  },
+  "effectiveDateTime": "2026-01-25T14:35:00.000+02:00",
+  "issued": "2026-01-25T14:41:33.020+02:00",
+  "performer": [
+    {
+      "type": "Organization",
+      "reference": "Organization/ORG.CML.1"
+    },
+    {
+      "type": "Practitioner",
+      "reference": "Practitioner/CML.1000",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/event-performerFunction",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "AUT",
+                "display": "author"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "Practitioner",
+      "reference": "Practitioner/CML.1051",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/event-performerFunction",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participation"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "Practitioner",
+      "reference": "Practitioner/CML.6876",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/event-performerFunction",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                "code": "PART",
+                "display": "Participation"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/cml-followup-component-type",
+            "code": "topic",
+            "display": "נושא המעקב"
+          }
+        ]
+      },
+      "valueString": "ביקור רופא"
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/cml-followup-component-type",
+            "code": "content",
+            "display": "תוכן המעקב"
+          }
+        ]
+      },
+      "valueString": "בדיקה עמרי משפט מובנה ליחידה חטיבה דגכ דגשגדכ כדג דשגשדכ"
+    }
+  ]
+}

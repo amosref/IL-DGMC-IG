@@ -1,0 +1,98 @@
+{
+    "resourceType": "Condition",
+    "id": "CMLDiag.2499649",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-condition",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-condition"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/ValueSet/il-hdp-information-buckets",
+                "code": "diagnoses",
+                "display": "אבחנות"
+            }
+        ],
+        "lastUpdated": "2025-12-11T10:39:11+02:00",
+        "versionId": "3"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-diagnosis-rowid",
+            "value": "2499649"
+        }
+    ],
+    "clinicalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+            }
+        ]
+    },
+    "verificationStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "provisional",
+                "display": "Provisional"
+            }
+        ]
+    },
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                    "code": "encounter-diagnosis",
+                    "display": "Encounter Diagnosis"
+                }
+            ]
+        },
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.dgmc.health.gov.il/cs/diagnosis-component",
+                    "code": "2",
+                    "display": "אבחנות בקבלה"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "609328004",
+                "display": "Allergic disposition"
+            },
+            {
+                "system": "http://fhir.b-zion.health.gov.il/cs/cml-diagnosis-code",
+                "code": "995.3",
+                "display": "ALLERGY, UNSPECIFIED, NOT ELSEWHERE CLASSIFIED"
+            }
+        ]
+    },
+    "bodySite": [
+        {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "24028007",
+                    "display": "Right"
+                }
+            ]
+        }
+    ],
+    "subject": {
+        "reference": "Patient/PAT.2152008"
+    },
+    "encounter": {
+        "reference": "Encounter/CML.1886991"
+    },
+    "recordedDate": "2025-12-11T10:31:12.45+02:00",
+    "recorder": {
+        "reference": "Practitioner/CML.1000"
+    }
+}
