@@ -1,0 +1,74 @@
+{
+    "resourceType": "Encounter",
+    "id": "NMR.10863469.1",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-encounter",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-movement"
+        ],
+        "lastUpdated": "2026-01-04T10:16:00+02:00",
+        "versionId": "1"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-movement-number",
+            "value": "10863469.1"
+        },
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr2cml-identifier",
+            "value": "NMR.10863469_20260104101341_רפנ.א"
+        }
+    ],
+    "status": "in-progress",
+    "statusHistory": [
+        {
+            "status": "in-progress",
+            "period": {
+                "start": "2026-01-04T10:13:41+02:00"
+            }
+        }
+    ],
+    "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "IMP",
+        "display": "inpatient encounter"
+    },
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.dgmc.health.gov.il/cs/admission-imp-type",
+                    "code": "1",
+                    "display": "קבלה רגילה"
+                }
+            ]
+        }
+    ],
+    "subject": {
+        "reference": "Patient/PAT.2152099"
+    },
+    "period": {
+        "start": "2026-01-04T10:13:41+02:00"
+    },
+    "location": [
+        {
+            "location": {
+                "reference": "Location/LOC.10011",
+                "identifier": {
+                    "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-text",
+                    "value": "פנ.א"
+                }
+            }
+        }
+    ],
+    "serviceProvider": {
+        "reference": "Organization/ORG.I0011",
+        "identifier": {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-text",
+            "value": "רפנ.א"
+        }
+    },
+    "partOf": {
+        "reference": "Encounter/NMR.10863469"
+    }
+}

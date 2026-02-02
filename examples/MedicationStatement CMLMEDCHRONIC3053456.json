@@ -1,0 +1,114 @@
+{
+    "resourceType": "MedicationStatement",
+    "id": "CML.MED.CHRONIC.3053456",
+    "meta": {
+        "profile": [
+            "http://hdp.fhir.health.gov.il/StructureDefinition/il-hdp-medication-statement",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-med-statement-chronic"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+                "code": "medications",
+                "display": "תרופות"
+            }
+        ],
+        "lastUpdated": "2026-01-12T16:45:05+02:00",
+        "versionId": "34"
+    },
+    "extension": [
+        {
+            "url": "http://fhir.health.gov.il/StructureDefinition/ext-medication-course-of-therapy-type",
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://fhir.health.gov.il/cs/il-core-medication-course-of-therapy-type",
+                        "code": "chronic",
+                        "display": "Chronic therapy"
+                    }
+                ]
+            }
+        }
+    ],
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-med-statement",
+            "value": "3053456"
+        }
+    ],
+    "status": "active",
+    "category": {
+        "coding": [
+            {
+                "system": "http://fhir.health.gov.il/ValueSet/il-core-medication-statement-category",
+                "code": "inpatient",
+                "display": "Inpatient"
+            }
+        ]
+    },
+    "medicationCodeableConcept": {
+        "coding": [
+            {
+                "system": "http://fhir.b-zion.health.gov.il/cs/cml-internal-drug-code",
+                "code": "2616",
+                "display": "OPTALGIN"
+            },
+            {
+                "system": "http://fhir.b-zion.health.gov.il/cs/cml-external-drug-code",
+                "code": "1177702"
+            },
+            {
+                "system": "http://www.whocc.no/atc",
+                "code": "N02BB02"
+            }
+        ],
+        "text": "OPTALGIN CPL 500MG"
+    },
+    "subject": {
+        "reference": "Patient/PAT.2152094"
+    },
+    "context": {
+        "reference": "Encounter/CML.1887059"
+    },
+    "dateAsserted": "2026-01-12T14:43:43.133+02:00",
+    "informationSource": {
+        "reference": "Practitioner/CML.1000"
+    },
+    "dosage": [
+        {
+            "site": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "123851003",
+                        "display": "Mouth region structure"
+                    }
+                ]
+            },
+            "route": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "26643006",
+                        "display": "Oral route"
+                    },
+                    {
+                        "system": "http://fhir.dgmc.health.gov.il/ValueSet/cml-med-route-code-uri",
+                        "code": "100",
+                        "display": "PO"
+                    }
+                ]
+            },
+            "doseAndRate": [
+                {
+                    "doseQuantity": {
+                        "value": 30.5,
+                        "unit": "milligram",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "mg"
+                    }
+                }
+            ]
+        }
+    ]
+}

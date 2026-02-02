@@ -1,50 +1,51 @@
 {
-  "resourceType": "AllergyIntolerance",
-  "meta": {
-    "profile": [
-      "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance",
-      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-comment"
+    "resourceType": "AllergyIntolerance",
+    "id": "OTHER.COMMENT.3013203",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-comment"
+        ],
+        "lastUpdated": "2025-09-14T15:02:26+03:00",
+        "versionId": "5"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/allergyInt-comment",
+            "value": "3013203"
+        }
+    ],
+    "clinicalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active",
+                "display": "Active"
+            }
+        ]
+    },
+    "code": {
+        "coding": [
+            {
+                "system": "http://fhir.dgmc.health.gov.il/identifier/allergyInt-code-comment",
+                "code": "main-comment",
+                "display": "Main comment"
+            }
+        ]
+    },
+    "patient": {
+        "reference": "Patient/PAT.1358462"
+    },
+    "encounter": {
+        "reference": "Encounter/CML.1811461"
+    },
+    "recordedDate": "2024-09-01T08:04:22.15+03:00",
+    "recorder": {
+        "reference": "Practitioner/CML.10037"
+    },
+    "note": [
+        {
+            "text": "ניקל"
+        }
     ]
-  },
-  "id": "COMMENT.123124",
-  "identifier": [
-    {
-      "system": "http://fhir.b-zion.health.gov.il/identifier/allergyInt-comment",
-      "value": "123124"
-    }
-  ],
-  "clinicalStatus": {
-    "coding": [
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
-        "code": "active",
-        "display": "Active"
-      }
-    ]
-  },
-  "criticality": "high",
-  "code": {
-    "coding": [
-      {
-        "system": "http://fhir.dgmc.health.gov.il/identifier/allergyInt-code-comment",
-        "code": "main-comment",
-        "display": "Main comment"
-      }
-    ]
-  },
-  "patient": {
-    "reference": "Patient/PAT.10122"
-  },
-  "encounter": {
-    "reference": "Encounter/CML.246"
-  },
-  "recordedDate": "2014-10-09T14:58:00Z",
-  "recorder": {
-    "reference": "Practitioner/CML.1016"
-  },
-  "note": [
-    {
-      "text": "זו דוגמה להערת רגישות ברמת מטופל"
-    }
-  ]
 }

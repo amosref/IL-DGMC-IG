@@ -1,0 +1,51 @@
+{
+    "resourceType": "Organization",
+    "id": "ORG.D0003",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-organization",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-nmr-ou"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+                "code": "organization",
+                "display": "יחידה ארגונית"
+            }
+        ],
+        "lastUpdated": "2026-01-14T10:01:16+02:00",
+        "versionId": "1888"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-text",
+            "value": "א-אמהות"
+        },
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-code",
+            "value": "D0003"
+        }
+    ],
+    "active": true,
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.dgmc.health.gov.il/cs/nmr-ou-type",
+                    "code": "D",
+                    "display": "אגף"
+                }
+            ]
+        }
+    ],
+    "name": "אגף נשים ואמהות",
+    "address": [
+        {
+            "text": "שד גולומב אליהו 47/1 כניסה א , חיפה 3339419"
+        }
+    ],
+    "partOf": {
+        "reference": "Organization/ORG.G0001",
+        "display": "אשפוז"
+    }
+}

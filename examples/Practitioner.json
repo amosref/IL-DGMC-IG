@@ -2,56 +2,67 @@
     "resourceType": "Practitioner",
     "id": "CML.10068",
     "meta": {
-      "profile": [
-        "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner",
-        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner"
-      ]
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/ValueSet/il-hdp-information-buckets",
+                "code": "practitioner",
+                "display": "מטפל"
+            }
+        ],
+        "lastUpdated": "2026-01-15T08:06:44+02:00",
+        "versionId": "5409"
     },
     "extension": [
-      {
-        "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/primary-practitionerrole",
-        "valueReference": {
-          "reference": "PractitionerRole/CML.10068.400"
+        {
+            "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/primary-practitionerrole",
+            "valueReference": {
+                "reference": "PractitionerRole/CML.10068.30"
+            }
         }
-      }
     ],
     "identifier": [
-      {
-        "system": "http://fhir.b-zion.health.gov.il/identifier/ad-username",
-        "value": "OMER.NAHUM"
-      },
-      {
-        "system": "http://fhir.health.gov.il/identifier/il-national-id",
-        "value": "204737068"
-      },
-      {
-        "system": "http://fhir.b-zion.health.gov.il/identifier/sap-user-vma",
-        "value": "עומר.נחום"
-      },
-      {
-        "system": "http://fhir.b-zion.health.gov.il/identifier/cml-user-code",
-        "value": "10068"
-      }
+        {
+            "system": "http://fhir.health.gov.il/identifier/il-national-id",
+            "value": "204737068"
+        },
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/ad-username",
+            "value": "omer.nahum"
+        },
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-user-code",
+            "value": "10068"
+        },
+        {
+            "system": "http://fhir.health.gov.il/identifier/encrypted-id-primary-moh",
+            "value": "3986847678"
+        }
     ],
     "active": true,
     "name": [
-      {
-        "family": "נחום",
-        "given": [
-          "עומר"
-        ]
-      }
+        {
+            "family": "נחום",
+            "given": [
+                "עומר"
+            ],
+            "prefix": [
+                "דר'"
+            ]
+        }
     ],
     "telecom": [
-      {
-        "system": "phone",
-        "value": "050-9202216"
-      },
-      {
-        "system": "email",
-        "value": "omer.nahum@b-zion.org.il",
-        "use": "work"
-      }
-    ],
-    "gender": "male"
-  }
+        {
+            "system": "phone",
+            "value": "0509202216"
+        },
+        {
+            "system": "email",
+            "value": "omer.nahum@b-zion.org.il",
+            "use": "work"
+        }
+    ]
+}

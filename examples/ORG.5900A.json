@@ -1,0 +1,51 @@
+{
+    "resourceType": "Organization",
+    "id": "ORG.5900A",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-organization",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-nmr-ou"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+                "code": "organization",
+                "display": "יחידה ארגונית"
+            }
+        ],
+        "lastUpdated": "2026-01-14T10:01:37+02:00",
+        "versionId": "1888"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-text",
+            "value": "רלידה"
+        },
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-code",
+            "value": "5900A"
+        }
+    ],
+    "active": true,
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.dgmc.health.gov.il/cs/nmr-ou-type",
+                    "code": "UI",
+                    "display": "תת יח. רפואית- אשפוז"
+                }
+            ]
+        }
+    ],
+    "name": "חדר לידה",
+    "address": [
+        {
+            "text": "שד גולומב אליהו 47/1 כניסה א , חיפה 3339419"
+        }
+    ],
+    "partOf": {
+        "reference": "Organization/ORG.I5100",
+        "display": "יולדות"
+    }
+}

@@ -1,68 +1,71 @@
 {
     "resourceType": "AllergyIntolerance",
+    "id": "MED.580973",
     "meta": {
-      "profile": [
-        "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance",
-        "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-med"
-      ]
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-med"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/ValueSet/il-hdp-information-buckets",
+                "code": "allergiesAndIntolerances",
+                "display": "רגישויות"
+            }
+        ],
+        "lastUpdated": "2025-11-04T14:00:27+02:00",
+        "versionId": "3"
     },
-    "id": "MED.123123",
     "identifier": [
-      {
-        "system": "http://fhir.b-zion.health.gov.il/identifier/allergyInt-medication",
-        "value": "123123"
-      }
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/allergyInt-medication",
+            "value": "580973"
+        }
     ],
     "clinicalStatus": {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
-          "code": "active",
-          "display": "Active"
-        }
-      ]
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active",
+                "display": "Active"
+            }
+        ]
     },
     "category": [
-      "medication"
+        "medication"
     ],
-    "criticality": "high",
     "code": {
-      "coding": [
-        {
-          "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-code-medication",
-          "code": "114",
-          "display": "OPTALGIN"
-        }
-      ]
+        "coding": [
+            {
+                "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-code-medication",
+                "code": "68",
+                "display": "ZIAGEN"
+            }
+        ]
     },
     "patient": {
-      "reference": "Patient/PAT.123456"
+        "reference": "Patient/PAT.2151576"
     },
     "encounter": {
-      "reference": "Encounter/CML.246"
+        "reference": "Encounter/CML.1886482"
     },
-    "recordedDate": "2014-10-09T14:58:00Z",
+    "recordedDate": "2025-04-10T09:12:32.237+03:00",
     "recorder": {
-      "reference": "Practitioner/CML.1015"
+        "reference": "Practitioner/CML.10075"
     },
-    "note": [
-      {
-        "text": "דוגמא ראשונה למשאב שיצרנו"
-      }
-    ],
     "reaction": [
-      {
-        "manifestation": [
-          {
-            "coding": [
-              {
-                "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-reaction",
-                "code": "2",
-                "display": "קוצר נשימה"
-              }
+        {
+            "manifestation": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://fhir.b-zion.health.gov.il/cs/allergyInt-reaction",
+                            "code": "4",
+                            "display": "כאבי בטן"
+                        }
+                    ]
+                }
             ]
-          }
-        ]
-      }
+        }
     ]
-  }
+}

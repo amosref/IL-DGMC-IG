@@ -1,0 +1,108 @@
+{
+    "resourceType": "Patient",
+    "id": "PAT.1275947",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-patient",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-patient"
+        ],
+        "lastUpdated": "2025-06-24T11:54:07+03:00",
+        "versionId": "2"
+    },
+    "extension": [
+        {
+            "url": "http://fhir.health.gov.il/StructureDefinition/ext-il-hmo",
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://fhir.health.gov.il/cs/paying-entity-moh",
+                        "code": "101",
+                        "display": "קופת חולים כללית"
+                    },
+                    {
+                        "system": "http://fhir.dgmc.health.gov.il/cs/nmr-hmo-code",
+                        "code": "10",
+                        "display": "כללית"
+                    }
+                ]
+            }
+        }
+    ],
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-pat-int-num",
+            "value": "1275947"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/language",
+                    "valueCode": "he"
+                }
+            ],
+            "family": "אלמוני-1275947",
+            "given": [
+                "פלוני-1275947"
+            ]
+        }
+    ],
+    "gender": "female",
+    "birthDate": "1932-01-05",
+    "_birthDate": {
+        "extension": [
+            {
+                "url": "http://fhir.health.gov.il/StructureDefinition/ext-hebrew-date",
+                "extension": [
+                    {
+                        "url": "display",
+                        "valueString": "כ\"ו בטבת התרצ\"ב"
+                    }
+                ]
+            }
+        ]
+    },
+    "deceasedDateTime": "2024-02-06",
+    "address": [
+        {
+            "_city": {
+                "extension": [
+                    {
+                        "url": "http://fhir.health.gov.il/StructureDefinition/ext-city-code",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://fhir.health.gov.il/cs/city-symbol",
+                                    "code": "4000",
+                                    "display": "חיפה"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "maritalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "W"
+            }
+        ]
+    },
+    "communication": [
+        {
+            "language": {
+                "coding": [
+                    {
+                        "system": "urn:ietf:bcp:47",
+                        "code": "he"
+                    }
+                ]
+            }
+        }
+    ]
+}

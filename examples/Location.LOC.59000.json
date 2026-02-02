@@ -1,0 +1,82 @@
+{
+    "resourceType": "Location",
+    "id": "LOC.59000",
+    "meta": {
+        "profile": [
+            "http://fhir.health.gov.il/StructureDefinition/il-core-location",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-ou-location"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+                "code": "organization",
+                "display": "יחידה ארגונית"
+            }
+        ],
+        "lastUpdated": "2026-01-14T10:02:43+02:00",
+        "versionId": "1888"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-text",
+            "value": "לידה"
+        },
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-code",
+            "value": "59000"
+        },
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-ou-code",
+            "value": "610"
+        }
+    ],
+    "status": "active",
+    "name": "חדרי לידה",
+    "alias": [
+        "חדר לידה"
+    ],
+    "mode": "instance",
+    "type": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "HU",
+                    "display": "Hospital unit"
+                }
+            ]
+        },
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.dgmc.health.gov.il/cs/nmr-ou-type",
+                    "code": "WI",
+                    "display": "מיקום פיזי - אשפוז"
+                }
+            ]
+        }
+    ],
+    "address": {
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                "valueCode": "unknown"
+            }
+        ]
+    },
+    "physicalType": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+                "code": "wa",
+                "display": "Ward"
+            }
+        ]
+    },
+    "managingOrganization": {
+        "reference": "Organization/ORG.59000"
+    },
+    "partOf": {
+        "reference": "Location/LOC.H.01204"
+    }
+}
