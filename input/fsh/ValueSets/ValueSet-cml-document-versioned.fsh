@@ -14,3 +14,4 @@ Description: "מערכת זיהוי למסמכים המופקים במרכזים
 * $csHospUri#http://fhir.wolfson.health.gov.il/identifier/cml-document-versioned "וולפסון - מזהה מסמך סיכום"
 * $csHospUri#http://fhir.tasmc.health.gov.il/identifier/cml-document-versioned "איכילוב - מזהה מסמך סיכום"
 * $csHospUri#http://fhir.shamir.health.gov.il/identifier/cml-document-versioned "שמיר - מזהה מסמך סיכום"
+* insert ConformanceMetadata

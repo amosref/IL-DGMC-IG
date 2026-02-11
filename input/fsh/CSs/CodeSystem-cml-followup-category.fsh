@@ -8,3 +8,4 @@ Description: "קוד קטגורית מעקבים"
 * ^content = #complete
 
 * #followup "מעקבים"
+* insert ConformanceMetadata

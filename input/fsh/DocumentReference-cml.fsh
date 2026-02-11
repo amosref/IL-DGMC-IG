@@ -56,3 +56,4 @@ Description: "פרופיל חטיבה לסיכומים"
 * context 1..1
 * context.encounter.reference 1..1
 * context.period 1..1
+* insert ConformanceMetadata

@@ -7,7 +7,7 @@ Description: "פרופיל חטיבה למעקבים"
 
 * identifier 1..1
 * identifier.system 1..1
-* identifier.system = "http://fhir.dgmc.health.gov.il/identifier/cml-followup-identifier" (exactly)
+* identifier.system from $vsCmlFollowUpUri (required)
 * identifier.value 1..1
 
 * category.coding 0..*
@@ -70,3 +70,4 @@ Description: "פרופיל חטיבה למעקבים"
 * extension[performerFunction].valueCodeableConcept.coding.code 1..1
 * extension[performerFunction].valueCodeableConcept.coding.code from http://hl7.org/fhir/ValueSet/performer-function (required)
 * extension[performerFunction].valueCodeableConcept.coding.display 1..1
+* insert ConformanceMetadata

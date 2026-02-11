@@ -14,3 +14,4 @@ Description: "מערכת קידוד של קטגורית נמ\"ר בבתי חול
 * $csHospUri#http://fhir.wolfson.health.gov.il/cs/nmr-document-category "וולפסון - קטגוריה נמ\"ר"
 * $csHospUri#http://fhir.tasmc.health.gov.il/cs/nmr-document-category "איכילוב - קטגוריה נמ\"ר"
 * $csHospUri#http://fhir.shamir.health.gov.il/cs/nmr-document-category "שמיר - קטגוריה נמ\"ר"
+* insert ConformanceMetadata

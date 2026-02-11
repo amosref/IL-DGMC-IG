@@ -1,9 +1,9 @@
 ValueSet: CmlFollowUp
-Id: cml-follow-up
+Id: cml-follow-up-uri
 Title: "Cml Follow Up hospital identifiers"
 Description: "Cml Follow Up hospital identifiers"
 * insert ConformanceMetadata
-* ^url = $vsCmlFollowUp
+* ^url = $vsCmlFollowUpUri
 
 * $csHospUri#http://fhir.tzafon.health.gov.il/identifier/cml-followup "פוריה- מזהה מעקב - קמיליון"
 * $csHospUri#http://fhir.ziv.health.gov.il/identifier/cml-followup "זיו - מזהה מעקב - קמיליון"

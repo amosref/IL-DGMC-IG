@@ -30,7 +30,7 @@ Description: "DGMC Allergy Intolerance Comment"
 * code.coding ^slicing.ordered = false
 * code.coding contains comment 1..1
 * code.coding[comment].system 1..1
-* code.coding[comment].system = $vsAllergyIntCodeComment
+* code.coding[comment].system = $csAllrgyIntComment (exactly)
 * code.coding[comment].code 1..1
 * code.coding[comment].code = #main-comment (exactly)
 * code.coding[comment].display 1..1

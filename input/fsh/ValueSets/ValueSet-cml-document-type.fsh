@@ -14,3 +14,4 @@ Description: "מערכת קידוד סוג מסמך בבתי חולים"
 * $csHospUri#http://fhir.wolfson.health.gov.il/cs/cml-document-type "וולפסון - סוג מסמך"
 * $csHospUri#http://fhir.tasmc.health.gov.il/cs/cml-document-type "איכילוב - סוג מסמך"
 * $csHospUri#http://fhir.shamir.health.gov.il/cs/cml-document-type "שמיר - סוג מסמך"
+* insert ConformanceMetadata

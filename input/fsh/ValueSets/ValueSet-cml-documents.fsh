@@ -14,3 +14,4 @@ Description: "מערכת זיהוי של קבוצת גרסאות לסיכום"
 * $csHospUri#http://fhir.wolfson.health.gov.il/identifier/cml-documents "וולפסון - מזהה קבוצת גרסאות לסיכום"
 * $csHospUri#http://fhir.tasmc.health.gov.il/identifier/cml-documents "איכילוב - מזהה קבוצת גרסאות לסיכום"
 * $csHospUri#http://fhir.shamir.health.gov.il/identifier/cml-documents "שמיר - מזהה קבוצת גרסאות לסיכום"
+* insert ConformanceMetadata

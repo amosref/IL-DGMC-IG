@@ -6,3 +6,4 @@ Description: "קוד קטגורית מעקבים"
 * ^status = #active
 
 * include codes from system $csFollowupCategory
+* insert ConformanceMetadata
