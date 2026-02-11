@@ -19,7 +19,7 @@ Alias: $ext-delete-time-stamp =       http://fhir.dgmc.health.gov.il/StructureDe
 Alias: $ext-delete-user =             http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-user
 Alias: $ext-nmr-service-status-code = http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-service-status-code
 Alias: $ext-nmr-doc-status-code =     http://fhir.dgmc.health.gov.il/StructureDefinition/nmr-doc-status-code
-Alias: $ext-consult-permission =      http://fhir.dgmc.health.gov.il/StructureDefinition/ext-permission
+Alias: $ext-consult-permission =      http://fhir.dgmc.health.gov.il/StructureDefinition/ext-consult-per
 Alias: $ext-med-confirmed-by =        http://fhir.dgmc.health.gov.il/StructureDefinition/ext-medication-confirmed-by
 Alias: $ext-med-total-daily-dose =    http://fhir.dgmc.health.gov.il/StructureDefinition/ext-medication-total-daily-dose
 Alias: $ext-med-order-type =          http://fhir.dgmc.health.gov.il/StructureDefinition/ext-medication-order-type
@@ -28,13 +28,14 @@ Alias: $ext-med-order-protocol-desc = http://fhir.dgmc.health.gov.il/StructureDe
 
 // CodeSystems
 Alias: $csFollowUp =           http://fhir.dgmc.health.gov.il/cs/consultation-followup-flag
+Alias: $csCmlFollowupCode =    http://fhir.dgmc.health.gov.il/cs/cml-followup-code
+Alias: $csFollowupCategory =   http://fhir.dgmc.health.gov.il/cs/cml-followup-category
 Alias: $csConsultPatState =    http://fhir.dgmc.health.gov.il/cs/cml-counseling-patient-state
 Alias: $csAdmAmbType =         http://fhir.dgmc.health.gov.il/cs/admission-amb-type
 Alias: $csAdmImpType =         http://fhir.dgmc.health.gov.il/cs/admission-imp-type
 Alias: $csAdmMoveType =        http://fhir.dgmc.health.gov.il/cs/admission-mvmnt-type
 Alias: $csHomeCheckIn =        http://fhir.dgmc.health.gov.il/cs/home-check-in
 Alias: $csCmlMedRecType =      http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type 		
-Alias: $csCmlParameters =      http://fhir.dgmc.health.gov.il/cs/cml-parameters 		
 Alias: $csCmlParametersCategory = http://fhir.dgmc.health.gov.il/cs/cml-parameters-category
 Alias: $csHospUri =            http://fhir.dgmc.health.gov.il/cs/hospitals-uri
 Alias: $csPatVisitorTy =       http://fhir.dgmc.health.gov.il/cs/patient-visitor-type
@@ -42,7 +43,7 @@ Alias: $csCmlConsultType =     http://fhir.dgmc.health.gov.il/cs/cml-consultatio
 Alias: $csOuClassFlag =        http://fhir.dgmc.health.gov.il/cs/ou-classification-flag
 Alias: $csNmrOuType =          http://fhir.dgmc.health.gov.il/cs/nmr-ou-type
 Alias: $csNmrHmoCode =         http://fhir.dgmc.health.gov.il/cs/nmr-hmo-code
-Alias: $csAllrgyIntComment =   http://fhir.dgmc.health.gov.il/cs/allergyInt-code-comment
+Alias: $csAllrgyIntComment =   http://fhir.dgmc.health.gov.il/cs/allergy-int-code-comment
 Alias: $csDiagnosisComponent = http://fhir.dgmc.health.gov.il/cs/diagnosis-component
 Alias: $csBodySiteLaterality = http://fhir.dgmc.health.gov.il/cs/body-site-laterlity
 Alias: $csDiagnosisLocalCode = http://fhir.dgmc.health.gov.il/cs/diagnosis-local-code
@@ -67,6 +68,7 @@ Alias: $csCmlParameters = http://fhir.dgmc.health.gov.il/cs/cml-parameters
 // VS
 Alias: $vsNmrPatIntUri =                http://fhir.dgmc.health.gov.il/ValueSet/nmr-pat-internal-uri
 Alias: $vsCmlPatIntUri =                http://fhir.dgmc.health.gov.il/ValueSet/cml-pat-internal-uri
+Alias: $vsCmlFollowUpUri =              http://fhir.dgmc.health.gov.il/ValueSet/cml-follow-up-uri
 Alias: $vsNmrPatTmpUri =                http://fhir.dgmc.health.gov.il/ValueSet/nmr-pat-temp-uri
 Alias: $vsNmrMoveNumUri =               http://fhir.dgmc.health.gov.il/ValueSet/nmr-move-num-uri
 Alias: $vsNmrToCmlUri =                 http://fhir.dgmc.health.gov.il/ValueSet/nmr2cml-identifier-uri
@@ -124,6 +126,14 @@ Alias: $vsCmlExternalDrugCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/
 Alias: $vsCmlMedRouteCodeUri =          http://fhir.dgmc.health.gov.il/ValueSet/cml-med-route-code-uri
 Alias: $vsCmlCocktailDrugCodeUri =      http://fhir.dgmc.health.gov.il/ValueSet/cml-cocktail-drug-code-uri
 Alias: $vsCmlMedOrderUri =              http://fhir.dgmc.health.gov.il/ValueSet/cml-med-order-uri
+Alias: $vsCmlFollowUpCode =             http://fhir.dgmc.health.gov.il/ValueSet/cml-followup-code
+Alias: $vsCmlFollowUp =                 http://fhir.dgmc.health.gov.il/ValueSet/cml-followup
+Alias: $vsFollowupCategory =            http://fhir.dgmc.health.gov.il/ValueSet/cml-followup-category
+Alias: $vsCmlDocumentType =             http://fhir.dgmc.health.gov.il/ValueSet/cml-document-type
+Alias: $vsCmlDocumentVersioned =        http://fhir.dgmc.health.gov.il/ValueSet/cml-document-versioned
+Alias: $vsCmlDocuments =                http://fhir.dgmc.health.gov.il/ValueSet/cml-documents
+Alias: $vsNmrDocumentCategory =         http://fhir.dgmc.health.gov.il/ValueSet/nmr-document-category
+
 // Alias: $vsStandardQuantURIs =           http://fhir.dgmc.health.gov.il/ValueSet/standard-quant-units
 
 
@@ -140,7 +150,7 @@ Alias: $ext-note =                          http://fhir.health.gov.il/StructureD
 Alias: $loinc-vs =                          http://hl7.org/fhir/ValueSet/observation-codes
 Alias: $hl7-request-purpose =               http://hl7.org/fhir/eligibilityrequest-purpose
 Alias: $hl7-response-purpose =              http://hl7.org/fhir/eligibilityresponse-purpose
-Alias: $moh-med-serv =                      http://fhir.health.gov.il/cs/medical-service-moh
+// Alias: $moh-med-serv =                      http://fhir.health.gov.il/cs/medical-service-moh
 Alias: $vs-moh-dept-type =                  http://fhir.health.gov.il/ValueSet/department-type-moh
 Alias: $participant-type =                  http://terminology.hl7.org/CodeSystem/v3-ParticipationType
 Alias: $ext-doc-event-date =                http://fhir.health.gov.il/StructureDefinition/ext-documented-event-date
@@ -156,17 +166,10 @@ Alias: $vs-patient-visitor-type-moh =       http://fhir.health.gov.il/ValueSet/p
 Alias: $vs-patient-admit-source-moh =       http://fhir.health.gov.il/ValueSet/patient-admit-source-moh
 
 // for the examples:
-Alias: $medical-service-moh =   http://fhir.health.gov.il/cs/medical-service-moh
 Alias: $v2-0276 =               http://terminology.hl7.org/CodeSystem/v2-0276
-Alias: $v3-ParticipationType =  http://terminology.hl7.org/CodeSystem/v3-ParticipationType
 Alias: $department-type-moh =   http://fhir.health.gov.il/cs/department-type-moh
-Alias: $loinc =                 http://loinc.org
-Alias: $coverage-type =         http://fhir.health.gov.il/cs/coverage-type
-Alias: $coverage-class =        http://fhir.health.gov.il/cs/coverage-class
 Alias: $coverage-copay-type =   http://terminology.hl7.org/CodeSystem/coverage-copay-type
-Alias: $moh-form17-issue-code = http://fhir.health.gov.il/cs/moh-form17-issue-code
 Alias: $il-core-error-code =    http://fhir.health.gov.il/cs/il-core-error-code
-Alias: $info-buckets =          http://fhir.health.gov.il/cs/il-hdp-information-buckets
 
 // GENERIC
 Alias: $org_sys =           http://institutions.health.gov.il/Institutions
