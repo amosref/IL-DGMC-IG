@@ -5,6 +5,7 @@ Description: "Laterality of body sides diagnosis"
 * insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csBodySiteLaterality
+* ^status = #active
 * #24028007 "Right"
 * #7771000 "Left"
 * #51440001 "Both Sides"

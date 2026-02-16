@@ -5,5 +5,6 @@ Description: "Consultation Follow Up Flag"
 * insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csFollowUp
+* ^status = #active
 * #follow-up-needed "נדרש המשך מעקב"
 * #final-answer-needed "תשובה זמנית (ממתין לתשובה סופית)"

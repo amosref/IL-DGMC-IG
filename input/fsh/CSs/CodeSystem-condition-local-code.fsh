@@ -5,4 +5,5 @@ Description: "Code System For Diagnosis Codes use only localy"
 * insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csDiagnosisLocalCode
+* ^status = #active
 * #-1 "לא ידוע"

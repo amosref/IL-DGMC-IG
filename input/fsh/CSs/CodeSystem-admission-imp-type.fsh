@@ -5,6 +5,7 @@ Description: "Inpatient Addmision Type"
 * insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csAdmImpType
+* ^status = #active
 * #1 "קבלה רגילה"
 * #2 "לידה"
 * #3 "ילוד"

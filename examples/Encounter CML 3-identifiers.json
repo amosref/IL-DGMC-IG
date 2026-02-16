@@ -1,0 +1,120 @@
+{
+  "resourceType": "Encounter",
+  "id": "CML.1887092",
+  "meta": {
+    "profile": [
+      "http://fhir.health.gov.il/StructureDefinition/il-core-encounter",
+      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-cml"
+    ],
+    "lastUpdated": "2026-02-03T16:05:50+02:00",
+    "versionId": "3"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+      "valueReference": {
+        "reference": "Encounter/NMR.10863501.1"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type",
+            "code": "2",
+            "display": "קבלה לאשפוז"
+          }
+        ]
+      },
+      "system": "http://fhir.b-zion.health.gov.il/identifier/cml-medical-record",
+      "value": "1887091"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type",
+            "code": "3",
+            "display": "מהלך אשפוז"
+          }
+        ]
+      },
+      "system": "http://fhir.b-zion.health.gov.il/identifier/cml-medical-record",
+      "value": "1887092"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type",
+            "code": "4",
+            "display": "שחרור מאשפוז"
+          }
+        ]
+      },
+      "system": "http://fhir.b-zion.health.gov.il/identifier/cml-medical-record",
+      "value": "1887093"
+    }
+  ],
+  "status": "in-progress",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "IMP",
+    "display": "inpatient encounter"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://fhir.dgmc.health.gov.il/cs/cml-medical-record-type",
+          "code": "3",
+          "display": "מהלך אשפוז"
+        }
+      ]
+    }
+  ],
+  "serviceType": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+        "valueCode": "unknown"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/PAT.2152112"
+  },
+  "participant": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+          "valueCode": "unknown"
+        }
+      ]
+    }
+  ],
+  "period": {
+    "start": "2026-02-01T11:39:26.647+02:00"
+  },
+  "location": [
+    {
+      "location": {
+        "reference": "Location/LOC.10011",
+        "identifier": {
+          "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-ou-code",
+          "value": "פנ.א"
+        }
+      },
+      "status": "active"
+    }
+  ],
+  "serviceProvider": {
+    "reference": "Organization/ORG.CML.150685850"
+  },
+  "partOf": {
+    "reference": "Encounter/NMR.10863501"
+  }
+}

@@ -4,6 +4,7 @@ Title: "Nmr Hmo Code"
 Description: "Namer HMO Local Code"
 * insert ConformanceMetadata
 * ^url = $csNmrHmoCode
+* ^status = #active
 
 * #10 "כללית"
 * #11 "מכבי"

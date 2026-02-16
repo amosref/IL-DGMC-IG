@@ -4,6 +4,7 @@ Title: "Nmr OU Type"
 Description: "Namer Organizational Unit Type"
 * insert ConformanceMetadata
 * ^url = $csNmrOuType
+* ^status = #active
 
 * #AC "מוקדי זימונים"
 * #AD "יח. רפ. אדמיניסטרציה"

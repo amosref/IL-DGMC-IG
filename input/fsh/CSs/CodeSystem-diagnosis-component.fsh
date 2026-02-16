@@ -5,6 +5,7 @@ Description: "Diagnosis Component"
 * insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csDiagnosisComponent
+* ^status = #active
 
 * #21 "אבחנות אונקו למטופל"
 * #3 "אבחנות באשפוז"

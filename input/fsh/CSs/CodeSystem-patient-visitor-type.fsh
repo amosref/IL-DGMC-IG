@@ -5,6 +5,7 @@ Description: "Patient Visitor Type"
 * insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csPatVisitorTy
+* ^status = #active
 
 * #1 "אזרח ישראלי"
 * #2 "צה\"ל - חילים"

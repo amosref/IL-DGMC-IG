@@ -5,6 +5,7 @@ Description: "Movement Addmision Type"
 * insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csAdmMoveType
+* ^status = #active
 * #10 "מעבר חדר"
 * #20 "מעבר מיטה"
 * #30 "מעבר מחלקה-רפוא"

@@ -5,6 +5,7 @@ Description: "Ambulatory Addmision Type"
 * insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csAdmAmbType
+* ^status = #active
 * #1 "ביקור במרפאה"
 * #2 "ב. חוזר במרפאה"
 * #4 "תאונת דרכים"

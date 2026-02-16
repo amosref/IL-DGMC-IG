@@ -5,6 +5,7 @@ Description: "CML Counseling Patient State"
 * insert ConformanceMetadata
 * ^caseSensitive = true
 * ^url = $csConsultPatState
+* ^status = #active
 * #1 "עצמאי/מתהלך"
 * #2 "על כסא גלגלים"
 * #3 "מרותק למיטה"
