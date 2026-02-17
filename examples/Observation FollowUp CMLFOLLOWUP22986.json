@@ -9,11 +9,11 @@
   },
   "extension": [
     {
-      "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/DeleteTimeStamp",
+      "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-time-stamp",
       "valueInstant": "2026-01-28T10:16:35.967+02:00"
     },
     {
-      "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/DeleteUser",
+      "url": "http://fhir.dgmc.health.gov.il/StructureDefinition/ext-delete-user",
       "valueReference": {
         "reference": "Practitioner/CML.1000"
       }
@@ -41,6 +41,11 @@
     "coding": [
       {
         "system": "http://fhir.dgmc.health.gov.il/cs/cml-followup-type",
+        "code": "1",
+        "display": "מעקב רפואי"
+      },
+      {
+        "system": "http://fhir.dgmc.health.gov.il/cs/cml-followup-code",
         "code": "1",
         "display": "מעקב רפואי"
       }

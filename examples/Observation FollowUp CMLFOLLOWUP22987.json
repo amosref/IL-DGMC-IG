@@ -31,6 +31,11 @@
         "system": "http://fhir.dgmc.health.gov.il/cs/cml-followup-type",
         "code": "1",
         "display": "מעקב רפואי"
+      },
+      {
+        "system": "http://fhir.dgmc.health.gov.il/cs/cml-followup-code",
+        "code": "1",
+        "display": "מעקב רפואי"
       }
     ]
   },
