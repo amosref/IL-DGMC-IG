@@ -1,6 +1,6 @@
 {
   "name": "il-dgmc-ig",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Israel Division of Governmental Hospitals Profiles",
   "type": "module",
   "scripts": {
@@ -28,6 +28,6 @@
     "fsh-sushi": "^3.17.0"
   },
   "devDependencies": {
-    "fsh-and-chips": "git+https://github.com/Outburn-IL/fhir-ig-tools.git"
+    "fsh-and-chips": "github:Outburn-IL/fhir-ig-tools"
   }
 }

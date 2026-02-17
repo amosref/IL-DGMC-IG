@@ -27,7 +27,7 @@
     "code": {
         "coding": [
             {
-                "system": "http://fhir.dgmc.health.gov.il/cs/allergy-int-code-comment",
+                "system": "http://fhir.dgmc.health.gov.il/cs/allergyInt-code-comment",
                 "code": "main-comment",
                 "display": "Main comment"
             }

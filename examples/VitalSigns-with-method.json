@@ -73,8 +73,8 @@
     "method": {
         "coding": [
             {
-                "code": "225171007",
-                "display": "Weight and body mass assessment procedure",
+                "code": "707701004",
+                "display": "Calculated and adjusted for body weight",
                 "system": "http://snomed.info/sct"
             },
             {

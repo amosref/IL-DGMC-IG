@@ -29,8 +29,8 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "LG32753-0",
-        "display": "Discharge Summary Documents"
+        "code": "34105-7",
+        "display": "Hospital Discharge summary"
       },
       {
         "system": "http://loinc.org",
@@ -68,5 +68,6 @@
     "period": {
       "start": "2024-12-01T10:58:25+02:00"
     }
-  }
+  },
+  "description": "Hospital Discharge summary"
 }
