@@ -1,0 +1,72 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "CML.DOC.1010",
+  "meta": {
+    "profile": [
+      "http://hdp.fhir.health.gov.il/StructureDefinition/il-hdp-document-reference",
+      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-document-reference"
+    ],
+    "security": [
+      {
+        "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+        "code": "clinicalNotes",
+        "display": "סיכומים"
+      }
+    ]
+  },
+  "masterIdentifier": {
+    "system": "http://fhir.b-zion.health.gov.il/identifier/cml-document-versioned",
+    "value": "1010"
+  },
+  "identifier": [
+    {
+      "system": "http://fhir.b-zion.health.gov.il/identifier/cml-documents",
+      "value": "64324_106_10_400"
+    }
+  ],
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LG32753-0",
+        "display": "Discharge Summary Documents"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "59258-4",
+        "display": "Emergency department discharge summary"
+      },
+      {
+        "system": "http://fhir.b-zion.health.gov.il/cs/cml-document-type",
+        "code": "106_10_400",
+        "display": "שחרור רפואי"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/PAT.12346"
+  },
+  "date": "2026-02-02T11:15:00+02:00",
+  "author": [
+    {
+      "reference": "Practitioner/CML.100"
+    }
+  ],
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "Binary/999",
+        "size": 81896,
+        "title": "שחרור רפואי",
+        "creation": "2026-02-02T11:15:00+02:00"
+      }
+    }
+  ],
+  "context": {
+    "period": {
+      "start": "2024-12-01T10:58:25+02:00"
+    }
+  }
+}
