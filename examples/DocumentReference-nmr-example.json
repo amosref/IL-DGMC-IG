@@ -1,0 +1,72 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "NMR.DOC.2001",
+  "meta": {
+    "profile": [
+      "http://hdp.fhir.health.gov.il/StructureDefinition/il-hdp-document-reference",
+      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-nmr-document-reference"
+    ],
+    "security": [
+      {
+        "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+        "code": "clinicalNotes",
+        "display": "סיכומים"
+      }
+    ]
+  },
+  "masterIdentifier": {
+    "system": "http://fhir.gmc.health.gov.il/identifier/nmr-document-versioned",
+    "value": "2001"
+  },
+  "identifier": [
+    {
+      "system": "http://fhir.gmc.health.gov.il/identifier/nmr-documents",
+      "value": "78512_M_20_300"
+    }
+  ],
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://fhir.dgmc.health.gov.il/cs/nmr-document-type",
+        "code": "M",
+        "display": "מסמך רפואי"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://fhir.gmc.health.gov.il/cs/nmr-document-category",
+          "code": "discharge-summary",
+          "display": "סיכום מחלה"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/PAT.56789"
+  },
+  "date": "2026-04-19T09:30:00+03:00",
+  "description": "סיכום מחלה - מחלקה פנימית",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "Binary/1234",
+        "title": "סיכום מחלה - מחלקה פנימית"
+      }
+    }
+  ],
+  "context": {
+    "encounter": [
+      {
+        "reference": "Encounter/ENC.98765"
+      }
+    ],
+    "period": {
+      "start": "2026-04-10T08:00:00+03:00"
+    }
+  }
+}
