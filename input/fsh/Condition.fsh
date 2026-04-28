@@ -50,11 +50,11 @@ Description: "DGMC Condition"
 * bodySite ^slicing.rules = #open
 * bodySite ^slicing.ordered = false
 * bodySite contains dgmc-side 0..1
+* bodySite[dgmc-side].coding from $vsBodySiteLaterality (required)
 * bodySite[dgmc-side].coding 0..1
 * bodySite[dgmc-side].coding.system 1..1
 * bodySite[dgmc-side].coding.system = "http://snomed.info/sct" (exactly)
 * bodySite[dgmc-side].coding.code
-* bodySite[dgmc-side].coding.code from $vsBodySiteLaterality (required)
 * bodySite[dgmc-side].coding.display 1..1
 
 * . obeys active-diagnosis
