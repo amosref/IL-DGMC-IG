@@ -23,7 +23,7 @@ Description: "פרופיל חטיבה למעקבים"
 * code.coding ^slicing.rules = #open
 
 * code.coding contains cml 1..1
-* code.coding[cml] from http://fhir.dgmc.health.gov.il/ValueSet/cml-followup-code (required)
+* code.coding[cml] from http://fhir.dgmc.health.gov.il/ValueSet/cml-followup-code (preferred)
 * code.coding[cml].system 1..1
 * code.coding[cml].system = "http://fhir.dgmc.health.gov.il/cs/cml-followup-code"
 * code.coding[cml].code 1..1
