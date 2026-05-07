@@ -588,6 +588,7 @@ Description: "CodeSystem of all DGMC Hospitals Uris"
 * #http://fhir.tasmc.health.gov.il/cs/nmr-document-category "איכילוב - קטגוריה נמ\"ר"
 * #http://fhir.shamir.health.gov.il/cs/nmr-document-category "שמיר - קטגוריה נמ\"ר"
 
+
 * #http://fhir.tzafon.health.gov.il/identifier/cml-followup "פוריה- מזהה מעקב - קמיליון"
 * #http://fhir.ziv.health.gov.il/identifier/cml-followup "זיו - מזהה מעקב - קמיליון"
 * #http://fhir.hymc.health.gov.il/identifier/cml-followup "הלל יפה- מזהה מעקב - קמיליון"

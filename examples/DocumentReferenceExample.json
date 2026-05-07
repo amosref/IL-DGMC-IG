@@ -69,5 +69,6 @@
     "period": {
       "start": "2024-12-01T10:58:25+02:00"
     }
-  }
+  },
+  "description": "Hospital Discharge summary"
 }
