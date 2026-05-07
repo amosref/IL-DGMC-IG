@@ -29,8 +29,8 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "LG32753-0",
-        "display": "Discharge Summary Documents"
+        "code": "18842-5",
+        "display": "Discharge summary"
       },
       {
         "system": "http://loinc.org",
@@ -47,6 +47,7 @@
   "subject": {
     "reference": "Patient/PAT.12346"
   },
+  "description": "שחרור רפואי - מחלקה פנימית",
   "date": "2026-02-02T11:15:00+02:00",
   "author": [
     {

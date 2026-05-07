@@ -39,7 +39,7 @@
       }
     ]
   },
-  "category": {
+  "category": [{
     "coding": [
       {
         "system": "http://fhir.dgmc.health.gov.il/cs/nmr-document-category",
@@ -47,7 +47,7 @@
         "display": "מרפאת כבד מסמך סרוק"
       }
     ]
-  },
+  }],
   "subject": {
     "reference": "Patient/PAT.1952766"
   },
@@ -69,9 +69,9 @@
     }
   ],
   "context": {
-    "encounter": {
+    "encounter": [{
       "reference": "Encounter/NMR.11157853"
-    },
+    }],
     "period": {
       "start": "2024-12-01T10:58:25.78+02:00"
     }
