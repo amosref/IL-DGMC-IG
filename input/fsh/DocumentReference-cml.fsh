@@ -49,7 +49,7 @@ Description: "פרופיל חטיבה לסיכומים"
 // Content
 * content.attachment.contentType = #application/pdf
 * content.attachment.url 1..1
-* content.attachment.size 1..1
+// * content.attachment.size 1..1
 * content.attachment.title 1..1
 
 // Context

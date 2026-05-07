@@ -10,11 +10,11 @@ Description: "פרופיל חטיבה למעקבים"
 * identifier.system from $vsCmlFollowUpUri (required)
 * identifier.value 1..1
 
+* category from $vsFollowupCategory (required)
 * category.coding 0..*
 * category.coding.system 1..1
 * category.coding.system = $csFollowupCategory
 * category.coding.code 1..1
-* category.coding.code from $vsFollowupCategory (required)
 * category.coding.display 1..1
 
 * code.coding 1..*
@@ -23,10 +23,10 @@ Description: "פרופיל חטיבה למעקבים"
 * code.coding ^slicing.rules = #open
 
 * code.coding contains cml 1..1
+* code.coding[cml] from http://fhir.dgmc.health.gov.il/ValueSet/cml-followup-code (preferred)
 * code.coding[cml].system 1..1
 * code.coding[cml].system = "http://fhir.dgmc.health.gov.il/cs/cml-followup-code"
 * code.coding[cml].code 1..1
-* code.coding[cml].code from http://fhir.dgmc.health.gov.il/ValueSet/cml-followup-code (required)
 * code.coding[cml].display 1..1
 
 * component ^slicing.discriminator.type = #value
@@ -64,10 +64,10 @@ Description: "פרופיל חטיבה למעקבים"
     http://hl7.org/fhir/StructureDefinition/event-performerFunction named performerFunction 0..1
 
 * extension[performerFunction].value[x] only CodeableConcept
+* extension[performerFunction].valueCodeableConcept from http://hl7.org/fhir/ValueSet/performer-function (required)
 * extension[performerFunction].valueCodeableConcept.coding 0..*
 * extension[performerFunction].valueCodeableConcept.coding.system 1..1
 * extension[performerFunction].valueCodeableConcept.coding.system = "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
 * extension[performerFunction].valueCodeableConcept.coding.code 1..1
-* extension[performerFunction].valueCodeableConcept.coding.code from http://hl7.org/fhir/ValueSet/performer-function (required)
 * extension[performerFunction].valueCodeableConcept.coding.display 1..1
 * insert ConformanceMetadata

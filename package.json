@@ -1,33 +1,34 @@
 {
-  "name": "il-dgmc-ig",
-  "version": "0.8.0",
-  "description": "Israel Division of Governmental Hospitals Profiles",
-  "type": "module",
-  "scripts": {
-    "test": "fhir-test",
-    "validate:fsh": "fhir-validate-fsh",
-    "validate:config": "fhir-validate-config",
-    "validate:quality": "fhir-validate-quality",
-    "validate:ig": "fhir-validate-ig",
-    "validate:examples": "fhir-validate-examples",
-    "check:publication": "fhir-check-publication",
-    "ruleset": "fhir-update-ruleset",
-    "install:java": "fhir-install-java",
-    "sync:version": "fhir-sync-version"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Outburn-IL/IL-DGMC-IG.git"
-  },
-  "author": "Division of Governmental Hospitals Israel",
-  "bugs": {
-    "url": "https://github.com/Outburn-IL/IL-DGMC-IG/issues"
-  },
-  "homepage": "https://github.com/Outburn-IL/IL-DGMC-IG#readme",
-  "dependencies": {
-    "fsh-sushi": "^3.17.0"
-  },
-  "devDependencies": {
-    "fsh-and-chips": "github:Outburn-IL/fhir-ig-tools"
-  }
+    "name":  "il-dgmc-ig",
+    "version":  "0.9.1",
+    "description":  "Israel Division of Governmental Hospitals Profiles",
+    "type":  "module",
+    "scripts":  {
+                    "test":  "fhir-test",
+                    "validate:fsh":  "fhir-validate-fsh",
+                    "validate:config":  "fhir-validate-config",
+                    "validate:quality":  "fhir-validate-quality",
+                    "validate:ig":  "fhir-validate-ig-full",
+                    "validate:examples":  "fhir-validate-examples",
+                    "validate:ex":  "fhir-validate-examples",
+                    "check:publication":  "fhir-check-publication",
+                    "ruleset":  "fhir-update-ruleset",
+                    "install:java":  "fhir-install-java",
+                    "sync:version":  "fhir-sync-version"
+                },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/Outburn-IL/IL-DGMC-IG.git"
+                   },
+    "author":  "Division of Governmental Hospitals Israel",
+    "bugs":  {
+                 "url":  "https://github.com/Outburn-IL/IL-DGMC-IG/issues"
+             },
+    "homepage":  "https://github.com/Outburn-IL/IL-DGMC-IG#readme",
+    "dependencies":  {
+                         "fsh-sushi":  "^3.17.0"
+                     },
+    "devDependencies":  {
+                            "fsh-and-chips":  "git+https://github.com/Outburn-IL/fhir-ig-tools.git"
+                        }
 }

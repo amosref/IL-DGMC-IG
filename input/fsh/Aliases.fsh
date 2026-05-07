@@ -132,6 +132,8 @@ Alias: $vsCmlDocumentType =             http://fhir.dgmc.health.gov.il/ValueSet/
 Alias: $vsCmlDocumentVersioned =        http://fhir.dgmc.health.gov.il/ValueSet/cml-document-versioned
 Alias: $vsCmlDocuments =                http://fhir.dgmc.health.gov.il/ValueSet/cml-documents
 Alias: $vsNmrDocumentCategory =         http://fhir.dgmc.health.gov.il/ValueSet/nmr-document-category
+Alias: $vsNmrDocumentVersioned =        http://fhir.dgmc.health.gov.il/ValueSet/nmr-document-versioned
+Alias: $vsNmrDocuments =                http://fhir.dgmc.health.gov.il/ValueSet/nmr-documents
 
 Alias: $vsCmlFollowUpCode =             http://fhir.dgmc.health.gov.il/ValueSet/cml-followup-code
 // Alias: $vsStandardQuantURIs =           http://fhir.dgmc.health.gov.il/ValueSet/standard-quant-units

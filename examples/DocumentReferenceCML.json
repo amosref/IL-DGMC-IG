@@ -1,0 +1,72 @@
+{
+    "resourceType": "DocumentReference",
+    "id": "CML.DOC.3032263",
+    "meta": {
+        "profile": [
+            "http://hdp.fhir.health.gov.il/StructureDefinition/il-hdp-document-reference",
+            "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-cml-document-reference"
+        ],
+        "security": [
+            {
+                "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+                "code": "clinicalNotes",
+                "display": "סיכומים"
+            }
+        ],
+        "lastUpdated": "2026-03-24T15:59:04+02:00",
+        "versionId": "4"
+    },
+    "masterIdentifier": {
+        "system": "http://fhir.b-zion.health.gov.il/identifier/cml-document-versioned",
+        "value": "3032263"
+    },
+    "identifier": [
+        {
+            "system": "http://fhir.b-zion.health.gov.il/identifier/cml-documents",
+            "value": "1887208_9_3_20"
+        }
+    ],
+    "status": "current",
+    "type": {
+        "coding": [
+            {
+                "system": "http://fhir.b-zion.health.gov.il/cs/cml-document-type",
+                "code": "9_3_20",
+                "display": "סיכום ביניים - רפואי"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/PAT.0"
+    },
+    "date": "2026-03-19T13:20:19.03+02:00",
+    "author": [
+        {
+            "reference": "Practitioner/CML.1000"
+        }
+    ],
+    "custodian": {
+        "reference": "Organization/ORG.CML.20"
+    },
+    "description": "סיכום ביניים - רפואי_2",
+    "content": [
+        {
+            "attachment": {
+                "contentType": "application/pdf",
+                "url": "Binary/999",
+                "title": "סיכום ביניים - רפואי",
+                "creation": "2026-03-19T13:20:19.03+02:00"
+            }
+        }
+    ],
+    "context": {
+        "encounter": [
+            {
+                "reference": "Encounter/CML.1887208"
+            }
+        ],
+        "period": {
+            "start": "2026-03-19T12:38:55.933+02:00"
+        }
+    }
+}

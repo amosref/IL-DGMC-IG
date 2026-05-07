@@ -1,0 +1,79 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "DOC.NMR.10042041551.02",
+  "meta": {
+    "profile": [
+      "http://hdp.fhir.health.gov.il/StructureDefinition/il-hdp-document-reference",
+      "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-nmr-document-reference"
+    ],
+    "security": [
+      {
+        "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+        "code": "clinicalNotes",
+        "display": "סיכומים"
+      }
+    ]
+  },
+  "masterIdentifier": {
+    "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-document-versioned",
+    "value": "10042041551.02"
+  },
+  "identifier": [
+    {
+      "system": "http://fhir.b-zion.health.gov.il/identifier/nmr-documents",
+      "value": "10042041551"
+    }
+  ],
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "18842-5",
+        "display": "Discharge summary"
+      },
+      {
+        "system": "http://fhir.dgmc.health.gov.il/cs/nmr-document-type",
+        "code": "M",
+        "display": "מסמך רפואי"
+      }
+    ]
+  },
+  "category": [{
+    "coding": [
+      {
+        "system": "http://fhir.dgmc.health.gov.il/cs/nmr-document-category",
+        "code": "ZSDLIVERCL",
+        "display": "מרפאת כבד מסמך סרוק"
+      }
+    ]
+  }],
+  "subject": {
+    "reference": "Patient/PAT.1952766"
+  },
+  "date": "2024-12-01T10:58:25.78+02:00",
+  "author": [
+    {
+      "reference": "Organization/ORG.I0011"
+    }
+  ],
+  "description": "שחרור רפואי_01",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "Binary/999",
+        "title": "שחרור רפואי",
+        "creation": "2024-12-01T10:58:25.78+02:00"
+      }
+    }
+  ],
+  "context": {
+    "encounter": [{
+      "reference": "Encounter/NMR.11157853"
+    }],
+    "period": {
+      "start": "2024-12-01T10:58:25.78+02:00"
+    }
+  }
+}
