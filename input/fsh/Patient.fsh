@@ -1,16 +1,16 @@
 Profile: DgmcPatient
-Parent: il-core-patient
+Parent: il-hdp-patient
 Id: dgmc-patient
 Title: "DGMC Patient"
 Description: "Profile on IL-Core-Patient by DGMC"
 * insert ConformanceMetadata
 
 // חיסיון
-* meta.security
-  * ^slicing.discriminator.type = #value
-  * ^slicing.discriminator.path = "system"
-  * ^slicing.rules = #open
-  * ^slicing.ordered = false
+// * meta.security
+//   * ^slicing.discriminator.type = #value
+//   * ^slicing.discriminator.path = "system"
+//   * ^slicing.rules = #open
+//   * ^slicing.ordered = false
 * meta.security contains restict 0..* and fictive 0..*
 
 * meta.security[restict].system 1..1

@@ -1,5 +1,5 @@
 Profile: DGMCAllergyIntoleranceComment
-Parent: ILCoreAllergyIntolerance
+Parent: il-hdp-allergy-intolerance
 Id: dgmc-allergy-intolerance-comment
 Title: "DGMC Allergy Intolerance Comment"
 Description: "DGMC Allergy Intolerance Comment"

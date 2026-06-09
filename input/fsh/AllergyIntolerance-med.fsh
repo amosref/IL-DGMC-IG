@@ -1,5 +1,5 @@
 Profile: DGMCAllergyIntoleranceMed
-Parent: ILCoreAllergyIntolerance
+Parent: il-hdp-allergy-intolerance
 Id: dgmc-allergy-intolerance-med
 Title: "DGMC Allergy Intolerance Medication"
 Description: "DGMC Allergy Intolerance Medication"

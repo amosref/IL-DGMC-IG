@@ -1,5 +1,5 @@
 Profile: DGMCCondition
-Parent: ILCoreCondition
+Parent: il-hdp-condition
 Id: dgmc-condition
 Title: "DGMC Condition"
 Description: "DGMC Condition"

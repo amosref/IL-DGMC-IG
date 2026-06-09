@@ -1,5 +1,5 @@
 Profile: DgmcHospitalOrganization
-Parent: il-core-organization
+Parent: il-hdp-organization
 Id: dgmc-hospital-organization
 Title: "DGMC Hospital Organization"
 Description: "Profile of DGMC Hospital Organization"

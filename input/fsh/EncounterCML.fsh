@@ -1,5 +1,5 @@
 Profile: DGMCEncounterChameleon
-Parent: ILCoreEncounter
+Parent: il-hdp-encounter-inpatient-care-segment
 Id: dgmc-encounter-cml
 Title: "DGMC Encounter Chameleon"
 Description: "DGMC Encounter Chameleon"

@@ -1,5 +1,5 @@
 Profile: DGMCAllergyIntoleranceOther
-Parent: ILCoreAllergyIntolerance
+Parent: il-hdp-allergy-intolerance
 Id: dgmc-allergy-intolerance-other
 Title: "DGMC Allergy Intolerance Other"
 Description: "DGMC Allergy Intolerance Other: food/environment/biologic."
