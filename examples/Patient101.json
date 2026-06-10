@@ -5,6 +5,13 @@
     "profile": [
       "http://fhir.health.gov.il/StructureDefinition/il-core-patient",
       "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-patient"
+    ],
+    "security": [
+      {
+        "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+        "code": "patientDemographics",
+        "display": "דמוגרפיה"
+      }
     ]
   },
   "extension": [

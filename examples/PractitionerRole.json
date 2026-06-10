@@ -5,8 +5,21 @@
       "profile": [
         "http://fhir.health.gov.il/StructureDefinition/il-core-practitioner-role",
         "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-practitioner-role"
+      ],
+      "security": [
+        {
+          "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+          "code": "practitioner",
+          "display": "מטפל"
+        }
       ]
     },
+    "identifier": [
+      {
+        "system": "http://practitioners.health.gov.il/Practitioners",
+        "value": "CML.7350.150685840"
+      }
+    ],
     "active": true,
     "practitioner": {
       "reference": "Practitioner/CML.7350"

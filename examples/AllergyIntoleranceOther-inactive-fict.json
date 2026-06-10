@@ -4,6 +4,13 @@
     "profile": [
       "http://fhir.health.gov.il/StructureDefinition/il-core-allergy-intolerance",
       "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-allergy-intolerance-other"
+    ],
+    "security": [
+      {
+        "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+        "code": "allergiesAndIntolerances",
+        "display": "רגישויות"
+      }
     ]
   },
   "id": "OTHER.123129",

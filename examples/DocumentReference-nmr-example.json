@@ -49,13 +49,19 @@
     "reference": "Patient/PAT.56789"
   },
   "date": "2026-04-19T09:30:00+03:00",
+  "author": [
+    {
+      "reference": "Organization/ORG.10013"
+    }
+  ],
   "description": "סיכום מחלה - מחלקה פנימית",
   "content": [
     {
       "attachment": {
         "contentType": "application/pdf",
         "url": "Binary/1234",
-        "title": "סיכום מחלה - מחלקה פנימית"
+        "title": "סיכום מחלה - מחלקה פנימית",
+        "creation": "2026-04-19T09:30:00+03:00"
       }
     }
   ],

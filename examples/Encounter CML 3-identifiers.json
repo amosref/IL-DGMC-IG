@@ -7,7 +7,14 @@
       "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-cml"
     ],
     "lastUpdated": "2026-02-03T16:05:50+02:00",
-    "versionId": "3"
+    "versionId": "3",
+    "security": [
+      {
+        "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+        "code": "encounterInformation",
+        "display": "ביקורים"
+      }
+    ]
   },
   "extension": [
     {
@@ -73,6 +80,15 @@
           "display": "מהלך אשפוז"
         }
       ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://fhir.health.gov.il/cs/il-core-encounter-type",
+          "code": "inpatient-care-segment-hdp",
+          "display": "Inpatient care segment (HDP encounter type)"
+        }
+      ]
     }
   ],
   "serviceType": {
@@ -86,16 +102,6 @@
   "subject": {
     "reference": "Patient/PAT.2152112"
   },
-  "participant": [
-    {
-      "extension": [
-        {
-          "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
-          "valueCode": "unknown"
-        }
-      ]
-    }
-  ],
   "period": {
     "start": "2026-02-01T11:39:26.647+02:00"
   },
@@ -108,7 +114,16 @@
           "value": "פנ.א"
         }
       },
-      "status": "active"
+      "status": "active",
+      "physicalType": {
+        "coding": [
+          {
+            "system": "http://fhir.health.gov.il/cs/il-core-location-physical-type",
+            "code": "hospital-nursing-unit",
+            "display": "Hospital nursing unit"
+          }
+        ]
+      }
     }
   ],
   "serviceProvider": {
@@ -116,5 +131,16 @@
   },
   "partOf": {
     "reference": "Encounter/NMR.10863501"
-  }
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "32485007",
+          "display": "Hospital admission"
+        }
+      ]
+    }
+  ]
 }

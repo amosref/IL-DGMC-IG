@@ -7,7 +7,14 @@
       "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-patient"
     ],
     "lastUpdated": "2024-11-17T11:47:52Z",
-    "versionId": "1"
+    "versionId": "1",
+    "security": [
+      {
+        "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+        "code": "patientDemographics",
+        "display": "דמוגרפיה"
+      }
+    ]
   },
   "extension": [
     {
