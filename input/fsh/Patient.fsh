@@ -11,21 +11,9 @@ Description: "Profile on IL-Core-Patient by DGMC"
 //   * ^slicing.discriminator.path = "system"
 //   * ^slicing.rules = #open
 //   * ^slicing.ordered = false
-* meta.security contains restict 0..* and fictive 0..*
+* meta.security contains fictive 0..*
 
-* meta.security[restict].system 1..1
-* meta.security[restict].system = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
-* meta.security[restict].code 1..1
-* meta.security[restict].code = #R
-* meta.security[restict].display 1..1
-* meta.security[restict].display = "restricted"
-
-* meta.security[fictive].system 1..1
-* meta.security[fictive].system = "http://terminology.hl7.org/CodeSystem/v3-ActReason"
-* meta.security[fictive].code 1..1
-* meta.security[fictive].code = #HTEST
-* meta.security[fictive].display 1..1
-* meta.security[fictive].display = "test health data"
+* meta.security[fictive] = http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST "test health data"
 
 
 * id 1..1
