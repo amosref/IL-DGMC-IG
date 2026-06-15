@@ -42,6 +42,6 @@ Description: "DGMC Allergy Intolerance Comment"
 * recordedDate 1..1
 * recorder 1..1
 * recorder.reference 1..1
-* note 1..1
+* note 0..1
 * note.text 1..1
 
