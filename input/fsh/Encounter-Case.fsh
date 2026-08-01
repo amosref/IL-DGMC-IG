@@ -1,16 +1,10 @@
 Profile: DGMCEncounterNamerCase
-Parent: ILCoreEncounter
+Parent: il-hdp-encounter-hospitalization
 Id: dgmc-encounter-case
 Title: "DGMC Encounter Namer Case"
 Description: "DGMC Encounter Namer Case"
 * insert ConformanceMetadata
 
-* meta.security.system	1..1
-* meta.security.system	= "http://terminology.hl7.org/CodeSystem/v3-Confidentiality" (exactly)
-* meta.security.code 1..1
-* meta.security.code = #R (exactly)
-* meta.security.display	1..1
-* meta.security.display	= "restricted" (exactly)
 // * extension[paying-entity].valueCodeableConcept.coding.code	1..1
 // * extension[paying-entity].valueCodeableConcept.coding.display 1..1
 * identifier ^slicing.discriminator.type = #value

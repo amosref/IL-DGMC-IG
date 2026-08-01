@@ -42,7 +42,7 @@
   "category": [{
     "coding": [
       {
-        "system": "http://fhir.dgmc.health.gov.il/cs/nmr-document-category",
+        "system": "http://fhir.b-zion.health.gov.il/cs/nmr-document-category",
         "code": "ZSDLIVERCL",
         "display": "מרפאת כבד מסמך סרוק"
       }

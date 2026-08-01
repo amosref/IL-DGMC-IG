@@ -5,6 +5,13 @@
     "profile": [
       "http://fhir.health.gov.il/StructureDefinition/il-core-encounter",
       "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-encounter-case"
+    ],
+    "security": [
+      {
+        "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+        "code": "encounterInformation",
+        "display": "ביקורים"
+      }
     ]
   },
   "extension": [
@@ -79,6 +86,15 @@
           "display": "צ'ק-אין מהבית"
         }
       ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://fhir.health.gov.il/cs/il-core-encounter-type",
+          "code": "hospitalization-hdp",
+          "display": "Hospitalization (HDP encounter type)"
+        }
+      ]
     }
   ],
   "reasonCode": [
@@ -122,5 +138,14 @@
   },
   "serviceProvider": {
     "reference": "Organization/ORG.H.01103"
+  },
+  "serviceType": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394802001",
+        "display": "General medicine"
+      }
+    ]
   }
 }

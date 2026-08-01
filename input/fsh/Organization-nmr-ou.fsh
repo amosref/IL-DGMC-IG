@@ -1,5 +1,5 @@
 Profile: DgmcNmrOu
-Parent: il-core-organization
+Parent: il-hdp-organization
 Id: dgmc-nmr-ou
 Title: "DGMC Namer OU"
 Description: "Profile of DGMC Namer Organizational Unit"

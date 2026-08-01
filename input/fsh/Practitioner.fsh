@@ -1,5 +1,5 @@
 Profile: DGMCPractitioner
-Parent: ILCorePractitioner
+Parent: il-hdp-practitioner
 Id: dgmc-practitioner
 Title: "DGMC Practitioner"
 Description: "Profile on IL-Core-Practitioner by DGMC"

@@ -5,6 +5,13 @@
     "profile": [
       "http://fhir.health.gov.il/StructureDefinition/il-core-organization",
       "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-hospital-organization"
+    ],
+    "security": [
+      {
+        "system": "http://fhir.health.gov.il/cs/il-hdp-information-buckets",
+        "code": "organization",
+        "display": "יחידה ארגונית"
+      }
     ]
   },
   "identifier": [
@@ -51,9 +58,9 @@
       "value": "https://www.shamir.co.il/"
     }
   ],
-  "address": 
-    [{
+  "address": [
+    {
       "text": "צריפין, באר יעקב"
-    }]
-  
+    }
+  ]
 }

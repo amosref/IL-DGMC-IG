@@ -5,6 +5,10 @@ Title: "DGMC NMR DocumentReference"
 Description: "פרופיל חטיבה לסיכומים"
 * ^url = "http://fhir.dgmc.health.gov.il/StructureDefinition/dgmc-nmr-document-reference"
 
+// Meta
+* meta.security[HDP].code = #clinicalNotes (exactly)
+* meta.security[HDP].display = "סיכומים" (exactly)
+
 // ID
 * id 1..1
 
